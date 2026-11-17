@@ -45,8 +45,9 @@ cp .env.example .env
 # edit .env and set OPENCODE_GO_API_KEY
 ```
 
-The checked-in virtual environment already contains the PageIndex client and
-the indexed store; the steps above reproduce it from scratch.
+Large local artifacts are not distributed with the repository. `.venv/`,
+`.pageindex/`, `results/`, and `data/pdfs/` are gitignored; place the filings
+under `data/pdfs/` and run the indexer once before starting the server.
 
 ## Run
 
@@ -224,6 +225,8 @@ ownership; a host bind mount must be writable by that uid for indexing.
 
 ## License and attribution
 
-MIT. The retrieval engine is [PageIndex](https://github.com/VectifyAI/PageIndex),
-also MIT; its license text is kept in [`LICENSE`](LICENSE). The annual reports
-in `data/pdfs/` are public company filings, not part of the repository.
+MIT — see [`LICENSE`](LICENSE). The retrieval engine is
+[PageIndex](https://github.com/VectifyAI/PageIndex), MIT-licensed and used as a
+dependency (no PageIndex source is vendored in this repository). The annual
+reports in `data/pdfs/` are public company filings and are not part of the
+repository.
