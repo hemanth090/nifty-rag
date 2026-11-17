@@ -59,7 +59,9 @@ def _install_fake_client(monkeypatch, calls: list[dict]) -> None:
 def http(monkeypatch):
     """A TestClient with a fake PageIndex client and reset runtime state."""
     server.cache.clear()
+    server.inflight.clear()
     server.catalog_cache.update({"signature": "", "text": ""})
+    server.doc_count_cache.update({"signature": None, "count": 0})
     for key in ("requests", "errors", "busy", "cache_hits", "cache_misses", "active"):
         server.metrics[key] = 0
     server.metrics["durations_ms"].clear()
@@ -84,6 +86,35 @@ def test_health(http):
     assert budgets["tool_response_chars"] == server.TOOL_RESPONSE_CHARS
     assert budgets["tool_max_pages"] == server.TOOL_MAX_PAGES
     assert budgets["catalog_chars"] == server.CATALOG_CHARS
+
+
+def test_security_headers_include_csp(http):
+    client, _ = http
+    response = client.get("/health")
+    assert "default-src 'self'" in response.headers["content-security-policy"]
+    assert response.headers["x-frame-options"] == "DENY"
+
+
+def test_unhandled_route_error_is_json_500(http, monkeypatch):
+    client, _ = http
+
+    def broken(**_kwargs):
+        raise RuntimeError("boom")
+
+    monkeypatch.setattr(server.CLIENT, "list_documents", broken)
+    response = client.get("/api/documents")
+    assert response.status_code == 500
+    assert response.json() == {"error": "Internal server error."}
+    assert "nosniff" in response.headers["x-content-type-options"]
+    assert "content-security-policy" in response.headers
+
+
+def test_cache_key_tracks_answer_budgets(monkeypatch):
+    base = server.cache_key("q", None, None)
+    monkeypatch.setattr(server, "MAX_TURNS", server.MAX_TURNS + 1)
+    assert server.cache_key("q", None, None) != base
+    monkeypatch.setattr(server, "MAX_OUTPUT_TOKENS", server.MAX_OUTPUT_TOKENS + 1)
+    assert server.cache_key("q", None, None) != base
 
 
 def test_ready_reports_store(http, tmp_path, monkeypatch):

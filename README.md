@@ -89,7 +89,7 @@ budgets under `budgets`; `GET /metrics` reports all of them.
 | `MAX_QUESTION_CHARS` | `1000` | question length, then `400` |
 | `MAX_DOC_IDS` | `64` | document IDs per question, then `400` |
 | `MAX_TURNS` | `10` | agent turns per question (PageIndex default; passed as `max_turns`) |
-| `MAX_OUTPUT_TOKENS` | `2048` | per-turn output cap; `0` leaves the provider default |
+| `MAX_OUTPUT_TOKENS` | `4096` | per-turn output cap; `0` leaves the provider default |
 | `TOOL_RESPONSE_CHARS` | `100000` | one tool reply, in characters (95% usable) |
 | `TOOL_MAX_PAGES` | `10000` | pages one page-content request may name |
 | `TOOL_SUGGESTIONS` | `3` | similar-name suggestions on a miss |
@@ -202,7 +202,9 @@ docker run --rm -p 8000:8000 --env-file .env \
 ```
 
 The image contains code and dependencies only. Mount the store read-only for
-serving; mount `data/pdfs` and a writable store for indexing.
+serving; mount `data/pdfs` and a writable store for indexing. The image creates
+`/data` owned by the app user (uid 10001), so a named volume inherits writable
+ownership; a host bind mount must be writable by that uid for indexing.
 
 ## Operations notes
 
@@ -211,7 +213,12 @@ serving; mount `data/pdfs` and a writable store for indexing.
 - The store is read-mostly at serve time. The indexer takes `.index.lock`;
   the server never writes.
 - Logs are timestamped lines with a request ID on every response
-  (`X-Request-ID`); auth rejections and retrieval failures are logged.
+  (`X-Request-ID`); auth rejections and retrieval failures are logged. uvicorn
+  access logging is disabled so each request logs once.
+- Identical questions arriving together share one agent run (single-flight);
+  the followers replay the leader's answer.
+- Every response carries `nosniff`, `DENY`, `no-referrer` and a strict
+  Content-Security-Policy; the UI loads no external assets.
 - `/health` is safe for liveness probes; `/ready` returns 503 when the store
   manifest is missing.
 

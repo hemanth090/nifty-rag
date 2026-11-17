@@ -15,6 +15,7 @@ ENV PYTHONDONTWRITEBYTECODE=1 \
 WORKDIR /app
 
 RUN adduser --disabled-password --gecos "" --uid 10001 app
+RUN mkdir -p /data && chown app:app /data
 COPY requirements.txt ./
 RUN pip install --no-cache-dir -r requirements.txt
 COPY server.py index.html index_pdfs.py ./

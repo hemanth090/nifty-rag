@@ -56,7 +56,6 @@ import logging
 import os
 import re
 import time
-import traceback
 import uuid
 from collections import OrderedDict, deque
 from functools import partial
@@ -144,7 +143,7 @@ MAX_DOC_IDS = _env_int("MAX_DOC_IDS", 64, minimum=1)
 # Agent and retrieval budgets. These are the knobs that decide how much text
 # one question may pull into the model.
 MAX_TURNS = _env_int("MAX_TURNS", 10, minimum=1)
-MAX_OUTPUT_TOKENS = _env_int("MAX_OUTPUT_TOKENS", 2_048, minimum=0)
+MAX_OUTPUT_TOKENS = _env_int("MAX_OUTPUT_TOKENS", 4_096, minimum=0)
 TOOL_RESPONSE_CHARS = _env_int("TOOL_RESPONSE_CHARS", 100_000, minimum=1_000)
 TOOL_MAX_PAGES = _env_int("TOOL_MAX_PAGES", 10_000, minimum=1)
 TOOL_SUGGESTIONS = _env_int("TOOL_SUGGESTIONS", 3, minimum=0)
@@ -184,6 +183,9 @@ def sdk_version() -> str:
         return version("pageindex")
     except Exception:  # noqa: BLE001 - metadata is optional at runtime
         return "unknown"
+
+
+SDK_VERSION = sdk_version()
 
 
 def provider_headers() -> dict[str, str]:
@@ -243,6 +245,20 @@ def store_signature() -> str:
     return f"{stat.st_mtime_ns}:{stat.st_size}"
 
 
+doc_count_cache: dict[str, object] = {"signature": None, "count": 0}
+
+
+def document_count() -> int:
+    """Number of indexed documents, recomputed only when the store changes."""
+    signature = store_signature()
+    if doc_count_cache["signature"] == signature:
+        return int(doc_count_cache["count"])  # type: ignore[arg-type]
+    docs_dir = STORE / "docs"
+    count = len(list(docs_dir.glob("*/doc.json"))) if docs_dir.is_dir() else 0
+    doc_count_cache["signature"], doc_count_cache["count"] = signature, count
+    return count
+
+
 def document_catalog() -> str:
     """A compact library listing, injected once per question to save browse calls."""
     if not USE_CATALOG:
@@ -276,6 +292,12 @@ def cache_key(question: str, doc_ids: list[str] | None, effort: str | None) -> s
         "model": MODEL,
         "catalog": USE_CATALOG,
         "store": store_signature(),
+        # Answer-affecting budgets: if any of these change, cached answers
+        # from the old configuration are not valid.
+        "max_turns": MAX_TURNS,
+        "max_output_tokens": MAX_OUTPUT_TOKENS,
+        "tool_response_chars": TOOL_RESPONSE_CHARS,
+        "tool_max_pages": TOOL_MAX_PAGES,
     }, sort_keys=True)
     return hashlib.sha256(payload.encode()).hexdigest()
 
@@ -464,6 +486,12 @@ BUSY = {"error": "The server is handling too many questions right now. "
 
 PROTECTED_PREFIXES = ("/api/", "/metrics")
 REQUEST_ID_RE = re.compile(r"[A-Za-z0-9_-]{1,64}")
+CONTENT_SECURITY_POLICY = (
+    "default-src 'self'; script-src 'self' 'unsafe-inline'; "
+    "style-src 'self' 'unsafe-inline'; img-src 'self' data:; "
+    "connect-src 'self'; font-src 'self'; base-uri 'none'; "
+    "frame-ancestors 'none'"
+)
 
 
 def harden(response: Response, request_id: str) -> Response:
@@ -472,6 +500,7 @@ def harden(response: Response, request_id: str) -> Response:
     response.headers["X-Content-Type-Options"] = "nosniff"
     response.headers["X-Frame-Options"] = "DENY"
     response.headers["Referrer-Policy"] = "no-referrer"
+    response.headers["Content-Security-Policy"] = CONTENT_SECURITY_POLICY
     response.headers.setdefault("Cache-Control", "no-store")
     return response
 
@@ -522,7 +551,7 @@ async def health(_request: Request):
     return JSONResponse({
         "ok": True,
         "version": APP_VERSION,
-        "sdk_version": sdk_version(),
+        "sdk_version": SDK_VERSION,
         "model": MODEL,
         "store": str(STORE),
         "uptime_s": uptime_seconds(),
@@ -543,8 +572,7 @@ async def ready(_request: Request):
     return JSONResponse(
         {"ready": ready_now,
          "store": str(STORE),
-         "documents": len(list((STORE / "docs").glob("*/doc.json")))
-         if (STORE / "docs").is_dir() else 0},
+         "documents": document_count()},
         status_code=200 if ready_now else 503)
 
 
@@ -758,12 +786,6 @@ async def ask_stream(request: Request):
                                       "X-Accel-Buffering": "no"})
 
 
-async def internal_error(_request: Request, exc: Exception) -> JSONResponse:
-    log.error("unhandled error: %s\n%s", exc, traceback.format_exc())
-    metrics["errors"] += 1
-    return JSONResponse({"error": "Internal server error."}, status_code=500)
-
-
 routes = [
     Route("/", home),
     Route("/health", health),
@@ -774,10 +796,12 @@ routes = [
     Route("/api/ask/stream", ask_stream, methods=["POST"]),
 ]
 
+# The middleware is the single 500 path: it logs the exception, increments
+# metrics and attaches the security headers. Registering a Starlette
+# exception handler as well would be unreachable and double-count errors.
 app = Starlette(
     routes=routes,
     middleware=[Middleware(OperationsMiddleware)],
-    exception_handlers={Exception: internal_error},
 )
 
 
@@ -785,4 +809,4 @@ if __name__ == "__main__":
     log.info("starting host=%s port=%s workers=%s model=%s store=%s",
              HOST, PORT, WORKERS, MODEL, STORE)
     uvicorn.run("server:app", host=HOST, port=PORT, workers=WORKERS,
-                log_config=None, access_log=True)
+                log_config=None, access_log=False)
