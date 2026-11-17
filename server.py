@@ -29,7 +29,7 @@ environment:
     MAX_DOC_IDS            optional   document-ID count limit (64)
 
   Agent and retrieval budgets:
-    MAX_TURNS              optional   agent turns per question (24)
+    MAX_TURNS              optional   agent turns per question (10)
     MAX_OUTPUT_TOKENS      optional   per-turn output cap; 0 = provider default (2048)
     TOOL_RESPONSE_CHARS    optional   tool reply budget in characters (100000)
     TOOL_MAX_PAGES         optional   pages one get_page_content call may request (10000)
@@ -142,7 +142,7 @@ MAX_DOC_IDS = _env_int("MAX_DOC_IDS", 64, minimum=1)
 
 # Agent and retrieval budgets. These are the knobs that decide how much text
 # one question may pull into the model.
-MAX_TURNS = _env_int("MAX_TURNS", 24, minimum=1)
+MAX_TURNS = _env_int("MAX_TURNS", 10, minimum=1)
 MAX_OUTPUT_TOKENS = _env_int("MAX_OUTPUT_TOKENS", 2_048, minimum=0)
 TOOL_RESPONSE_CHARS = _env_int("TOOL_RESPONSE_CHARS", 100_000, minimum=1_000)
 TOOL_MAX_PAGES = _env_int("TOOL_MAX_PAGES", 10_000, minimum=1)

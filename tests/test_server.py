@@ -122,7 +122,7 @@ def test_ask_returns_answer_and_citations(http):
     assert body["citations"] == [
         {"document": "TCS_FY25.pdf", "page": 10, "doc_id": "pi-1"}]
     assert calls[0]["citations"] is True
-    assert calls[0]["max_turns"] == 24
+    assert calls[0]["max_turns"] == 10
     assert calls[0]["doc_id"] is None
     assert "TCS_FY25.pdf" in (calls[0]["instructions"] or "")
 

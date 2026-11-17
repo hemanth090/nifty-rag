@@ -88,7 +88,7 @@ budgets under `budgets`; `GET /metrics` reports all of them.
 | `MAX_BODY_BYTES` | `65536` | request body size, then `413` |
 | `MAX_QUESTION_CHARS` | `1000` | question length, then `400` |
 | `MAX_DOC_IDS` | `64` | document IDs per question, then `400` |
-| `MAX_TURNS` | `24` | agent turns per question (passed as `max_turns`) |
+| `MAX_TURNS` | `10` | agent turns per question (PageIndex default; passed as `max_turns`) |
 | `MAX_OUTPUT_TOKENS` | `2048` | per-turn output cap; `0` leaves the provider default |
 | `TOOL_RESPONSE_CHARS` | `100000` | one tool reply, in characters (95% usable) |
 | `TOOL_MAX_PAGES` | `10000` | pages one page-content request may name |
