@@ -74,6 +74,12 @@ def test_health(http):
     assert body["version"] == server.APP_VERSION
     assert body["model"] == server.MODEL
     assert body["uptime_s"] >= 0
+    budgets = body["budgets"]
+    assert budgets["max_turns"] == server.MAX_TURNS
+    assert budgets["max_output_tokens"] == server.MAX_OUTPUT_TOKENS
+    assert budgets["tool_response_chars"] == server.TOOL_RESPONSE_CHARS
+    assert budgets["tool_max_pages"] == server.TOOL_MAX_PAGES
+    assert budgets["catalog_chars"] == server.CATALOG_CHARS
 
 
 def test_ready_reports_store(http):
@@ -87,8 +93,14 @@ def test_metrics_fields(http):
     client, _ = http
     body = client.get("/metrics").json()
     for field in ("requests", "errors", "cache_hits", "cache_misses",
-                  "cache_size", "active", "max_concurrent", "model", "uptime_s"):
+                  "cache_size", "active", "max_concurrent", "model", "uptime_s",
+                  "budgets"):
         assert field in body
+    assert body["budgets"]["max_concurrent"] == server.MAX_CONCURRENT
+    assert body["budgets"]["max_turns"] == server.MAX_TURNS
+    assert body["budgets"]["max_output_tokens"] == server.MAX_OUTPUT_TOKENS
+    assert body["budgets"]["cache_ttl_s"] == server.CACHE_TTL
+    assert body["budgets"]["cache_max"] == server.CACHE_MAX
 
 
 def test_documents(http):
@@ -121,6 +133,31 @@ def test_ask_passes_document_scope(http):
                            json={"question": "Revenue?", "doc_ids": ["pi-1"]})
     assert response.status_code == 200
     assert calls[0]["doc_id"] == ["pi-1"]
+
+
+def test_budgets_reach_the_chat_call(http, monkeypatch):
+    client, calls = http
+    monkeypatch.setattr(server, "MAX_TURNS", 7)
+    monkeypatch.setattr(server, "MAX_OUTPUT_TOKENS", 1234)
+    response = client.post("/api/ask", json={"question": "Budget check?"})
+    assert response.status_code == 200
+    assert calls[0]["max_turns"] == 7
+    assert calls[0]["extra_body"] == {"max_tokens": 1234}
+
+
+def test_zero_output_budget_leaves_provider_default(http, monkeypatch):
+    client, calls = http
+    monkeypatch.setattr(server, "MAX_OUTPUT_TOKENS", 0)
+    response = client.post("/api/ask", json={"question": "No output cap?"})
+    assert response.status_code == 200
+    assert "extra_body" not in calls[0]
+
+
+def test_tool_budgets_are_applied_to_the_sdk():
+    assert server.agent_tools.TOOL_RESPONSE_CHAR_LIMIT == server.TOOL_RESPONSE_CHARS
+    assert server.agent_tools._CHAR_BUDGET == int(server.TOOL_RESPONSE_CHARS * 0.95)
+    assert server.agent_tools._MAX_REQUESTED_PAGES == server.TOOL_MAX_PAGES
+    assert server.agent_tools._SIMILAR_NAMES_LIMIT == server.TOOL_SUGGESTIONS
 
 
 def test_ask_rejects_empty_question(http):

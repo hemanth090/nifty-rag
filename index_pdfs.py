@@ -20,6 +20,18 @@ Skips documents already in the store by filename unless --force is passed.
 Logs prompt/output/reasoning tokens for every PDF and refuses to start when
 another indexing run holds the store lock.
 
+Budgets come from the environment, then CLI flags override them:
+
+    INDEX_CONCURRENCY=16        parallel summary calls per PDF
+    INDEX_OPTIMIZE=merge        full | merge | off
+    INDEX_PAUSE=2               seconds between PDFs
+    INDEX_SUMMARY_MAX_WORDS=150 word cap per node summary
+    INDEX_REASONING_EFFORT=none reasoning effort for summary/expand calls
+    INDEX_MODE=flash            flash | standard
+    PAGEINDEX_MODEL=deepseek-v4.1-flash
+    PAGEINDEX_STORE=./.pageindex
+    INDEX_JSON_DIR=./results
+
 The stock local SDK summarizes 128 nodes in parallel, which trips OpenCode
 Go's rate limit (HTTP 429) on ~500-page filings. This script passes a lower
 ``summary_concurrency`` (default 16) through the SDK's index config, and
@@ -61,6 +73,60 @@ LOCK_PATH = ROOT / ".index.lock"
 log = logging.getLogger("nifty_rag.index")
 
 
+def _env_int(name: str, default: int, minimum: int | None = None) -> int:
+    raw = os.environ.get(name)
+    if raw is None or not raw.strip():
+        return default
+    try:
+        value = int(raw)
+    except ValueError:
+        raise SystemExit(f"{name} must be an integer, got {raw!r}.")
+    if minimum is not None and value < minimum:
+        raise SystemExit(f"{name} must be >= {minimum}, got {value}.")
+    return value
+
+
+def _env_opt_int(name: str) -> int | None:
+    raw = os.environ.get(name)
+    if raw is None or not raw.strip():
+        return None
+    try:
+        value = int(raw)
+    except ValueError:
+        raise SystemExit(f"{name} must be an integer, got {raw!r}.")
+    if value < 1:
+        raise SystemExit(f"{name} must be >= 1, got {value}.")
+    return value
+
+
+def _env_float(name: str, default: float, minimum: float | None = None) -> float:
+    raw = os.environ.get(name)
+    if raw is None or not raw.strip():
+        return default
+    try:
+        value = float(raw)
+    except ValueError:
+        raise SystemExit(f"{name} must be a number, got {raw!r}.")
+    if minimum is not None and value < minimum:
+        raise SystemExit(f"{name} must be >= {minimum}, got {value}.")
+    return value
+
+
+def _env_choice(name: str, default: str, choices: tuple[str, ...]) -> str:
+    raw = os.environ.get(name)
+    if raw is None or not raw.strip():
+        return default
+    value = raw.strip().lower()
+    if value not in choices:
+        raise SystemExit(f"{name} must be one of {list(choices)}, got {raw!r}.")
+    return value
+
+
+def _env_str(name: str, default: str) -> str:
+    raw = os.environ.get(name)
+    return raw.strip() if raw and raw.strip() else default
+
+
 def configure_logging() -> None:
     logging.basicConfig(
         level=getattr(logging, os.environ.get("LOG_LEVEL", "INFO").upper(), logging.INFO),
@@ -92,7 +158,7 @@ def opencode_backend() -> dict:
                                    or f"nifty-rag-{uuid.uuid4().hex}"),
         },
         # Turn hidden thinking off for summaries *and* the expand pass.
-        "reasoning_effort": "none",
+        "reasoning_effort": _env_str("INDEX_REASONING_EFFORT", "none"),
     }
 
 
@@ -153,36 +219,59 @@ def _is_transient(exc: Exception) -> bool:
                 "apiconnection", "502", "503", "504"))
 
 
-def main(argv=None) -> int:
-    configure_logging()
+def build_parser() -> argparse.ArgumentParser:
+    """CLI parser whose defaults are the effective environment budgets."""
+    model = _env_str("PAGEINDEX_MODEL", "deepseek-v4.1-flash")
+    mode = _env_choice("INDEX_MODE", "flash", ("flash", "standard"))
+    store = _env_str("PAGEINDEX_STORE", str(DEFAULT_STORE))
+    json_dir = _env_str("INDEX_JSON_DIR", str(DEFAULT_JSON_DIR))
+    concurrency = _env_int("INDEX_CONCURRENCY", 16, minimum=0)
+    optimize = _env_choice("INDEX_OPTIMIZE", "merge", ("full", "merge", "off"))
+    summary_words = _env_opt_int("INDEX_SUMMARY_MAX_WORDS")
+    pause = _env_float("INDEX_PAUSE", 2.0, minimum=0.0)
+
     parser = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     parser.add_argument("pdfs", nargs="*", help="PDF files (default: all of data/pdfs)")
-    parser.add_argument("--model", default=os.environ.get("PAGEINDEX_MODEL",
-                                                          "deepseek-v4.1-flash"),
-                        help="local index model (default: deepseek-v4.1-flash)")
-    parser.add_argument("--mode", choices=["flash", "standard"], default="flash",
-                        help="tree-building mode (default: flash)")
-    parser.add_argument("--store", default=str(DEFAULT_STORE),
-                        help="local SDK storage directory (default: ./.pageindex)")
-    parser.add_argument("--json-dir", default=str(DEFAULT_JSON_DIR),
-                        help="also write <name>_structure.json here; pass '' to disable")
-    parser.add_argument("--concurrency", type=int, default=16,
-                        help="parallel summary calls per PDF (default: 16; the "
-                             "stock SDK default of 128 triggers OpenCode Go 429s; "
-                             "16 measured clean and ~4x faster)")
-    parser.add_argument("--optimize", choices=["full", "merge", "off"], default="merge",
-                        help="tree refinement: merge (default, no LLM expand), "
-                             "full (+ LLM expand; huge prompts fail on 600+ page PDFs), off")
-    parser.add_argument("--pause", type=float, default=2.0,
-                        help="seconds to wait between PDFs (default: 2)")
+    parser.add_argument("--model", default=model,
+                        help=f"local index model (default: {model}; env PAGEINDEX_MODEL)")
+    parser.add_argument("--mode", choices=["flash", "standard"], default=mode,
+                        help=f"tree-building mode (default: {mode}; env INDEX_MODE)")
+    parser.add_argument("--store", default=store,
+                        help=f"local SDK storage directory (default: {store})")
+    parser.add_argument("--json-dir", default=json_dir,
+                        help="also write <name>_structure.json here; pass '' to disable "
+                             f"(default: {json_dir})")
+    parser.add_argument("--concurrency", type=int, default=concurrency,
+                        help=f"parallel summary calls per PDF (default: {concurrency}; "
+                             "0 uses PageIndex's 128, which triggers OpenCode Go 429s; "
+                             "env INDEX_CONCURRENCY)")
+    parser.add_argument("--optimize", choices=["full", "merge", "off"],
+                        default=optimize,
+                        help=f"tree refinement (default: {optimize}; full adds the LLM "
+                             "expand pass; env INDEX_OPTIMIZE)")
+    parser.add_argument("--summary-max-words", type=int, default=summary_words,
+                        help="word cap per node summary (default: "
+                             f"{summary_words if summary_words else 'PageIndex 150'}; "
+                             "env INDEX_SUMMARY_MAX_WORDS)")
+    parser.add_argument("--pause", type=float, default=pause,
+                        help=f"seconds to wait between PDFs (default: {pause}; "
+                             "env INDEX_PAUSE)")
     parser.add_argument("--force", action="store_true",
                         help="re-index documents already in the store")
+    return parser
+
+
+def main(argv=None) -> int:
+    configure_logging()
+    parser = build_parser()
     args = parser.parse_args(argv)
 
     if args.concurrency < 0:
         parser.error("--concurrency must be 0 (SDK default) or a positive integer")
     if args.pause < 0:
         parser.error("--pause must be >= 0")
+    if args.summary_max_words is not None and args.summary_max_words < 1:
+        parser.error("--summary-max-words must be a positive integer")
 
     pdfs = [Path(p).expanduser() for p in args.pdfs] or sorted(
         Path(p) for p in glob.glob(str(DEFAULT_PDF_DIR / "*.pdf")))
@@ -203,14 +292,19 @@ def main(argv=None) -> int:
                   "optimize": args.optimize}
     if args.concurrency and args.concurrency > 0:
         index_conf["summary_concurrency"] = args.concurrency
+    if args.summary_max_words:
+        index_conf["summary_max_words"] = args.summary_max_words
 
     with store_lock():
         client = PageIndexClient(index=index_conf)
         existing = {doc["name"] for doc in
                     client.list_documents(limit=10000)["documents"]}
         log.info("store=%s model=%s mode=%s optimize=%s concurrency=%s "
-                 "documents=%d pdfs=%d", store, args.model, args.mode,
-                 args.optimize, args.concurrency, len(existing), len(pdfs))
+                 "summary_max_words=%s reasoning_effort=%s documents=%d pdfs=%d",
+                 store, args.model, args.mode, args.optimize, args.concurrency,
+                 args.summary_max_words or "sdk-default(150)",
+                 _env_str("INDEX_REASONING_EFFORT", "none"),
+                 len(existing), len(pdfs))
 
         totals = {"prompt": 0, "output": 0, "reasoning": 0}
         failures: list[tuple[str, str]] = []

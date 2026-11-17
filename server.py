@@ -20,15 +20,27 @@ environment:
     OPENCODE_GO_BASE_URL   optional   default: https://opencode.ai/inference/go/openai/v1
     PAGEINDEX_MODEL        optional   default: deepseek-v4.1-flash
     PAGEINDEX_STORE        optional   default: ./.pageindex
+
+  Request limits:
     MAX_CONCURRENT         optional   in-flight agent runs per worker (8)
     QUEUE_TIMEOUT          optional   seconds to wait for a slot (45)
-    ANSWER_CACHE_TTL       optional   answer-cache seconds (3600); 0 disables
-    ANSWER_CACHE_MAX       optional   cached answers per worker (500)
-    DOCUMENT_CATALOG       optional   "0"/"false"/"no" disables the library listing
-    API_TOKEN              optional   when set, required as "Authorization: Bearer <token>"
     MAX_BODY_BYTES         optional   request body limit (65536)
     MAX_QUESTION_CHARS     optional   question length limit (1000)
     MAX_DOC_IDS            optional   document-ID count limit (64)
+
+  Agent and retrieval budgets:
+    MAX_TURNS              optional   agent turns per question (24)
+    MAX_OUTPUT_TOKENS      optional   per-turn output cap; 0 = provider default (2048)
+    TOOL_RESPONSE_CHARS    optional   tool reply budget in characters (100000)
+    TOOL_MAX_PAGES         optional   pages one get_page_content call may request (10000)
+    TOOL_SUGGESTIONS       optional   similar-name suggestions on a miss (3)
+    CATALOG_CHARS          optional   document-list prompt budget in characters (6000)
+    DOCUMENT_CATALOG       optional   "0"/"false"/"no" disables the library listing
+
+  Caching and operations:
+    ANSWER_CACHE_TTL       optional   answer-cache seconds (3600); 0 disables
+    ANSWER_CACHE_MAX       optional   cached answers per worker (500)
+    API_TOKEN              optional   when set, required as "Authorization: Bearer <token>"
     HOST / PORT            optional   127.0.0.1 / 8000
     WORKERS                optional   uvicorn workers (1)
     LOG_LEVEL              optional   INFO
@@ -60,7 +72,7 @@ from starlette.requests import Request
 from starlette.responses import HTMLResponse, JSONResponse, Response, StreamingResponse
 from starlette.routing import Route
 
-from pageindex import PageIndexClient
+from pageindex import PageIndexClient, agent_tools
 from pageindex.errors import PageIndexAPIError
 
 APP_VERSION = "1.0.0"
@@ -127,13 +139,30 @@ API_TOKEN = _env_str("API_TOKEN", "")
 MAX_BODY_BYTES = _env_int("MAX_BODY_BYTES", 65_536, minimum=1)
 MAX_QUESTION_CHARS = _env_int("MAX_QUESTION_CHARS", 1_000, minimum=1)
 MAX_DOC_IDS = _env_int("MAX_DOC_IDS", 64, minimum=1)
+
+# Agent and retrieval budgets. These are the knobs that decide how much text
+# one question may pull into the model.
+MAX_TURNS = _env_int("MAX_TURNS", 24, minimum=1)
+MAX_OUTPUT_TOKENS = _env_int("MAX_OUTPUT_TOKENS", 2_048, minimum=0)
+TOOL_RESPONSE_CHARS = _env_int("TOOL_RESPONSE_CHARS", 100_000, minimum=1_000)
+TOOL_MAX_PAGES = _env_int("TOOL_MAX_PAGES", 10_000, minimum=1)
+TOOL_SUGGESTIONS = _env_int("TOOL_SUGGESTIONS", 3, minimum=0)
+CATALOG_CHARS = _env_int("CATALOG_CHARS", 6_000, minimum=0)
+
 HOST = _env_str("HOST", "127.0.0.1")
 PORT = _env_int("PORT", 8000, minimum=1)
 WORKERS = _env_int("WORKERS", 1, minimum=1)
 LOG_LEVEL = _env_str("LOG_LEVEL", "INFO").upper()
 
 REASONING_LEVELS = {"none", "low", "medium", "high"}
-CATALOG_CHAR_LIMIT = 6_000  # a larger listing costs more prompt tokens than it saves
+
+# Apply the configured tool budgets to the SDK's in-process tool layer. The
+# tool code reads these module constants at call time, so setting them here
+# changes enforced limits rather than only documentation.
+agent_tools.TOOL_RESPONSE_CHAR_LIMIT = TOOL_RESPONSE_CHARS
+agent_tools._CHAR_BUDGET = int(TOOL_RESPONSE_CHARS * 0.95)
+agent_tools._MAX_REQUESTED_PAGES = TOOL_MAX_PAGES
+agent_tools._SIMILAR_NAMES_LIMIT = TOOL_SUGGESTIONS
 
 
 # ── Logging ──────────────────────────────────────────────────────────────
@@ -229,7 +258,7 @@ def document_catalog() -> str:
                 + "; ".join(entries)
                 + ". When the question refers to a company or file, read that "
                   "document directly instead of browsing the library.")
-        if len(text) > CATALOG_CHAR_LIMIT:
+        if len(text) > CATALOG_CHARS:
             text = ""
     catalog_cache["signature"], catalog_cache["text"] = signature, text
     return text
@@ -302,9 +331,15 @@ def read_citations(answer: str) -> list[dict]:
 
 
 def chat_kwargs(doc_ids: list[str] | None, effort: str | None) -> dict:
-    return {"doc_id": doc_ids or None, "extra_headers": HEADERS,
-            "citations": True, "reasoning_effort": effort, "max_turns": 24,
-            "instructions": document_catalog() or None}
+    kwargs = {"doc_id": doc_ids or None, "extra_headers": HEADERS,
+              "citations": True, "reasoning_effort": effort,
+              "max_turns": MAX_TURNS,
+              "instructions": document_catalog() or None}
+    if MAX_OUTPUT_TOKENS > 0:
+        # The chat lane takes output caps under the wire field name; the SDK's
+        # extra_body channel forwards it unchanged on the OpenAI protocol.
+        kwargs["extra_body"] = {"max_tokens": MAX_OUTPUT_TOKENS}
+    return kwargs
 
 
 def answer_question(question: str, doc_ids: list[str] | None,
@@ -447,6 +482,13 @@ async def health(_request: Request):
         "uptime_s": uptime_seconds(),
         "cache_size": len(cache),
         "active": metrics["active"],
+        "budgets": {
+            "max_turns": MAX_TURNS,
+            "max_output_tokens": MAX_OUTPUT_TOKENS,
+            "tool_response_chars": TOOL_RESPONSE_CHARS,
+            "tool_max_pages": TOOL_MAX_PAGES,
+            "catalog_chars": CATALOG_CHARS,
+        },
     })
 
 
@@ -477,6 +519,20 @@ async def metrics_endpoint(_request: Request):
         "samples": len(durations),
         "model": MODEL,
         "uptime_s": uptime_seconds(),
+        "budgets": {
+            "max_concurrent": MAX_CONCURRENT,
+            "queue_timeout_s": QUEUE_TIMEOUT,
+            "max_turns": MAX_TURNS,
+            "max_output_tokens": MAX_OUTPUT_TOKENS,
+            "tool_response_chars": TOOL_RESPONSE_CHARS,
+            "tool_max_pages": TOOL_MAX_PAGES,
+            "catalog_chars": CATALOG_CHARS,
+            "max_body_bytes": MAX_BODY_BYTES,
+            "max_question_chars": MAX_QUESTION_CHARS,
+            "max_doc_ids": MAX_DOC_IDS,
+            "cache_ttl_s": CACHE_TTL,
+            "cache_max": CACHE_MAX,
+        },
     })
 
 

@@ -60,6 +60,11 @@ the indexed store; the steps above reproduce it from scratch.
 
 ## Configuration
 
+Every default is in [`.env.example`](.env.example). Environment values win over
+built-in defaults; CLI flags win over environment values.
+
+### Provider and server
+
 | Variable | Default | Purpose |
 |---|---|---|
 | `OPENCODE_GO_API_KEY` | required | OpenCode Go key for indexing and chat |
@@ -70,14 +75,48 @@ the indexed store; the steps above reproduce it from scratch.
 | `WORKERS` | `1` | uvicorn workers |
 | `LOG_LEVEL` | `INFO` | log level |
 | `API_TOKEN` | unset | when set, `/api/*` and `/metrics` require `Authorization: Bearer <token>` |
-| `MAX_CONCURRENT` | `8` | in-flight agent runs per worker |
-| `QUEUE_TIMEOUT` | `45` | seconds to wait for a slot before 503 |
-| `MAX_BODY_BYTES` | `65536` | request body limit |
-| `MAX_QUESTION_CHARS` | `1000` | question length limit |
-| `MAX_DOC_IDS` | `64` | document-ID count limit |
-| `ANSWER_CACHE_TTL` | `3600` | answer-cache seconds; 0 disables |
+
+### Budget limits
+
+These are the enforced caps. `GET /health` reports the agent and retrieval
+budgets under `budgets`; `GET /metrics` reports all of them.
+
+| Variable | Default | Enforced at |
+|---|---|---|
+| `MAX_CONCURRENT` | `8` | semaphore: in-flight agent runs per worker |
+| `QUEUE_TIMEOUT` | `45` | seconds to wait for a slot, then `503` |
+| `MAX_BODY_BYTES` | `65536` | request body size, then `413` |
+| `MAX_QUESTION_CHARS` | `1000` | question length, then `400` |
+| `MAX_DOC_IDS` | `64` | document IDs per question, then `400` |
+| `MAX_TURNS` | `24` | agent turns per question (passed as `max_turns`) |
+| `MAX_OUTPUT_TOKENS` | `2048` | per-turn output cap; `0` leaves the provider default |
+| `TOOL_RESPONSE_CHARS` | `100000` | one tool reply, in characters (95% usable) |
+| `TOOL_MAX_PAGES` | `10000` | pages one page-content request may name |
+| `TOOL_SUGGESTIONS` | `3` | similar-name suggestions on a miss |
+| `CATALOG_CHARS` | `6000` | document list injected per question; above it, the list is dropped |
+| `DOCUMENT_CATALOG` | `1` | `0` stops injecting the document list |
+| `ANSWER_CACHE_TTL` | `3600` | answer-cache seconds; `0` disables |
 | `ANSWER_CACHE_MAX` | `500` | cached answers per worker |
-| `DOCUMENT_CATALOG` | `1` | inject the document list into each question |
+
+`TOOL_RESPONSE_CHARS`, `TOOL_MAX_PAGES`, and `TOOL_SUGGESTIONS` are applied to
+the PageIndex in-process tool layer at startup: the server sets the SDK
+constants the tools read on every call. `MAX_OUTPUT_TOKENS` is sent as the
+chat lane's wire `max_tokens` through the SDK's `extra_body` channel.
+
+### Indexing budgets
+
+| Variable | Default | Purpose |
+|---|---|---|
+| `INDEX_MODE` | `flash` | `flash` or `standard` tree builder |
+| `INDEX_CONCURRENCY` | `16` | parallel summary calls per PDF (`0` = SDK default 128) |
+| `INDEX_OPTIMIZE` | `merge` | `full` (merge + LLM expand), `merge`, `off` |
+| `INDEX_PAUSE` | `2` | seconds between PDFs |
+| `INDEX_SUMMARY_MAX_WORDS` | `150` (unset → SDK default) | word cap per node summary |
+| `INDEX_REASONING_EFFORT` | `none` | reasoning effort for summary/expand calls |
+| `INDEX_JSON_DIR` | `./results` | result-tree output directory (`''` disables) |
+
+CLI flags (`--mode`, `--concurrency`, `--optimize`, `--summary-max-words`,
+`--pause`, `--store`, `--json-dir`) override the environment for one run.
 
 ## API
 
@@ -137,9 +176,11 @@ transient provider errors (rate limits cool down for 45 s, gateway errors for
 `.index.lock` so two runs cannot write one store at once. Do not index into a
 store while the server is serving it.
 
-Defaults keep concurrency at 16 summaries and `--optimize merge`, measured on
-this corpus to avoid OpenCode Go rate limits and oversized expand prompts.
-`--concurrency 128 --optimize full` restores the library's defaults.
+Budgets come from `INDEX_*` variables (see above), so a deployment can set
+them once in `.env`; CLI flags override them per run. Defaults keep concurrency
+at 16 summaries and `--optimize merge`, measured on this corpus to avoid
+OpenCode Go rate limits and oversized expand prompts. `--concurrency 128
+--optimize full` restores the library's defaults.
 
 ## Testing
 
