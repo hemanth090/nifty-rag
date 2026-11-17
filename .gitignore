@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Local data and generated artifacts
+.pageindex/
+results/
+data/pdfs/
+.index.lock
+logs/
+*.log
+
+# OS / editors
+.DS_Store
+.idea/
+.vscode/

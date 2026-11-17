@@ -1,0 +1,13 @@
+.git/
+.venv/
+.env
+.env.*
+.pageindex/
+results/
+data/
+tests/
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
+*.log
