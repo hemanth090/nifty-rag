@@ -163,16 +163,18 @@ def opencode_backend() -> dict:
 
 
 @contextmanager
-def store_lock(path: Path = LOCK_PATH):
+def store_lock(path: Path | None = None):
     """One indexing run at a time against a store."""
+    path = path or LOCK_PATH
     path.parent.mkdir(parents=True, exist_ok=True)
     handle = path.open("w", encoding="utf-8")
+    locked = False
     try:
         if fcntl is not None:
             try:
                 fcntl.flock(handle.fileno(), fcntl.LOCK_EX | fcntl.LOCK_NB)
+                locked = True
             except BlockingIOError:
-                handle.close()
                 raise SystemExit(
                     f"Another indexing run holds {path}. Stop it or wait.")
         handle.write(str(os.getpid()))
@@ -180,7 +182,7 @@ def store_lock(path: Path = LOCK_PATH):
         yield
     finally:
         try:
-            if fcntl is not None:
+            if fcntl is not None and locked:
                 fcntl.flock(handle.fileno(), fcntl.LOCK_UN)
         finally:
             handle.close()
@@ -297,8 +299,9 @@ def main(argv=None) -> int:
 
     with store_lock():
         client = PageIndexClient(index=index_conf)
-        existing = {doc["name"] for doc in
-                    client.list_documents(limit=10000)["documents"]}
+        existing: dict[str, list[str]] = {}
+        for doc in client.list_documents(limit=10000)["documents"]:
+            existing.setdefault(doc["name"], []).append(doc["id"])
         log.info("store=%s model=%s mode=%s optimize=%s concurrency=%s "
                  "summary_max_words=%s reasoning_effort=%s documents=%d pdfs=%d",
                  store, args.model, args.mode, args.optimize, args.concurrency,
@@ -315,10 +318,25 @@ def main(argv=None) -> int:
                 failures.append((name, "file not found"))
                 log.error("[%d/%d] FAIL %s: file not found", number, len(pdfs), name)
                 continue
-            if name in existing and not args.force:
+            ids = existing.get(name, [])
+            if ids and not args.force:
                 skipped += 1
                 log.info("[%d/%d] skip %s (already in store)", number, len(pdfs), name)
                 continue
+            if ids and args.force:
+                log.info("[%d/%d] replacing %s (%d existing document(s))",
+                         number, len(pdfs), name, len(ids))
+                replaced = True
+                for doc_id in ids:
+                    try:
+                        client.delete_document(doc_id)
+                    except Exception as exc:  # noqa: BLE001
+                        replaced = False
+                        failures.append((name, f"replace failed: {exc}"))
+                        log.error("    could not delete %s for %s: %s", doc_id, name, exc)
+                if not replaced:
+                    continue
+                existing.pop(name, None)
             log.info("[%d/%d] indexing %s", number, len(pdfs), name)
             started = time.monotonic()
             result = usage = None
@@ -362,7 +380,14 @@ def main(argv=None) -> int:
                 except Exception as exc:  # noqa: BLE001 - store write already succeeded
                     failures.append((name, f"tree export failed: {exc}"))
                     log.error("    tree export failed for %s: %s", name, exc)
-            if args.pause:
+                    try:
+                        client.delete_document(result["doc_id"])
+                        log.info("    rolled back doc_id=%s so the next run retries it",
+                                 result["doc_id"])
+                    except Exception as rollback_exc:  # noqa: BLE001
+                        log.error("    rollback failed for %s: %s",
+                                  result["doc_id"], rollback_exc)
+            if args.pause and number < len(pdfs):
                 time.sleep(args.pause)
 
     attempted = len(pdfs) - skipped

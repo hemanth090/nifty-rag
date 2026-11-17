@@ -1960,12 +1960,26 @@
         } else {
           const parts = /^\[([^\]]+)\]\(([^)]+)\)$/.exec(token);
           if (parts) {
-            const link = document.createElement("a");
-            link.textContent = parts[1];
-            link.href = parts[2];
-            link.target = "_blank";
-            link.rel = "noopener noreferrer";
-            fragment.appendChild(link);
+            let href = null;
+            try {
+              const url = new URL(parts[2], window.location.href);
+              if (["http:", "https:", "mailto:"].includes(url.protocol)) {
+                href = url.href;
+              }
+            } catch (error) {
+              href = null;
+            }
+            if (href) {
+              const link = document.createElement("a");
+              link.textContent = parts[1];
+              link.href = href;
+              link.target = "_blank";
+              link.rel = "noopener noreferrer";
+              fragment.appendChild(link);
+            } else {
+              // Not an http(s)/mailto URL: render the markdown token as text.
+              fragment.appendChild(document.createTextNode(token));
+            }
           } else {
             fragment.appendChild(document.createTextNode(token));
           }

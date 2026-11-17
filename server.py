@@ -54,6 +54,7 @@ import hmac
 import json
 import logging
 import os
+import re
 import time
 import traceback
 import uuid
@@ -222,7 +223,10 @@ HOME = load_home()
 
 slots = asyncio.Semaphore(MAX_CONCURRENT)
 cache: "OrderedDict[str, tuple[float, dict]]" = OrderedDict()
+inflight: dict[str, "asyncio.Future[dict]"] = {}
 catalog_cache: dict[str, str] = {"signature": "", "text": ""}
+
+RETRIEVAL_FAILED = "Retrieval failed. Please retry in a moment."
 
 metrics = {
     "requests": 0, "errors": 0, "busy": 0, "cache_hits": 0, "cache_misses": 0,
@@ -305,6 +309,28 @@ def note_duration(started: float) -> None:
     metrics["durations_ms"].append(round((time.monotonic() - started) * 1000))
 
 
+# ── Single-flight ─────────────────────────────────────────────────────────
+# Identical questions arriving together share one agent run instead of paying
+# for the same retrieval twice.
+
+def inflight_begin(key: str) -> "asyncio.Future[dict]":
+    future: "asyncio.Future[dict]" = asyncio.get_running_loop().create_future()
+    inflight[key] = future
+    return future
+
+
+def inflight_finish(key: str, future: "asyncio.Future[dict]",
+                    result: dict | None = None, error: str | None = None) -> None:
+    if not future.done():
+        future.set_result(result if error is None else {"__error__": error})
+    if inflight.get(key) is future:
+        inflight.pop(key, None)
+
+
+async def inflight_wait(future: "asyncio.Future[dict]") -> dict:
+    return await asyncio.shield(future)
+
+
 def percentile(values: list[int], fraction: float) -> int | None:
     if not values:
         return None
@@ -371,7 +397,9 @@ def parse_question(body: dict) -> tuple[str, list[str] | None, str | None]:
         raise RequestProblem(400, "doc_ids must be a list of document IDs, or omitted.")
     if len(raw_ids) > MAX_DOC_IDS:
         raise RequestProblem(400, f"At most {MAX_DOC_IDS} document IDs are allowed.")
-    doc_ids = [str(doc_id).strip() for doc_id in raw_ids if str(doc_id).strip()]
+    if not all(isinstance(doc_id, str) for doc_id in raw_ids):
+        raise RequestProblem(400, "doc_ids must contain strings only.")
+    doc_ids = [doc_id.strip() for doc_id in raw_ids if doc_id.strip()]
 
     effort = body.get("reasoning_effort")
     if effort is not None and effort not in REASONING_LEVELS:
@@ -385,11 +413,21 @@ async def read_json(request: Request) -> dict:
     content_type = request.headers.get("content-type", "").split(";")[0].strip().lower()
     if content_type not in ("application/json", ""):
         raise RequestProblem(415, "Content-Type must be application/json.")
-    raw = await request.body()
-    if len(raw) > MAX_BODY_BYTES:
-        raise RequestProblem(413, f"Request body exceeds {MAX_BODY_BYTES} bytes.")
+    declared = request.headers.get("content-length")
+    if declared:
+        try:
+            declared_length = int(declared)
+        except ValueError as exc:
+            raise RequestProblem(400, "Invalid Content-Length header.") from exc
+        if declared_length > MAX_BODY_BYTES:
+            raise RequestProblem(413, f"Request body exceeds {MAX_BODY_BYTES} bytes.")
+    raw = bytearray()
+    async for chunk in request.stream():
+        raw.extend(chunk)
+        if len(raw) > MAX_BODY_BYTES:
+            raise RequestProblem(413, f"Request body exceeds {MAX_BODY_BYTES} bytes.")
     try:
-        body = json.loads(raw)
+        body = json.loads(bytes(raw))
     except json.JSONDecodeError as exc:
         raise RequestProblem(400, "Request body must be valid JSON.") from exc
     if not isinstance(body, dict):
@@ -425,26 +463,38 @@ BUSY = {"error": "The server is handling too many questions right now. "
 # ── Middleware ───────────────────────────────────────────────────────────
 
 PROTECTED_PREFIXES = ("/api/", "/metrics")
+REQUEST_ID_RE = re.compile(r"[A-Za-z0-9_-]{1,64}")
+
+
+def harden(response: Response, request_id: str) -> Response:
+    """Attach the request ID and the standard security headers to a response."""
+    response.headers["X-Request-ID"] = request_id
+    response.headers["X-Content-Type-Options"] = "nosniff"
+    response.headers["X-Frame-Options"] = "DENY"
+    response.headers["Referrer-Policy"] = "no-referrer"
+    response.headers.setdefault("Cache-Control", "no-store")
+    return response
 
 
 class OperationsMiddleware(BaseHTTPMiddleware):
     """Request IDs, optional bearer auth, security headers, and access logging."""
 
     async def dispatch(self, request: Request, call_next):  # type: ignore[override]
-        request_id = request.headers.get("x-request-id") or uuid.uuid4().hex[:12]
+        candidate = request.headers.get("x-request-id", "")
+        request_id = (candidate if REQUEST_ID_RE.fullmatch(candidate)
+                      else uuid.uuid4().hex[:12])
         started = time.monotonic()
         path = request.url.path
 
         if API_TOKEN and path.startswith(PROTECTED_PREFIXES):
-            supplied = request.headers.get("authorization", "")
-            expected = f"Bearer {API_TOKEN}"
+            supplied = request.headers.get("authorization", "").encode(
+                "utf-8", "replace")
+            expected = f"Bearer {API_TOKEN}".encode("utf-8", "replace")
             if not hmac.compare_digest(supplied, expected):
                 log.warning("auth rejected method=%s path=%s request_id=%s",
                             request.method, path, request_id)
-                response: Response = JSONResponse(
-                    {"error": "Unauthorized."}, status_code=401)
-                response.headers["X-Request-ID"] = request_id
-                return response
+                return harden(JSONResponse({"error": "Unauthorized."},
+                                           status_code=401), request_id)
 
         try:
             response = await call_next(request)
@@ -456,11 +506,7 @@ class OperationsMiddleware(BaseHTTPMiddleware):
                 {"error": "Internal server error."}, status_code=500)
 
         elapsed_ms = round((time.monotonic() - started) * 1000, 1)
-        response.headers["X-Request-ID"] = request_id
-        response.headers["X-Content-Type-Options"] = "nosniff"
-        response.headers["X-Frame-Options"] = "DENY"
-        response.headers["Referrer-Policy"] = "no-referrer"
-        response.headers.setdefault("Cache-Control", "no-store")
+        harden(response, request_id)
         log.info("request method=%s path=%s status=%s ms=%s request_id=%s",
                  request.method, path, response.status_code, elapsed_ms, request_id)
         return response
@@ -543,6 +589,15 @@ async def documents(_request: Request):
     return JSONResponse({"documents": docs})
 
 
+def replay_result(result: dict) -> StreamingResponse:
+    """SSE frames for an answer that is already on hand (cache or single-flight)."""
+    async def replay() -> AsyncIterator[str]:
+        yield sse({"delta": result.get("answer", "")})
+        yield sse({**result, "done": True})
+    return StreamingResponse(replay(), media_type="text/event-stream",
+                             headers={"Cache-Control": "no-cache"})
+
+
 async def ask(request: Request):
     started = time.monotonic()
     metrics["requests"] += 1
@@ -560,20 +615,42 @@ async def ask(request: Request):
         return JSONResponse({**cached, "cached": True})
     metrics["cache_misses"] += 1
 
-    if not await acquire_slot():
-        return JSONResponse(BUSY, status_code=503)
+    pending = inflight.get(key)
+    if pending is not None:
+        outcome = await inflight_wait(pending)
+        if "__error__" in outcome:
+            metrics["errors"] += 1
+            return JSONResponse({"error": RETRIEVAL_FAILED}, status_code=502)
+        note_duration(started)
+        return JSONResponse(outcome)
+
+    future = inflight_begin(key)
+    try:
+        if not await acquire_slot():
+            inflight_finish(key, future, error="busy")
+            return JSONResponse(BUSY, status_code=503)
+    except asyncio.CancelledError:
+        inflight_finish(key, future, error="cancelled")
+        raise
     try:
         result = await run_in_threadpool(answer_question, question, doc_ids, effort)
         cache_put(key, result)
+        inflight_finish(key, future, result=result)
     except PageIndexAPIError as exc:
         metrics["errors"] += 1
-        return JSONResponse({"error": str(exc)}, status_code=502)
+        log.warning("retrieval failed: %s", exc)
+        inflight_finish(key, future, error=str(exc))
+        return JSONResponse({"error": RETRIEVAL_FAILED}, status_code=502)
     except Exception as exc:  # noqa: BLE001
         metrics["errors"] += 1
         log.exception("retrieval failed")
-        return JSONResponse({"error": f"Retrieval failed: {exc}"}, status_code=502)
+        inflight_finish(key, future, error=type(exc).__name__)
+        return JSONResponse({"error": RETRIEVAL_FAILED}, status_code=502)
     finally:
         release_slot(started)
+        if not future.done():
+            # Cancelled mid-run: release anyone waiting on this key.
+            inflight_finish(key, future, error="cancelled")
 
     return JSONResponse(result)
 
@@ -592,27 +669,43 @@ async def ask_stream(request: Request):
     cached = cache_get(key)
     if cached is not None:
         note_duration(started)
-
-        async def replay() -> AsyncIterator[str]:
-            yield sse({"delta": cached["answer"]})
-            yield sse({"answer": cached["answer"],
-                       "thinking": cached.get("thinking", ""),
-                       "citations": cached.get("citations", []), "done": True})
-
-        return StreamingResponse(replay(), media_type="text/event-stream",
-                                 headers={"Cache-Control": "no-cache"})
+        return replay_result(cached)
     metrics["cache_misses"] += 1
 
-    if not await acquire_slot():
-        return JSONResponse(BUSY, status_code=503)
+    pending = inflight.get(key)
+    if pending is not None:
+        outcome = await inflight_wait(pending)
+        if "__error__" in outcome:
+            metrics["errors"] += 1
+            return JSONResponse({"error": RETRIEVAL_FAILED}, status_code=502)
+        note_duration(started)
+        return replay_result(outcome)
+
+    future = inflight_begin(key)
+    try:
+        if not await acquire_slot():
+            inflight_finish(key, future, error="busy")
+            return JSONResponse(BUSY, status_code=503)
+    except asyncio.CancelledError:
+        inflight_finish(key, future, error="cancelled")
+        raise
+
+    def start_stream():
+        return CLIENT.chat(question, stream=True, show_process=False,
+                           **chat_kwargs(doc_ids, effort))
 
     try:
-        stream = await run_in_threadpool(partial(
-            CLIENT.chat, question, stream=True, show_process=False,
-            **chat_kwargs(doc_ids, effort)))
-    except Exception:
+        stream = await run_in_threadpool(start_stream)
+    except asyncio.CancelledError:
+        inflight_finish(key, future, error="cancelled")
         release_slot(started)
         raise
+    except Exception as exc:  # noqa: BLE001 - the client never sees internals
+        metrics["errors"] += 1
+        log.exception("stream start failed")
+        inflight_finish(key, future, error=type(exc).__name__)
+        release_slot(started)
+        return JSONResponse({"error": RETRIEVAL_FAILED}, status_code=502)
 
     async def frames() -> AsyncIterator[str]:
         answer, thinking = "", []
@@ -642,15 +735,21 @@ async def ask_stream(request: Request):
                       "thinking": "\n\n".join(p.strip() for p in thinking if p.strip()),
                       "citations": citations}
             cache_put(key, result)
+            inflight_finish(key, future, result=result)
             yield sse({**result, "done": True})
         except PageIndexAPIError as exc:
             metrics["errors"] += 1
-            yield sse({"error": str(exc)})
+            log.warning("stream failed: %s", exc)
+            inflight_finish(key, future, error=str(exc))
+            yield sse({"error": RETRIEVAL_FAILED})
         except Exception as exc:  # noqa: BLE001
             metrics["errors"] += 1
             log.exception("stream failed")
-            yield sse({"error": f"Retrieval failed: {exc}"})
+            inflight_finish(key, future, error=type(exc).__name__)
+            yield sse({"error": RETRIEVAL_FAILED})
         finally:
+            if not future.done():
+                inflight_finish(key, future, error="stream ended")
             stream.close()
             release_slot(started)
 

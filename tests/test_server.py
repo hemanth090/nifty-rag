@@ -6,6 +6,10 @@ offline and never mutates the real store or calls the provider.
 
 from __future__ import annotations
 
+import asyncio
+import time
+
+import httpx
 import pytest
 from starlette.testclient import TestClient
 
@@ -82,11 +86,24 @@ def test_health(http):
     assert budgets["catalog_chars"] == server.CATALOG_CHARS
 
 
-def test_ready_reports_store(http):
+def test_ready_reports_store(http, tmp_path, monkeypatch):
     client, _ = http
+    store = tmp_path / "store"
+    (store / "docs" / "pi-1").mkdir(parents=True)
+    (store / "manifest.json").write_text("{}", encoding="utf-8")
+    (store / "docs" / "pi-1" / "doc.json").write_text("{}", encoding="utf-8")
+    monkeypatch.setattr(server, "STORE", store)
     response = client.get("/ready")
     assert response.status_code == 200
-    assert response.json()["ready"] is True
+    assert response.json() == {"ready": True, "store": str(store), "documents": 1}
+
+
+def test_ready_missing_store(http, tmp_path, monkeypatch):
+    client, _ = http
+    monkeypatch.setattr(server, "STORE", tmp_path / "missing")
+    response = client.get("/ready")
+    assert response.status_code == 503
+    assert response.json()["ready"] is False
 
 
 def test_metrics_fields(http):
@@ -189,6 +206,10 @@ def test_ask_rejects_bad_doc_ids(http):
     too_many = client.post("/api/ask",
                            json={"question": "q", "doc_ids": [f"pi-{i}" for i in range(65)]})
     assert too_many.status_code == 400
+    not_strings = client.post("/api/ask",
+                              json={"question": "q", "doc_ids": [{"a": 1}]})
+    assert not_strings.status_code == 400
+    assert "strings" in not_strings.json()["error"]
 
 
 def test_ask_rejects_non_object_json(http):
@@ -248,6 +269,57 @@ def test_citations_failure_keeps_the_answer(http, monkeypatch):
     assert "255,324 crore" in response.json()["answer"]
 
 
+def test_internal_error_text_is_not_leaked(http, monkeypatch):
+    client, _ = http
+
+    def broken(*_args, **_kwargs):
+        raise RuntimeError("upstream secret detail")
+
+    monkeypatch.setattr(server.CLIENT, "chat", broken)
+    response = client.post("/api/ask", json={"question": "What was TCS revenue?"})
+    assert response.status_code == 502
+    assert "secret" not in response.text
+    assert response.json()["error"] == server.RETRIEVAL_FAILED
+
+
+def test_singleflight_helpers_share_one_result():
+    async def scenario():
+        server.inflight.clear()
+        future = server.inflight_begin("key")
+        waiter = asyncio.create_task(server.inflight_wait(future))
+        await asyncio.sleep(0)
+        server.inflight_finish("key", future, result={"answer": "shared"})
+        return await waiter
+
+    assert asyncio.run(scenario()) == {"answer": "shared"}
+    assert "key" not in server.inflight
+
+
+def test_concurrent_identical_questions_run_once(http, monkeypatch):
+    client, _ = http
+    calls: list[str] = []
+
+    def slow_chat(question, **_kwargs):
+        calls.append(question)
+        time.sleep(0.4)
+        return ANSWER
+
+    monkeypatch.setattr(server.CLIENT, "chat", slow_chat)
+
+    async def scenario():
+        transport = httpx.ASGITransport(app=server.app)
+        async with httpx.AsyncClient(transport=transport,
+                                     base_url="http://test") as async_client:
+            return await asyncio.gather(
+                async_client.post("/api/ask", json={"question": "Same question?"}),
+                async_client.post("/api/ask", json={"question": "Same question?"}),
+            )
+
+    responses = asyncio.run(scenario())
+    assert [response.status_code for response in responses] == [200, 200]
+    assert len(calls) == 1
+
+
 # ── Streaming ────────────────────────────────────────────────────────────
 
 def test_stream_emits_frames_and_done(http):
@@ -286,3 +358,11 @@ def test_bearer_token_protects_api(http, monkeypatch):
     allowed = client.get("/api/documents",
                          headers={"Authorization": "Bearer secret"})
     assert allowed.status_code == 200
+
+
+def test_non_ascii_token_is_rejected_not_500(http, monkeypatch):
+    client, _ = http
+    monkeypatch.setattr(server, "API_TOKEN", "tokén")
+    response = client.get("/api/documents")
+    assert response.status_code == 401
+    assert "nosniff" in response.headers["x-content-type-options"]
