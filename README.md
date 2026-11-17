@@ -12,6 +12,10 @@ bearer auth.
 - **Serve:** Starlette + uvicorn, one HTML page, five API routes
 - **Data:** 51 filings, 20,854 pages, page-level citations
 
+<img src="docs/demo.png" alt="Nifty 50 annual-report Q&A: TCS FY25 revenue answered from the indexed tree with four page-level citation chips" width="900">
+
+*Example: TCS FY25 revenue, answered from the indexed tree with page-level citations (`docs/demo.png`).*
+
 ## Layout
 
 ```
