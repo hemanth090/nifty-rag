@@ -1400,7 +1400,7 @@
                stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
             <path d="M8 2.5c0 3-2.5 5.5-5.5 5.5 3 0 5.5 2.5 5.5 5.5 0-3 2.5-5.5 5.5-5.5-3 0-5.5-2.5-5.5-5.5z"/>
           </svg>
-          <span class="thinking-text" id="thinkingText">Thinking</span>
+          <span class="thinking-text" id="thinkingText">Working</span>
         </div>
         <div class="answer-head" id="answerHead">
           <h2>Answer</h2>
@@ -1544,7 +1544,7 @@
     </button>
 
     <footer class="footer">
-      <span id="docCount">51 filings</span>
+      <span id="docCount">Loading library…</span>
       <span class="about"
         title="PageIndex tree retrieval · DeepSeek V4.1 Flash via OpenCode Go">About</span>
     </footer>
@@ -1590,11 +1590,6 @@
 
     const CITE_TAG = /<cite\b[^>]*\/?>/g;
     const EFFORT_LABELS = { none: "Off", low: "Low", medium: "Medium", high: "High" };
-    const THINKING_STEPS = ["Thinking", "Searching the tree", "Reading the pages",
-                            "Connecting the dots"];
-    let thinkingTimer = null;
-    let thinkingStep = 0;
-
     let documents = [];
     let effort = "none";
     let busy = false;
@@ -1841,8 +1836,6 @@
     };
 
     function markThinkingTool(name) {
-      window.clearInterval(thinkingTimer);
-      thinkingTimer = null;
       thinking.hidden = false;
       thinkingText.textContent = TOOL_LABELS[name] || "Working";
     }
@@ -1859,18 +1852,12 @@
       thinking.hidden = false;
       answerHead.hidden = true;
       copyAnswerButton.hidden = true;
-      thinkingStep = 0;
-      thinkingText.textContent = THINKING_STEPS[0];
-      window.clearInterval(thinkingTimer);
-      thinkingTimer = window.setInterval(() => {
-        thinkingStep = (thinkingStep + 1) % THINKING_STEPS.length;
-        thinkingText.textContent = THINKING_STEPS[thinkingStep];
-      }, 1400);
+      // No invented progress steps: the status changes only when the server
+      // reports a real tool event (markThinkingTool) or the answer starts.
+      thinkingText.textContent = "Working";
     }
 
     function stopThinking() {
-      window.clearInterval(thinkingTimer);
-      thinkingTimer = null;
       thinking.hidden = true;
       answerHead.hidden = false;
     }
