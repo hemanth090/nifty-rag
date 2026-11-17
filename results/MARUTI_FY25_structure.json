@@ -1,0 +1,1468 @@
+{
+  "doc_name": "MARUTI_FY25.pdf",
+  "doc_id": "pi-d52d73292cf3423980b3b5bdf803f6f8",
+  "usage": {
+    "prompt_tokens": 361434,
+    "completion_tokens": 26595,
+    "total_tokens": 388029,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    }
+  },
+  "structure": [
+    {
+      "title": "Preface",
+      "node_id": "0000",
+      "start_index": 1,
+      "end_index": 1,
+      "summary": "This is a formal notice from Maruti Suzuki India Limited (MSIL) to the National Stock Exchange and BSE, dated 5th August 2025, informing that the 44th Annual General Meeting (AGM) will be held on Thursday, 28th August 2025 at 10:00 a.m. IST via Video Conferencing/Other Audio Visual Means. It encloses the AGM Notice and Annual Report for FY 2024-25 under SEBI Regulation 34. The letter includes company contact details (head office, plants, CIN) and is signed by Sanjeev Grover, Executive Officer & Company Secretary."
+    },
+    {
+      "title": "MARUTI SUZUKI INDIA LIMITED",
+      "node_id": "0001",
+      "start_index": 2,
+      "end_index": 19,
+      "summary": "The section announces Maruti Suzuki India Limited's 44th Annual General Meeting on August 28, 2025, via video conferencing. It details ordinary business: adoption of audited standalone and consolidated financial statements for FY ended March 31, 2025, along with Board and Auditor reports; declaration of a dividend of INR 135 per equity share; re-appointment of Mr. Kenichi Ayukawa and Mr. Kenichiro Toyofuku as directors retiring by rotation; and appointment of Price Waterhouse Chartered Accountants LLP as Statutory Auditors for five years. Special business includes amendments to the Memorandum of Association to delete an obsolete clause and expand business objects to include drones, mobility services, pre-owned vehicles, EV charging, carbon credits, and recycling; resolutions for appointing Mr. Koichi Suzuki as Director, re-appointing Mr. Kenichiro Toyofuku as Whole-time Director with remuneration terms, ratifying Cost Auditor remuneration, and appointing Secretarial and Statutory Auditors; and tax rules for non-resident members, including Tax Treaty benefits, applicable rates, required documents, Section 206AA compliance, and provisions for refunds, indemnity, data updates, IEPF transfer, inspection of registers, nomination, e-voting, AGM access, annual reports, and quorum counting. The section also outlines the complete procedure for remote e-voting, attending the AGM via VC/OAVM, and e-voting during the AGM, covering legal compliance, e-voting via KFin, SEBI's single login for demat holders, updating contact details, the remote e-voting period (23-27 Aug 2025), voting rights based on the cut-off date (21 Aug 2025), appointment of scrutinizers, login credentials for physical/non-individual members, CDSL e-voting registration and access, helpdesk contacts, instructions for Option 2 (login for non-individual demat and physical members), Option 3 (AGM attendance via VC/OAVM on the KFin platform, speaker registration, technical advice), and other instructions on credential retrieval, technical support, eligibility, single-mode voting, cut-off date, immutability of votes, and Scrutinizer report timeline.",
+      "nodes": [
+        {
+          "title": "NOTICE",
+          "node_id": "0002",
+          "start_index": 2,
+          "end_index": 19,
+          "summary": "This notice announces Maruti Suzuki India Limited's 44th Annual General Meeting on August 28, 2025, via video conferencing. It covers ordinary business items: adoption of audited standalone and consolidated financial statements for FY ended March 31, 2025, along with Board and Auditor reports; declaration of a dividend of INR 135 per equity share; re-appointment of Mr. Kenichi Ayukawa and Mr. Kenichiro Toyofuku as directors retiring by rotation; and appointment of Price Waterhouse Chartered Accountants LLP as Statutory Auditors for five years. Special business includes amendments to the Memorandum of Association to delete an obsolete clause and expand business objects to include drones, mobility services, pre-owned vehicles, EV charging, carbon credits, and recycling; resolutions for appointing Mr. Koichi Suzuki as Director, re-appointing Mr. Kenichiro Toyofuku as Whole-time Director with remuneration terms, ratifying Cost Auditor remuneration, and appointing Secretarial and Statutory Auditors; and tax rules for non-resident members, including Tax Treaty benefits, applicable rates, required documents, Section 206AA compliance, and provisions for refunds, indemnity, data updates, IEPF transfer, inspection of registers, nomination, e-voting, AGM access, annual reports, and quorum counting. The section also outlines the complete procedure for remote e-voting, attending the AGM via VC/OAVM, and e-voting during the AGM, covering legal compliance, e-voting via KFin, SEBI's single login for demat holders, updating contact details, the remote e-voting period (23-27 Aug 2025), voting rights based on the cut-off date (21 Aug 2025), appointment of scrutinizers, login credentials for physical/non-individual members, CDSL e-voting registration and access, helpdesk contacts, instructions for Option 2 (login for non-individual demat and physical members), Option 3 (AGM attendance via VC/OAVM on the KFin platform, speaker registration, technical advice), and other instructions on credential retrieval, technical support, eligibility, single-mode voting, cut-off date, immutability of votes, and Scrutinizer report timeline.",
+          "nodes": [
+            {
+              "title": "ORDINARY BUSINESS",
+              "node_id": "0003",
+              "start_index": 2,
+              "end_index": 2,
+              "key_items": [
+                "Ordinary Resolution:"
+              ],
+              "summary": "This notice announces Maruti Suzuki India Limited's 44th Annual General Meeting on August 28, 2025, via video conferencing. It covers six ordinary business items: adoption of audited standalone and consolidated financial statements for FY ended March 31, 2025, along with Board and Auditor reports; declaration of a dividend of INR 135 per equity share; re-appointment of Mr. Kenichi Ayukawa and Mr. Kenichiro Toyofuku as directors retiring by rotation; and appointment of Price Waterhouse Chartered Accountants LLP as Statutory Auditors for five years, with authorization to the Board to determine remuneration and execute related documents."
+            },
+            {
+              "title": "SPECIAL BUSINESS",
+              "node_id": "0004",
+              "start_index": 2,
+              "end_index": 14,
+              "summary": "This special business section covers amendments to the Memorandum of Association to delete an obsolete clause and expand business objects to include drones, mobility services, pre-owned vehicles, EV charging, carbon credits, and recycling. It also includes resolutions for appointing Mr. Koichi Suzuki as Director, re-appointing Mr. Kenichiro Toyofuku as Whole-time Director with remuneration terms, ratifying Cost Auditor remuneration, and appointing Secretarial and Statutory Auditors. Additionally, it addresses tax rules for non-resident members, including Tax Treaty benefits, applicable rates, required documents, Section 206AA compliance, and provisions for refunds, indemnity, data updates, IEPF transfer, inspection of registers, nomination, e-voting, AGM access, annual reports, and quorum counting.",
+              "nodes": [
+                {
+                  "title": "SPECIAL BUSINESS (intro)",
+                  "node_id": "0005",
+                  "start_index": 2,
+                  "end_index": 3,
+                  "summary": "SPECIAL BUSINESS\n7. To alter the Object Clause of the Memorandum of Association of the Company and in this regard pass the following resolution as a Special Resolution: “RESOLVED THAT pursuant to the provisions of Sections 4, 13 and other applicable provisions, if any, of the Companies Act, 2013 (“Act”) read with applicable rules made thereunder, including any statutory modification(s) or re-enactment(s) thereto for the time being in force, and subject to the approval of the Registrar of Companies, the consent of the Members be\n( 1 )and is hereby accorded for effecting the alterations in the existing Object Clause III(a) of the Memorandum of Association (“MoA”) of the Company as under:"
+                },
+                {
+                  "title": "A. Deletion of the following sub-clause 1:",
+                  "node_id": "0006",
+                  "start_index": 3,
+                  "end_index": 12,
+                  "summary": "The text is a notice for Maruti Suzuki India Limited's AGM covering several resolutions: amendment of the Memorandum of Association to delete an obsolete clause, expand business objects to include drones, mobility services, pre-owned vehicles, EV charging, carbon credits, and recycling; appointment of Mr. Koichi Suzuki as Director; re-appointment of Mr. Kenichiro Toyofuku as Whole-time Director (Sustainability) with detailed remuneration terms; ratification of Cost Auditor remuneration; appointment of Secretarial Auditors; and appointment of Statutory Auditors. It includes explanatory statements for each item, profiles of directors, and notes on AGM procedures, dividend payment, and TDS provisions."
+                },
+                {
+                  "title": "B. Non-Resident Members:",
+                  "node_id": "0007",
+                  "start_index": 12,
+                  "end_index": 14,
+                  "summary": "The text covers tax rules for non-resident members under the IT Act, including options for Tax Treaty benefits, applicable rates (20% plus surcharge/cess for FIIs/FPIs, treaty rates, or lower/NIL withholding certificates), and required documents such as PAN, TRC, Form 10F, SEBI registration, and self-declarations. It details special rates for Alternative Investment Funds, Notified Jurisdictional Area residents, Sovereign Wealth Funds, and ADIA subsidiaries. It addresses Section 206AA compliance for individual members, changes in tax laws, multiple accounts with different statuses, and the Company's right to deduct higher tax if declarations are inconsistent. It also covers refund claims, Rule 37BA(2) declarations, indemnity for misrepresentation, data updates (PAN, email, bank details), IEPF transfer for unclaimed dividends, inspection of registers, nomination forms, e-voting and AGM access, availability of annual reports, and quorum counting for VC/OAVM attendees."
+                }
+              ]
+            },
+            {
+              "title": "16. PROCEDURE FOR REMOTE E-VOTING, ATTENDING T H E A G M T H R O U G H V C / O A V M A N D E-VOTING DURING THE AGM",
+              "node_id": "0008",
+              "start_index": 14,
+              "end_index": 19,
+              "summary": "The section outlines the complete procedure for remote e-voting, attending the AGM via VC/OAVM, and e-voting during the AGM. It covers legal compliance, e-voting via KFin, SEBI's single login for demat holders, updating contact details, the remote e-voting period (23-27 Aug 2025), voting rights based on the cut-off date (21 Aug 2025), appointment of scrutinizers, and login credentials for physical/non-individual members. It details CDSL e-voting registration and access, including OTP authentication and redirection to KFintech, and provides helpdesk contacts for NSDL and CDSL. Instructions are given for Option 2 (login for non-individual demat and physical members), covering email credentials, password change, voting steps, and corporate resolution submission. Option 3 details AGM attendance via VC/OAVM on the KFin platform, speaker registration, and technical advice. Other instructions cover credential retrieval, technical support, eligibility, single-mode voting, cut-off date, immutability of votes, and Scrutinizer report timeline.",
+              "nodes": [
+                {
+                  "title": "16. PROCEDURE FOR REMOTE E-VOTING, ATTENDING T H E A G M T H R O U G H V C / O A V M A N D E-VOTING DURING THE AGM (intro)",
+                  "node_id": "0009",
+                  "start_index": 14,
+                  "end_index": 15,
+                  "summary": "The text outlines the procedure for remote e-voting, attending the AGM through VC/OAVM, and e-voting during the AGM. It covers compliance with legal provisions, e-voting via KFin, SEBI circular on single login for demat holders, updating contact details, remote e-voting period (23-27 Aug 2025), voting rights based on cut-off date (21 Aug 2025), appointment of scrutinizers, obtaining login credentials for physical/non-individual members, and detailed login methods for individual demat holders with NSDL and CDSL, including options for e-voting and virtual AGM participation."
+                },
+                {
+                  "title": "CDSL e-Voting Registration and Access Instructions",
+                  "node_id": "0010",
+                  "start_index": 16,
+                  "end_index": 16,
+                  "key_items": [
+                    "2. User not registered for Easi/Easiest",
+                    "3. Accessing the e-Voting website of CDSL"
+                  ],
+                  "summary": "The page provides instructions for users not registered for Easi/Easiest, including a registration link and steps to complete required fields. It details accessing CDSL's e-Voting website: visiting the URL, entering demat account number and PAN, OTP authentication via registered mobile and email, and redirection to KFintech for voting. It also covers login via demat accounts through Depository Participants (NSDL/CDSL), viewing and clicking the e-Voting option, and redirection to KFintech. An important note advises using Forgot User ID/Password if unable to retrieve credentials. Technical assistance contacts (email and phone) are mentioned for login issues."
+                },
+                {
+                  "title": "Helpdesk details",
+                  "node_id": "0011",
+                  "start_index": 16,
+                  "end_index": 17,
+                  "summary": "The text provides helpdesk details for NSDL and CDSL regarding e-Voting, including contact emails and toll-free numbers. It outlines Option 2 for e-Voting login for members other than individuals holding shares in demat mode and those holding shares in physical mode. For registered email IDs, members receive an email from KFin with event number, user ID, and password, and must follow steps: visit the KFin e-Voting URL, enter credentials (user ID as EVEN+folio for physical, DP ID+Client ID for demat), change password on first login with complexity requirements, update contact details, set a secret question, login again, select the AGM event, cast vote (FOR/AGAINST/ABSTAIN), and confirm. Voting is separate per folio/demat account and per resolution, and cannot be modified after submission. Corporate/institutional members must send scanned board resolution/authority letter to the scrutinizer. For unregistered email IDs, members must register/update via ISR 1 form or email request with supporting documents, then follow the voting steps. Demat holders must update email/mobile with their depository participants."
+                },
+                {
+                  "title": "Details of Option 3 are mentioned below:",
+                  "node_id": "0012",
+                  "start_index": 17,
+                  "end_index": 18,
+                  "summary": "The text outlines instructions for members attending the AGM of Maruti Suzuki India Limited via video conferencing (VC) or other audio-visual means (OAVM) and e-voting. It details the KFin platform login process using e-voting credentials, steps to access the video conference, and retrieval of forgotten credentials. It advises on webcam access and stable internet connections to avoid glitches. Members can register as speakers from 23rd to 25th August 2025 to express views or ask questions, subject to time restrictions. Queries can also be posted online. Members can join 15 minutes early, and institutional members are encouraged to attend and vote."
+                },
+                {
+                  "title": "(C) Other Instructions:",
+                  "node_id": "0013",
+                  "start_index": 18,
+                  "end_index": 19,
+                  "summary": "The text outlines instructions for members regarding e-Voting, including how to retrieve forgotten User ID and Password via SMS or online, technical support contacts, and grievance redressal. It details eligibility for remote e-Voting and voting during the AGM, specifying that only one mode is allowed and remote e-Voting prevails if both are used. It sets the cut-off date as August 21, 2025, for voting eligibility, states votes cannot be changed, and allows remote voters to attend but not vote again. It also covers the Scrutinizer's report timeline and result dissemination to the company website, KFin, and stock exchanges."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "EXPANDING HORIZONS",
+      "node_id": "0014",
+      "start_index": 19,
+      "end_index": 19,
+      "summary": "EXPANDING HORIZONS\nGrowing Exports Scaling Capacity\nDiversifying Green Mobility"
+    },
+    {
+      "title": "First...",
+      "node_id": "0015",
+      "start_index": 20,
+      "end_index": 22,
+      "summary": "The text highlights Maruti Suzuki's achievement of 2 million annual production units in FY 2024-25, a first for an Indian passenger vehicle manufacturer. Under the theme 'Expanding Horizons,' the company reports flat domestic sales (0.1% growth) but 4.6% overall volume growth driven by 17.5% export increase. It outlines strategies for diversification, including new markets like Europe, capacity expansion at Kharkhoda and Manesar, and a target of 4 million units by FY 2030-31. The company details its multi-powertrain approach (BEV, SHEV, CNG, biofuels) and targets for FY 2030-31, including 15% BEV and 25% hybrid. It introduces the e VITARA EV with comprehensive eco-solutions and training programs. The text also covers renewable energy targets (85% by FY 2030-31), export growth (3.5x in 5 years), and upcoming SUV launches. Additionally, it includes the annual report's structure, reporting framework, scope, assurance, and a table of contents covering company overview, value creation, ESG performance, statutory reports, and financial statements."
+    },
+    {
+      "title": "Company Overview",
+      "node_id": "0016",
+      "start_index": 23,
+      "end_index": 23,
+      "summary": "Company Overview\nHaving ushered in an automobile revolution in the country, Maruti Suzuki continues to cater to the ever-evolving needs of customers, year after year, with its expansive portfolio comprising of passenger and commercial vehicles. From hatchbacks, to UVs, Vans and light commercial vehicle, Maruti Suzuki’s commitment to innovation and customer satisfaction remains unwavering, making it a trusted choice for car buyers across the nation.\n10\nOur Journey Since 1982\n14\n18\nCompany Profile\nGlobal Markets Served (by Geography)\n20\nProduct Portfolio\n36\n30\nAwards and Accolades\nTechnologies\n38\nPerformance Snapshot of FY 2024-25\n44\n40\nMessage from the Managing Director and CEO\nMessage from the Chairman\n48\nBoard of Directors\n50\nExecutive Management Team"
+    },
+    {
+      "title": "1982-1990 Good Beginnings",
+      "node_id": "0017",
+      "start_index": 24,
+      "end_index": 24,
+      "summary": "The text outlines Maruti Suzuki India Limited's journey from 1982 to 2000. It covers the 1982-1990 period: the founding dream, joint venture with Suzuki Motor Corporation, launch of the M800, Omni, Gypsy, and M1000, establishment of local component manufacturing, and first exports to Hungary. The 1991-2000 period includes: expansion of local manufacturing, Suzuki increasing stake to 50%, launches of Zen, Esteem, and WagonR, donation of the millionth vehicle (Gypsy ambulance) to Mother Teresa, introduction of 24/7 on-road emergency service, commissioning of a third plant at Gurugram, launch of website, customer care and call centres, and establishment of the Institute of Driving and Traffic Research (IDTR) in Delhi. The text also includes document headers and page numbers from the Annual Integrated Report 2024-25."
+    },
+    {
+      "title": "Maruti Suzuki Journey Since 1982: Key Milestones and Achievements",
+      "node_id": "0018",
+      "start_index": 25,
+      "end_index": 25,
+      "key_items": [
+        "2001-2010 Cruising in Style",
+        "2011-2022 Gearing Up for Excellence"
+      ],
+      "summary": "The page outlines Maruti Suzuki's journey from 2001 to 2025 through three phases. The 2001-2010 section covers the launch of True Value, Maruti Finance and Insurance, Suzuki's increased stake, stock exchange listing, Swift, Manesar facility, SX4, CNG cars, Dzire, Eeco, and a million sales milestone, plus Padma Bhushan to Osamu Suzuki. The 2011-2022 section highlights Padma Bhushan and Japanese decoration for R.C. Bhargava, launches of Ertiga, Celerio, NEXA, S-Cross, Ciaz, Baleno, Brezza, Ignis, XL6, S-Presso, Super Carry, Rohtak R&D test track, Suzuki Motor Gujarat operations, solar power use, 2.5 million exports, scrapping facility, hospital, skill development, and road safety training. The 2023-2025 section covers strong hybrid vehicles, Jimny, FRONX, SMG acquisition, Kharkhoda construction, fourth-generation Swift and Dzire, 30 million cumulative sales, railway sidings, 78.2 MWp solar capacity, and 3 million cumulative exports."
+    },
+    {
+      "title": "Company Profile",
+      "node_id": "0019",
+      "start_index": 26,
+      "end_index": 27,
+      "key_items": [
+        "Production Capacity"
+      ],
+      "summary": "Maruti Suzuki India Limited, established in 1981 and a subsidiary of Suzuki Motor Corporation since 2002, is India's market leader in passenger vehicles and largest PV exporter. SMC holds 58.28% equity. Shares trade on NSE and BSE. In FY 2024-25, total sales surpassed 2 million units for the second consecutive year. Manufacturing sites include Gurugram, Manesar, Kharkhoda, and Gujarat (via Suzuki Motor Gujarat, a wholly-owned subsidiary). R&D centres are in Rohtak and Gurugram. The company has zonal, regional, and area offices across India. Production capacity is about 2.6 million units annually. The text includes sales volume data for FY21-FY25, cumulative production milestones, export sales volumes, and mentions sales channels in India."
+    },
+    {
+      "title": "Arena",
+      "node_id": "0020",
+      "start_index": 27,
+      "end_index": 27,
+      "summary": "The text details Maruti Suzuki India Limited's extensive retail and service network. It describes 'Arena' as a youthful, modern car buying destination with 3,232 outlets in 2,744 cities, and 'Commercial' as an automobile retail channel for commercial vehicles with 373 outlets in 267 cities. It outlines the service channels in India, including brick-and-mortar and mobile support with a quick response team for emergency on-road assistance. It also covers 'NEXA', a premium sales channel with 630 outlets in 421 cities, and 'True Value', a trusted destination for pre-owned cars with 601 outlets in 302 cities. Overall, it notes 5,424 touchpoints in 2,720 cities, 796 mobile workshops, and 503 vehicles deployed for quick response."
+    },
+    {
+      "title": "Global Markets Served; India’s Largest Exporter of Passenger Vehicles with a Share of Nearly 43%",
+      "node_id": "0021",
+      "start_index": 28,
+      "end_index": 28,
+      "key_items": [
+        "Global Markets Served",
+        "India’s Largest Exporter of Passenger Vehicles with a Share of Nearly 43%"
+      ],
+      "summary": "Global Markets Served\n(by Geography) Exports to nearly 100 countries\nTop 5 export destinations\nSales Volume:\n95,597\nSouth Africa\n33,348\nSaudi Arabia\n20,054\nChile\n19,656\nJapan\n12,940\nMexico\nNote: Map shown above is only for illustration purpose\nMaruti Suzuki India Limited | Annual Integrated Report 2024-25\n18\nCompany Overview\nValue Creation Approach\nStatutory Reports\nESG Performance\nFinancial Statements\nIndia’s Largest Exporter of Passenger Vehicles with a Share of Nearly 43%\nTop 5 Export Models\nFRONXJimny\n01\n02\nBalenoSwift\n03\n04\nDzire\n05\nMaruti Suzuki India Limited | Annual Integrated Report 2024-25\n19"
+    },
+    {
+      "title": "Product Portfolio",
+      "node_id": "0022",
+      "start_index": 29,
+      "end_index": 32,
+      "summary": "The text covers Maruti Suzuki's product portfolio, detailing models like the Grand Vitara (mid-SUV with strong hybrid and ALLGRIP SELECT), Jimny (off-roader with ALLGRIP PRO, high exports), Invicto (premium 3-row utility vehicle with strong hybrid), and other vehicles including sedans, compact SUVs (FRONX with Turbo Boosterjet), hatchbacks (Baleno, Swift, WagonR, Alto, S-Presso, Celerio), and MPVs (Ertiga, Eeco). It highlights sales milestones, export achievements, design features, and available powertrains (CNG, petrol, strong hybrid, petrol mild hybrid, turbo boosterjet) and safety features (6 airbags, hill-hold assist, ESC, ABS+EBD). The text also includes page references from the Annual Integrated Report 2024-25."
+    },
+    {
+      "title": "Commercial Channel",
+      "node_id": "0023",
+      "start_index": 33,
+      "end_index": 33,
+      "summary": "The text covers Maruti Suzuki's commercial product portfolio, including the Super Carry mini truck with its 1.2-litre K12N engine and S-CNG technology, and the Eeco Cargo van with a powerful engine, increased cargo space, and improved fuel efficiency. It lists powertrain options (CNG, Petrol) and safety features (Electronic Stability Control, Anti-lock Braking System + EBD). It also details supporting products and services offered through subsidiaries and partners: Maruti Suzuki Genuine Parts, Genuine Accessories, Finance, Insurance Broking, Rewards, Subscribe, and Driving School, highlighting their role in customer loyalty."
+    },
+    {
+      "title": "Technologies",
+      "node_id": "0024",
+      "start_index": 34,
+      "end_index": 35,
+      "summary": "This text from Maruti Suzuki India Limited's Annual Integrated Report 2024-25 covers the company overview, value creation approach, statutory reports, ESG performance, and financial statements. It details carbon reduction technologies including strong hybrid (intelligent electric hybrid with EV mode), mild hybrid, S-CNG, battery electric vehicle (e VITARA unveiled at Bharat Mobility Expo), and flex fuel vehicle (WagonR FFV prototype for ethanol blends 20-85%). Engine technologies listed are K-Series, 1.0-litre direct injection turbocharged, and all-new Z-Series. Comfort, convenience, and connected technologies include 4WD Suzuki ALLGRIP Pro and panoramic sunroof."
+    },
+    {
+      "title": "AWD – Suzuki ALLGRIP SELECT Technology",
+      "node_id": "0025",
+      "start_index": 35,
+      "end_index": 36,
+      "summary": "The text covers Suzuki's AWD ALLGRIP SELECT technology, a 6-speed AT with paddle shifters, wireless charging, electronic parking brake, and two-zone climate control. It lists infotainment and connectivity features like SmartPlay Magnum+, Suzuki Connect, and an infotainment system, plus powered tailgate, emergency call facility, ventilated seats, memory seats, and an 8-way power adjustable driver seat. Safety technologies include six airbags, ESC (Electronic Stability Control) with a comparison of with/without ESC, Head Up Display, and 360 View Camera. It also references Maruti Suzuki India Limited's Annual Integrated Report 2024-25 sections: Company Overview, Value Creation Approach, Statutory Reports, ESG Performance, and Financial Statements."
+    },
+    {
+      "title": "Awards and Accolades",
+      "node_id": "0026",
+      "start_index": 37,
+      "end_index": 37,
+      "summary": "The text lists awards and accolades received by Maruti Suzuki India Limited, covering leadership recognition for MD Hisashi Takeuchi, safety champion for road safety 5 E's, automotive awards like Acko Drive TOTM, AutoX, CarBike 360 for specific models, human capital excellence awards for recruitment, training, workplace culture, and employee experience, Manufacturer of the Year 2025, CSR health awards, FICCI road safety awards, CSR Times and Social Impact awards for healthcare and skill development, Mahatma Award for CSR, and PHDCCI award for social welfare, along with Annual Integrated Report references and page numbers."
+    },
+    {
+      "title": "Performance Snapshot of FY 2024-25",
+      "node_id": "0027",
+      "start_index": 38,
+      "end_index": 38,
+      "summary": "This performance snapshot for FY 2024-25 covers Maruti Suzuki's six capitals: financial (growth strategy, capital allocation, sustained returns), manufactured (state-of-the-art facilities, green manufacturing), intellectual (SMC product/technology licenses), human (employee development, health, safety, well-being), social and relationship (stakeholder relationships with customers, partners, communities, government), and natural capital (reducing environmental impact via sustainable resource use and waste management). It includes comparative FY 2024-25 and FY 2023-24 metrics with trends for capital employed, net sales, PAT, book value per share, vehicles sold, R&D engineers, patents, employee benefit expenses, attrition, workforce skilling, employee suggestions, sales/service outlets, training programs, CSR spend, road safety, recyclability, supplier ISO certifications, steel scrap recycling, renewable energy, and CO2 emissions avoided."
+    },
+    {
+      "title": "Message from the Chairman",
+      "node_id": "0028",
+      "start_index": 39,
+      "end_index": 40,
+      "summary": "The Chairman's message to shareholders at Maruti Suzuki's 44th AGM covers: condolence for Osamu Suzuki and tribute plans; sympathy for Pahalgam terror victims; global and Indian economic uncertainties including US tariffs, Chinese rare earth magnet export licenses, and India-UK FTA; concerns about slowing car industry growth (4.4% average over 6 years) and low car penetration, with comparisons to China and Japan and a call for supportive policies; historical context of Maruti and industry de-licensing; FY 2024-25 results (2 million production, dividend of ₹135/share), export growth (largest exporter, 330,000 units), new SUV and EV plans, and Kharkhauda plant expansion; sustainability commitments (net zero, 19% CO2 reduction, solar energy, biogas, CNG cars, railway siding); customer service expansion; CSR initiatives including organic manure; employee safety and engineering capabilities; and confidence in future growth with SMC collaboration."
+    },
+    {
+      "title": "Message from the Managing Director and CEO",
+      "node_id": "0029",
+      "start_index": 41,
+      "end_index": 42,
+      "key_items": [
+        "H. Takeuchi"
+      ],
+      "summary": "This message from the Managing Director and CEO of Maruti Suzuki India Limited, part of the Annual Integrated Report 2024-25, covers the company's strategic direction under the theme 'Expanding Horizons,' emphasizing resilience, new business opportunities, export growth, product portfolio expansion, and sustainable mobility. It highlights record-breaking performance in FY 2024-25, including 4.6% sales volume growth, 17.5% export increase, production surpassing 2 million units, highest-ever revenues and profits, and a recommended dividend of ₹135 per share. The text discusses industry challenges like declining small car demand and rising SUV preference, the company's SUV portfolio strengthening with the launch of its first BEV, the e VITARA, and its role as a global production hub. It outlines the 'Maruti Suzuki 3.0' growth strategy targeting 4 million units by FY 2030-31, including production capacity expansions and network growth. Sustainability efforts are detailed: lifecycle environmental footprint reduction, resource efficiency via Sho-Sho-Kei-Tan-Bi, circularity, solar capacity expansion, logistics decarbonization, water recycling, safety advancements, and value chain ESG integration. Employee welfare, diversity, CSR initiatives in community development, road safety, and skill development are covered. The message concludes with SMC's mid-term plan for India, the new slogan 'By Your Side,' and gratitude to stakeholders."
+    },
+    {
+      "title": "Board of Directors",
+      "node_id": "0030",
+      "start_index": 43,
+      "end_index": 43,
+      "summary": "The text lists the Board of Directors of Maruti Suzuki India Limited, including the Chairman, directors with specific roles like sustainability and production, the Managing Director & CEO, and independent directors. It details Board Committees: Audit, Stakeholders’ Relationship, Corporate Social Responsibility, Nomination and Remuneration, Risk Management, and Sustainability. It also mentions auditors Price Waterhouse Chartered Accountants LLP, appointed in a casual vacancy, with a recommendation for a five-year term, and notes new director appointments effective April 2025. The document is part of the Annual Integrated Report 2024-25, covering company overview, value creation, statutory reports, ESG performance, and financial statements."
+    },
+    {
+      "title": "Executive Management Team",
+      "node_id": "0031",
+      "start_index": 44,
+      "end_index": 44,
+      "summary": "The text is a page from Maruti Suzuki India Limited's Annual Integrated Report 2024-25, listing the executive management team. It includes sections like Company Overview, Value Creation Approach, Statutory Reports, ESG Performance, and Financial Statements. The main content is a numbered roster (1-34) of key personnel with their names, titles, and roles, including the Managing Director & CEO, Directors, Executive Officers, and Senior Executives. Abbreviations ECM, KMP, and SMP are defined, and the document's page numbers (50-51) are noted."
+    },
+    {
+      "title": "Value Creation Approach",
+      "node_id": "0032",
+      "start_index": 45,
+      "end_index": 45,
+      "summary": "Value Creation Approach\nMaruti Suzuki’s approach integrates innovation, sustainability and customer-centricity to consistently raise benchmarks in quality, safety and the overall driving experience.\n54\nValue Creation Process\n86\nExternal Environment\n100\nRisk Management\n5682\nTriple Bottom Line Performance\nDigitalisation and Innovation\n9094\nStakeholder Engagement\nMaterial Topics\n102104\nWay Forward\nAlignment with Sustainable Development Goals"
+    },
+    {
+      "title": "Value Creation Process",
+      "node_id": "0033",
+      "start_index": 46,
+      "end_index": 46,
+      "summary": "The text outlines Maruti Suzuki India Limited's value creation approach from its Annual Integrated Report 2024-25. It details the value creation process, including inputs, business model, and outputs/outcomes. Financial capital highlights capital employed growth and shareholder wealth creation. The business model emphasizes customer delight, relevant products, workforce agility, distribution expansion, and resource optimization via the 3R principle. Manufactured capital covers four plants, raw materials, and 2.23 million vehicles sold. Intellectual capital includes R&D spend, facility, engineers, and patents. Social and relationship capital notes suppliers, sales/service outlets, training, CSR spend, and customer engagement. Human capital lists employees, training hours, benefit expenses, and employee suggestions. Natural capital covers green power, water recycling, waste management, and emissions avoided. The text also lists core values, enablers, and outcomes across all capitals."
+    },
+    {
+      "title": "Triple Bottom Line Performance",
+      "node_id": "0034",
+      "start_index": 47,
+      "end_index": 47,
+      "summary": "The text outlines the Company's value creation approach and triple bottom line performance, focusing on economic contributions. It highlights a multiplier effect generating direct and indirect employment, with ~90% of value distributed to stakeholders and ~95% of components sourced from Indian suppliers, supporting 'Make in India'. It details the supplier ecosystem from raw material extraction to Tier-1 suppliers, outbound logistics (transporters, drivers, motels, commercial vehicle OEMs), marketing and sales (sales teams, dealers, insurers, financiers, ad agencies), and aftermarket segments (chauffeur-driven cars, taxis, service workshops, fuel stations, parts distributors) that generate widespread employment."
+    },
+    {
+      "title": "Five-Year Financial and Economic Performance Summary",
+      "node_id": "0035",
+      "start_index": 48,
+      "end_index": 48,
+      "key_items": [
+        "5- Year Performance Summary",
+        "Economic Performance"
+      ],
+      "summary": "This page presents a five-year performance summary focused on economic performance, with key financial figures in millions for FY21 through FY25. It covers net sales, operating EBIT, profit before tax (PBT), profit after tax (PAT), earnings per share (EPS), dividend per share, net worth, current liabilities, total liabilities, non-current assets, current assets, total assets, operating cash flow, return on capital employed (RoCE), operating EBIT margin, and book value per share. The data includes multi-year trends for these metrics, along with graphical representations of select indicators such as net sales, PAT, EPS, dividend per share, RoCE, operating EBIT margin, and book value per share."
+    },
+    {
+      "title": "Environment Performance",
+      "node_id": "0036",
+      "start_index": 49,
+      "end_index": 50,
+      "key_items": [
+        "Climate Change Management",
+        "p.49",
+        "Average Fleet CO 2 Emissions – Corporate Average Fuel Economy (CAFE) Performance",
+        "Average Fleet CO 2 Emissions - Target vs Actual CAFE Performance",
+        "Maximising Decarbonisation through a Multi-powertrain Strategy",
+        "Efforts towards Electrification of Powertrain",
+        "A. Battery Electric Vehicle (BEV)",
+        "B. Proliferation of Strong Hybrid Electric Vehicle (SHEV)"
+      ],
+      "summary": "The text covers the Company's Triple Bottom Line performance, focusing on environmental aspects including climate change management and UN SDGs. It details product and process emissions reduction, highlighting average fleet CO2 emissions and CAFE performance, with a graph comparing targets vs actuals for FY'21 to FY'25. It outlines powertrain targets for FY 2030-31 (15% BEV, 35% CNG, 25% HEV, 25% ethanol-blended fuel) and a multi-powertrain decarbonisation strategy. Electrification efforts include the e VITARA BEV launch, plans for 4 BEVs by FY 2030-31, SHEV growth (27.5% in FY 2024-25), and CNG/biofuel promotion with 14 CNG variants, 25% flex-fuel/E20 sales target, and E20 compatibility. It also mentions cumulative CO2 emissions avoided through hybrids and CNG vehicles from FY'15 to FY'25."
+    },
+    {
+      "title": "3,629,092 MT*",
+      "node_id": "0037",
+      "start_index": 50,
+      "end_index": 50,
+      "summary": "The text reports cumulative CO2 emissions avoided by green vehicles (3,629,092 MT from FY 2005-06 to FY 2024-25) and the percentage contribution of green vehicle sales (CNG, mild hybrids, strong hybrids) to overall sales: 42% in FY 2023-24 and 48% in FY 2024-25. It also highlights efforts to localize hybrid batteries through TDSG, India’s first lithium-ion battery plant with cell-level localization, a collaboration between Toshiba, Denso, and Suzuki, advancing India’s electrification. The content appears in Maruti Suzuki India Limited’s Annual Integrated Report 2024-25."
+    },
+    {
+      "title": "Minimising Carbon Emissions in Manufacturing Operations",
+      "node_id": "0038",
+      "start_index": 51,
+      "end_index": 52,
+      "summary": "The text covers triple bottom line performance with a focus on minimizing carbon emissions. It details renewable energy initiatives, including increased solar power use, green power sourcing, and achieving a 78.2 MWp solar capacity target early. It shows renewable electricity consumption growth and installed solar capacity trends. It describes a pilot biogas plant using food waste and Napier grass to generate compressed biogas, reducing CO2 emissions. It highlights railway dispatches for vehicle distribution, reducing emissions and fuel use through in-plant railway sidings. It mentions GHG reduction efforts in the value chain via renewable energy at suppliers and dealers. Finally, it addresses circular economy contributions through end-of-life vehicle management, including design for recyclability and a joint venture for vehicle dismantling and recycling, with metrics on materials recovered."
+    },
+    {
+      "title": "Railway Dispatch, GHG Reduction, and Circular Economy Initiatives",
+      "node_id": "0039",
+      "start_index": 52,
+      "end_index": 52,
+      "key_items": [
+        "Contribution to Circular Economy",
+        "249 MT"
+      ],
+      "summary": "The page outlines the company's triple bottom line performance, focusing on railway dispatch expansion (two in-plant sidings with 750,000 annual capacity, including new facilities at Gujarat and Manesar), reducing carbon emissions through rail (24.3% of dispatches in FY25, target 35% by FY31, fuel and CO2 savings), and GHG reduction efforts in the value chain (renewable electricity, solar-powered dealer workshops, local sourcing). It also covers circular economy contributions: end-of-life vehicle management via the IMDS tool (over 92% recyclable, over 98% recoverable materials) and the MSTI joint venture for vehicle dismantling and recycling, which recovered 3,063 MT of steel and 249 MT of aluminium in FY25."
+    },
+    {
+      "title": "Triple Bottom Line Performance: Resource Use and Waste Management",
+      "node_id": "0040",
+      "start_index": 53,
+      "end_index": 53,
+      "key_items": [
+        "Optimisation of Natural Resource Use",
+        "2,370+ MT"
+      ],
+      "summary": "The page covers Maruti Suzuki's Triple Bottom Line performance, focusing on optimizing natural resource use through steel scrap inputs, yield improvement reducing steel consumption by over 5,000 MT, and industrial symbiosis where 100% scrap is sold to suppliers and 30% used by other industries. It highlights 3R practices in packaging, including a 32% reduction in packaging material for New DZire and ~34% reuse in KD exports, plus 2,370+ MT plastic recycled. Waste management details zero waste-to-landfill with 15,148 MT hazardous waste co-processed, 5,244 MT hazardous waste recycled, and 1,50,000 MT non-hazardous waste recycled. It also references UN SDGs, material issues, and value creation approach."
+    },
+    {
+      "title": "Water Stewardship",
+      "node_id": "0041",
+      "start_index": 54,
+      "end_index": 54,
+      "summary": "Triple Bottom Line Performance\nWater Stewardship\nUN SDGs\nMaterial Issue\nWater Use and Recycling\n3,610 Mn litres\nWater recycled and reused\n63.13%\nWater requirement met through recycling\n49\nWater lagoons for recycle and reuse of water\n1,300 Mn litres\nWater saved through dry-wash technology for cleaning cars at the workshop\n1,114,602 m3\nTotal storage capacity of water lagoons\nZero\nUse of ground water in manufacturing facilities\nRainwater storage facility at Kharkhoda manufacturing plant\nMaruti Suzuki India Limited | Annual Integrated Report 2024-25\n70\nValue Creation Approach\nStatutory Reports\nCompany Overview\nESG Performance\nFinancial Statements\nSocial Performance"
+    },
+    {
+      "title": "Collaboration with Business Partners",
+      "node_id": "0042",
+      "start_index": 54,
+      "end_index": 55,
+      "summary": "The text covers collaboration with business partners to improve their capabilities, including support for dealer and supplier partners with person-hours invested. It details occupational health and safety initiatives, such as supplier collaboration, ISO 45001 certification, and safety assessments for Tier-1 and Tier-2 suppliers. It also describes the Maruti Suzuki Vendor Conference 2024, assessment mechanisms, training, and results. Additionally, it highlights the DIGILIB knowledge-sharing platform for suppliers and dealers, and talent pool creation through a Tool and Die Engineering course and training facility."
+    },
+    {
+      "title": "Customer-Centricity",
+      "node_id": "0043",
+      "start_index": 56,
+      "end_index": 56,
+      "summary": "The text covers Maruti Suzuki's value creation approach and statutory reports, highlighting triple bottom line performance, customer-centricity, and safety assessments across the value chain linked to UN SDGs. It addresses material issues of product safety, quality, innovation, and digitalisation, detailing vehicle safety ratings under BNCAP for Dzire and Baleno, standard active and passive safety features, and behavioral safety. It describes the HEARTECT platform using ultra and advanced high-tensile steel for structural rigidity, tensile strength benefits, and safety assessments for logistics providers, suppliers, and dealers. It also reports stakeholder capability development, training person-hours, and the percentage of high-tensile steel used in the All New Dzire."
+    },
+    {
+      "title": "Employer of Choice",
+      "node_id": "0044",
+      "start_index": 57,
+      "end_index": 57,
+      "summary": "The text covers Triple Bottom Line Performance at Maruti Suzuki India Limited, focusing on employment practices, occupational health and safety, and comprehensive benefits. It details employee benefit expenses for FY'25 and FY'24, gender diversity initiatives including new women hires and a dedicated HR council, and a gender diversity trend showing female representation rising from 3.6% to 4.9%. It highlights safety measures such as a 3-tier safety committee with 125 meetings, workforce suggestions for safety improvement, and near-miss incidents reported. Social security and welfare measures include post-retirement medical benefits for 1,148 superannuated employees, low-interest housing loans for 3,077 employees, 289 flats booked, and rewards for 7,942 employee children. Health and well-being programs cover 12,298 employees and families using non-occupational health schemes, 16,963 free medical consultations, and 13,664 periodic health check-ups."
+    },
+    {
+      "title": "Responsible Corporate Citizen",
+      "node_id": "0045",
+      "start_index": 58,
+      "end_index": 59,
+      "summary": "The text covers Triple Bottom Line Performance and Responsible Corporate Citizen initiatives, aligned with UN SDGs, focusing on community development, skill development, and road safety. It details CSR activities in 36 villages including health, education, water, sanitation, and common assets. Specific projects include a multispecialty hospital in Sitapur, Gujarat with a Cath lab serving 400+ villages and 125,000+ people; a school with 621 students; and initiatives near Kharkhoda facility such as new classrooms, solar units, libraries benefiting 19,000 people and 600+ students. Also covered are an anaemia reduction program targeting ~20,000 women and children, water ATMs serving 38,500+ people in 25 villages, 4,520 household toilets, promotion of Fermented Organic Manure with IARI, the e-Parivartan employee volunteering program with 3,100+ hours, and road safety efforts training 5.1 million+ people across 8 IDTRs and 23 RSKCs, plus 45 automated driving test tracks."
+    },
+    {
+      "title": "Skill Development",
+      "node_id": "0046",
+      "start_index": 59,
+      "end_index": 59,
+      "summary": "The text details the Company's skill development initiatives aligned with India's Skill India mission. It notes over 18,000 youth trained in 137 supported Industrial Training Institutes (ITIs) and over 2,000 in three Japan-India Institute of Manufacturing (JIMs), with a fourth JIM being set up in Sonipat. JIMs provide state-of-the-art vocational training in technical and behavioural skills. The text highlights a high-voltage course at an ITI with a training kit, and a comprehensive electric vehicle training program for Battery Electric Vehicle (BEV) and Strong Hybrid Electric Vehicle (SHEV) systems, preparing automotive technicians. In FY 2024-25, 2,700 students were trained, and 130 ITIs introduced customized BEV and SHEV training programs."
+    },
+    {
+      "title": "Digitalisation and Innovation",
+      "node_id": "0047",
+      "start_index": 60,
+      "end_index": 61,
+      "summary": "This text covers Maruti Suzuki's digitalisation and innovation initiatives, including customer experience platforms like Nexaverse and Arenaverse, the MS Chatbox with video conferencing, Smart Parking Solutions, and Maruti Suzuki Smart Finance, which disbursed over H50,000 Cr to 6.8 lakh customers. It details the Mobijoy app for driver behaviour improvement, the Maruti Suzuki Innovation Programme, Accelerator, Incubation Programme with NSRCEL, Nurture pre-incubation with IIM-C, Mobility Challenge with T-Hub, Intrapreneurship Challenge, FundRays investor readiness programme, and Innovation Fund investments in DaveAI and Amlgo Labs. It also lists start-ups onboarded as partners across AI, immersive tech, mobility, AGV/AMR, IoT, and cybersecurity."
+    },
+    {
+      "title": "External Environment",
+      "node_id": "0048",
+      "start_index": 62,
+      "end_index": 63,
+      "summary": "The text covers India's economic conditions, including GDP growth and passenger vehicle market trends, along with the Company's efforts to expand exports, increase consumer base, optimize costs, and invest in capacity. It addresses climate change with a multi-powertrain decarbonization strategy and GHG risk management, the regulatory landscape and safety compliance, the competitive landscape and Suzuki collaboration, and changing customer preferences towards SUVs, CNG, and advanced technologies, detailing the Company's product and feature enhancements."
+    },
+    {
+      "title": "Stakeholder Engagement",
+      "node_id": "0049",
+      "start_index": 64,
+      "end_index": 65,
+      "summary": "The text details Maruti Suzuki's stakeholder engagement approach, emphasizing collaboration with internal and external groups based on dependence, responsibility, and influence. It outlines engagement activities, frequencies, and channels for employees, customers, shareholders, suppliers, dealers, local communities, and government authorities. It identifies material operational and strategic issues affecting economic, social, and environmental performance. The document lists each stakeholder group's key queries, needs, and expectations—such as employee well-being, customer product quality, shareholder powertrain strategy, supplier ESG readiness, dealer SUV lineup, community sanitation, and government carbon footprint reduction—along with page references to the Company's responses."
+    },
+    {
+      "title": "Material Topics",
+      "node_id": "0050",
+      "start_index": 66,
+      "end_index": 68,
+      "summary": "The text outlines the Company's material topics, identified through stakeholder engagement and revalidated via internal consultations. It details the prioritization of these topics based on importance to the organization and stakeholders, including focus areas with no adverse impacts. It lists eight stakeholder groups and presents a materiality matrix categorizing topics by economic, environmental, social, and governance dimensions. It explains the IIRC framework's capitals and mapping of material topics to the UN SDGs. For each material topic, it provides relevance, boundary, associated capitals, SDG alignment, and report location. Topics covered include emissions reduction, product safety, economic performance, business continuity, natural resource use, innovation, people development, road safety, water recycling, occupational health and safety, waste management, end-of-life vehicles, employment practices, labour relations, corporate governance, community development, cybersecurity, data privacy, sustainable supply chain, skill development, and human rights."
+    },
+    {
+      "title": "Risk Management",
+      "node_id": "0051",
+      "start_index": 69,
+      "end_index": 69,
+      "key_items": [
+        "Mitigation Measure"
+      ],
+      "summary": "The text outlines the Company's structured risk management process, overseen by the Risk Management Committee, which identifies and mitigates risks to achieve strategic objectives and sustainable growth. It details specific risks: supply disruption from disasters (with mitigation like supplier communication and localization), risks from increased scale of operations (mitigated by resource scaling, stakeholder collaboration, and digitalisation), regulatory compliance risks (addressed via IT-enabled controls and early warning systems), consumer and personal data safeguarding (through policies and technology), IT security (via SOC, sandboxing, and awareness programs), and future product development capacity (through skilling and retention). Each risk is linked to related material topics."
+    },
+    {
+      "title": "Way Forward",
+      "node_id": "0052",
+      "start_index": 70,
+      "end_index": 70,
+      "summary": "The text outlines Maruti Suzuki's strategic measures for sustainable value creation across six areas. Business Development focuses on expanding product portfolios, manufacturing capacity, and networks, including SUVs, BEVs, ethanol flex-fuel, and CNG vehicles, digital marketing, and pre-owned car business. Technology emphasizes carbon footprint reduction with a targeted powertrain mix by FY 2030-31 (15% BEV, 25% hybrid, 35% CNG, 25% ethanol-blended), regulatory compliance, and Industry 4.0. Cost Competitiveness involves cost optimization, localisation, value engineering, and employee suggestion schemes. Capability Building enhances design, testing, talent development, and digital training. Sustainable Practices cover energy conservation, renewable energy expansion to 319 MWp solar by FY 2030-31, 85% recyclability, IMDS monitoring, vehicle scrappage, 3R principles, green logistics, water recycling, health and safety, community development, and governance. Risk Management ensures business continuity, supplier excellence, talent retention, cybersecurity, and data security."
+    },
+    {
+      "title": "Alignment with Sustainable Development Goals",
+      "node_id": "0053",
+      "start_index": 71,
+      "end_index": 72,
+      "summary": "The text outlines the company's alignment with the UN Sustainable Development Goals, covering road safety initiatives (driver training, first-responder training, automated test tracks), health and well-being programs (community hospital, anaemia reduction, employee healthcare), education and vocational training (school, ITI support, apprenticeships), gender diversity, water stewardship (recycling, rainwater harvesting, water ATMs, sanitation), renewable energy (solar expansion), fair employment practices (code of conduct, safety, human rights), livelihood opportunities (Learn and Earn scheme), infrastructure and innovation (R&D, start-up programs), housing and transport affordability, sustainable consumption (3R practices, recycling), and climate action (hybrid/CNG technologies, rail transport, biogas)."
+    },
+    {
+      "title": "ESG Performance",
+      "node_id": "0054",
+      "start_index": 73,
+      "end_index": 73,
+      "summary": "The text covers Maruti Suzuki India Limited's ESG performance, detailing its commitment to responsible growth and sustainable value creation by integrating environmental, social, and governance considerations into business strategy. It highlights environmental initiatives like solar power capacity (78.2 MWp) and water recycling (~63%), social metrics such as 100% return to work rate, CSR spending (H 1,585 Mn), employee volunteering hours (~3,000), and governance aspects including 3 women directors, 4/7 independent directors on the sustainability committee, and GHG emissions avoided (0.18 Mn tCO2e) from railway-dispatched vehicles. It also presents key ESG milestones and forward-looking goals."
+    },
+    {
+      "title": "Environment",
+      "node_id": "0055",
+      "start_index": 74,
+      "end_index": 78,
+      "summary": "MSIL's environmental commitment covers ISO 14001 certification, energy efficiency and renewable expansion (solar capacity, green tariff, biogas pilot), GHG emissions management, and energy-saving initiatives. It details ozone-depleting substance phase-out, water management with zero liquid discharge and canal water sourcing, and waste management via 3R principles and zero waste-to-landfill. Biodiversity efforts include Miyawaki plantation and water lagoons. The value chain section addresses green procurement, supplier environmental management system adoption, capacity building through MACE, dry wash adoption at workshops, and green logistics with rail dispatch expansion."
+    },
+    {
+      "title": "~0.52 Mn",
+      "node_id": "0056",
+      "start_index": 78,
+      "end_index": 79,
+      "summary": "The text covers Maruti Suzuki's environmental sustainability initiatives in FY 2024-25. It highlights rail transport reducing emissions, with 0.52 million vehicles transported and 0.18 million tCO2e avoided, and 99%+ of imported containers moved by rail. Rail mode's share of dispatches grew from 11.6% to 24.4%. The company emphasizes green products, including S-CNG, Smart Hybrid, and Strong Hybrid vehicles, and unveiled its first BEV, the e VITARA, with over 500 km range and ADAS. It launched S-CNG variants of the Swift and Dzire with high fuel efficiency. Cumulative CO2 avoidance from CNG and hybrid vehicles is detailed. End-of-life vehicle management via MSTI scrapped 6,468 vehicles, and 26 tonnes of Li-ion batteries were recycled. Overall, it summarizes efforts across the product lifecycle to reduce environmental impact."
+    },
+    {
+      "title": "Social",
+      "node_id": "0057",
+      "start_index": 80,
+      "end_index": 87,
+      "key_items": [
+        "Category"
+      ],
+      "summary": "The text covers MSIL's social initiatives: talent development, diversity, customer satisfaction, and CSR in education, healthcare, skill development, and environment. It details occupational health and safety with ISO 45001 certification, safety governance, training, performance data, campaigns, digitalization, value chain safety, and EV emergency preparedness. Human resources topics include diversity and inclusion, employee counts, POSH policy, welfare programs, listening framework, health and well-being, labour relations, wage equality, sustainability, talent acquisition and retention, supplier HR management, and learning and development for employees and value chain partners."
+    },
+    {
+      "title": "Customer Satisfaction, Engagement and Support",
+      "node_id": "0058",
+      "start_index": 88,
+      "end_index": 89,
+      "summary": "The text covers Maruti Suzuki's customer-centric initiatives: digital engagement via AI chatbots, voice bots, WhatsApp, and virtual reality platforms (ARENAVERSE, NEXAVERSE); online dealership touchpoints; the Maruti Suzuki Smart Finance digital car financing platform with loan disbursement statistics; subscription-based mobility program details; service network expansion including touchpoints, NEXA workshops, Service-on-Wheels, mobile support, and Quick Response Teams; customer satisfaction measurement using NPS (score 89.5) and complaints per 1,000 vehicles (0.66); customer safety enhancements like six standard airbags and Bharat NCAP ratings; and product recall management with voluntary recalls and supplier quality support."
+    },
+    {
+      "title": "Corporate Social Responsibility",
+      "node_id": "0059",
+      "start_index": 89,
+      "end_index": 92,
+      "summary": "Maruti Suzuki's CSR strategy ('focus, innovate, replicate') covers road safety (ADTTs), skill development (JIM, ITI support, tech courses), and community development. Key initiatives include Fermented Organic Manure promotion with IARI Pusa, school libraries in Haryana, and an anaemia reduction pilot. The Sitapur multispeciality hospital provides tertiary care to 400+ villages (125,000+ patients treated) and the Podar Learn School educates ~620 students with a 100% first-batch pass rate. Village development projects encompass water ATMs, pipelines, toilets, sewer lines, solar installations, bus sheds, community halls, and roads. A defect management framework with voluntary recalls is also described, alongside CSR Committee monitoring and third-party impact assessments."
+    },
+    {
+      "title": "Village Development Project Social Impact and Infrastructure Outputs",
+      "node_id": "0060",
+      "start_index": 92,
+      "end_index": 92,
+      "key_items": [
+        "Water",
+        "Sanitation and Hygiene",
+        "Education"
+      ],
+      "summary": "The page provides key outputs of the Village Development Project since inception across four social areas. Primary Healthcare covers renovating six health centers, providing medical equipment, and an anemia reduction project targeting about 20,000 women and children in Manesar and Rohtak. Water includes 28 Water ATMs serving over 38,500 households, about 20 km of pipelines, three water tanks, village waterworks, and pond rejuvenation. Sanitation and Hygiene lists 4,520 household toilets, four waste collection vans, household waste collection, about 56 km of sewer lines, a waste management plant, and a 4R storytelling project. Education supported around 50 schools with infrastructure and learning equipment including water tanks, toilet blocks, boundary walls, paving, greening, classrooms, electrical fittings, education equipment, and additional teachers. A community member testimonial praises paver blocks at Gaushala for improving cleanliness and accessibility."
+    },
+    {
+      "title": "Common Community Assets",
+      "node_id": "0061",
+      "start_index": 92,
+      "end_index": 96,
+      "summary": "The text covers Maruti Suzuki's community development and skill initiatives: construction of bus sheds, community halls, paver roads, facilitation centres, cremation sheds, storm drain repairs, solar streetlights, and village parks; testimonials on improved health centres, classrooms, and libraries. It details the e-Parivartan employee volunteering programme with blood donation, sapling plantation, donations to elderly homes, Braille kits, wheelchairs, and STEM kits. Skill development includes Japan India Institute for Manufacturing (JIM) with vocational training, new JIM in Sonipat, short-term RPL and RTD programmes, upgradation of ITIs with skill labs and automotive skill enhancement centres, support to Tathagat ITI, apprenticeship and PM Internship schemes, and road safety initiatives through IDTRs and RSKCs training millions of drivers."
+    },
+    {
+      "title": "~5.1 Mn",
+      "node_id": "0062",
+      "start_index": 96,
+      "end_index": 96,
+      "key_items": [
+        "Category"
+      ],
+      "summary": "The text highlights driver training statistics: 5.1 million drivers trained since inception and 320,000 during the reporting period through IDTRs and RSKCs. It describes Automated Driving Test Tracks (ADTTs) with high-definition cameras and analytics for transparent licensing, noting 45 ADTTs set up across Delhi, Uttarakhand, Bihar, Haryana, Jammu & Kashmir, and Uttar Pradesh, scaling from a 2017 Delhi pilot. Trainee testimonials emphasize improved confidence, fairness, and road safety awareness. Maruti Suzuki's holistic road safety approach integrates training, testing, enforcement via ITSMS, and emergency care through First-Responder Training and ambulance donations. The company received numerous awards for CSR, road safety, and skill development initiatives."
+    },
+    {
+      "title": "Governance",
+      "node_id": "0063",
+      "start_index": 97,
+      "end_index": 100,
+      "summary": "This text covers Maruti Suzuki India Limited's governance framework, emphasizing ethical principles, regulatory compliance, and stakeholder value. It details the Board's structure, committees, and diversity, alongside key policies. Compliance management, including the Compliance Committee and supplier governance framework, is highlighted, as are legal proceedings. The text also addresses the Code of Business Conduct, whistleblower mechanism, intellectual property, data protection, information security, and value chain governance, including supplier assessments and sustainability initiatives. Finally, it includes a GRI Content Index."
+    },
+    {
+      "title": "GRI Content Index and UNGC Principles Alignment",
+      "node_id": "0064",
+      "start_index": 101,
+      "end_index": 101,
+      "key_items": [
+        "GRI Content Index",
+        "Alignment with UNGC Principles"
+      ],
+      "summary": "The page presents Maruti Suzuki India Limited's GRI Content Index for FY 2024-25, referencing GRI Standards 303, 305, 306, 401, 403, 404, 405, 413, 417, and 418. It lists specific disclosures with cross-references to report sections and page numbers, covering water, emissions, waste, employment, occupational health and safety, training, diversity, local communities, marketing, and customer privacy. A reporting boundary note includes manufacturing facilities and R&D centre. The page also aligns the company's practices with the ten UNGC Principles, detailing each principle's description and corresponding reference sections and page numbers, addressing human rights, labour, environment, and anti-corruption."
+    },
+    {
+      "title": "Independent Verification Statement",
+      "node_id": "0065",
+      "start_index": 102,
+      "end_index": 103,
+      "key_items": [
+        "Reporting period",
+        "Conclusion"
+      ],
+      "summary": "This independent verification statement from Bureau Veritas for Maruti Suzuki India Limited (MSIL) covers the verification of selected GRI disclosures for FY 2024-25 (April 1, 2024 to March 31, 2025). It outlines the engagement objective, intended users, reporting criteria (GRI Standards 2021), assurance standards (ISAE 3000), and level of assurance (limited, with reasonable for specific GRI indicators). The scope and boundary include MSIL's India operations, with specific boundaries for water and waste disclosures. The methodology involves risk-based approach, document review, sample testing, site visits, and interviews. Limitations include materiality threshold, exclusion of financial data, defined period, geographical boundary, subjective statements, strategy, legal compliance, and data authenticity assumptions. Responsibilities of MSIL and Bureau Veritas are defined, along with competence, uncertainty, and independence statements. The conclusion states limited assurance with no material issues found. Annexure I lists verified GRI disclosures and reported values for energy, water, emissions, waste, employment, occupational health and safety, and training."
+    },
+    {
+      "title": "Statutory Reports",
+      "node_id": "0066",
+      "start_index": 104,
+      "end_index": 104,
+      "summary": "Statutory Reports\n172\n202\nBoard’s Report\nCorporate Governance Report\n224\n256\nManagement Discussion and Analysis\nBusiness Responsibility and Sustainability Reporting"
+    },
+    {
+      "title": "Board’s Report",
+      "node_id": "0067",
+      "start_index": 105,
+      "end_index": 107,
+      "key_items": [
+        "Personnel",
+        "Acknowledgment"
+      ],
+      "summary": "This Board's Report for Maruti Suzuki India Limited's 44th Annual Report covers financial results (revenue, profit, tax, dividends), financial highlights including sales and export growth, dividend recommendation, operational highlights, consolidated financial statements, performance of subsidiaries and joint ventures, material subsidiary details, amalgamation of Suzuki Motor Gujarat, deposits, annual return, loans/guarantees/investments, board changes and KMP appointments, director resignations and appointments, passing of Honorary Chairman, familiarization programs, directors' responsibility statement, board meetings and committees, risk management, internal financial controls, vigil mechanism, related party transactions, performance evaluation, nomination and remuneration policy, sexual harassment disclosures, energy conservation, corporate governance report, management discussion and analysis, secretarial standards, personnel disclosures, cost auditors, statutory auditors change, secretarial audit report, CRISIL ratings, environment and quality certifications, awards and recognitions, other statutory disclosures, and acknowledgments."
+    },
+    {
+      "title": "Annexure – A",
+      "node_id": "0068",
+      "start_index": 107,
+      "end_index": 108,
+      "key_items": [
+        "e) Total CSR obligation for the financial year [(b)+(c)-(d)] is I 1,399.38 million; Executive Summary",
+        "e) Total CSR obligation for the financial year [(b)+(c)-(d)] is I 1,399.38 million",
+        "Executive Summary"
+      ],
+      "summary": "This annexure details Maruti Suzuki's FY 2024-25 CSR activities, including policy focus on community development, skill development, and road safety (5E approach). It lists CSR Committee composition and meeting attendance, provides weblinks for policy and impact assessment, and reports financials: average net profit, 2% obligation, set-off, total obligation, and amounts spent on projects, admin, and impact assessment, with unspent amounts nil. It covers excess set-off, confirms no unspent amounts for prior years, and notes no capital assets created. It also includes an executive summary of an independent impact assessment for FY 23-24, summarizing methodology and outcomes across projects like schools, hospitals, village development, ADTTs, IDTRs, JIM, ITI upgradation, and apprenticeships."
+    },
+    {
+      "title": "Annexure – B",
+      "node_id": "0069",
+      "start_index": 109,
+      "end_index": 109,
+      "summary": "This document is Form AOC-2, a disclosure of related party transactions by Maruti Suzuki India Limited under the Companies Act, 2013. It details two categories: (1) contracts not at arm's length, listing one with Suzuki Motor Gujarat Private Limited (wholly owned subsidiary) referencing notes to financial statements; and (2) material contracts at arm's length, listing ten transactions with related parties including Suzuki Motor Corporation (holding company), FMI Automotive Components (associate), SKH Metals, Jay Bharat Maruti, Krishna Maruti, Bharat Seats (associates), TDS Lithium-ion Battery Gujarat, Suzuki Motorcycle India, and Magyar Suzuki (fellow subsidiaries). For each, it provides names, relationships, nature (purchase/sale of components/goods), duration (April 2024-March 2025), salient terms with amounts (e.g., ₹14,630.9 crore for exports to SMC), and notes that board approval is not applicable as transactions are in ordinary course and at arm's length. The form is signed by Managing Director & CEO Hisashi Takeuchi and Director (Sustainability) Kenichiro Toyofuku."
+    },
+    {
+      "title": "Annexure – C",
+      "node_id": "0070",
+      "start_index": 110,
+      "end_index": 111,
+      "summary": "This Annexure-C Nomination and Remuneration Policy outlines its scope, objectives, and applicability to Directors, KMPs, Senior Management, and employees. It covers board diversity, qualifications and attributes for Directors (including independence and ethical standards) and for KMPs/Senior Management. It details evaluation of the Board, Chairman, individual Directors, and committees. It specifies appointment and removal procedures for Non-Executive/Independent Directors and for Managing Director, Joint Managing Director, Whole-time Directors, KMPs, and Senior Management. It describes remuneration structures for Non-Executive/Independent Directors (commission, sitting fees, reimbursements) and for executive directors, KMPs, and senior management (salary, benefits, retirement, performance bonus), along with rules on increments and policy review/amendment."
+    },
+    {
+      "title": "Annexure – 1",
+      "node_id": "0071",
+      "start_index": 111,
+      "end_index": 111,
+      "summary": "Annexure – 1\nEvaluation Criteria\nThe evaluation of performance of the Directors of the Company shall be undertaken as under:\nS. No Provisions of the Act\nA. Section 178(2)\nB. Section 134(3)(p) read with Schedule IV of the Act\nC. Listing Regulations and Schedule IV of the Act\nEvaluation of Performance of\nIndependent Directors Non-Independent Directors The Board Committees of the Board Independent Directors Non-Independent Directors Non-Independent Directors The Board Chairman of the Company\nPerformance to be evaluated by\nNomination and Remuneration Committee The Board\nIndependent Directors\nMaruti Suzuki India Limited | Annual Integrated Report 2024-25\n185"
+    },
+    {
+      "title": "Annexure – D",
+      "node_id": "0072",
+      "start_index": 112,
+      "end_index": 115,
+      "key_items": [
+        "A. Energy Conservation",
+        "Environment",
+        "B. Research & Development (R & D)",
+        "DZIRE; FRONX Export to Japan:; Jimny Export to Japan:",
+        "DZIRE",
+        "FRONX Export to Japan:",
+        "Jimny Export to Japan:",
+        "Green Technology Showcased at Bharat Mobility Expo 2025",
+        "Technology Absorption, Adaptation, and Innovation:",
+        "Other Areas:; Technology Inducted in 2022-23:; Technology Inducted in 2023-24:; Technology Inducted in 2024-25:",
+        "Other Areas:",
+        "Technology Inducted in 2022-23:",
+        "Technology Inducted in 2023-24:",
+        "Technology Inducted in 2024-25:",
+        "C. Expenditure incurred on R&D"
+      ],
+      "summary": "Annexure-D covers energy conservation initiatives including efficiency improvements, renewable energy expansion, and awareness programs; environmental management and ISO 14001 compliance; research and development activities including new model launches (Swift, Dzire, e VITARA, Super Carry), engine technologies (Z-Series, K-Series, hybrid, electric), alternative fuels (CNG, flex fuel, CBG), safety enhancements (ESC, ADAS), and technology absorption; R&D expenditure details; and foreign exchange earnings and outgo."
+    },
+    {
+      "title": "Annexure – E",
+      "node_id": "0073",
+      "start_index": 116,
+      "end_index": 116,
+      "summary": "Annexure E details remuneration disclosures under Section 197(12) of the Companies Act, 2013 and Rule 5(1) of the Companies Rules, 2014. It lists the percentage increase in remuneration and the ratio of each director's/KMP's remuneration to the median employee remuneration for FY 2024-25 for the MD & CEO, Director (Sustainability), Director (Production), Company Secretary, and CFO, noting that non-executive directors receive only sitting fees and commission. It also reports an 11.90% increase in median employee remuneration, the median remuneration of ₹17,31,671 p.a., 20,171 permanent employees as of 31st March 2025, average percentile salary increases of 13.92% for non-managerial and 14.33% for managerial personnel, and affirms compliance with the company's remuneration policy. The document is signed by the MD & CEO and Director (Sustainability) and dated 31st July 2025 in New Delhi."
+    },
+    {
+      "title": "Annexure – F",
+      "node_id": "0074",
+      "start_index": 116,
+      "end_index": 117,
+      "summary": "The text is a Secretarial Audit Report for Maruti Suzuki India Limited for the financial year ended March 31, 2025, pursuant to Section 204(1) of the Companies Act, 2013. It covers the audit scope, including examination of books, records, and compliance with various laws: the Companies Act, 2013; SCRA, 1956; Depositories Act, 1996; FEMA, 1999 (limited to FDI); and specified SEBI regulations (with some not applicable). It includes industry-specific laws (Motor Vehicles Act, 1988; Central Motor Vehicles Rules, 1989) and notes that environmental, labour, and other general laws were reviewed based on management representations. Financial laws were not reviewed. Compliance with Secretarial Standards, SEBI LODR, MCA circulars on virtual meetings, and SEBI PIT regulations on digital databases is confirmed. The report states that the company complied with applicable provisions and has proper board processes. It details board composition, meeting procedures, filing compliance, and a pending CCI penalty appeal. Specific events include independent director appointments/reappointments/cessations, the passing away of Mr. Osamu Suzuki, re-appointment of the MD & CEO, appointment of a Whole-time Director, and board approval for amalgamation of Suzuki Motor Gujarat Private Limited with the company, with NCLT application filed. The report is signed by RMG & Associates, Company Secretaries."
+    },
+    {
+      "title": "Annexure",
+      "node_id": "0075",
+      "start_index": 118,
+      "end_index": 118,
+      "key_items": [
+        "Disclaimer"
+      ],
+      "summary": "This annexure to the Secretarial Audit Report for Maruti Suzuki India Limited for FY ending March 31, 2025, outlines management's responsibility to maintain secretarial records and compliance systems, and the auditor's responsibility to express an opinion on these records. It includes statements on the adequacy of audit evidence, management representations, and disclaimers that the report does not assure future viability or management effectiveness, nor verify financial records. The document concludes with the auditor's signature, firm details, place, and date, and includes references to the company's annual report sections."
+    },
+    {
+      "title": "Annexure – G",
+      "node_id": "0076",
+      "start_index": 118,
+      "end_index": 119,
+      "key_items": [
+        "Disclaimer"
+      ],
+      "summary": "This Secretarial Audit Report for Suzuki Motor Gujarat Private Limited for FY ended March 31, 2025, pursuant to Section 204(1) of the Companies Act, 2013, covers the audit of compliance with applicable statutory provisions and corporate governance practices. It details the examination of records under the Companies Act, SCRA (not applicable), FEMA, Depositories Act, SEBI regulations, and industry-specific laws (Motor Vehicles Act). It notes compliance with Secretarial Standards and MCA circulars on virtual meetings. The report includes the auditor's opinion on compliance, board composition and processes, and reports specific events: appointment of a Woman Director, CFO, regularization of an Independent Director, resignation of a Whole-time Director, and approval of a scheme of amalgamation with the holding company. An annexure outlines management and auditor responsibilities and disclaimers."
+    },
+    {
+      "title": "Corporate Governance Report",
+      "node_id": "0077",
+      "start_index": 120,
+      "end_index": 127,
+      "summary": "This Corporate Governance Report details Maruti Suzuki India Limited's governance framework, including its commitment to ethical culture, ESG initiatives, and the 3R principles. It describes the multi-tier management structure and the Board's composition (11 members: 3 Executive, 8 Non-Executive, 4 Independent) along with meeting attendance. It covers the Audit Committee's roles, the Nomination and Remuneration Committee's composition and terms, performance evaluation processes, and the Remuneration Policy. Director remuneration for FY 2024-25 is provided, including salary, perquisites, bonuses, sitting fees, and commission. It also details the CSR Committee, Risk Management Committee (roles, policy formulation, monitoring), Stakeholders Relationship Committee (grievance redressal), and Sustainability Committee (strategy, Net Zero roadmap). Key Managerial Personnel and Senior Management are listed. Stakeholder engagement principles, sustainability governance, and details of the last three AGMs and a postal ballot are included. The report outlines Board competencies, management disclosures, code of conduct, CEO/CFO certification, insider trading code, sexual harassment policy, subsidiary transactions, and shareholder information such as communication means, financial calendar, dividend, shareholding distribution, dematerialization, audit fees, stock exchange listings, plant locations, and compliance with non-mandatory requirements.",
+      "nodes": [
+        {
+          "title": "Board of Directors Composition of the Board",
+          "node_id": "0078",
+          "start_index": 120,
+          "end_index": 121,
+          "summary": "The Corporate Governance Report outlines Maruti Suzuki India Limited's commitment to sound governance principles, ethical culture, and sustainable business practices, including the 3R principles and ESG initiatives. It details the multi-tier management structure with the Board, MECs, and various functions ensuring strategic supervision, control, and risk evaluation. The Board composition as of March 31, 2025, includes 11 members (3 Executive, 8 Non-Executive, 4 Independent), with details on directorships, committee memberships, and attendance records for five board meetings and the AGM. It lists information supplied to the Board, such as budgets, results, and compliance matters, and mentions the Audit Committee and other committees."
+        },
+        {
+          "title": "Composition and Meetings",
+          "node_id": "0079",
+          "start_index": 121,
+          "end_index": 122,
+          "summary": "The text covers the Audit Committee's composition, meetings, and roles, including financial literacy, attendance, and detailed terms of reference. It also covers the Nomination and Remuneration Committee's (NRC) composition, meetings, and terms of reference. Additionally, it details the performance evaluation criteria for Independent Directors and the Remuneration Policy, including evaluation processes and criteria for the Board, committees, and individual directors. Finally, it mentions remuneration of directors and states no loans were advanced to directors."
+        },
+        {
+          "title": "NRC Terms, Composition, Performance Evaluation and Remuneration Policy",
+          "node_id": "0080",
+          "start_index": 122,
+          "end_index": 122,
+          "key_items": [
+            "Composition and Meetings",
+            "Terms of Reference",
+            "Performance Evaluation Criteria for Independent Directors & Remuneration Policy"
+          ],
+          "summary": "The page details the Audit Committee's functions, including auditor independence, related-party transactions, inter-corporate loans, valuation, internal controls, risk evaluation, internal audit review, fraud investigations, statutory auditor discussions, defaults, whistleblower mechanism, CFO appointment, and merger schemes. It covers the Nomination and Remuneration Committee's composition, meetings, attendance, and terms of reference, such as identifying qualified directors, formulating evaluation criteria, recommending remuneration policy, and ensuring remuneration balance. It also describes the annual performance evaluation process for the Board, its committees, and individual directors, including evaluation criteria for independent directors and the remuneration policy, with directors expressing satisfaction with the evaluation process."
+        },
+        {
+          "title": "Remuneration of Directors",
+          "node_id": "0081",
+          "start_index": 122,
+          "end_index": 123,
+          "summary": "The text covers director remuneration details for FY ended March 31, 2025, including Table 5 listing salary, perquisites, performance-linked bonus, sitting fees, commission, and totals for each director, noting no loans to directors, no severance fees, no stock options, and no employee-director relations. It describes non-executive director commission limits and policy. It also details the CSR Committee's composition, three meetings, and terms of reference, and the Risk Management Committee's composition, two meetings, membership changes, secretary, and roles including risk policy formulation, monitoring, review, and board reporting."
+        },
+        {
+          "title": "Director Remuneration and Committee Composition and Meetings",
+          "node_id": "0082",
+          "start_index": 123,
+          "end_index": 123,
+          "key_items": [
+            "Remuneration of the Non-Executive Directors",
+            "Composition and Meetings",
+            "Terms of reference",
+            "Composition and Meetings"
+          ],
+          "summary": "The page covers remuneration details for directors for FY 2024-25, including salary, perquisites, performance-linked bonus, sitting fees, and commission, with notes on performance criteria, severance, stock options, and related-party transactions. It also addresses remuneration of non-executive directors, including commission limits and policy availability. Additionally, it provides composition, meeting attendance, and terms of reference for the Corporate Social Responsibility Committee and the Risk Management Committee, including changes in membership during the year."
+        },
+        {
+          "title": "Roles and Responsibilities of the RMC",
+          "node_id": "0083",
+          "start_index": 123,
+          "end_index": 124,
+          "summary": "The text covers the Risk Management Committee's roles: formulating a detailed risk management policy including risk identification, mitigation measures, and business continuity plan; ensuring methodology to monitor risks; overseeing policy implementation; periodic review every two years; and keeping the board informed. It also lists key managerial personnel and senior management, with changes effective April 2025. Additionally, it details the Stakeholders Relationship Committee's composition, meetings, investor grievance redressal, and scope, including resolving shareholder grievances and reviewing service standards. Finally, it describes the Sustainability Committee's composition, purpose, and responsibilities such as developing sustainability strategies, Net Zero roadmap, and reviewing social and governance aspects."
+        },
+        {
+          "title": "KMP, Senior Management, SRC and Sustainability Committee Details",
+          "node_id": "0084",
+          "start_index": 124,
+          "end_index": 124,
+          "key_items": [
+            "Senior Management:",
+            "Composition and Meetings",
+            "Investor Grievance Redressal",
+            "Composition",
+            "Purpose",
+            "Responsibilities of SC: 1. Developing Sustainability Strategies, Policies and Goals:"
+          ],
+          "summary": "The page lists Key Managerial Personnel with designations, and Senior Management Personnel with roles including engineering, marketing, HR, supply chain, service, legal, quality, corporate planning, corporate affairs, parts, product planning, digital enterprise, and IT, noting appointments/cessations. It details Stakeholders Relationship Committee composition, meetings, and shareholder grievance redressal scope covering share transfers, annual reports, dividends, certificates, meetings, voting rights, RTA service standards, and unclaimed dividends; 7 complaints resolved with none pending. It also covers the Sustainability Committee's composition, purpose, and responsibilities: developing sustainability strategies, policies, Net Zero roadmap, social/governance review, and sustainability risk monitoring."
+        },
+        {
+          "title": "Stakeholder Engagement, Sustainability Governance and General Body Meetings",
+          "node_id": "0085",
+          "start_index": 125,
+          "end_index": 125,
+          "key_items": [
+            "2. Stakeholder Engagement:; 3. Sustainability Governance Mechanism:; 4. Sustainability Compliances, Disclosures and Reputation:",
+            "2. Stakeholder Engagement:",
+            "3. Sustainability Governance Mechanism:",
+            "4. Sustainability Compliances, Disclosures and Reputation:",
+            "General Body Meetings Table 10: Details of the last three AGMs of the Company",
+            "Location"
+          ],
+          "summary": "The page outlines stakeholder engagement principles, including value creation, structured input mechanisms, and collaboration with value chain partners on sustainability. It describes the sustainability governance mechanism for reviewing strategy, Net Zero roadmap, and performance. It covers sustainability compliance, disclosures, BRSR review, ESG rating improvement, and reputation enhancement. It also provides details of the last three AGMs (2022-2024) with locations, dates, and times, lists special resolutions passed in the 2024 AGM, notes no special resolutions in 2022 and 2023, and details a postal ballot for re-appointment of an independent director, including scrutinizer, e-voting agency, voting period, and voting results."
+        },
+        {
+          "title": "Competencies of the Board",
+          "node_id": "0086",
+          "start_index": 125,
+          "end_index": 127,
+          "summary": "The text covers corporate governance disclosures for Maruti Suzuki India Limited, including the Board's competencies chart, management disclosures on conflicts and related party transactions, and the code of conduct. It details CEO/CFO certification and internal control self-assessment, legal compliance reporting, insider trading code, and sexual harassment policy with complaint statistics. It lists web links for familiarization programs and policies, whistleblower mechanism, and non-compliance details. Subsidiary companies' transactions and material subsidiary details are provided. Shareholders' information includes communication means, AGM details, financial calendar, dividend payment, shareholding distribution, dematerialization, and registrar contact. It also covers audit fees, stock exchange listings, plant locations, non-mandatory requirements adoption, and other regulatory compliance disclosures."
+        },
+        {
+          "title": "Maruti Suzuki Annual Report Additional Information and Shareholder Details",
+          "node_id": "0087",
+          "start_index": 127,
+          "end_index": 127,
+          "key_items": [
+            "Audit Fees; Listing on Stock Exchanges; Financial Year: 1st April to 31 st March; Dividend Payment",
+            "Audit Fees",
+            "Listing on Stock Exchanges",
+            "Financial Year: 1st April to 31 st March",
+            "Dividend Payment",
+            "Registrar and Transfer Agent",
+            "I. Shares held in dematerialised form; II. Shares held in Physical Form KFIN Technologies Limited",
+            "I. Shares held in dematerialised form",
+            "II. Shares held in Physical Form KFIN Technologies Limited"
+          ],
+          "summary": "The page provides additional information for the Annual General Meeting, including audit fees, stock exchange listings, financial year details, dividend payment, registrar and transfer agent, share transfer system, distribution of shareholding, dematerialisation of shares, commodity price risk, outstanding instruments, public funding, plant locations, adoption of non-mandatory requirements, other disclosures, and address for correspondence. It covers the AGM date, audit fees of ₹44 million, listing on BSE and NSE, financial year from April to March, dividend of ₹135 per share, KFIN Technologies as registrar, share transfer in demat form, distribution schedule, 99.999% dematerialisation, no outstanding GDRs/ADRs/warrants, no public funding, plant locations in Gurugram, compliance with regulations, and contact details for investors."
+        }
+      ]
+    },
+    {
+      "title": "Annexure – A",
+      "node_id": "0088",
+      "start_index": 128,
+      "end_index": 130,
+      "key_items": [
+        "I. Bundling of commodity sourcing; III. Commodity Grade Standardisation & Substitution; IV. Yield Improvement",
+        "I. Bundling of commodity sourcing",
+        "III. Commodity Grade Standardisation & Substitution",
+        "IV. Yield Improvement",
+        "V. Commodity price risk hedging"
+      ],
+      "summary": "The text contains three annexures from Maruti Suzuki India Limited's Annual Report. Annexure A is a certificate from RMG & Associates confirming no directors were debarred or disqualified for FY 2024-25, listing all directors and their DINs, with notes on director changes (cessations, re-appointment, passing, and new appointments). Annexure B is a declaration by the MD & CEO certifying the code of conduct for board and senior management and their compliance. Annexure C details commodity price and foreign exchange risk, including total exposure, commodity-wise exposure and hedging percentages, and attaches the Commodities Price Risk Management and Hedge Policy (Annexure-1), which covers background, objectives, strategies (bundling, standardisation, yield improvement, hedging), permitted commodities, instruments, and hedging ratios."
+    },
+    {
+      "title": "Compliance Certificate",
+      "node_id": "0089",
+      "start_index": 130,
+      "end_index": 130,
+      "summary": "This Compliance Certificate, issued by RMG & Associates for Maruti Suzuki India Limited for the financial year ended March 31, 2025, certifies compliance with Corporate Governance conditions under SEBI Listing Regulations. It outlines the regulatory framework, management's responsibility for compliance and internal controls, and the Practicing Company Secretary's limited review scope, which is neither an audit nor an opinion on financial statements. The certificate confirms compliance based on examined records and provided information, explicitly disclaims assurance on future viability or management efficiency, and includes the issuing firm's details, partner's credentials, place, date, and UDIN."
+    },
+    {
+      "title": "Management Discussion and Analysis",
+      "node_id": "0090",
+      "start_index": 131,
+      "end_index": 146,
+      "summary": "This section reviews FY 2024-25 economic conditions, passenger vehicle industry performance, and Maruti Suzuki's record production, sales, exports, and financials. It covers domestic launches, CNG/hybrid growth, network and digital expansion, LCV segment, and service initiatives. Operations detail manufacturing complexity, capacity expansion to 4 million units by FY 2030-31, and environmental efforts including renewable energy, recycling, and zero waste. Safety discusses culture, training, near-miss reporting, and quality assurance. Material is noted. Method covers quality management, HR practices, BEV and multi-powertrain strategy, R&D, supply chain ESG, cost optimization, financial performance, risk management, cybersecurity, and outlook on industry slowdown, affordability, exports, and decarbonization.",
+      "nodes": [
+        {
+          "title": "Overview",
+          "node_id": "0091",
+          "start_index": 131,
+          "end_index": 136,
+          "summary": "The text covers India's FY 2024-25 economic environment, including inflation, GDP growth, and monetary/fiscal policies. It details the passenger vehicle industry's performance, segment shares, and powertrain mix shifts. Maruti Suzuki's achievements are highlighted: record production and sales, export milestones, financial performance, and strategic initiatives like new plants and BEV preparation. Domestic sales include new model launches, marketing efforts, and customer profile changes. The text also covers CNG and hybrid vehicle growth, network expansion, digital initiatives, and the LCV segment. Exports show significant growth with new market entries. Service network expansion, warranty enhancements, digital tools, and aftermarket parts strategies are discussed."
+        },
+        {
+          "title": "Operations",
+          "node_id": "0092",
+          "start_index": 136,
+          "end_index": 137,
+          "summary": "The text covers the company's operational achievements in FY 2024-25, including record production of over 2 million vehicles, managing complexity from 18 models and 650 variants across 100 export markets, and adapting to volatile domestic demand and shifting preferences. It highlights agile manufacturing, workforce upskilling, quality management enhancements, and use of Industry 4.0/5.0 technologies. A capacity expansion roadmap to 4 million units by FY 2030-31 is outlined, with recent increases at Manesar and a new Kharkhoda plant. The text also details conservation of natural resources and environmental protection efforts: resource efficiency via Suzuki's 'Sho-Sho-Kei-Tan-Bi' philosophy, design for recycling (92% recyclable, 98% recoverable), renewable energy expansion (78.2 MWp solar, 16% renewable electricity), 3R practices (100% metal scrap recycling, 100% water recycling), vehicle scrapping unit, packaging plastic reduction, and Extended Producer Responsibility. It mentions environmental compliance, supplier audits, IMDS tool for substances of concern, zero waste to landfill, and plans to increase solar capacity to 319 MWp by FY 2030-31."
+        },
+        {
+          "title": "Safety",
+          "node_id": "0093",
+          "start_index": 137,
+          "end_index": 138,
+          "summary": "The text covers the Company's safety culture, governance via a three-tier committee system, and frontline engagement with over 248,000 safety suggestions and 1,224 near-misses reported. It details training for 94.6% of the workforce, Safety Month initiatives, supplier engagement, and a mobile app for road safety. It also addresses quality assurance, including the zero-defect philosophy, integrated Quality Management System, and developments like new Swift and Dzire launches, e VITARA validation, cybersecurity readiness, and exports. Quality management programs using the 4M approach (Man, Machine, Material, Method) are also mentioned, with Man and Machine aspects highlighted."
+        },
+        {
+          "title": "Material",
+          "node_id": "0094",
+          "start_index": 138,
+          "end_index": 138,
+          "summary": "Material"
+        },
+        {
+          "title": "Method",
+          "node_id": "0095",
+          "start_index": 138,
+          "end_index": 146,
+          "summary": "The section covers Maruti Suzuki's quality management, human resources, and engineering practices, including workforce skilling, digitalization, supplier quality, new model development, customer feedback, audits, and reskilling. HR topics include engagement, health, capability development, leadership, industrial relations, compensation, welfare, diversity, grievance redressal, and partner support. It details the launch of the e VITARA BEV, plans for four BEV models by FY 2030-31, and a multi-powertrain strategy including SHEV, CNG, and biofuels. It discusses fuel efficiency improvements, R&D, supply chain ESG, cost optimization, logistics, financial performance, risk management, and cybersecurity. The outlook addresses industry slowdown, affordability, low car penetration, entry-car revival, capacity expansion to 4 million units, export growth, and decarbonization targets.",
+          "nodes": [
+            {
+              "title": "Method (intro)",
+              "node_id": "0096",
+              "start_index": 138,
+              "end_index": 142,
+              "summary": "The text covers Maruti Suzuki's quality management and human resources practices. It details workforce skilling, digitalization of maintenance and inspection, supplier quality improvement, new model development, mass manufacturing quality controls, and customer feedback integration. It describes quality systems, audits, supplier assessments, and reskilling programs. HR topics include employee engagement, health and well-being, capability development, leadership programs, industrial relations, wage settlements, compensation, welfare, diversity, grievance redressal, and support for business partners. Engineering sections discuss new product introductions, vehicle safety enhancements, advanced features, and carbon footprint reduction with a multi-powertrain strategy."
+            },
+            {
+              "title": "A) Introducing Battery Electric Vehicle (BEV)",
+              "node_id": "0097",
+              "start_index": 142,
+              "end_index": 142,
+              "summary": "The text announces the Company's first Battery Electric Vehicle (BEV), the e VITARA, unveiled at the Bharat Mobility Expo in FY 2024-25. It highlights that e VITARA is Suzuki Motor Corporation's first BEV, with the Company serving as the global manufacturing hub for the Suzuki Group and planning exports to over 100 countries, boosting 'Make in India'. The Company aims to become India's largest BEV manufacturer within the first year of production. Suzuki Motor Corporation has committed significant R&D investment, with plans to launch four BEV models in India by FY 2030-31, aiming to be India's largest BEV OEM in production, domestic, and export sales. Additionally, the Company's powertrain strategy includes multiple carbon reduction technologies to cover the entire fleet, with a chart showing targets for various powertrain technologies as a percentage of overall Passenger Vehicle sales volume in India by FY 2030-31. The e VITARA, Maruti Suzuki's first Electric SUV, was unveiled by Mr. Toshihiro Suzuki and Mr. Hisashi Takeuchi at the Bharat Mobility Global Expo 2025 in New Delhi."
+            },
+            {
+              "title": "Management Discussion on SHEV, CNG, and Biofuel Technologies",
+              "node_id": "0098",
+              "start_index": 143,
+              "end_index": 143,
+              "key_items": [
+                "B) Proliferation of Strong Hybrid Electric Vehicle (SHEV)",
+                "C) Promoting Compressed Natural Gas (CNG) Powertrain Technology",
+                "D) Exploring the Use of Biofuels – CBG and Ethanolbased Flex-fuel Vehicles"
+              ],
+              "summary": "The page discusses three alternative fuel technologies. First, Strong Hybrid Electric Vehicles (SHEV) reduce carbon emissions without charging infrastructure, with the company offering SHEV in Grand Vitara and Invicto, showing improved fuel efficiency and growing sales. Second, Compressed Natural Gas (CNG) powertrain technology is promoted, with 14 CNG variants across 18 models; CNG vehicles constituted one in three domestic sales in FY 2024-25, with increasing contribution over years, benefiting customers, environment, and government. Third, biofuels including Compressed Biogas (CBG) and Ethanol-based Flex-fuel Vehicles (FFV) are explored; the company displayed India's first mass-segment flex-fuel prototype Wagon R FFV, capable of running on 20-85% ethanol blends, reducing carbon emissions by ~79% versus gasoline. E20 is prioritized, and all petrol models are E20 compatible."
+            },
+            {
+              "title": "E) Reducing Carbon Footprint by Enhancing Fuel Efficiency of IC Engine Vehicles",
+              "node_id": "0099",
+              "start_index": 143,
+              "end_index": 146,
+              "summary": "The text covers Maruti Suzuki's initiatives to reduce carbon footprint through improved fuel efficiency of IC engine vehicles using a new Z-series powertrain, with fuel efficiency improvements in the Dzire. It details the Rohtak R&D Centre for regulatory compliance, supply chain management including ESG performance, supplier assessments, and governance frameworks. It discusses cost optimization efforts, logistics improvements via increased rail transport and fleet modernization, driver training, and financial performance including profit and loss, ratios, treasury operations, internal controls, and foreign exchange risk management. It also addresses risks from increased scale, component supply continuity, vendor excellence programs, cybersecurity, and data protection."
+            },
+            {
+              "title": "Outlook",
+              "node_id": "0100",
+              "start_index": 146,
+              "end_index": 146,
+              "summary": "The text discusses the Passenger Vehicle industry's slowdown in FY 2024-25, with low single-digit growth expected in FY 2025-26, and declining first-time buyer participation due to affordability challenges. Car penetration in India is low (~30 per 1,000 people), with over 88% of households excluded from safer transport access, highlighting social equity gaps. The entry-car segment has seen a 70% price surge since FY 2018-19 due to regulatory changes, and reviving it is vital for mass-market growth. The company aims to partner in India's Viksit Bharat 2047 goal, focusing on expanding product and market segments, enhancing features and technologies, and nearly doubling annual manufacturing capacity to 4 million units by FY 2030-31. It remains the largest PV exporter for four years with ~43% share, supported by Suzuki Motor Corporation, and aims to more than double export volumes, resume exports to advanced economies with its first BEV, and increase consumer base through diversification in segments, form-factors, and powertrains (BEVs, SHEVs, CNG, CBG, ethanol) to maximize decarbonization impact, with reference to targeted powertrain mix by FY 2030-31."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Business Responsibility & Sustainability Reporting",
+      "node_id": "0101",
+      "start_index": 147,
+      "end_index": 165,
+      "summary": "The section covers Business Responsibility & Sustainability Reporting (BRSR) for Maruti Suzuki, including general disclosures about the entity, products, operations, employees, group companies, and CSR. It details transparency and compliance across NGRBC principles, such as grievance mechanisms, material issues, policy mapping, board oversight, training, anti-corruption, and financial disclosures. Safety incidents, measures, complaints, assessments, and corrective actions are reported, alongside digitalization initiatives and ESG disclosures for Principles 4-9, covering stakeholder engagement, human rights, environment, water, resource efficiency, business continuity, value chain, anti-competitive cases, community, and consumer mechanisms. Data breach impact (nil) and leadership indicators like product information channels, consumer education, satisfaction surveys, and complaint metrics are also included.",
+      "nodes": [
+        {
+          "title": "BRSR General Disclosures: Entity, Products, and Operations",
+          "node_id": "0102",
+          "start_index": 147,
+          "end_index": 147,
+          "key_items": [
+            "I. Details of the Listed Entity; II. Products/services",
+            "I. Details of the Listed Entity",
+            "II. Products/services",
+            "III. Operations",
+            "a. Number of locations; c. A brief on types of customers",
+            "a. Number of locations",
+            "c. A brief on types of customers"
+          ],
+          "summary": "The page presents Section A of the Business Responsibility & Sustainability Reporting, covering general disclosures. It details the listed entity's corporate identity, name, incorporation year, addresses, contact information, reporting year, stock exchanges, paid-up capital, BRSR contact person, reporting boundary, and assurance provider details. It also lists products/services with turnover percentages and NIC codes for motor vehicle manufacturing and parts sales, and describes operations including number of plants and offices, markets served (domestic and international), export contribution, and types of customers."
+        },
+        {
+          "title": "Employees, Group Companies, and CSR Disclosures",
+          "node_id": "0103",
+          "start_index": 148,
+          "end_index": 148,
+          "key_items": [
+            "IV. Employees",
+            "V. Holding, Subsidiary and Associate Companies (including joint ventures)",
+            "VI. CSR Details"
+          ],
+          "summary": "The page presents employee data as of financial year-end, including permanent and other-than-permanent employees and workers, differently abled employees and workers, with male/female breakdowns and percentages. It covers women's representation on the Board and in Key Management Personnel, and turnover rates for permanent employees and workers across FY 2024-25, FY 2023-24, and FY 2022-23. It then lists 20 holding, subsidiary, associate, and joint venture companies with shareholding percentages and their participation in Business Responsibility initiatives. Finally, it provides CSR applicability, turnover, and net worth details."
+        },
+        {
+          "title": "VII. Transparency and Disclosures Compliances",
+          "node_id": "0104",
+          "start_index": 149,
+          "end_index": 156,
+          "key_items": [
+            "C. Target for reducing carbon footprint in manufacturing processes:; D. Target for reducing carbon footprint in logistics operations:",
+            "C. Target for reducing carbon footprint in manufacturing processes:",
+            "D. Target for reducing carbon footprint in logistics operations:",
+            "E. Other Targets"
+          ],
+          "summary": "This text from Maruti Suzuki's Annual Integrated Report covers Business Responsibility and Sustainability Report (BRSR) disclosures. It details stakeholder grievance mechanisms across nine NGRBC principles, including complaint numbers and resolution status for FY 2024-25 and FY 2023-24. It lists material responsible business conduct issues and maps policies to principles, including targets for recycling, carbon footprint reduction, renewable energy, and women's representation. It outlines Board and committee oversight, training programs, anti-corruption policies, conflict of interest management, and financial disclosures like account payables and related party transactions. Principle-wise performance is detailed for Principle 1 (ethics, transparency, accountability) and Principle 2 (sustainable and safe goods/services), including R&D investments, sustainable sourcing, end-of-life product recycling, and EPR compliance."
+        },
+        {
+          "title": "Safety Incidents, Measures, Complaints, Assessments, and Corrective Actions",
+          "node_id": "0105",
+          "start_index": 156,
+          "end_index": 156,
+          "key_items": [
+            "I. Occupational Health & Safety Management:",
+            "V. Adoption of Global best practices on Risk Management (GRM) on Fire Safety:",
+            "I. Safety Management Systems:",
+            "II. Safety Improvement Activities:",
+            "III. Regular Monitoring:"
+          ],
+          "summary": "The page details safety-related incidents for FY 2024-25 and FY 2023-24, including LTIFR, total recordable injuries, fatalities, and high-consequence injuries. It describes measures for a safe workplace: OHSMS (ISO 45001), safety manuals, work permits, safety ambassadors, training and awareness programs, safety improvement actions, technology-driven safety measures (ADAS, DMS, mobile app, RFID, AI kiosk, vendor truck management), and adoption of global best practices on fire safety. It lists complaints on working conditions and health & safety, assessments (100% of plants/offices assessed), and corrective actions: HIRA procedure, management of change, work permit system, safety rules, suggestion process, and independent third-party audits."
+        },
+        {
+          "title": "IV. Digitalization Initiatives:",
+          "node_id": "0106",
+          "start_index": 156,
+          "end_index": 165,
+          "summary": "This section covers Maruti Suzuki's digitalization initiatives alongside comprehensive ESG disclosures under Principles 4-9: stakeholder engagement processes; human rights training, wage compliance, grievance mechanisms, sexual harassment complaints, and accessibility; environmental data including energy, water, emissions (Scope 1-3), renewable energy, waste management, compliance, and value chain assessments (98% of local suppliers); water data for stressed areas with Bureau Veritas assurance; resource efficiency initiatives; business continuity and disaster management; value chain environmental impact; Principle 7 anti-competitive cases, trade affiliations, and policy advocacy; Principle 8 community grievance mechanisms, local sourcing, job creation, CSR in aspirational districts, and beneficiaries; Principle 9 consumer complaint mechanisms (21,822 complaints closed), product turnover information, one safety recall, cyber security/data privacy policies, and one data breach with no customer PII involved.",
+          "nodes": [
+            {
+              "title": "IV. Digitalization Initiatives: (intro)",
+              "node_id": "0107",
+              "start_index": 156,
+              "end_index": 162,
+              "summary": "This text from Maruti Suzuki's 2024-25 report covers Principle 4 (stakeholder engagement), Principle 5 (human rights), and Principle 6 (environment). It details digitalization initiatives, life insurance for employees/workers, supplier compliance verification for statutory dues, rehabilitation of injured workers (zero cases), transition assistance programs, and value chain assessments. Stakeholder identification and engagement processes are referenced. Human rights disclosures include training coverage, minimum wage compliance, remuneration, grievance mechanisms, complaints (e.g., sexual harassment), business agreement clauses, assessments (100% of plants), and accessibility for differently-abled visitors. Environmental data covers energy consumption and intensity, water withdrawal/consumption/discharge, zero liquid discharge, air emissions, GHG emissions (Scope 1, 2, and 3), renewable energy projects, waste management (generation, recovery, disposal), compliance with environmental laws, and value chain environmental assessments (98% of local suppliers)."
+            },
+            {
+              "title": "Category",
+              "node_id": "0108",
+              "start_index": 162,
+              "end_index": 164,
+              "summary": "The text covers water withdrawal, consumption, and discharge in water-stressed areas, including data for FY 2024-25 and FY 2023-24, and assurance by Bureau Veritas. It details Scope 3 emissions and intensity, and assurance. It addresses biodiversity impact (not applicable), resource efficiency initiatives (renewable energy, logistics emissions, circular economy, water management, design for recycling, CBG, sustainable packaging) with outcomes, business continuity and disaster management plan, value chain environmental impact (none), and percentage of value chain partners assessed. It also covers Principle 7: trade chamber affiliations, anti-competitive conduct cases and corrective actions, and public policy advocacy. Principle 8: social impact assessments (not applicable), rehabilitation and resettlement (not applicable), community grievance mechanisms, input material sourcing, job creation in smaller towns, CSR projects in aspirational districts, procurement policy, intellectual property benefits, and CSR beneficiaries. Principle 9: consumer complaint mechanisms, product turnover with environmental/social information, and consumer complaint numbers."
+            },
+            {
+              "title": "Remarks",
+              "node_id": "0109",
+              "start_index": 164,
+              "end_index": 165,
+              "summary": "This text covers ESG and consumer responsibility disclosures: negative social impact mitigation (not applicable), CSR spending in aspirational districts (Bihar, Andhra Pradesh), no preferential procurement policy but local procurement focus, no traditional knowledge IP benefits or disputes, CSR beneficiary numbers across hospitals, schools, vocational training, and road safety projects, consumer complaint mechanisms and volumes (21,822 sales/service complaints in FY25, 23,282 in FY24, all closed), product turnover information (100% on environmental/social parameters, safe usage, recycling), one voluntary safety recall, cyber security and data privacy policies with web links, corrective actions for recalls and quality issues, and one data breach with no customer PII involved."
+            }
+          ]
+        },
+        {
+          "title": "c. Impact, if any, of the data breaches",
+          "node_id": "0110",
+          "start_index": 165,
+          "end_index": 165,
+          "summary": "The text covers the impact of data breaches (nil) and leadership indicators for Maruti Suzuki. It details channels for product information access, including the company website and Metaverse platforms (ARENAVERSE and NEXAVERSE) for Arena and Nexa brands, plus social media. Steps to educate consumers on safe product usage include owner's manuals, driving school programs, social media tips, telematics feedback, in-vehicle alerts, and CSR road safety projects. Mechanisms for informing consumers of service disruption risks are not applicable. Product information beyond legal mandates is provided via manuals, brochures, and vehicle stickers. The company conducts customer satisfaction surveys using the Customer Delight Index (CDI) and customer complaints per 1,000 vehicles serviced (CC/1,000), with continuous monitoring and timely countermeasures."
+        }
+      ]
+    },
+    {
+      "title": "Independent Assurance Statement",
+      "node_id": "0111",
+      "start_index": 166,
+      "end_index": 167,
+      "key_items": [
+        "Manufacturing plants (Gurugram, Manesar, & Kharkhoda) and R&D facilities (Gurugram, Rohtak)",
+        "Conclusion"
+      ],
+      "summary": "Bureau Veritas' independent assurance statement for Maruti Suzuki India Limited's (MSIL) Business Responsibility and Sustainability Report (BRSR) for FY 2024-25 covers the engagement's introduction and objective, intended user, reporting criteria (SEBI BRSR Core and Annexure II guidelines), and the nine ESG attributes. It details the assurance standards (ISAE 3000), levels of assurance (reasonable for BRSR Core, limited for other disclosures), scope and boundary (MSIL standalone, specific plants and R&D facilities), methodology (risk-based approach, site audits, sample testing, interviews), limitations and exclusions (materiality threshold, financial data exclusion, defined period, boundary, subjective statements, framework mapping, strategy/legal compliance, data authenticity), conclusion (unqualified for both assurance levels), responsibilities of MSIL and Bureau Veritas, competence, uncertainty, independence and impartiality statement, restriction on use, and signatures of the lead assuror and technical reviewer."
+    },
+    {
+      "title": "Financial Statements",
+      "node_id": "0112",
+      "start_index": 168,
+      "end_index": 168,
+      "summary": "Financial Statements\n300\n386\nStandalone Financial Statements\nConsolidated Financial Statements"
+    },
+    {
+      "title": "Independent Auditor’s Report",
+      "node_id": "0113",
+      "start_index": 169,
+      "end_index": 170,
+      "key_items": [
+        "Opinion"
+      ],
+      "summary": "This independent auditor's report for Maruti Suzuki India Limited's standalone financial statements for the year ended March 31, 2025, includes the auditor's opinion that the statements give a true and fair view in accordance with Ind AS. It covers the basis for opinion, emphasizing compliance with auditing standards and ethical requirements. Key audit matters are detailed, specifically the evaluation of uncertain tax positions related to income tax and excise duty litigations, along with the auditor's procedures. The report addresses management's and board's responsibilities for the financial statements, the auditor's responsibilities, and includes a section on other information. It also contains the report on other legal and regulatory requirements, covering compliance with the Companies Act, 2013, internal financial controls, director remuneration, pending litigations, investor education fund transfers, and audit trail requirements, noting exceptions. Finally, it references annexures on internal financial controls and the Companies (Auditor's Report) Order, 2020."
+    },
+    {
+      "title": "“Annexure A” to the Independent Auditor’s Report",
+      "node_id": "0114",
+      "start_index": 171,
+      "end_index": 171,
+      "key_items": [
+        "Opinion"
+      ],
+      "summary": "This annexure to the Independent Auditor’s Report covers the audit of Maruti Suzuki India Limited’s internal financial controls over standalone financial statements as of March 31, 2025. It outlines management’s and the Board’s responsibilities for establishing and maintaining effective controls, the auditor’s responsibility to express an opinion based on audit procedures, and the meaning of internal financial controls. It also addresses inherent limitations and concludes with the auditor’s opinion that the controls were adequate and operating effectively, signed by Deloitte Haskins & Sells LLP."
+    },
+    {
+      "title": "“Annexure B” to the Independent Auditor’s Report",
+      "node_id": "0115",
+      "start_index": 172,
+      "end_index": 174,
+      "summary": "This Annexure to the Independent Auditor's Report covers the auditor's statements on: maintenance and physical verification of property, plant, equipment, right-of-use assets, and intangible assets, including title deed exceptions and disputed immovable properties; non-revaluation of assets; no benami proceedings; inventory verification; no working capital facilities; investments and employee advances; compliance with Sections 185 and 186; no deposits; cost records; statutory dues including disputed amounts and appeals; no unrecorded income; no default in loan repayments; no wilful defaulter status; no term loans; no short-term funds for long-term use; no funds for subsidiary obligations; no loans on pledged securities; no public offer or preferential allotment; no fraud or ADT-4 reports; whistleblower complaints considered; not a Nidhi company; related party compliance; internal audit system; no non-cash director transactions; not required to register under RBI Act; no CIC; no cash losses; no auditor resignation; no material uncertainty on going concern; and full CSR spending."
+    },
+    {
+      "title": "Standalone Balance Sheet",
+      "node_id": "0116",
+      "start_index": 175,
+      "end_index": 175,
+      "summary": "The text presents Maruti Suzuki India Limited's standalone financial statements for the year ended March 31, 2025, including the balance sheet as at that date and the statement of profit and loss for the year, with comparative figures for March 31, 2024. The balance sheet details assets (non-current and current) and equity/liabilities (equity, non-current liabilities, current liabilities). The profit and loss statement covers revenue, expenses, profit before tax, tax expense, profit for the year, other comprehensive income, total comprehensive income, and earnings per share. It includes accompanying notes references, auditor's report, board and officer signatures, and place/date. The statements are part of the annual integrated report."
+    },
+    {
+      "title": "Standalone Statement of Cash Flows",
+      "node_id": "0117",
+      "start_index": 176,
+      "end_index": 193,
+      "key_items": [
+        "A. Operating activities:"
+      ],
+      "summary": "The text presents Maruti Suzuki India Limited's standalone financial statements for the year ended March 31, 2025. It includes the standalone statement of cash flows (operating, investing, and financing activities) with comparative figures for 2024, the standalone statement of changes in equity, and accompanying notes. The notes cover general information, material accounting policies (including basis of preparation, revenue recognition, leases, foreign currencies, employee benefits, taxation, property plant and equipment, intangible assets, impairment, inventories, provisions, financial instruments, hedging, government grants, earnings per share, dividends, business combinations), applicability of new Ind AS, and detailed notes on property, plant and equipment, capital work-in-progress, intangible assets, investments, loans, trade receivables, other financial assets, inventories, cash and bank balances, other assets, equity share capital, other equity, borrowings, other financial liabilities, provisions, deferred tax assets/liabilities, and other liabilities, with supporting schedules and disclosures."
+    },
+    {
+      "title": "20 TRADE PAYABLES",
+      "node_id": "0118",
+      "start_index": 193,
+      "end_index": 194,
+      "summary": "The text covers trade payables as of March 31, 2025 and 2024, including total outstanding dues to micro and small enterprises and other creditors, with related party balances. It includes MSMED Act disclosures on principal and interest due, payments beyond appointed days, interest accrued, and identification of MSME suppliers. A trade payables ageing schedule details outstanding amounts by age categories (less than 1 year, 1-2 years, 2-3 years, more than 3 years, and not due) for MSME, others, and unbilled, for both years. It also presents non-current tax assets (taxes paid net) and current tax liabilities (income tax payable net)."
+    },
+    {
+      "title": "22 REVENUE FROM OPERATIONS",
+      "node_id": "0119",
+      "start_index": 194,
+      "end_index": 194,
+      "summary": "The text presents revenue from operations for the years ended March 31, 2025 and 2024, detailing sale of products (vehicles, spare parts, etc.), other operating revenues (services, scrap, freight recovery, rental income, others), total revenue, reconciliation of contract price with revenue adjustments for discounts and incentives, disaggregation by timing of revenue recognition, and a cross-reference to notes on payment terms and geographical disaggregation. It also includes other income components: interest income from various sources, dividend income, net gain on sale of investments, fair valuation gains, and exchange variations, with comparative figures for both years."
+    },
+    {
+      "title": "24 MATERIAL CONSUMED",
+      "node_id": "0120",
+      "start_index": 194,
+      "end_index": 195,
+      "summary": "The text presents financial statement notes from Maruti Suzuki India Limited's 2024-25 annual report, covering materials consumed (raw material inventory changes), changes in inventories of finished goods, work-in-progress, and traded goods with opening/closing balances for 2025 and 2024, employee benefits expenses (salaries, provident fund, welfare), finance costs (interest on cash credit, deposits, lease liabilities), depreciation and amortisation (PPE, intangibles, right-of-use assets), other expenses (stores, power, rent, repairs, insurance, royalty, advertisement, warranty, transportation, CSR, miscellaneous), and a detailed CSR note including required/approved/spent amounts, shortfall, nature of activities, and related party transactions."
+    },
+    {
+      "title": "25 EMPLOYEE BENEFITS EXPENSES; 26 FINANCE COSTS",
+      "node_id": "0121",
+      "start_index": 195,
+      "end_index": 195,
+      "key_items": [
+        "25 EMPLOYEE BENEFITS EXPENSES",
+        "26 FINANCE COSTS"
+      ],
+      "summary": "Notes to the Standalone Financial Statements\n(All amounts in ` million, unless otherwise stated)\nClosing balances\nWork in progress Finished goods manufactured\nVehicle Vehicle spares and components\nTraded goods\nVehicle Vehicle spares and components\n25 EMPLOYEE BENEFITS EXPENSES\nSalaries and wages Contribution to provident and other funds Staff welfare expenses\n26 FINANCE COSTS\nInterest costs:\nCash credit and overdrafts Deposits from dealers, contractors and others Lease liabilities\nOthers\nYear ended March 31,\n2025\n3,036\n12,207\n374\n8,206 6,676\n30,499 (8,903)\nYear ended March 31,\n2025\n53,390\n3,075 4,905\n61,370\nYear ended March 31,\n2025\n474 673\n79\n705\n1,931"
+    },
+    {
+      "title": "27 DEPRECIATION AND AMORTISATION EXPENSES",
+      "node_id": "0122",
+      "start_index": 195,
+      "end_index": 196,
+      "summary": "The text presents notes from Maruti Suzuki India Limited's standalone financial statements for FY 2024-25, covering four main areas. Note 27 details depreciation and amortization expenses for property, plant, equipment, intangible assets, and right-of-use assets for 2025 and 2024. Note 28 lists various other expenses, including consumption of stores, power and fuel, rent, repairs, insurance, taxes, royalty, advertisement, warranty, transportation, CSR expenses, and miscellaneous items, with a note on CSR activities and expenditures. Note 29 covers income taxes, including current and deferred tax, reconciliation of tax expense to accounting profit, and tax recognized in other comprehensive income. Note 30 provides segment information, stating the company operates as a single segment, with entity-wide disclosures on domestic and overseas revenue and non-current assets."
+    },
+    {
+      "title": "Income Taxes and Segment Information Notes",
+      "node_id": "0123",
+      "start_index": 196,
+      "end_index": 196,
+      "key_items": [
+        "29 INCOME TAXES",
+        "30 SEGMENT INFORMATION"
+      ],
+      "summary": "The page presents two notes to the standalone financial statements: income taxes and segment information. Note 29 covers income tax recognized in profit or loss, including current and deferred tax for 2025 and 2024, a reconciliation of tax expense to accounting profit, and details of adjustments from the withdrawal of indexation benefit on debt mutual funds, resulting in an $8,376 million deferred tax expense. It also covers income tax recognized in other comprehensive income. Note 30 states the company operates as a single segment for motor vehicles and related activities, with entity-wide disclosures of domestic and overseas revenue and non-current segment assets, and notes one customer contributing over 10% of total revenues."
+    },
+    {
+      "title": "31 EARNINGS PER SHARE",
+      "node_id": "0124",
+      "start_index": 197,
+      "end_index": 197,
+      "summary": "Notes to the Standalone Financial Statements\n(All amounts in ` million, unless otherwise stated)\n31 EARNINGS PER SHARE\nYear ended March 31,\n2025\n443.86 443.86\nBasic earnings per share (`) Diluted earnings per share (`)\n139,552\nProfit attributable to the equity holders of the Company used in calculating basic earnings per share and diluted earnings per share\n314,402,574\nWeighted average number of equity shares for the purpose of basic earnings per share and diluted earnings per share (numbers)\nYear ended March 31, 2024\n431.08 431.08\n132,094\n306,423,241"
+    },
+    {
+      "title": "32 EMPLOYEE BENEFIT PLANS",
+      "node_id": "0125",
+      "start_index": 197,
+      "end_index": 199,
+      "key_items": [
+        "A. Defined contribution plans",
+        "d) Employers contribution to Employee’s Pension Scheme 1995"
+      ],
+      "summary": "The text details employee benefit plans of Maruti Suzuki India Limited, including defined contribution plans (superannuation fund, post-employment medical assistance, ESI, and pension scheme) with recognized amounts, and defined benefit and other long-term benefits (gratuity, leave encashment, retirement allowance, provident fund, post-retirement medical benefit). It discusses actuarial risks (investment, interest, longevity, salary), principal assumptions, expenses recognized in profit or loss and other comprehensive income, balance sheet obligations, movements in present value of obligations and fair value of plan assets, major asset categories, weighted average duration, expected contributions, sensitivity analysis, and the impact of the Code on Social Security, 2020."
+    },
+    {
+      "title": "33 FINANCIAL INSTRUMENTS AND RISK MANAGEMENT",
+      "node_id": "0126",
+      "start_index": 199,
+      "end_index": 203,
+      "summary": "Note 33 covers financial instruments and risk management, detailing financial assets and liabilities by category (FVTPL, FVOCI, amortised cost) as of March 31, 2025 and 2024, including investments, receivables, borrowings, and payables. It presents the fair value hierarchy (Levels 1–3) for financial instruments measured at fair value, with reconciliations of Level 3 measurements, and describes valuation methods for mutual funds, derivatives, and quoted/unquoted equity. The note also outlines financial risk management, covering credit risk, liquidity risk, and market risk (foreign exchange and security prices), and explains the use of derivatives for hedging. Additionally, it discusses policies approved by the Board for foreign exchange, commodity, and investment risks, credit risk with expected credit loss allowances, liquidity risk with financing arrangements and maturity analysis, market risk sensitivities, capital management objectives, net debt to equity ratio, and provides quantitative data for the years ended March 31, 2025 and 2024.",
+      "nodes": [
+        {
+          "title": "33 FINANCIAL INSTRUMENTS AND RISK MANAGEMENT (intro)",
+          "node_id": "0127",
+          "start_index": 199,
+          "end_index": 201,
+          "summary": "Note 33 covers financial instruments and risk management, detailing financial assets and liabilities by category (FVTPL, FVOCI, amortised cost) as of March 31, 2025 and 2024, including investments, receivables, borrowings, and payables. It presents the fair value hierarchy (Levels 1–3) for financial instruments measured at fair value, with reconciliations of Level 3 measurements, and describes valuation methods for mutual funds, derivatives, and quoted/unquoted equity. The note also outlines financial risk management, covering credit risk, liquidity risk, and market risk (foreign exchange and security prices), and explains the use of derivatives for hedging."
+        },
+        {
+          "title": "Measurement",
+          "node_id": "0128",
+          "start_index": 201,
+          "end_index": 203,
+          "summary": "The text covers financial risk management at Maruti Suzuki India Limited, detailing policies approved by the Board for foreign exchange, commodity, and investment risks. It analyzes credit risk with expected credit loss allowances, liquidity risk with financing arrangements and maturity analysis of liabilities, and market risk including foreign currency, security price, and mutual fund sensitivities. Capital management objectives and net debt to equity ratio are discussed, along with foreign exchange derivative contracts used for hedging. Quantitative data on financial assets, liabilities, and sensitivity impacts are provided for the years ended March 31, 2025 and 2024."
+        }
+      ]
+    },
+    {
+      "title": "34 RELATED PARTY TRANSACTIONS",
+      "node_id": "0129",
+      "start_index": 203,
+      "end_index": 207,
+      "summary": "The text covers related party transactions (Note 34), detailing related parties such as holding company, subsidiaries, joint ventures, associates, fellow subsidiaries, key management personnel, and post-retirement benefit plans. It lists transactions including sales and purchases of goods, investments, asset purchases, finance income, expense recoveries, services, dividends, royalties, and other expenses, with comparative figures for 2025 and 2024. It also presents balances of trade receivables, other assets, financial assets, liabilities, and payables, along with KMP compensation. Additionally, it covers leases (Note 35) as lessee and lessor, including right-of-use assets, lease liabilities, income statement impacts, and maturity analysis, and capital and other commitments (Note 36) including estimated capital contract values and export obligations."
+    },
+    {
+      "title": "37 CONTINGENT LIABILITIES",
+      "node_id": "0130",
+      "start_index": 207,
+      "end_index": 208,
+      "key_items": [
+        "A) Claims against the Company disputed and not acknowledged as debts (refer note below):"
+      ],
+      "summary": "This note details contingent liabilities for various tax disputes (excise, GST, service tax, income tax, customs, sales tax) and claims, including amounts and appeal statuses. It covers Competition Commission of India penalties for anti-competitive practices, with appeals and stays. It discusses the impact of a Supreme Court ruling on 'Basic Wages' for provident fund contributions, and the new End-of-Life Vehicles Rules, 2025, for which impact cannot yet be estimated. It also describes the Contract Manufacturing Agreement with Suzuki Motor Gujarat (SMG), its termination, and the acquisition of SMG as a wholly owned subsidiary, followed by a proposed scheme of amalgamation. Finally, it addresses the non-enablement of audit trail features in accounting software due to migration, and related compliance aspects."
+    },
+    {
+      "title": "40 ADDITIONAL NOTES",
+      "node_id": "0131",
+      "start_index": 208,
+      "end_index": 209,
+      "summary": "The text covers additional notes on the Company's financial disclosures: no loans to promoters/directors/KMPs/related parties; no benami property proceedings; not a wilful defaulter; no transactions with struck-off companies; no crypto/virtual currency dealings; no fund transfers to/from intermediaries for ultimate beneficiaries; no unrecorded income surrendered in tax assessments. It also includes reconciliation of liabilities from financing activities (borrowings and lease liabilities) for 2024 and 2023 with cash flows and non-cash changes, details of EPCG scheme benefits and deferred government grants, auditors' remuneration, research and development expenses, CIF value of imports, and value of imported and indigenous materials consumed."
+    },
+    {
+      "title": "Financial Statement Notes: EPCG, R&D Expenses, and Import Details",
+      "node_id": "0132",
+      "start_index": 209,
+      "end_index": 209,
+      "key_items": [
+        "41 EXPORT PROMOTION CAPITAL GOODS (EPCG)",
+        "43 DETAILS OF RESEARCH AND DEVELOPMENT EXPENSES",
+        "44 CIF VALUE OF IMPORTS"
+      ],
+      "summary": "The text presents notes to standalone financial statements. It includes a reconciliation of liabilities from financing activities for borrowings and lease liabilities, showing cash flows and non-cash changes for March 31, 2025, 2024, and 2023. It details the Export Promotion Capital Goods (EPCG) scheme, including accounting treatment as government grants, income recognized, deferred grant balance, and export obligations. It discloses auditors' remuneration for statutory audit, limited review, taxation, and other services. It provides details of research and development expenses, split into revenue and capital expenditure with employee and other costs, and lists R&D facilities. Finally, it presents CIF value of imports for raw materials, capital goods, stores, dies, and others for the two years."
+    },
+    {
+      "title": "45 VALUE OF IMPORTED AND INDIGENOUS MATERIAL CONSUMED",
+      "node_id": "0133",
+      "start_index": 209,
+      "end_index": 210,
+      "summary": "The text presents financial and operational data from Maruti Suzuki India Limited's Annual Integrated Report 2024-25, covering: value of imported and indigenous materials consumed (raw materials, machinery spares, stores) with amounts and percentages; licensed capacity, installed capacity, and actual production of passenger vehicles; sales, opening stock, and closing stock details for vehicles, spare parts, and other items; statement of raw materials and components consumed by category (steel coils, castings, paints, etc.); and key financial ratios (current ratio, debt service coverage, return on equity, inventory turnover, trade receivables turnover) with variances and reasons. Comparative figures for March 31, 2024, are included."
+    },
+    {
+      "title": "Notes on Capacity, Production, Sales, Stock, and Raw Material Consumption",
+      "node_id": "0134",
+      "start_index": 210,
+      "end_index": 210,
+      "key_items": [
+        "46 LICENSED CAPACITY, INSTALLED CAPACITY AND ACTUAL PRODUCTION",
+        "47 SALES, OPENING STOCK AND CLOSING STOCK",
+        "48 STATEMENT OF RAW MATERIAL AND COMPONENTS CONSUMED"
+      ],
+      "summary": "The page presents notes to standalone financial statements covering imported and indigenous machinery spares and stores consumption with percentages for 2025 and 2024. It includes section 46 on licensed, installed capacity and actual production of passenger vehicles and light commercial vehicles. Section 47 details sales, opening and closing stock for vehicles, spare parts, components, accessories, dies, moulds, and work in progress, with notes on traded goods, damaged vehicles, exclusions for own use, True Value, and sample vehicles, plus bracketed prior-year figures. Section 48 provides raw material and component consumption quantities and amounts for steel coils, ferrous and non-ferrous castings, other components, and paints, with notes on impracticability of quantitative details for innumerable small items."
+    },
+    {
+      "title": "49 RATIOS",
+      "node_id": "0135",
+      "start_index": 210,
+      "end_index": 211,
+      "summary": "The text presents analytical ratios for Maruti Suzuki India Limited for FY 2024-25 and FY 2023-24, covering current ratio, debt service coverage, return on equity, inventory turnover, trade receivables turnover, trade payables turnover, net capital turnover, net profit ratio, return on capital employed, and return on investments in subsidiaries, associates, joint ventures, quoted and unquoted equity instruments, and debt mutual funds, along with variances and reasons. It includes footnotes defining terms and mentions re-grouping of previous year figures, board approval of standalone financial statements on April 25, 2025, and signatories."
+    },
+    {
+      "title": "Independent Auditor’s Report",
+      "node_id": "0136",
+      "start_index": 212,
+      "end_index": 214,
+      "key_items": [
+        "Opinion"
+      ],
+      "summary": "This Independent Auditor’s Report for Maruti Suzuki India Limited’s consolidated financial statements for the year ended March 31, 2025, presents an unmodified opinion on the financial statements, which comply with Ind AS and give a true and fair view. It covers the basis for opinion, including auditor independence and reliance on other auditors. Key audit matters include the evaluation of uncertain tax positions related to income taxes and excise duty. The report addresses responsibilities of management and auditors, other information, and other matters concerning subsidiaries, associates, and joint ventures not audited by the principal auditor. It also includes the report on other legal and regulatory requirements under the Companies Act, 2013, covering compliance with sections on books of account, director disqualifications, internal financial controls, remuneration, pending litigations, investor education and protection fund, loans and investments, dividends, and audit trail requirements. Finally, it lists companies under CARO where audits are incomplete."
+    },
+    {
+      "title": "“Annexure A” to the Independent Auditor’s Report",
+      "node_id": "0137",
+      "start_index": 215,
+      "end_index": 215,
+      "key_items": [
+        "Opinion"
+      ],
+      "summary": "This annexure to the Independent Auditor's Report covers the audit of internal financial controls over consolidated financial statements of Maruti Suzuki India Limited and its Indian subsidiaries, associates, and joint ventures as of March 31, 2025. It outlines management's and the Board's responsibilities for establishing and maintaining these controls, the auditor's responsibility to express an opinion based on their audit, and the meaning and inherent limitations of internal financial controls. The opinion states that the controls are adequate and operating effectively. It also includes an 'Other Matters' paragraph noting reliance on other auditors' reports for two subsidiaries, and concludes with the auditor's signature and date."
+    },
+    {
+      "title": "Consolidated Balance Sheet",
+      "node_id": "0138",
+      "start_index": 216,
+      "end_index": 216,
+      "summary": "The text presents consolidated financial statements for Maruti Suzuki India Limited as at March 31, 2025, including the balance sheet and statement of profit and loss. The balance sheet lists non-current and current assets (property, plant, equipment, investments, inventories, receivables, cash, etc.), equity (share capital, other equity), non-current liabilities (lease liabilities, provisions, deferred tax), and current liabilities (borrowings, trade payables, provisions). Comparative figures for March 31, 2024, are provided. The profit and loss statement shows revenue, other income, expenses (materials, purchases, employee benefits, finance costs, depreciation), share of profit from associates and joint ventures, tax expense, profit for the year, other comprehensive income, total comprehensive income, and earnings per share, with comparatives for 2024. Auditor and director signatures are included."
+    },
+    {
+      "title": "Consolidated Statement of Cash Flows",
+      "node_id": "0139",
+      "start_index": 217,
+      "end_index": 217,
+      "key_items": [
+        "C. Financing activities:"
+      ],
+      "summary": "The text presents the Consolidated Statement of Cash Flows for Maruti Suzuki India Limited for the year ended March 31, 2025, prepared under the Indirect Method as per Ind AS-7. It details cash flows from operating activities, including profit before tax, adjustments for non-cash items, working capital changes, and income taxes paid. Investing activities cover purchase and sale of property, plant, equipment, intangibles, investments, and fixed deposits. Financing activities include short-term borrowings, dividend payments, lease liabilities, and finance costs. The statement provides comparative figures for 2024, reconciles cash and cash equivalents, and includes notes, page references, and signatures of directors and auditors."
+    },
+    {
+      "title": "Consolidated Statement of Changes in Equity",
+      "node_id": "0140",
+      "start_index": 218,
+      "end_index": 254,
+      "summary": "The section presents the consolidated statement of changes in equity for Maruti Suzuki India Limited as of March 31, 2025, including equity share capital and other equity movements, comprehensive income, dividends, and reserves. It includes extensive notes covering material accounting policies, property, plant and equipment, investments, loans, trade receivables, inventories, cash, equity, borrowings, provisions, deferred tax, revenue, expenses, income taxes, segment information, and employee benefit plans. Specific disclosures include MAT credit, segment reporting, EPS, employee benefit plans with actuarial assumptions and risks, sensitivity analysis, financial instruments and risk management, subsidiaries/joint ventures/associates, related party transactions, leases, capital commitments, contingent liabilities, state support agreement, EPCG, audit trail, additional notes, and reconciliation of liabilities from financing activities, along with AOC-1 disclosures.",
+      "nodes": [
+        {
+          "title": "Consolidated Statement of Changes in Equity (intro)",
+          "node_id": "0141",
+          "start_index": 218,
+          "end_index": 237,
+          "summary": "The text presents the consolidated statement of changes in equity for Maruti Suzuki India Limited as of March 31, 2025, detailing equity share capital and other equity movements, including comprehensive income, dividends, and reserves. It also includes notes to the consolidated financial statements, covering general information, material accounting policies (such as basis of consolidation, revenue recognition, leases, employee benefits, taxation, property, plant and equipment, intangible assets, financial instruments), and various disclosure notes on property, plant and equipment, investments, loans, trade receivables, inventories, cash, equity, borrowings, provisions, deferred tax, revenue, expenses, income taxes, segment information, and employee benefit plans. The document provides a comprehensive overview of the Group's financial position and performance for the year."
+        },
+        {
+          "title": "Notes: MAT Credit, Segment Reporting, EPS, Employee Benefits",
+          "node_id": "0142",
+          "start_index": 237,
+          "end_index": 237,
+          "key_items": [
+            "A. Defined contribution plans",
+            "During the year the Group has recognised the following amounts in the Statement of Profit and Loss:",
+            "Interest risk"
+          ],
+          "summary": "The page presents notes to consolidated financial statements covering unrecognised MAT credit details (available, utilised, carried forward, expiring amounts by financial year) and management's rationale for non-recognition; segment information describing the Group's automobile business as a single unit with no reportable segments, plus group-wide disclosures of domestic and overseas revenue and non-current segment assets; earnings per share with basic and diluted figures, profit attributable to equity holders, and weighted average shares for FY 2025 and FY 2024; and employee benefit plans, including defined contribution plans with recognised amounts in the Statement of Profit and Loss, defined benefit and other long-term benefit plans, and actuarial risks such as investment risk and interest risk."
+        },
+        {
+          "title": "Actuarial Assumptions and Risks for Employee Benefit Plans",
+          "node_id": "0143",
+          "start_index": 238,
+          "end_index": 238,
+          "key_items": [
+            "Longevity risk",
+            "Salary risk",
+            "The principal assumptions used for the purpose of the actuarial valuations were as follows:"
+          ],
+          "summary": "The page covers longevity risk and salary risk for defined benefit plans, explaining how increased life expectancy or deviations in salary increase rates affect plan liabilities. It then presents principal actuarial valuation assumptions as of March 31, 2025, and March 31, 2024, for the Provident Fund, Employees Gratuity Fund, Retirement Allowance, and Post Retirement Medical Benefit Plan. Assumptions include discount rates, rates of increase in compensation levels, and expected average remaining working lives of employees, with specific values and ranges provided for each plan and date. A footnote states the Provident Fund's interest rate guarantee is 8.25% per annum for both years."
+        },
+        {
+          "title": "Components of expenses recognised in the Statement of Profit and Loss in respect of:",
+          "node_id": "0144",
+          "start_index": 238,
+          "end_index": 239,
+          "summary": "The text details defined benefit plans (Provident Fund, Employees Gratuity Fund, Retirement Allowance, Post Retirement Medical Benefit Plan) for Maruti Suzuki India Limited. It covers expenses recognized in profit or loss (current service cost, past service cost, actuarial loss/gain, net interest) for years ended March 31, 2025 and 2024. It also presents components recognized in other comprehensive income (actuarial gains/losses from demographic/financial assumptions, experience variance, return on plan assets, asset ceiling effects). Balance sheet amounts (present value of obligation, fair value of plan assets, surplus/deficit, net asset/liability) are provided, along with classification into long-term and short-term. Movements in present value of obligation and fair value of plan assets are shown. Major categories of plan assets and their fair value determination are described. Weighted average duration and expected contributions are stated. Sensitivity analysis of actuarial assumptions (discount rate, salary growth) is included."
+        },
+        {
+          "title": "Employee Benefit Plans: Obligation and Asset Movements",
+          "node_id": "0145",
+          "start_index": 239,
+          "end_index": 239,
+          "key_items": [
+            "Movement in the present value of the defined benefit obligation are as follows:",
+            "Movement in the fair value of the plan assets are as follows:",
+            "Major categories of plan assets (as percentage of total plan assets)"
+          ],
+          "summary": "The page presents movements in the present value of defined benefit obligations for Provident Fund, Employees Gratuity Fund, Retirement Allowance, and Post Retirement Medical Benefit Plan, detailing components like service cost, interest, contributions, remeasurements, and benefits paid for 2025 and 2024. It also shows movements in fair value of plan assets for Provident Fund and Gratuity Fund, including interest income, contributions, benefits paid, and actuarial gains/losses. Major asset categories as percentages are listed, along with fair value determination methods, weighted average duration of gratuity obligation (10-13 years), and expected contributions of ₹2,179 million for the next year."
+        },
+        {
+          "title": "Sensitivity analysis",
+          "node_id": "0146",
+          "start_index": 239,
+          "end_index": 240,
+          "summary": "The text covers sensitivity analysis of significant actuarial assumptions—discount rate, salary growth, attrition, and mortality—for defined benefit obligations, detailing impacts of 1% changes in discount and salary growth rates with current and prior year figures. It also mentions the Code on Social Security, 2020, its status, and the company's plan to assess its impact when effective."
+        },
+        {
+          "title": "33 FINANCIAL INSTRUMENTS AND RISK MANAGEMENT",
+          "node_id": "0147",
+          "start_index": 240,
+          "end_index": 243,
+          "summary": "Note 33 covers financial instruments and risk management. It details financial assets and liabilities by category (amortised cost, FVTPL, FVOCI) with carrying values for 2025 and 2024. The fair value hierarchy (Levels 1, 2, 3) is presented, including reconciliation for Level 3 unlisted equity instruments. Financial risk management is discussed, covering credit risk (exposure, allowances), liquidity risk (financing arrangements, maturity analysis), and market risk (foreign exchange and security price risks, sensitivity analyses). Capital management objectives and debt-to-equity ratios are outlined. Derivative contracts are used only for hedging, and a list of subsidiaries, joint ventures, and associates with ownership percentages is provided.",
+          "nodes": [
+            {
+              "title": "33.1 Financial instruments by category",
+              "node_id": "0148",
+              "start_index": 240,
+              "end_index": 240,
+              "summary": "Note 33 covers financial instruments and risk management, detailing financial assets and liabilities by category (amortised cost, FVTPL, FVOCI) with carrying values for March 31, 2025, and 2024. Assets include investments, trade receivables, cash, loans, deposits, derivatives, and other receivables. Liabilities include borrowings, trade payables, deposits, payables, derivatives, lease liabilities, and claims. The note provides total financial assets and liabilities for both years, with a footnote excluding equity-accounted investments in joint ventures and associates."
+            },
+            {
+              "title": "Fair value hierarchy",
+              "node_id": "0149",
+              "start_index": 240,
+              "end_index": 241,
+              "summary": "The text covers the fair value hierarchy (Levels 1, 2, and 3) for financial instruments measured at fair value, including detailed tables for financial assets and liabilities as of March 31, 2025, and 2024, with notes on valuation methods for debt mutual funds, derivatives, and quoted/unquoted equity instruments. It includes a reconciliation of Level 3 fair value measurements for unlisted equity instruments. Additionally, it discusses financial risk management, detailing credit risk, liquidity risk, and market risk (foreign exchange and security prices), along with exposure sources, measurement, and management strategies. It also provides credit risk analysis with loss allowance for trade receivables, loans, and other financial assets."
+            },
+            {
+              "title": "Level 3 Fair Value, Credit Risk, and Financial Risk Management",
+              "node_id": "0150",
+              "start_index": 241,
+              "end_index": 241,
+              "key_items": [
+                "Reconciliation of Level 3 fair value measurement; Credit risk",
+                "Reconciliation of Level 3 fair value measurement",
+                "Credit risk",
+                "33.2 Financial risk management",
+                "Measurement"
+              ],
+              "summary": "The page covers three main areas: (1) Level 3 fair value measurement reconciliation for unlisted equity instruments, showing opening balances, acquisitions, gains/losses in OCI, and closing balances for FY2024 and FY2025; (2) Credit risk, including exposure, management, allowance for expected credit losses, and loss allowance for trade receivables, loans, and other financial assets; (3) Financial risk management (Note 33.2), detailing market risk (foreign exchange and security prices), liquidity risk, credit risk, risk exposures, measurement methods, and management strategies. It also describes fair value hierarchy levels (Level 2 and Level 3) and valuation methods for debt mutual funds, derivatives, quoted and unquoted equity investments."
+            },
+            {
+              "title": "Liquidity, Market, Foreign Currency and Equity Price Risk Disclosures",
+              "node_id": "0151",
+              "start_index": 242,
+              "end_index": 242,
+              "key_items": [
+                "(B)",
+                "Liquidity risk",
+                "Contractual maturities of financial liabilities",
+                "Foreign currency risk exposure",
+                "Foreign currency sensitivity analysis",
+                "(ii) Security price risk Exposure in equity"
+              ],
+              "summary": "The page presents notes to consolidated financial statements covering liquidity risk, including financing arrangements and contractual maturities of financial liabilities. It details market risk, specifically foreign currency risk exposure and sensitivity analysis, and security price risk exposure in equity. Liquidity risk discussion includes short-term borrowings, investments in debt mutual funds, undrawn facilities, and maturity analysis. Foreign currency risk covers exposure to JPY, USD, EURO, and GBP, derivative contracts, and sensitivity to a 10% currency movement. Equity price risk from fair value through OCI investments is also noted."
+            },
+            {
+              "title": "Equity price sensitivity analysis",
+              "node_id": "0152",
+              "start_index": 242,
+              "end_index": 243,
+              "summary": "The text covers equity price sensitivity analysis showing other comprehensive income changes from a 5% equity price shift (₹1,016 million for 2025, ₹947 million for 2024). It details mutual fund price risk, with 1% NAV changes affecting profit by ₹6,193 million (2025) and ₹5,332 million (2024). Capital management objectives include safeguarding going concern and maintaining optimal capital structure, with strategies like dividend adjustments or share issuance. Credit risk in debt mutual funds is managed through stringent policies and quarterly monitoring. A table shows debt-to-equity ratios for 2025 and 2024. Foreign exchange derivative contracts are used only for hedging, not speculation. Finally, it lists subsidiaries, joint ventures, and associates with ownership percentages and Schedule III additional information on share in net assets, profit/loss, and other comprehensive income."
+            },
+            {
+              "title": "Financial Instruments, Capital Management, and Forex Derivatives Notes",
+              "node_id": "0153",
+              "start_index": 243,
+              "end_index": 243,
+              "key_items": [
+                "Exposure in mutual funds",
+                "Mutual fund price sensitivity analysis",
+                "33.3 Capital management",
+                "33.4 Foreign exchange derivative contracts"
+              ],
+              "summary": "The page presents notes to the consolidated financial statements covering: other comprehensive income impact from FVTOCI equity investments; exposure in mutual funds and related price risk; mutual fund price sensitivity analysis showing profit impact from NAV changes; capital management objectives, policies, and a table of debt and equity with net debt to equity ratio; and foreign exchange derivative contracts policy for hedging without speculation. It includes quantitative data for years ended March 31, 2025 and 2024."
+            }
+          ]
+        },
+        {
+          "title": "34 DETAILS OF SUBSIDIARIES, JOINT VENTURES & ASSOCIATES",
+          "node_id": "0154",
+          "start_index": 243,
+          "end_index": 244,
+          "key_items": [
+            "34.2 Additional information as required under Schedule III to the Companies Act, 2013, of enterprises consolidated as Subsidiaries/Associates/Joint Ventures"
+          ],
+          "summary": "The text details Maruti Suzuki India Limited's subsidiaries, joint ventures, and associates, listing 20 entities with their relationships, countries of incorporation, and ownership percentages as of March 31, 2025, and March 31, 2024. It provides additional Schedule III information, including each entity's share in consolidated net assets, other comprehensive income, profit and loss, and total comprehensive income for FY 2024-25. The data covers the parent company, subsidiaries, joint ventures, and associates, along with consolidation adjustments and minority interests, presented in both percentage and monetary terms."
+        },
+        {
+          "title": "35 RELATED PARTY TRANSACTIONS",
+          "node_id": "0155",
+          "start_index": 244,
+          "end_index": 247,
+          "key_items": [
+            "35.1 Description of related parties",
+            "35.2 Transactions with related parties"
+          ],
+          "summary": "The text covers Note 35 on Related Party Transactions, including a detailed list of related parties such as the holding company (Suzuki Motor Corporation), associates, joint ventures, fellow subsidiaries, key management personnel, and post-retirement plan entities. It presents transactions for the years ended March 31, 2025, and March 31, 2024, covering sales and purchases of goods, investments, property/plant/equipment acquisitions, finance income, other income, expense recoveries, services received, dividends, royalties, other expenses, asset sales, and outstanding balances for trade receivables, other assets, and liabilities. It also includes compensation to key management personnel and contributions to post-retirement plans."
+        },
+        {
+          "title": "36 LEASES",
+          "node_id": "0156",
+          "start_index": 247,
+          "end_index": 248,
+          "key_items": [
+            "The Group as a Lessee",
+            "(ii) Amounts recognised in the Statement of Profit and Loss",
+            "The Group as a Lessor Leasing arrangements"
+          ],
+          "summary": "The text covers the Group's lease arrangements as both lessee and lessor. As lessee, it details the nature of leases (land and buildings, fixed periods, no purchase options generally), balance sheet recognition of right-of-use assets (gross carrying amount, accumulated amortisation, and carrying amount for land and buildings), lease liabilities (current and non-current), maturity analysis of lease liabilities (undiscounted cash flows by time bands), amounts recognised in profit and loss (depreciation, interest expense, short-term/low-value lease expense), total cash outflow for leases, and extension/termination options. As lessor, it describes operating lease arrangements for land and premises (cancellable, 3-15 years) and refers to rental income in Note 23."
+        },
+        {
+          "title": "37 CAPITAL AND OTHER COMMITMENTS",
+          "node_id": "0157",
+          "start_index": 248,
+          "end_index": 248,
+          "summary": "37 CAPITAL AND OTHER COMMITMENTS\nAs at\nMarch 31, 2025\nAs at\nMarch 31, 2024\n104,826\n114,858\nEstimated value of contracts on capital account, excluding capital advances, remaining to be executed and not provided for*\n5,393\n2,485\n*Including Outstanding commitments under Letters of Credit established by the Group Outstanding commitments under Letters of Credit established by the Group (Other than for capital purchases) Export obligation against import of capital goods under Export Promotion Capital Goods (EPCG) scheme (refer note 41)\n-\n108\n36,049\n21,297\nThe Group also has commitments, on account of contracts remaining to be executed which are entered into in the normal course of business. The Group does not have any other long term contracts including derivative contracts for which there will be any material foreseeable losses."
+        },
+        {
+          "title": "38 CONTINGENT LIABILITIES",
+          "node_id": "0158",
+          "start_index": 248,
+          "end_index": 249,
+          "key_items": [
+            "A) Claims against the Group disputed and not acknowledged as debts (refer note below):"
+          ],
+          "summary": "The text details contingent liabilities for Maruti Suzuki India Limited as of March 31, 2025, and March 31, 2024, covering disputed claims related to excise duty, GST, service tax, income tax, customs duty, sales tax, and other claims, along with amounts deposited under protest and the Group's share in joint ventures' and associates' contingent liabilities. It includes notes on LADT/Entry Tax, Competition Commission of India penalties and appeals, and uncertainties regarding Provident Fund 'Basic Wages' and new End-of-Life Vehicles Rules, 2025. Additionally, it covers the acquisition of Suzuki Motor Gujarat Private Limited (SMG) through a share swap, its accounting as a common control transaction, restatement of financials, and the subsequent scheme of amalgamation approved by the Board."
+        },
+        {
+          "title": "40 STATE SUPPORT AGREEMENT BETWEEN GOVERNMENT OF GUJARAT AND MARUTI SUZUKI INDIA LIMITED",
+          "node_id": "0159",
+          "start_index": 249,
+          "end_index": 250,
+          "summary": "The text covers a State Support Agreement between Gujarat and Maruti Suzuki, assigned to Suzuki Motor Gujarat, with sales tax/GST benefits accrued under Ind AS 20, including fiscal incentive receivable balances. It details the EPCG scheme, accounting for government grants, deferred benefits, and export obligations. It discusses audit trail requirements under Companies (Accounts) Rules, 2024, noting non-compliance in certain software and migration issues. Additional notes state no loans to promoters, no benami property, no wilful default, no struck-off company transactions, no crypto, no fund diversions, no unrecorded income, and compliance with layer rules. It also provides reconciliation of liabilities from financing activities."
+        },
+        {
+          "title": "EPCG, Audit Trail, and Additional Notes to Financial Statements",
+          "node_id": "0160",
+          "start_index": 250,
+          "end_index": 250,
+          "key_items": [
+            "41 EXPORT PROMOTION CAPITAL GOODS (EPCG)",
+            "43 ADDITIONAL NOTES"
+          ],
+          "summary": "The page covers EPCG scheme details including government grants, export obligations, and deferred benefits; audit trail requirements under Companies Rules with compliance status and exceptions for the parent and subsidiary; and additional notes confirming no loans to promoters, no benami property, no wilful default, no struck-off company transactions, no crypto currency, no funding arrangements with ultimate beneficiaries, no unrecorded income, and compliance with layer rules. It also includes government grant accrual and fiscal incentive receivable balances."
+        },
+        {
+          "title": "43.1 RECONCILIATION OF LIABILITIES ARISING FROM FINANCING ACTIVITIES",
+          "node_id": "0161",
+          "start_index": 250,
+          "end_index": 254,
+          "summary": "This section presents a reconciliation of liabilities arising from financing activities for Maruti Suzuki India Limited, detailing borrowings and lease liabilities for FY 2024 and 2025, including cash flows and non-cash changes, notes on prior year regrouping, and board approval of financial statements on April 25, 2025. It also provides AOC-1 disclosures: Part A lists subsidiaries (True Value, Suzuki Motor Solutions Gujarat, J.J. Impex) with financial details and shareholding; Part B lists associates and joint ventures with audited net worth, balance sheet dates, acquisition dates, shares held, investment amounts, holding percentages, significant influence descriptions, reasons for non-consolidation, net worth attributable to shareholding, and profit/loss considered or not considered in consolidation. Specific joint ventures and associates (Plastic Omnium Auto Inergy Manufacturing India, Marelli Powertrain India, Maruti Suzuki Toyotsu India) are detailed with similar information. Notes indicate no associates/JVs are yet to commence operations and that profit after tax for all except four named entities is based on unaudited financial statements for FY ended March 31, 2024. The page also includes company contact and registrar details.",
+          "nodes": [
+            {
+              "title": "43.1 RECONCILIATION OF LIABILITIES ARISING FROM FINANCING ACTIVITIES (intro)",
+              "node_id": "0162",
+              "start_index": 250,
+              "end_index": 252,
+              "summary": "The text presents a reconciliation of liabilities from financing activities for Maruti Suzuki India Limited, showing borrowings and lease liabilities for FY 2024 and 2025 with cash flows and non-cash changes. It includes notes on prior year regrouping and board approval of financial statements on April 25, 2025. Additionally, it provides AOC-1 disclosures: Part A lists subsidiaries (True Value, Suzuki Motor Solutions Gujarat, J.J. Impex) with share capital, reserves, assets, liabilities, investments, turnover, profits, and shareholding; Part B lists associates and joint ventures with audited net worth, balance sheet dates, acquisition dates, shares held, investment amounts, holding percentages, significant influence descriptions, reasons for non-consolidation, net worth attributable to shareholding, and profit/loss considered or not considered in consolidation."
+            },
+            {
+              "title": "II. Joint Ventures",
+              "node_id": "0163",
+              "start_index": 252,
+              "end_index": 254,
+              "summary": "The text presents details of joint ventures and associates: Plastic Omnium Auto Inergy Manufacturing India Private Limited, Marelli Powertrain India Private Limited, and Maruti Suzuki Toyotsu India Private Limited. It lists for each: latest audited balance sheet date, date of association/acquisition, shares held (number, investment amount in millions, and holding percentage), description of significant influence (power to participate in financial/operating policy decisions), reason for non-consolidation (NA), net worth attributable to shareholding (share capital and reserves & surplus in millions), and profit/loss for the year (considered and not considered in consolidation). Notes state no associates/JVs are yet to commence operations and that profit after tax for all except four named entities is based on unaudited financial statements for FY ended March 31, 2024. The page also includes company contact and registrar details."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

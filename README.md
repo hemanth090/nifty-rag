@@ -27,9 +27,9 @@ bearer auth.
 ├── requirements.txt      runtime dependencies
 ├── requirements-dev.txt  test dependencies
 ├── tests/                server tests (no network, fake client)
-├── data/pdfs/            51 source PDFs           (gitignored, kept locally)
-├── .pageindex/           indexed tree store       (gitignored, generated)
-├── results/              one tree JSON per PDF    (gitignored, generated)
+├── data/pdfs/            51 source PDFs (public filings, included)
+├── .pageindex/           indexed tree store (gitignored, generated)
+├── results/              one tree JSON per PDF (included)
 ├── .env.example          configuration template
 └── Dockerfile            production image
 ```
@@ -38,7 +38,8 @@ bearer auth.
 
 - Python 3.10+
 - An OpenCode Go API key
-- The corpus placed in `data/pdfs/` as `<SYMBOL>_FY25.pdf` (51 files)
+- The corpus is included in `data/pdfs/` as `<SYMBOL>_FY25.pdf` (51 files); its
+  result trees are in `results/`
 
 ## Setup
 
@@ -49,9 +50,9 @@ cp .env.example .env
 # edit .env and set OPENCODE_GO_API_KEY
 ```
 
-Large local artifacts are not distributed with the repository. `.venv/`,
-`.pageindex/`, `results/`, and `data/pdfs/` are gitignored; place the filings
-under `data/pdfs/` and run the indexer once before starting the server.
+The filing corpus (`data/pdfs/`, ~887 MB) and its result trees (`results/`) are
+included, so the repository is large. `.venv/` and `.pageindex/` are gitignored:
+run the indexer once to build the store, or copy a store you already have.
 
 ## Run
 
@@ -232,5 +233,5 @@ ownership; a host bind mount must be writable by that uid for indexing.
 MIT — see [`LICENSE`](LICENSE). The retrieval engine is
 [PageIndex](https://github.com/VectifyAI/PageIndex), MIT-licensed and used as a
 dependency (no PageIndex source is vendored in this repository). The annual
-reports in `data/pdfs/` are public company filings and are not part of the
-repository.
+reports in `data/pdfs/` are public company filings, included for reproducibility
+and remaining the property of their issuers.

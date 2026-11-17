@@ -1,0 +1,292 @@
+{
+  "doc_name": "POWERGRID_FY25.pdf",
+  "doc_id": "pi-d3661f0977e34a66b208408dc9562490",
+  "usage": {
+    "prompt_tokens": 35310,
+    "completion_tokens": 4988,
+    "total_tokens": 40298,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    }
+  },
+  "structure": [
+    {
+      "title": "1",
+      "node_id": "0000",
+      "start_index": 1,
+      "end_index": 2,
+      "summary": "The document is a formal notice from Power Grid Corporation of India Limited to the General Managers (Listing) of the National Stock Exchange and BSE Limited, dated 3rd August, 2025, regarding the 36th Annual General Meeting (AGM) and Integrated Annual Report for FY 2024-25. It encloses the AGM Notice and Annual Report, scheduled for 26th August, 2025 via video conferencing, submitted under SEBI Regulations 29, 30, and 34. The AGM agenda includes ordinary business: adoption of audited financial statements, confirmation of interim dividends and declaration of final dividend, reappointment of rotating directors Dr. Yatindra Dwivedi and Shri Naveen Srivastava, and authorization to fix statutory auditors' remuneration. Special business includes appointment of Shri Vamsi Ramamohan Burra as Whole-time Director (Projects) and Shri Abhay Bakre as Government Nominee Director. The notice also lists cc recipients: NSDL, CDSL, and KFin Technologies, and provides company contact details and website link."
+    },
+    {
+      "title": "2Notice_36th_AGM",
+      "node_id": "0001",
+      "start_index": 2,
+      "end_index": 25,
+      "summary": "This section contains the notice for Power Grid Corporation of India Limited's 36th Annual General Meeting (AGM) to be held on 26th August 2025 via video conferencing. It outlines the ordinary business: adoption of audited financial statements for FY2024-25, confirmation of interim dividends and declaration of final dividend, reappointment of two rotating directors (Dr. Yatindra Dwivedi and Shri Naveen Srivastava), and authorization to fix statutory auditors' remuneration. Special business includes appointing Shri Vamsi Ramamohan Burra as Whole-time Director, Shri Abhay Bakre as Government Nominee Director, and three Independent Directors (Shri Shiv Tapasya Paswan, Shri Rohit Vaswani, Smt. Sajal Jha); appointing M/s. A. K. Rastogi & Associates as Secretarial Auditor for five years; ratifying joint Cost Auditors' remuneration for FY2025-26; and approving increased borrowing limits (₹25,000 Crore for FY2025-26 and up to ₹30,000 Crore for FY2026-27 via private placement of bonds). It also includes comprehensive notes on e-voting, scrutinizer appointment, tax deduction, IEPF transfers, KYC/nomination, dematerialization, folio consolidation, senior citizen cell, dispute resolution, and re-lodging transfer deeds, along with instructions for e-voting and attending through VC/OAVM. Additionally, it provides explanatory statements under Section 102(1) of the Companies Act, 2013, detailing director appointments, secretarial auditor appointment, cost auditors' remuneration ratification, and borrowing limit increases, with profiles of directors including DIN, date of birth, qualifications, experience, directorships, committee memberships, board meeting attendance, and shareholding.",
+      "nodes": [
+        {
+          "title": "Power Grid Corporation of India Limited",
+          "node_id": "0002",
+          "start_index": 2,
+          "end_index": 6,
+          "key_items": [
+            "NOTICE",
+            "NOTICE; ORDINARY BUSINESS:",
+            "NOTICE",
+            "ORDINARY BUSINESS:",
+            "SPECIAL BUSINESS:",
+            "8. Appointment of Shri Shiv Tapasya Paswan (DIN: 09414240) as an Independent Director.; 9. Appointment of Shri Rohit Vaswani (DIN: 00658059) as an Independent Director.",
+            "8. Appointment of Shri Shiv Tapasya Paswan (DIN: 09414240) as an Independent Director.",
+            "9. Appointment of Shri Rohit Vaswani (DIN: 00658059) as an Independent Director.",
+            "11. Appointment of Secretarial Auditor.",
+            "RESOLVED FURTHER THAT; “RESOLVED THAT",
+            "RESOLVED FURTHER THAT",
+            "“RESOLVED THAT",
+            "RESOLVED FURTHER THAT",
+            "RESOLVED FURTHER THAT",
+            "RESOLVED FURTHER THAT"
+          ],
+          "summary": "This notice convenes Power Grid Corporation of India Limited's 36th Annual General Meeting on 26th August 2025 via video conferencing. The ordinary business includes adopting audited financial statements for FY2024-25, confirming interim dividends and declaring a final dividend, reappointing two rotating directors (Dr. Yatindra Dwivedi and Shri Naveen Srivastava), and authorizing the board to fix statutory auditors' remuneration. Special business covers appointing Shri Vamsi Ramamohan Burra as Whole-time Director, Shri Abhay Bakre as Government Nominee Director, and three Independent Directors (Shri Shiv Tapasya Paswan, Shri Rohit Vaswani, Smt. Sajal Jha), appointing M/s. A. K. Rastogi & Associates as Secretarial Auditor for five years, ratifying joint Cost Auditors' remuneration for FY2025-26, and approving borrowing limits: increasing to ₹25,000 Crore for FY2025-26 and raising up to ₹30,000 Crore for FY2026-27 through private placement of bonds."
+        },
+        {
+          "title": "NOTES:",
+          "node_id": "0003",
+          "start_index": 6,
+          "end_index": 14,
+          "summary": "The section covers comprehensive notes for Power Grid Corporation's 36th AGM held via VC/OAVM, including special business items, director appointments, dividend declarations, and guidelines on e-voting, scrutinizer appointment, tax deduction, IEPF transfers, KYC/nomination, dematerialization, folio consolidation, senior citizen cell, dispute resolution, and re-lodging transfer deeds. It provides instructions for e-voting on the AGM day, attending through VC/OAVM, and general shareholder guidelines on password confidentiality, login credentials, support contacts, scrutinizer's role, results publication, resolution effectiveness, and AGM transcript availability, plus an annexure to the notice.",
+          "nodes": [
+            {
+              "title": "NOTES: (intro)",
+              "node_id": "0004",
+              "start_index": 6,
+              "end_index": 12,
+              "summary": "The notes cover the 36th AGM of Power Grid Corporation of India Limited to be held via VC/OAVM as per MCA and SEBI circulars, with details on special business items, director appointments, and dividend declarations (interim and final). It includes instructions on e-voting, appointment of scrutinizer, tax deduction on dividends, IEPF transfer of unclaimed dividends/shares, and KYC/nomination requirements. It also addresses dematerialization, consolidation of folios, senior citizen cell, dispute resolution portal, and a special window for re-lodging transfer deeds. The text provides comprehensive guidelines for shareholders regarding participation, voting, and various regulatory compliances."
+            },
+            {
+              "title": "B. Instructions for Members for e-Voting on the day of the AGM are as under: -",
+              "node_id": "0005",
+              "start_index": 12,
+              "end_index": 12,
+              "summary": "B. Instructions for Members for e-Voting on the day of the AGM are as under: -\n1. The procedure for e-Voting on the day of the AGM is same as the instructions mentioned above for remote e-voting.\n2. Only those Members/ shareholders, who will be present in the AGM through VC/OAVM facility and have not casted their vote on the Resolutions through remote e-Voting and are otherwise not barred from doing so, shall be eligible to vote through e-Voting system in the AGM.\n3. Members who have voted through Remote e-Voting will be eligible to attend the AGM. However, they will not be eligible to vote at the AGM.\n4. The details of the person who may be contacted for any grievances connected with the facility for e-Voting on the day of the AGM shall be the same person mentioned for Remote e-voting."
+            },
+            {
+              "title": "C. Instructions for Members for attending the AGM through VC/OAVM are as under:",
+              "node_id": "0006",
+              "start_index": 12,
+              "end_index": 13,
+              "summary": "Instructions for members attending the AGM via VC/OAVM include: access through NSDL e-Voting system, joining the meeting via a link under 'Join meeting', retrieving lost User ID/Password, joining window opening 30 minutes before and closing 15 minutes after scheduled start, recommendation to use laptops, requirement to allow camera and use good internet speed, and caution about network issues with mobile devices/hotspots, recommending stable Wi-Fi or LAN. Speaker registration and advance question submission are open from 22nd to 24th August 2025, with speakers required to allow camera and use good internet, and questions only considered from members holding shares as on the cut-off date."
+            },
+            {
+              "title": "32. GENERAL GUIDELINES FOR SHAREHOLDERS:",
+              "node_id": "0007",
+              "start_index": 13,
+              "end_index": 14,
+              "summary": "The text outlines general guidelines for shareholders regarding e-voting, covering password confidentiality and reset procedures after failed attempts; obtaining login credentials for new members after the AGM notice; contact details for queries and support; the Scrutinizer's role in unblocking votes, preparing a consolidated report within two working days, and declaring results; publication of results on the company, NSDL, and stock exchange websites and the registered office notice board; the effective date of resolutions subject to requisite votes; and the availability of the AGM transcript on the company website."
+            },
+            {
+              "title": "Annexure to the Notice",
+              "node_id": "0008",
+              "start_index": 14,
+              "end_index": 14,
+              "summary": "Annexure to the Notice"
+            }
+          ]
+        },
+        {
+          "title": "Explanatory Statement pursuant to Section 102(1) of the Companies Act, 2013",
+          "node_id": "0009",
+          "start_index": 14,
+          "end_index": 20,
+          "summary": "The section contains explanatory statements under Section 102(1) of the Companies Act, 2013, for POWERGRID's AGM. It covers the appointment of Shri Vamsi Ramamohan Burra as Whole-time Director (Projects) (Item 6) and Shri Abhay Bakre as Government Nominee Director (Item 7), both via Ordinary Resolutions. It proposes appointing Shri Shiv Tapasya Paswan, Shri Rohit Vaswani, and Smt. Sajal Jha as Independent Directors (Items 8–10) through Special Resolutions, detailing their appointments, independence, and nil shareholding. Item 11 seeks approval for appointing M/s. A. K. Rastogi & Associates as Secretarial Auditor for five years. Item 12 ratifies the remuneration of joint Cost Auditors M/s. R. M. Bansal & Co. and M/s. Chandra Wadhwa & Co. for FY 2025-26. Item 13 proposes increasing the domestic borrowing limit from ₹16,000 crore to ₹25,000 crore via debentures/bonds. Item 14 seeks approval to raise up to ₹30,000 crore in FY 2026-27 and includes profiles of Dr. Yatindra Dwivedi and Shri Naveen Srivastava for re-appointment.",
+          "nodes": [
+            {
+              "title": "Explanatory Statement for Appointment of Directors in POWERGRID",
+              "node_id": "0010",
+              "start_index": 14,
+              "end_index": 14,
+              "key_items": [
+                "ITEM NO. 6",
+                "ITEM NO. 7",
+                "Appointment of Shri Abhay Bakre (DIN: 08104259) as a Government Nominee Director."
+              ],
+              "summary": "The text is an explanatory statement under Section 102(1) of the Companies Act, 2013, covering two items for a company's AGM. Item No. 6 proposes the appointment of Shri Vamsi Ramamohan Burra as Whole-time Director (Projects), liable to retire by rotation, detailing his appointment by the President of India, board approval as Additional Director, notice under Section 160, requirement of member approval per SEBI regulations, his shareholding, and the board's recommendation for an Ordinary Resolution. Item No. 7 proposes the appointment of Shri Abhay Bakre as Government Nominee Director, not liable to retire by rotation, outlining his appointment by the President, board approval, notice, need for member approval, his nil shareholding, and the board's recommendation for an Ordinary Resolution. Brief profiles are annexed."
+            },
+            {
+              "title": "ITEM NO. 8",
+              "node_id": "0011",
+              "start_index": 14,
+              "end_index": 15,
+              "key_items": [
+                "Appointment of Shri Shiv Tapasya Paswan (DIN: 09414240) as an Independent Director."
+              ],
+              "summary": "The text presents four agenda items for an Annual General Meeting. Items 8-10 propose appointing Shri Shiv Tapasya Paswan, Shri Rohit Vaswani, and Smt. Sajal Jha as Independent Directors, detailing their appointment by the President of India, board appointment as Additional Directors, compliance with the Companies Act and SEBI regulations, shareholding, and board recommendation for Special Resolutions. Item 11 addresses the appointment of a Secretarial Auditor, citing Section 204 of the Companies Act and SEBI LODR Regulation 24A requirements."
+            },
+            {
+              "title": "Special Resolutions for Appointment of Independent Directors",
+              "node_id": "0012",
+              "start_index": 15,
+              "end_index": 15,
+              "key_items": [
+                "ITEM NO. 9",
+                "Appointment of Shri Rohit Vaswani (DIN: 00658059) as an Independent Director.",
+                "ITEM NO. 10"
+              ],
+              "summary": "The page presents resolutions for the appointment of Shri Rohit Vaswani (DIN: 00658059) as an Independent Director under Item No. 9 and Smt. Sajal Jha (DIN: 09402663) as an Independent Director under Item No. 10. Both were appointed as Additional Directors by the Board following Ministry of Power orders for one year or until further orders, and now require shareholder approval as Special Resolutions under the Companies Act, 2013 and SEBI Regulations. Each section details their appointment terms, confirms they meet independence criteria, discloses their NIL shareholding in POWERGRID, states no other directors or key managerial personnel are interested, recommends passing the resolutions, and notes that brief profiles are annexed to the Notice. A preceding resolution under Item No. 8 for Shri Shiv Tapasya Paswan is also recommended as a Special Resolution with similar disclosures."
+            },
+            {
+              "title": "ITEM NO. 11",
+              "node_id": "0013",
+              "start_index": 15,
+              "end_index": 16,
+              "key_items": [
+                "Appointment of Secretarial Auditor."
+              ],
+              "summary": "The text covers Item No. 11 for appointing a Secretarial Auditor, citing Section 204 of the Companies Act, 2013 and Regulation 24A of SEBI LODR, including amendments effective April 1, 2025, requiring a Peer Reviewed Company Secretary. It details the Board's approval, based on Audit Committee recommendation, of M/s. A. K. Rastogi & Associates as Secretarial Auditor for five years (FY 2025-26 to FY 2029-30) with a professional fee of ₹1,50,000 plus taxes and 5% annual escalation. It notes the firm's consent, eligibility, and peer review status, and the managing partner's qualifications and experience. It confirms no director or KMP interest in the resolution and recommends passing it as an Ordinary Resolution."
+            },
+            {
+              "title": "ITEM NO. 12",
+              "node_id": "0014",
+              "start_index": 16,
+              "end_index": 17,
+              "key_items": [
+                "Ratification of remuneration of the Cost Auditors for the Financial Year 2025-26."
+              ],
+              "summary": "Item No. 12 seeks ratification of Cost Auditors' remuneration for FY 2025-26 under Section 148 of the Companies Act, 2013. The Board, per Audit Committee recommendation, appointed M/s. R. M. Bansal & Co. and M/s. Chandra Wadhwa & Co. as joint Cost Auditors for ₹2,50,000 plus taxes, shared equally, excluding travel and out-of-pocket expenses reimbursed per policy. M/s. R. M. Bansal & Co. is also appointed Lead Cost Auditor for consolidation and filing of the consolidated Cost Audit Report at an additional ₹12,500 plus taxes. No Directors or Key Managerial Personnel or relatives are financially interested except as Director/Shareholder. The Board recommends passing the resolution as an Ordinary Resolution."
+            },
+            {
+              "title": "ITEM NO. 13",
+              "node_id": "0015",
+              "start_index": 17,
+              "end_index": 17,
+              "summary": "The text outlines a proposal to increase POWERGRID's domestic borrowing limit from ₹16,000 Crore to ₹25,000 Crore for FY 2025-26 through secured/unsecured, non-convertible, cumulative/non-cumulative, redeemable, taxable/tax-free debentures/bonds under private placement. It details prior approvals from the Board (435th meeting) and shareholders (35th AGM) for the original ₹16,000 Crore limit, the rationale based on increased CAPEX projections (₹28,000 Crore likely rising to ₹30,000-32,000 Crore), and the Board's subsequent approval (455th meeting) for the enhanced limit. Shareholder approval is sought via Special Resolution for the enhanced borrowing, including various bond types, to finance CAPEX, refinance/recoup expenditures, general corporate purposes, and inter-corporate loans to subsidiaries/JVs, within the overall borrowing limit of ₹1,80,000 Crore. It notes no director/KMP interest and the Board's recommendation."
+            },
+            {
+              "title": "ITEM NO. 14",
+              "node_id": "0016",
+              "start_index": 17,
+              "end_index": 20,
+              "summary": "The section covers a board proposal to raise up to ₹30,000 crore through debentures/bonds in FY 2026-27 for capital expenditure, refinancing, and other corporate purposes, with a debt-equity mix of 80:20 and AAA ratings, seeking shareholder approval via Special Resolution. It includes an official communication by the Company Secretary, referencing SEBI regulations and Secretarial Standard-2 for directors seeking re-appointment at the 36th AGM. Additionally, it provides profiles of Dr. Yatindra Dwivedi and Shri Naveen Srivastava, detailing their DIN, qualifications, experience, directorships, committee memberships, and shareholdings, along with a placeholder for further information.",
+              "nodes": [
+                {
+                  "title": "ITEM NO. 14 (intro)",
+                  "node_id": "0017",
+                  "start_index": 17,
+                  "end_index": 18,
+                  "summary": "The text proposes raising up to ₹30,000 crore via secured/unsecured, non-convertible, cumulative/non-cumulative, redeemable, taxable/tax-free debentures/bonds on private placement in FY 2026-27. The board approved this in its 455th meeting on 30 July 2025. Funds will finance capital expenditure, refinancing, recoupment, general corporate purposes, and loans to subsidiaries/joint ventures. Expected CAPEX is ₹35,000-38,000 crore, with debt-equity mix of 80:20. POWERGRID bonds are AAA rated by CRISIL, ICRA, and CARE; interest rates will be comparable to AAA PSU bonds. Shareholder approval is sought, within overall borrowing limits of ₹1,80,000 crore. Directors/KMPs are not financially interested. The board recommends a Special Resolution."
+                },
+                {
+                  "title": "By order of the Board of Directors",
+                  "node_id": "0018",
+                  "start_index": 18,
+                  "end_index": 19,
+                  "key_items": [
+                    "I) "
+                  ],
+                  "summary": "The text is an official communication by order of the Board of Directors, signed by Company Secretary & Compliance Officer Satyaprakash Dash (ICSI Membership No. A71078). It includes the registered office address, CIN, date (3rd August, 2025), and place (Gurugram). It references details under Regulation 36(3) of SEBI Listing Regulations and Secretarial Standard-2 regarding directors seeking appointment/re-appointment. Specifically, it notes directors seeking re-appointment at the 36th AGM under Item Nos. 3 & 4, in terms of SEBI Listing Regulations and Secretarial Standard-2, followed by a placeholder 'I)'."
+                },
+                {
+                  "title": "Dr. Yatindra Dwivedi",
+                  "node_id": "0019",
+                  "start_index": 19,
+                  "end_index": 20,
+                  "summary": "The text provides profiles for Dr. Yatindra Dwivedi and Shri Naveen Srivastava, including their DIN, date of birth, age, appointment date, and qualifications. It details their brief resumes, expertise, directorships in other companies, committee memberships, board meeting attendance, relationships between directors, and shareholdings. Dr. Dwivedi's profile covers his role as Director (Personnel) at POWERGRID, his 35+ years of experience, leadership in HR and change management, awards, and list of directorships. Shri Srivastava's profile includes his electrical engineering background, over two decades of operational experience, awards, expertise, directorships, and committee roles."
+                },
+                {
+                  "title": "II)",
+                  "node_id": "0020",
+                  "start_index": 20,
+                  "end_index": 20,
+                  "summary": "II)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Shri Naveen Srivastava",
+          "node_id": "0021",
+          "start_index": 20,
+          "end_index": 21,
+          "key_items": [
+            "I) "
+          ],
+          "summary": "The text provides detailed profiles of two directors: Shri Naveen Srivastava and Shri Vamsi Ramamohan Burra. For each, it includes their DIN, date of birth, age, date of appointment, qualifications, a brief resume highlighting their experience and achievements, areas of expertise, directorships in other companies, memberships/chairmanships of committees, listed entities from which they resigned in the past three years, number of board meetings attended during FY 2024-25, relationship with other directors, and number of shares held. It also notes that both are being appointed at the 36th AGM under specific items."
+        },
+        {
+          "title": "Shri Vamsi Ramamohan Burra",
+          "node_id": "0022",
+          "start_index": 21,
+          "end_index": 25,
+          "summary": "The section presents director profiles for Shri Vamsi Ramamohan Burra, Shri Abhay Bakre, Shri Shiv Tapasya Paswan, Shri Rohit Vaswani, and Smt. Sajal Jha. Each profile includes name, DIN, date of birth, age, appointment date, qualifications, brief resume, functional expertise, part-time directorships, resignations from listed entities in the past three years, committee memberships/chairmanships, board meeting attendance for FY 2024-25, inter-director relationships, and shares held. Key details include Burra's 30+ years in power/telecom, Bakre's energy/railway experience, Paswan's social welfare background, Vaswani's tax/mediation expertise, and Jha's legal practice. The section also notes appointment effective dates and nil values where applicable, providing comprehensive disclosures in accordance with SEBI Listing Regulations and Secretarial Standard-2.",
+          "nodes": [
+            {
+              "title": "Shri Vamsi Ramamohan Burra (intro)",
+              "node_id": "0023",
+              "start_index": 21,
+              "end_index": 21,
+              "summary": "The text details the appointment of Shri Vamsi Ramamohan Burra as a Director at the 36th AGM under Item Nos. 6-10, in accordance with SEBI Listing Regulations and Secretarial Standard-2. It provides his DIN, date of birth, age, date of appointment, qualifications (B.Tech, PGDM, Harvard ManageMentor, ISB courses), and a brief resume highlighting over 30 years of experience in power and telecom sectors, including previous roles at POWERGRID. It lists his expertise in various functional areas, directorship in other companies (part-time), membership/chairmanship in committees, listed entities resigned from in the past three years, number of board meetings attended (8) during FY 2024-25, relationship with other directors (Nil), and number of shares held (8,888)."
+            },
+            {
+              "title": "II)",
+              "node_id": "0024",
+              "start_index": 22,
+              "end_index": 22,
+              "summary": "The text lists biographical and professional details for Shri Abhay Bakre, including his DIN, birth date and age, appointment date, qualifications (B.E. and M.Tech in Electrical Engineering, BEE Certified Energy Manager), and a brief resume covering over 35 years of experience in railways, energy efficiency, and clean energy, with roles such as General Manager in Indian Railways, Mission Director of National Green Hydrogen Mission, and Director General of Bureau of Energy Efficiency. It outlines his expertise in power, engineering, leadership, HR, and environment; notes nil part-time directorships, nil listed entity resignations in three years, nil committee memberships, 21 board meetings attended in FY 2024-25, and nil relationships and shares held. An asterisk indicates appointment effective 12th April, 2025."
+            },
+            {
+              "title": "Shri Abhay Bakre",
+              "node_id": "0025",
+              "start_index": 22,
+              "end_index": 23,
+              "summary": "The text provides director profiles covering name, DIN, birth date/age, appointment date, qualifications, resume, expertise, other directorships, resignations from listed entities in past three years, committee memberships/chairmanships, board meeting attendance for FY 2024-25, inter-director relationships, and shareholdings. It details Shri Abhay Bakre (appointed April 12, 2025, with extensive energy and railway experience), Shri Shiv Tapasya Paswan (appointed April 16, 2025, social welfare background), and Shri Rohit Vaswani (appointed April 16, 2025, chartered accountant with tax and mediation expertise). Most fields for other directorships, resignations, and committee roles are marked 'Nil' or 'NA'."
+            },
+            {
+              "title": "Director Profiles: Sections III and IV with Shri Shiv Tapasya Paswan",
+              "node_id": "0026",
+              "start_index": 23,
+              "end_index": 23,
+              "key_items": [
+                "III)",
+                "IV)",
+                "Shri Shiv Tapasya Paswan"
+              ],
+              "summary": "The page presents two director profile sections: III and IV. Section III lists fields for name, DIN, birth date and age, appointment date, qualification, brief resume, expertise, part-time directorships, resignations from listed entities in three years, committee membership/chairmanship, board meetings attended in FY 2024-25, inter-director relationships, and shares held, with a note on appointment effective 16 April 2025. Section IV provides Shri Shiv Tapasya Paswan's details: DIN 09414240, born 1 January 1969 (56 years), appointed 16 April 2025, B.A. in Political Science, with a resume covering social service, leadership, HR, risk, strategy, environment, and R&D expertise. It also records nil or NA for other directorships, resignations, committee roles, meetings attended, relationships, and shares held."
+            },
+            {
+              "title": "Shri Rohit Vaswani",
+              "node_id": "0027",
+              "start_index": 23,
+              "end_index": 24,
+              "summary": "The text profiles Shri Rohit Vaswani (DIN: 00658059), born 10th July 1973, aged 52, appointed on 16th April 2025. It lists his qualifications: CA, CMA, LLM, B.Com, and DISA. It details his professional experience: over 27 years in indirect taxes (Excise, Service Tax, VAT, GST), direct taxes, and corporate taxation. It notes his roles as a qualified mediator under DDRS, Government of NCT of Delhi, and with TDSAT. It mentions his election as Vice-President of the Sales Tax Bar Association and executive committee membership, plus memberships in ICAI committees, study groups, and special purpose groups. It also includes sections on expertise, part-time directorships, listed entity resignations in past three years, committee memberships/chairmanships, board meeting attendance for FY 2024-25, inter-director relationships, and shares held, with a note on appointment date."
+            },
+            {
+              "title": "V)",
+              "node_id": "0028",
+              "start_index": 24,
+              "end_index": 24,
+              "summary": "The text outlines a director's disclosure covering name, birth date, age, appointment date, qualifications, resume, functional expertise, part-time directorships, listed entities resigned from in the past three years, committee memberships/chairmanships, board meeting attendance for FY 2024-25, inter-director relationships, and shares held. It notes appointment effective 16th May 2025, describes Rohit Vaswani's work developing India's accounting process outsourcing profession, his roles as President and Advisory Board Member of Bhartiya Vitta Slahkar Samiti, and his GST, taxation, and financial sector leadership. It also lists his ~3-year Independent Director tenure at Telecommunications Consultants India Limited (23 Nov 2021–31 Oct 2024) and expertise in power, finance, leadership, HR, risk, strategy, environment, and R&D, with remaining fields marked Nil or NA."
+            },
+            {
+              "title": "Smt. Sajal Jha",
+              "node_id": "0029",
+              "start_index": 24,
+              "end_index": 25,
+              "summary": "Smt. Sajal Jha\n09402663 05th September, 1974/ 50 years 16th May, 2025\nBachelor’s degree in Arts (B.A.) and Bachelor’s degree in Law (LLB.) Smt. Sajal Jha (DIN: 09402663) holds a bachelor’s degree in arts from Magadh University and a bachelor’s degree in law from Bihar Institute of Law, Magadh University. She is registered as an advocate on the roll of the Bihar State Bar Council, Patna and has over 14 years of experience as an advocate practicing at Patna High Court. Smt. Sajal Jha brings expertise in Leadership, Human Resource Management, Risk & Strategy Management and Environment, Research & Development, etc.\nNil\nNTPC Green Energy Limited (Ceased as an Independent Director w.e.f. 8th May, 2025)\nNil\nNA*\nNil Nil\n23"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "3ar",
+      "node_id": "0030",
+      "start_index": 25,
+      "end_index": 364,
+      "summary": "3ar"
+    }
+  ]
+}

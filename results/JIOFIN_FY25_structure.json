@@ -1,0 +1,1175 @@
+{
+  "doc_name": "JIOFIN_FY25.pdf",
+  "doc_id": "pi-2ac33216d0ac4a70b623bd509847996b",
+  "usage": {
+    "prompt_tokens": 268242,
+    "completion_tokens": 18620,
+    "total_tokens": 286862,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    }
+  },
+  "structure": [
+    {
+      "title": "Preface",
+      "node_id": "0000",
+      "start_index": 1,
+      "end_index": 2,
+      "summary": "This is a formal notice from Jio Financial Services Limited dated August 5, 2025, addressed to BSE Limited and the National Stock Exchange of India Limited. The company is informing the stock exchanges that the Annual Report for the financial year 2024-25 and the Notice convening the Second Annual General Meeting (Post Listing) are being sent electronically to members with registered email addresses. The notice provides the web links to access the Notice and Annual Report on the company's website. Additionally, it mentions that a letter with the web-link to the Annual Report is being sent to members who have not registered their email addresses, in compliance with SEBI Regulation 36(1)(b). The notice includes the company's contact details, CIN, and is signed by Mohana V, Group Company Secretary and Compliance Officer. Copies are marked to KFin Technologies Limited, Central Depository Services (India) Limited, and National Securities Depository Limited."
+    },
+    {
+      "title": "Jio Financial Services Limited",
+      "node_id": "0001",
+      "start_index": 3,
+      "end_index": 10,
+      "summary": "The notice announces Jio Financial Services Limited's Second Annual General Meeting (post-listing) on August 28, 2025, via video conferencing. Ordinary business includes adopting audited financial statements for FY 2024-25 with Board and Auditor reports, declaring a ₹0.50 dividend per equity share, and appointing Ms. Isha M. Ambani as a Director retiring by rotation. Special business covers appointing S. N. Ananthasubramanian & Co. as Secretarial Auditor for five years and issuing up to 50 crore warrants to promoter group entities on a preferential basis, with detailed terms. AGM notes explain VC/OAVM participation, electronic Annual Report dispatch, director re-appointment, remote e-voting and Insta Poll procedures, login instructions, and scrutinizer details.",
+      "nodes": [
+        {
+          "title": "Jio Financial Services Second AGM Notice 2025",
+          "node_id": "0002",
+          "start_index": 3,
+          "end_index": 3,
+          "key_items": [
+            "NOTICE",
+            "NOTICE",
+            "ORDINARY BUSINESS"
+          ],
+          "summary": "This document is a notice for the Second Annual General Meeting (Post Listing) of Jio Financial Services Limited, scheduled for August 28, 2025, via video conferencing. It includes the company's registered office details and contact information. The notice covers ordinary business items: adoption of audited financial statements (standalone and consolidated) for FY ended March 31, 2025, along with Board and Auditor reports; declaration of a dividend of ₹0.50 per equity share for FY 2024-25; and appointment of Ms. Isha M. Ambani as a Director retiring by rotation. Resolutions for each item are proposed as Ordinary Resolutions."
+        },
+        {
+          "title": "SPECIAL BUSINESS",
+          "node_id": "0003",
+          "start_index": 3,
+          "end_index": 10,
+          "summary": "This section on Special Business covers two AGM agenda items: appointment of S. N. Ananthasubramanian & Co. as Secretarial Auditor for five years via Ordinary Resolution, and issuance of up to 50 crore warrants to promoter group entities (Sikka Ports & Terminals Ltd and Jamnagar Utilities and Power Pvt Ltd) on a preferential basis via Special Resolution, detailing terms such as pricing, payment schedule, conversion window, lock-in, and board authorizations. It includes the board resolution approving the warrant issue, specifying conversion terms and regulatory filings. Additionally, it provides AGM notes on holding the meeting via VC/OAVM, director re-appointment (Ms. Isha M. Ambani), electronic dispatch of the Annual Report, procedures for joining the AGM, and procedures for remote e-voting and Insta Poll, including login instructions and scrutinizer details.",
+          "nodes": [
+            {
+              "title": "SPECIAL BUSINESS (intro)",
+              "node_id": "0004",
+              "start_index": 3,
+              "end_index": 4,
+              "summary": "The text covers two special business items from an AGM notice. First, appointment of S. N. Ananthasubramanian & Co. as Secretarial Auditor for five years (FY2025-26 to FY2029-30) via Ordinary Resolution. Second, issuance of up to 50 crore warrants to promoter group members (Sikka Ports & Terminals Ltd and Jamnagar Utilities and Power Pvt Ltd) on a preferential basis at ₹316.50 per warrant, convertible into equity shares, via Special Resolution. It details terms: 25% payment on subscription, 75% on conversion, 18-month conversion window, lock-in periods, relevant date for pricing, and authorizations to the Board for implementation and regulatory compliance."
+            },
+            {
+              "title": "Board Resolution for Warrant Issue to Promoter Group Allottees",
+              "node_id": "0005",
+              "start_index": 4,
+              "end_index": 4,
+              "key_items": [
+                "Category; Mohana V",
+                "Category",
+                "Mohana V",
+                "Number of Warrants",
+                "RESOLVED FURTHER THAT; RESOLVED FURTHER THAT; RESOLVED FURTHER THAT; RESOLVED FURTHER THAT; RESOLVED FURTHER THAT",
+                "RESOLVED FURTHER THAT",
+                "RESOLVED FURTHER THAT",
+                "RESOLVED FURTHER THAT",
+                "RESOLVED FURTHER THAT",
+                "RESOLVED FURTHER THAT"
+              ],
+              "summary": "The text is a board resolution approving the issue of 50 crore warrants to two promoter group entities, Sikka Ports & Terminals Limited and Jamnagar Utilities and Power Private Limited, on a preferential basis. It sets the relevant date for floor price determination, authorizes filing Form PAS-4 and PAS-5, and specifies terms: each warrant converts to one equity share, 25% payable on subscription and 75% on conversion, allotment within 15 days, conversion within 18 months, lock-in provisions, and adjustment for corporate actions. The resolution authorizes the Board to take all necessary actions, including regulatory approvals and filings, and ratifies prior actions. It is signed by Mohana V, Group Company Secretary and Compliance Officer, on August 1, 2025."
+            },
+            {
+              "title": "AGM Notice: VC/OAVM Meeting, Director Re-appointment, and Electronic Annual Report Dispatch",
+              "node_id": "0006",
+              "start_index": 5,
+              "end_index": 5,
+              "key_items": [
+                "Notes:",
+                "Despatch of Annual Report through Electronic Mode:"
+              ],
+              "summary": "This page covers notes for an AGM held via VC/OAVM per MCA Circulars, including: legal basis and deemed venue; annexation of Section 102 statement and additional information; unavailability of proxy form and attendance slip; no route map; retirement by rotation and re-appointment of Ms. Isha M. Ambani with her interest and others' non-interest; Director details in annexure. It also covers despatch of the Annual Report electronically: compliance with MCA Circulars and Listing Regulations, sending via email or web-link letter, availability on websites, and instructions for members to register/update email addresses for demat and physical holdings."
+            },
+            {
+              "title": "Procedure for joining the AGM through VC/OAVM:",
+              "node_id": "0007",
+              "start_index": 5,
+              "end_index": 6,
+              "key_items": [
+                "Members are requested to follow the procedure given below:; Enter the login credentials (i.e., User ID and password provided in the accompanying communication) and click on “Login”.",
+                "Members are requested to follow the procedure given below:",
+                "Enter the login credentials (i.e., User ID and password provided in the accompanying communication) and click on “Login”.",
+                "b) Members who do not have or who have forgotten their User ID and Password, may obtain/generate/retrieve the same, for attending the AGM, by following the procedure given in the instruction at Note No. 13.C.(vii)(III)."
+              ],
+              "summary": "The procedure for joining the AGM via VC/OAVM includes providing the facility, login instructions via Jio Events link, assistance for forgotten credentials, speaker registration with criteria, chat box for comments, first-come-first-served attendance, requirements for institutional/corporate members to submit authorization documents, facility opening 30 minutes prior, contact details for assistance, joint holder voting rule, quorum reckoning, and encouragement for institutional investors to attend and vote."
+            },
+            {
+              "title": "Procedure for ‘remote e-voting’ and ‘e-voting at the AGM’ (“Insta Poll”):",
+              "node_id": "0008",
+              "start_index": 6,
+              "end_index": 10,
+              "key_items": [
+                "13. A. E-VOTING FACILITY:",
+                "The remote e-voting facility will be available during the following voting period:",
+                "B. INFORMATION AND INSTRUCTIONS RELATING TO E-VOTING:",
+                "PROCEDURE TO LOGIN THROUGH WEBSITES OF DEPOSITORIES",
+                "(B); In case of a member whose e-mail address is not registered/updated with the Company/KFinTech/Depository Participant(s), please follow the following steps to generate your login credentials:",
+                "(B)",
+                "In case of a member whose e-mail address is not registered/updated with the Company/KFinTech/Depository Participant(s), please follow the following steps to generate your login credentials:",
+                "(b) Members holding shares in dematerialised mode who have not registered their e-mail address with their Depository Participant(s) are requested to register/update their e-mail address with the Depository Participant(s) with which they maintain their demat accounts.",
+                "Members are requested to note the following contact details for addressing e-voting-related grievances:"
+              ],
+              "summary": "The text outlines the procedure for remote e-voting and Insta Poll (e-voting at the AGM) for Jio Financial Services Limited, including e-voting facility details, voting period, cut-off date, appointment of scrutiniser, and instructions for members. It covers login procedures for individual demat shareholders via CDSL/NSDL, and for other members and physical shareholders via KFinTech, including password generation and contact details for technical issues. It also details Insta Poll voting at the meeting, contact for e-voting grievances, announcement of results, inspection of documents, and IEPF-related information regarding unclaimed shares."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "DIVIDEND RELATED INFORMATION",
+      "node_id": "0009",
+      "start_index": 11,
+      "end_index": 13,
+      "key_items": [
+        "Tax Deductible at Source (TDS)/Withholding tax",
+        "A. Resident members:",
+        "A.1 Tax Deductible at Source for Resident Members",
+        "B. Non-Resident Members:"
+      ],
+      "summary": "The text details dividend payment procedures, including the record date of August 11, 2025, for eligible members holding shares in dematerialized or physical modes. It outlines requirements for updating bank details, PAN, contact information, and specimen signatures. It explains Tax Deductible at Source (TDS)/withholding tax rates for resident and non-resident members, including documents needed for lower or nil tax deduction, such as Form 15G/15H, tax residency certificates, and lower tax deduction certificates. It covers submission deadlines, consequences of non-compliance, issuance of TDS certificates, and indemnification for inaccurate information. Members are advised to consult tax advisors."
+    },
+    {
+      "title": "Other Information",
+      "node_id": "0010",
+      "start_index": 14,
+      "end_index": 14,
+      "summary": "The text outlines SEBI-mandated procedures for share transfers and dematerialisation, advising members to obtain and verify holding statements. It details how to update personal details (address, email, mobile, PAN, nomination, bank details) for demat shares via Depository Participants and NSDL links, and for physical shares via KFinTech forms (ISR-1, ISR-2, SH-13, SH-14, ISR-3). Non-Resident Indians must report residential status changes. It notes that physical securities transfers require demat and that service requests (e.g., duplicate certificates, transmission) must be in demat form using Form ISR-4. It explains grievance redressal via KFinTech, SCORES, and the ODR portal, and references the Shareholders’ Referencer for further guidance."
+    },
+    {
+      "title": "STATEMENT PURSUANT TO SECTION 102(1) OF THE COMPANIES ACT, 2013 AND ADDITIONAL INFORMATION AS REQUIRED UNDER THE SECURITIES AND EXCHANGE BOARD OF INDIA (LISTING OBLIGATIONS AND DISCLOSURE REQUIREMENTS) REGULATIONS, 2015 AND CIRCULARS ISSUED THEREUNDER",
+      "node_id": "0011",
+      "start_index": 15,
+      "end_index": 19,
+      "key_items": [
+        "Category",
+        "A Promoter and Promoter Group",
+        "B Non-Promoters’",
+        "C Custodians for GDRs and ADRs"
+      ],
+      "summary": "The text covers two special business items from a company notice. Item 4 details the appointment of S. N. Ananthasubramanian & Co. as Secretarial Auditor for five years, including their eligibility, peer review certification, proposed fee of ₹3.50 lakhs for FY 2025-26, and confirmation of no director interest. Item 5 outlines a preferential issue of up to 50 crore warrants to promoter group entities at ₹316.50 per warrant, convertible into equity shares, aggregating ₹15,825 crore. It includes objects of the issue (infusion into subsidiaries and general corporate purposes), monitoring agency appointment, pricing basis, relevant date, allottee details, shareholding pattern pre and post issue, lock-in period, tenure, conversion terms, undertakings, and disclosures regarding no change in control, no wilful defaulter status, and director interests."
+    },
+    {
+      "title": "Annexure to the Notice dated August 01, 2025",
+      "node_id": "0012",
+      "start_index": 20,
+      "end_index": 21,
+      "summary": "The annexure to the notice dated August 1, 2025, details Ms. Isha M. Ambani's retirement by rotation and re-appointment as a director. It includes her age (33), qualifications (Yale University double major, Stanford MBA), and a brief resume highlighting her roles at Reliance Industries, Reliance Retail, Jio Platforms, and Reliance Foundation. Her experience covers retail expansion, digital footprint growth, brand portfolio expansion, D&I initiatives, art and culture leadership, education and women's empowerment, and recognition including TIME100 Next and Forbes GenNext Entrepreneur Award. It lists her board memberships, committee roles, terms of re-appointment, remuneration last drawn (₹22,50,000 in FY2024-25), proposed remuneration, date of first appointment (November 15, 2023), shareholding (0.13% directly, with family entities holding 45.47%), relationship with other directors (none), board meeting attendance (9/11 in FY2024-25, 6/7 in FY2025-26), directorships on other boards, committee memberships, and confirmation of no resignations from listed entities in the past three years. The document concludes with authorization details."
+    },
+    {
+      "title": "Access Progress Now",
+      "node_id": "0013",
+      "start_index": 22,
+      "end_index": 23,
+      "summary": "The text is the annual report FY 2024-25 of Jio Financial Services Limited (JFSL), themed 'Access Progress Now,' emphasizing digital-first financial empowerment. It introduces JFSL as a Core Investment Company with subsidiaries (Jio Credit, Jio Insurance Broking, Jio Payment Solutions, Jio Leasing, Jio Finance Platform, Jio Payments Bank) and a joint venture with BlackRock. The report covers company history, listing details, and the JioFinance app offering loans, savings, UPI, insurance, and financial tools. It includes a table of contents spanning corporate overview, business descriptions, technology, risk management, compliance, people, ESG, board and leadership, statutory reports, and financial statements. It also contains forward-looking statements and mentions AI-generated images and links to BRSR and ESG reports."
+    },
+    {
+      "title": "About Jio Financial Services Limited (JFSL)",
+      "node_id": "0014",
+      "start_index": 24,
+      "end_index": 24,
+      "summary": "Jio Financial Services Limited (JFSL) is introduced as a digital-first financial services company focused on holistic financial well-being for Indians, using customer-centricity, technology, and data intelligence to offer seamless, affordable, intuitive products. It leverages a vast ecosystem, trusted brand, SaaS-based tech architecture, and institutional partnerships to build a future-ready platform, democratizing access to create scale impact and simplify financial services. The text includes JFSL's vision of empowering every Indian with simple, secure, seamless, smart digital solutions and its mission to be a leading digital-first institution creating sustainable stakeholder value guided by 4R principles: Reputation Above All, Regulatory Adherence, Return on Capital, and Return of Capital. It also references the Annual Report FY 2024-25."
+    },
+    {
+      "title": "JFSL Strategy: Borrow, Invest, and Transact Offerings Overview",
+      "node_id": "0015",
+      "start_index": 25,
+      "end_index": 25,
+      "key_items": [
+        "Our Strategy",
+        "Invest"
+      ],
+      "summary": "The page outlines JFSL's strategy across Borrow, Invest, and Transact. Borrow covers Jio Credit Limited's secured lending products like home loans, loan against property, mutual funds, shares, and corporate/supply chain finance. Invest details joint ventures with BlackRock for asset management, wealth management, and broking, plus Jio Gold digital gold and the 'My Money' personal finance manager. Transact describes Jio Payment Solutions Limited and Jio Payments Bank Limited offering savings accounts, UPI, bill payments, money transfers, and merchant solutions like QR codes, POS devices, payment gateways, UPI International, Jio VoiceBox, and JioSoundPay."
+    },
+    {
+      "title": "Protect",
+      "node_id": "0016",
+      "start_index": 25,
+      "end_index": 26,
+      "summary": "Protect\nJio Insurance Broking Limited (JIBL) provides insurance distribution across life, health and general products. Through tie-ups with leading insurers, JIBL offers customers comprehensive protection plans across three channels – direct-to-customer, embedded and institutional sales.\n7\nJ I O F I N A N C I A L S E R V I C E S L I M I T E D l A N N U A L R E P O R T F Y 2 0 24 -25The 4Rs\nOur Guiding Principles\nReputation Above All\nWe remain deeply focused on building and maintaining trust with all our stakeholders. Every product, process and policy is designed to reinforce our credibility as a responsible financial services provider.\nRegulatory Adherence\nAs a multi-regulated entity, we are committed to the highest standards of compliance and risk management. Our governance, controls and reporting frameworks are built to ensure complete alignment with current and evolving regulatory expectations."
+    },
+    {
+      "title": "Return of Capital",
+      "node_id": "0017",
+      "start_index": 26,
+      "end_index": 26,
+      "summary": "Return of Capital\nWe are dedicated to generating sustainable value for all stakeholders. To achieve this, we adopt a disciplined approach to capital allocation, thoroughly evaluating each investment decision for its viability and risk mitigation. Safeguarding shareholder capital is an unwavering priority that drives both our operational and financial strategies."
+    },
+    {
+      "title": "Return on Capital",
+      "node_id": "0018",
+      "start_index": 26,
+      "end_index": 27,
+      "summary": "The text outlines Jio Financial Services' goal to deliver consistent returns on capital through scalable platforms, technology, optimized unit economics, risk management, and efficient cost-to-income ratio while promoting inclusive financial access. It presents FY25 performance metrics including total income, PPOP, EPS, AUM, PAT, net worth, employees, and retail shareholders. Key milestones from April 2024 to March 2025 include launching Jio SoundPay, securing an RBI payment aggregator license, SEBI in-principle approval with BlackRock for an AMC, incorporating asset management and trustee companies, JioFinance UPI at Paris Olympics, launching the JioFinance app, hitting 4 million downloads and 8 million monthly active users, JPBL customer base of 2.31 million, strategic group marketing agreement, incorporating Jio BlackRock Investment Advisers, receiving CIC approval, and a JV with BlackRock for wealth management and broking."
+    },
+    {
+      "title": "Chairman's Message on Technology-Driven Transformation in Financial Services",
+      "node_id": "0019",
+      "start_index": 28,
+      "end_index": 28,
+      "key_items": [
+        "MESSAGE FROM THE CHAIRMAN",
+        "Transformation through technology"
+      ],
+      "summary": "The Chairman's message addresses global macroeconomic and geopolitical uncertainties while noting India's projected 6.5% GDP growth in FY26 and its path to a $5 trillion economy, driven by consumption, policy reforms, talent, and technology. It highlights the financial services sector's transformation through digital platforms and fintech, emphasizing agility and resilience. AI, especially Agentic AI, is presented as a key enabler for personalized advice, back-office automation, fraud detection, and greater financial access and affordability. The message stresses trust, customer data privacy, and cybersecurity investments. It outlines Jio Financial Services' commitment to technology as a force for good, its strong FY25 foundation in people, processes, products, and technology, FY26 ambitions, and focus on governance and risk management, closing with gratitude to shareholders."
+    },
+    {
+      "title": "Giving wings to bold aspirations",
+      "node_id": "0020",
+      "start_index": 28,
+      "end_index": 29,
+      "summary": "A letter to shareholders from Isha M. Ambani, Director, highlighting Jio Financial Services Limited's FY25 progress: scaling distribution platforms, expanding product offerings, and deepening customer engagement. It states the vision of accessible, personal, empowering finance for all Indians regardless of geography or background, and the mission to provide simple, trusted, intelligent solutions via digital innovation like the JioFinance app. It notes millions of users and the first dividend payout, reinforcing long-term shareholder value. Looking ahead, JFSL aims to play a pivotal role in India's financial evolution by listening to customers, adapting with agility, and serving with integrity to deliver lasting value."
+    },
+    {
+      "title": "Scaling with purpose. Leading with discipline.",
+      "node_id": "0021",
+      "start_index": 29,
+      "end_index": 29,
+      "summary": "The letter to shareholders from Jio Financial Services Limited (JFSL) highlights its technology-centric approach, FY25 as a pivotal year with strong execution and growth, and its future-ready tech stack using data analytics and AI. It details the JioFinance app's 4 million downloads, expanded distribution through MyJio and 14,000+ Business Correspondents, and business performance: Jio Credit Limited's AUM growth to ₹10,053 crore, Jio Payments Bank's 2.31 million customers and ₹295 crore deposits, Jio Payment Solutions' new licence and innovations, Jio Insurance Broking's ₹900 crore premium from 1.81 million policies, and the JioBlackRock JV's progress. It covers the team of over 1,000 professionals, financial results (total income ₹2,079 crore, PAT ₹1,613 crore, dividend of ₹0.50 per share), ₹1,346 crore equity infusion, and risk-calibrated growth with strong governance, concluding with gratitude and mission."
+    },
+    {
+      "title": "Group Structure",
+      "node_id": "0022",
+      "start_index": 30,
+      "end_index": 32,
+      "summary": "The text outlines Jio Financial Services Limited's group structure, listing entities with ownership percentages and regulatory details: Jio Credit Limited (NBFC), Jio Leasing Services Limited, Reliance International Leasing IFSC Private Limited (JV), Jio Insurance Broking Limited, Jio Payment Solutions Limited, Jio Payments Bank Limited (with SBI stake acquisition), Jio Finance Platform and Service Limited, Reliance Industrial Investments and Holdings Limited, and Jio BlackRock JVs in investment advisory, broking, asset management, and trusteeship. It identifies JFSL as the Core Investment Company and holding company. The text also introduces the Annual Report theme 'Access Progress Now' and JFSL's growth strategy based on four tenets: customer delight, best for India, technology and data analytics, and responsible growth with governance and sustainability."
+    },
+    {
+      "title": "JioFinance App Customer Delight",
+      "node_id": "0023",
+      "start_index": 33,
+      "end_index": 35,
+      "summary": "The text highlights the JioFinance app's customer-centric vision, emphasizing clarity, ease of access, and trust. It introduces Jio Finance Platform and Service Limited (JFPSL) as the digital-first strategy anchor, managing the unified JioFinance app for borrowing, transacting, investing, and protecting. A customer testimonial praises digital gold investing. Key metrics include 8 million+ monthly active users and 4 million+ app downloads as of March 2025. The value proposition covers one-view financial control, new-age products, strong brand, robust security, AI-driven insights via 'My Money' module, and seamless digital journeys. Key highlights include integration with MyJio, user growth, My Money launch, global UPI launch during Paris Olympics 2024, product expansion, and AI-powered personalization."
+    },
+    {
+      "title": "Our Businesses",
+      "node_id": "0024",
+      "start_index": 35,
+      "end_index": 40,
+      "summary": "The text highlights JFSL's diverse financial services businesses. Jio Credit Limited provides digital-first retail and corporate lending with ₹10,053 crore AUM, expanded to 10 Tier-I cities, and launched digital lending journeys. Jio Payments Bank offers digital banking with 2.3 million accounts, ₹295 crore deposits, 14,000+ BC points, and 1 million+ UPI users. Jio Payment Solutions provides omnichannel payment solutions, secured RBI Payment Aggregator Licence, and launched JioSoundPay and VoiceBox. Jio Insurance Broking facilitated ₹900 crore premiums, 1.81 million policies, expanded D2C platform and embedded insurance. JioBlackRock joint venture received SEBI approvals for AMC, wealth management, and broking, leveraging BlackRock's Aladdin platform for digital-first investment access."
+    },
+    {
+      "title": "Leveraging Technology",
+      "node_id": "0025",
+      "start_index": 41,
+      "end_index": 41,
+      "summary": "The text highlights technology as central to delivering financial access at scale and cost points suited to Indian customers. It emphasizes creating tailored user journeys, reducing friction, and offering secure, responsive services through intelligent systems built for scale, speed, and personalisation. A modular, scalable technology stack and data intelligence engine enable reaching the right customer with the right product, at the right time, and through the right channel."
+    },
+    {
+      "title": "CORE PHILOSOPHY",
+      "node_id": "0026",
+      "start_index": 42,
+      "end_index": 42,
+      "summary": "The text outlines JFSL's Technology function core philosophy, emphasizing agility, standardisation, and intelligence. It details seven principles: fit-for-purpose architecture, experience-driven design, embedded AI, real-time insights, operational excellence, cost efficiency, and reliability. It describes the data and infrastructure layers, including data sources, advanced analytics, governance, and AI infrastructure, highlighting cybersecurity and privacy. Strategic outcomes include precise targeting, improved customer experience, early warning signals, and operational efficiencies. The intelligence layer covers predictive analytics, AI agents, business intelligence, and hyper-personalisation. Key highlights include JioFinance app 2.0, Enterprise Data Lake, SaaS and AI-driven shared services, AI for customer queries, continuous monitoring, enhanced security, customer experience enhancement, operational efficiency, innovation in lending, unified customer identity, and platform architecture with 24/7 security operations and AI-driven insights."
+    },
+    {
+      "title": "Growing Responsibly",
+      "node_id": "0027",
+      "start_index": 43,
+      "end_index": 44,
+      "summary": "The text outlines Jio Financial Services Limited's 'Growing Responsibly' approach to creating long-term value through strong governance, ethical conduct, and sustainability. It details a comprehensive strategy built on four pillars: a robust enterprise-wide Risk Management framework, regulatory adherence, investment in people for a future-ready workforce, and commitment to ESG principles. The Risk Management section describes its core philosophy, governance structure, risk categories managed (credit, market, liquidity, operational, outsourcing, strategic, fraud, model, digital), alignment with the 4Rs (Reputation, Regulation, Return on Capital, Return of Capital), automation, monitoring, and business continuity. Key FY25 highlights include comprehensive risk coverage, proactive identification, mitigation frameworks, technology adoption, business continuity planning, strategic integration, and enhancing the 4Rs."
+    },
+    {
+      "title": "JFSL Risk Management: Resilience, Governance, and Key FY25 Highlights",
+      "node_id": "0028",
+      "start_index": 44,
+      "end_index": 44,
+      "key_items": [
+        "Automation",
+        "Monitoring",
+        "Business Continuity"
+      ],
+      "summary": "The page outlines JFSL's Risk Management philosophy, emphasizing a strategic, enterprise-wide framework aligned with risk appetite and governance roles. It lists managed risk categories (credit, market, liquidity, operational, outsourcing, strategic, fraud, model, digital) and alignment with the 4Rs (Reputation, Regulation, Return on Capital, Return of Capital). Key sections cover Automation of routine calculations, Monitoring systems for emerging risks, and Business Continuity with tiered recovery plans and RTOs. FY25 highlights include comprehensive risk coverage, proactive identification via self-evaluation and analytics, mitigation frameworks with dashboards and Board-approved policies, technology adoption, robust BCP/DR, strategic integration into investment and lending, and contribution to the 4Rs."
+    },
+    {
+      "title": "Compliance",
+      "node_id": "0029",
+      "start_index": 45,
+      "end_index": 45,
+      "summary": "Compliance"
+    },
+    {
+      "title": "Fostering a culture of adherence",
+      "node_id": "0030",
+      "start_index": 45,
+      "end_index": 46,
+      "summary": "The text outlines Jio Financial Services Limited's Compliance function and HR strategy. Compliance is built on regulatory integrity, zero tolerance, and a group-wide framework for adherence. Key highlights include a unified compliance tool for centralized monitoring, guidance notes for consistency, an AI-powered AML and transaction monitoring tool, transition to an NBFC-CIC structure, and embedding compliance via KPI-linked 'Regulations'. HR strategy focuses on a digital-first, future-ready workforce with three pillars: Capability (talent acquisition, upskilling, leadership), Culture (high-performance, inclusive environment), and Collaboration (cross-functional partnerships), underpinned by employee well-being, diversity, and digital transformation."
+    },
+    {
+      "title": "KE Y HIGHLIGHTS",
+      "node_id": "0031",
+      "start_index": 47,
+      "end_index": 48,
+      "summary": "The text highlights JFSL's FY25 achievements in talent acquisition, employer branding, global expertise, diversity, agile talent models, leadership development, digital transformation, technological innovation, employee engagement, and strategic talent deployment. It also covers ESG governance, financial inclusion, nation-building, social responsibility, climate change, and CSR initiatives, including financial literacy, digital inclusion, healthcare, education, and rural development, along with key metrics such as employee strength, CSR spend, and diversity indicators."
+    },
+    {
+      "title": "JFSL FY25 ESG & CSR: Sustainability Governance and Four Strategic Objectives",
+      "node_id": "0032",
+      "start_index": 48,
+      "end_index": 48,
+      "key_items": [
+        "FINANCIAL INCLUSION",
+        "NATION-BUILDING",
+        "SOCIAL RESPONSIBILITY",
+        "CLIMATE CHANGE"
+      ],
+      "summary": "JFSL outlines its ESG governance framework, led by a board-level ESG committee, and its four sustainability objectives. Financial Inclusion covers financial literacy camps, digital inclusion, savings accounts, non-metro store growth, chatbot languages, and CSR spending. Nation-building focuses on financing underserved segments and MSMEs to drive economic development. Social Responsibility details diversity and inclusion, mandatory ESG training, value chain partner engagement with NGRBC and BRSR, Supplier Code adherence, and CSR programs via Reliance Foundation in rural development, education, healthcare, and culture. Climate Change covers monitoring and disclosing GHG emissions, energy, water, and waste to set reduction targets."
+    },
+    {
+      "title": "Financial empowerment through digital access",
+      "node_id": "0033",
+      "start_index": 49,
+      "end_index": 49,
+      "summary": "JFSL's FY 2024-25 annual report highlights financial empowerment through digital access, structured around four sustainability pillars: Financial Inclusion, Social Responsibility, Climate Change, and Nation Building. It details services like Lend & Lease, Invest, Transact, and Protect, alongside initiatives such as phygital banking, digital lending, UPI, POS, and investments for MSMEs and underbanked communities. Social responsibility covers accessible credit, employment generation, employee development, and ethical sourcing. Nation-building efforts include tax contributions, digital service adoption, and entrepreneurship support aligned with Digital India and Atmanirbhar Bharat. Climate action focuses on green financing for solar panels and energy-efficient solutions. The report also presents key metrics: 646% customer increase, 22.4 lakh active users, ₹17.7 crore CSR spend, 100% POSH training, 25% female workforce, 1:1.17 compensation ratio, and ₹334.32 crore in taxes."
+    },
+    {
+      "title": "Committed to powering a sustainable future",
+      "node_id": "0034",
+      "start_index": 50,
+      "end_index": 50,
+      "key_items": [
+        "Social"
+      ],
+      "summary": "JFSL integrates climate action into its sustainability strategy, guided by its ESG Policy, focusing on energy and emissions management, waste reduction, sustainable procurement, renewable energy, paperless processes, and responsible resource consumption, with specific metrics on energy use, Scope 2 emissions, water used, waste generated, and single-use plastics avoided, plus green tariffs in Mumbai avoiding CO2 emissions. Social responsibility covers employee well-being, inclusion, and community development, with data on professionals onboarded, business correspondent network expansion, gender pay parity, women in workforce, and CSR programs reaching people in Odisha and Maharashtra, supported by ₹17.7 crore allocation. Transparency is maintained through BRSR and ESG reports."
+    },
+    {
+      "title": "Board of Directors",
+      "node_id": "0035",
+      "start_index": 51,
+      "end_index": 53,
+      "summary": "The text presents the board of directors of Jio Financial Services Limited, profiling Shri K. V. Kamath (Non-Executive Chairman), Shri Rajiv Mehrishi, Shri Sunil Mehta, Shri Bimal Manu Tanna, and Ms. Rama Vedashree (Independent Directors), Ms. Isha M. Ambani and Shri Anshuman Thakur (Non-Executive Directors), and Shri Hitesh Sethia (MD & CEO). It then notes Board Committees and provides a link to detailed profiles. Following this, the leadership team is listed, including Shri Hitesh Sethia, S. Anantharaman, Manish Kumar Singh, Mohana V., Ganesh AR, Abhishek Haridas Pathak, R. Shyam Sunder, Sudheer Reddy Govula, and Rupali Adhikari Sawant, with detailed profiles for Shri Hitesh Sethia and Shri Abhishek Haridas Pathak. Page numbers and report sections are also included."
+    },
+    {
+      "title": "3 Shri Manish Kumar Singh",
+      "node_id": "0036",
+      "start_index": 53,
+      "end_index": 54,
+      "summary": "The text presents profiles of Jio Financial Services' Group Senior Management, including the Group Chief Human Resources Officer, Group Chief Technology Officer, Group Chief Risk Officer, Group Company Secretary, Group Chief Compliance Officer, Group Head of Internal Audit, and Group General Counsel, detailing their education, prior roles, and experience. It also includes a group photo and profiles of subsidiary CEOs and COOs: Jio Payments Bank, Jio Insurance Broking, JioBlackRock Asset Management, Jio Finance Platform and Service, Jio Credit, Jio Payment Solutions, and JioBlackRock Investment Advisers, covering their professional backgrounds and qualifications."
+    },
+    {
+      "title": "Group Senior Management Profiles and Subsidiary Leadership",
+      "node_id": "0037",
+      "start_index": 54,
+      "end_index": 54,
+      "key_items": [
+        "1 Shri Vinod Easwaran",
+        "2 Shri Ashish Ahuja",
+        "3 Shri Sid Swaminathan",
+        "4 Ms. Surbhe S Sharma"
+      ],
+      "summary": "The page presents Jio Financial Services' Group Senior Management, starting with a group photo listing CEOs of subsidiaries, including Kusal Roy, Vinod Easwaran, Kashinath Hariharan, Ashish Ahuja, Sid Swaminathan, Marc Pilgrem, and Surbhe S Sharma, along with their respective roles. It then provides detailed profiles of four leaders: Vinod Easwaran (MD & CEO, Jio Payments Bank), highlighting his 30+ years in banking and digital transformation; Ashish Ahuja (COO, Jio Insurance Broking), noting 33 years across military, banking, and fintech; Sid Swaminathan (MD & CEO, JioBlackRock Asset Management), emphasizing 20 years in global asset management; and Surbhe S Sharma (CEO, Jio Finance Platform and Service), detailing over a decade in financial products and partnerships. Each profile includes professional experience and educational background."
+    },
+    {
+      "title": "Executive Profiles: Marc Pilgrem and Kashinath Hariharan",
+      "node_id": "0038",
+      "start_index": 55,
+      "end_index": 55,
+      "key_items": [
+        "5 Shri Marc Pilgrem",
+        "6 Shri Kashinath Hariharan"
+      ],
+      "summary": "The page presents profiles of two executives. Shri Marc Pilgrem, Managing Director & CEO of JioBlackRock Investment Advisers, has over 25 years in financial services, focusing on wealth management, investment solutions, and client engagement. Previously at BlackRock, he led Specialist Clients and Investment Trusts for EMEA and served as COO and Head of Business Strategy for iShares EMEA. He holds an MBA in Finance from ESSEC Business School. Shri Kashinath Hariharan, Managing Director & CEO of Jio Payment Solutions, has over 29 years across BFSI, retail, and automotive sectors, with expertise in payments, transaction banking, cash management, trade finance, and corporate banking. He led functions in sales, business technology, product development, fintech collaboration, risk, compliance, and data science. He was a Managing Director at Standard Chartered Bank and spent 16 years at ICICI Bank, most recently as Head of Payments and Cash Management, Transaction Banking."
+    },
+    {
+      "title": "7 Shri Kusal Roy",
+      "node_id": "0039",
+      "start_index": 55,
+      "end_index": 86,
+      "summary": "This section covers Shri Kusal Roy's appointment as MD & CEO of Jio Credit Limited, Jio Financial Services Limited's (JFSL) corporate information, business overview, macroeconomic trends, segment updates, opportunities and threats, and outlook including risk management, internal controls, and human capital. It includes secretarial audit reports for Jio Credit Limited and Reliance Industrial Investments and Holdings Limited, an Independent Auditors' Certificate on corporate governance, the Board's Report with financial performance and CSR details, and an independent auditor's report on JFSL's standalone financial statements for FY2025 with key audit matters on investment valuation, along with the financial statements and annexures.",
+      "nodes": [
+        {
+          "title": "7 Shri Kusal Roy (intro)",
+          "node_id": "0040",
+          "start_index": 55,
+          "end_index": 58,
+          "summary": "The text covers Shri Kusal Roy's appointment as MD & CEO of Jio Credit Limited, detailing his 30 years of banking experience and leadership roles. It then presents Jio Financial Services Limited's (JFSL) corporate information, including board of directors, committees, auditors, and registered office. An overview of JFSL describes its structure as a Core Investment Company with subsidiaries and joint ventures addressing customers' borrow, invest, transact, and protect needs. Macroeconomic and industry overviews discuss global and Indian economic trends, inflation, repo rate cuts, NBFC sector growth, payment solutions, insurance broking, and asset/wealth management. Business updates highlight the JioFinance app's integration and monthly active users, and segment updates cover lending, payments, insurance broking, and asset management. Opportunities and threats are analyzed, and the text notes JFSL operates as a single reportable segment."
+        },
+        {
+          "title": "Outlook",
+          "node_id": "0041",
+          "start_index": 58,
+          "end_index": 80,
+          "summary": "This section covers Jio Financial Services Limited's (JFSL) outlook, including risk concerns, internal controls, human capital, enterprise risk management, financial results, corporate governance, shareholder information, and other disclosures. It includes secretarial audit reports for Jio Credit Limited and Reliance Industrial Investments and Holdings Limited, noting compliance with applicable regulations and detailing board composition, meetings, and key events. An Independent Auditors' Certificate on corporate governance compliance is presented, along with the Board's Report covering financial performance, conversion to a Core Investment Company, dividend recommendation, material events, and business operations. The corporate overview describes JFSL as a CIC holding company with subsidiaries and joint ventures across lending, payments, protection, and investments, and details CSR spending, risk management, and director appointments. Acknowledgement, related party transactions, CSR activities, and a secretarial audit report for JFSL are also included, highlighting compliance, RBI inspection, and conversion to CIC.",
+          "nodes": [
+            {
+              "title": "Outlook (intro)",
+              "node_id": "0042",
+              "start_index": 58,
+              "end_index": 69,
+              "summary": "This text covers Jio Financial Services Limited's (JFSL) outlook, risk concerns, internal controls, human capital, enterprise risk management, financial results (standalone and consolidated), corporate governance report (philosophy, structure, code of ethics, whistle-blower policy, anti-bribery policy, board composition, meetings, compensation, committees), general shareholder information (AGM, listing, shareholding pattern, dematerialization, unclaimed shares), other disclosures (related party transactions, penalties, sexual harassment), and certificates (non-disqualification of directors, CEO/CFO certification, secretarial audit report for Jio Credit Limited)."
+            },
+            {
+              "title": "b) The Insurance Regulatory and Development Authority of India (Registration of Corporate Agents) Regulations, 2015",
+              "node_id": "0043",
+              "start_index": 69,
+              "end_index": 70,
+              "summary": "The text covers a secretarial audit report for Jio Credit Limited (formerly Jio Finance Limited) for FY 2024-25, including compliance with the Insurance Regulatory and Development Authority of India (Registration of Corporate Agents) Regulations, 2015, Secretarial Standards SS-1 and SS-2, and the Companies Act. It details board composition, meeting procedures, and unanimous decisions. It notes management's adequate compliance systems. Key events include amendment of the Memorandum of Association for lending business, authorization to issue NCDs up to INR 6000 crore, amendment of Articles of Association for debenture trustees' right to appoint a nominee director, change of company name, and allotment of equity shares on a right basis. It also includes an annexure with management's and auditor's responsibilities and a disclaimer, plus a separate secretarial audit report for Reliance Industrial Investments and Holdings Limited covering management and auditor responsibilities and basis for opinion."
+            },
+            {
+              "title": "Opinion",
+              "node_id": "0044",
+              "start_index": 70,
+              "end_index": 72,
+              "summary": "The text includes a secretarial audit report for Reliance Industrial Investments and Holdings Limited for FY 2024-25, opining compliance with applicable laws (Companies Act, Depositories Act, SEBI regulations, Secretarial Standards), noting many regulations as not applicable. It details Board composition (non-executive, woman, independent directors), material subsidiary status of Jio Financial Services Limited, exemption from Audit and NRC committees, meeting procedures, and compliance systems. An annexure clarifies the report's scope, excluding financial records verification. Additionally, an Independent Auditors' Certificate on Corporate Governance compliance for Jio Financial Services Limited, issued by Lodha & Co LLP, outlines management and auditors' responsibilities, examination procedures, and assurance on compliance with SEBI Listing Regulations."
+            },
+            {
+              "title": "Conclusion",
+              "node_id": "0045",
+              "start_index": 72,
+              "end_index": 73,
+              "summary": "The text includes a corporate governance compliance certificate from Lodha & Co LLP for Jio Financial Services Limited for FY 2024-25, with restrictions on use. It then presents the Board's Report, covering financial results (standalone and consolidated), conversion to a Core Investment Company, financial performance highlights, dividend recommendation, material events such as RBI approval, foreign investment approval, MD appointment, capital reduction, and joint ventures with BlackRock for asset management and wealth management/broking. It also mentions the Management Discussion and Analysis Report and business operations/performance."
+            },
+            {
+              "title": "Overview",
+              "node_id": "0046",
+              "start_index": 73,
+              "end_index": 75,
+              "key_items": [
+                "a) Statutory Auditors",
+                "b) Secretarial Auditor",
+                "I. Meetings of the Board; II. Committees constituted by the Board of Directors",
+                "I. Meetings of the Board",
+                "II. Committees constituted by the Board of Directors"
+              ],
+              "summary": "This corporate overview covers Jio Financial Services Limited as a CIC holding company operating financial services through subsidiaries and joint ventures across four pillars: Lending & Leasing (Jio Credit Limited offering secured loans, Jio Leasing Services providing device-as-a-service and ship/aircraft leasing via JV), Payments (Jio Payment Solutions with online payment aggregator licence and Jio Payments Bank as JV with SBI pending acquisition), Protection (Jio Insurance Broking with 34 insurer partnerships), and Investments (Jio BlackRock Asset Management and Investment Advisers JVs awaiting licences, plus Jio Finance Platform hosting the JioFinance app). It details consolidated financial statements, subsidiary/JV incorporations and material subsidiaries, secretarial standards, Directors' Responsibility Statement, corporate governance, BRSR, related party transactions, CSR spending of ₹4.71 crore, risk management framework, internal financial controls, director appointments and performance evaluation, statutory and secretarial auditors, board committees, vigil mechanism, regulatory exemptions as a CIC, foreign exchange details, annual return, employee remuneration disclosures, general nil disclosures, and POSH compliance."
+            },
+            {
+              "title": "Acknowledgement",
+              "node_id": "0047",
+              "start_index": 75,
+              "end_index": 77,
+              "summary": "The text includes an acknowledgement by the Board of Directors thanking employees, banks, regulatory authorities, government authorities, stock exchanges, customers, vendors, and members. It then presents Annexure I (Form AOC-2) disclosing related party transactions, specifically equity share subscriptions in Jio Payments Bank Limited (₹181 crore) and Jio Credit Limited (₹1000.24 crore) on a rights basis, noting no arm's length exceptions. Annexure II details CSR activities: policy outline, CSR Committee composition (Rajiv Mehrishi, Sunil Mehta, Bimal Manu Tanna) and meetings, web-links, average net profit (₹2,35,16,53,306), CSR obligation (₹4,70,33,066), amount spent (₹4,71,00,000), unspent amount (NIL), and no capital assets created. Annexure III confirms no unspent CSR amounts for preceding three years. A Secretarial Audit Report for FY ended March 31, 2025, outlines management's and auditor's responsibilities, basis for opinion, and compliance verification."
+            },
+            {
+              "title": "Opinion",
+              "node_id": "0048",
+              "start_index": 77,
+              "end_index": 80,
+              "summary": "This Secretarial Audit Report for Jio Financial Services Limited covers the audit period FY 2024-25. It details the auditor's verification of records and compliance with the Companies Act, 2013, SEBI regulations, FEMA, RBI Act and directions, Secretarial Standards, and Listing Agreements. Specific applicable laws like RBI NBFC Scale Based Regulation and Core Investment Companies Directions are identified. The report notes no change in Board composition, proper notice for meetings, and unanimous decisions. It highlights RBI's inspection and the company's action plan. Transactions include alteration of the Object Clause and reduction of share capital via cancellation of shares under a scheme. The company converted from NBFC-ND-SI to Core Investment Company (CIC ND-SI). An annexure clarifies the scope limitations, and the report concludes with the auditor's signature and date."
+            }
+          ]
+        },
+        {
+          "title": "Opinion",
+          "node_id": "0049",
+          "start_index": 80,
+          "end_index": 86,
+          "key_items": [
+            "Opinion",
+            "c) The Company is a Core Investment Company (CIC) as"
+          ],
+          "summary": "The text is an independent auditor's report on the standalone financial statements of Jio Financial Services Limited for the year ended March 31, 2025. It includes the auditor's opinion that the financial statements give a true and fair view in accordance with Ind AS. Key audit matters are highlighted, specifically the valuation of investments in two subsidiaries (Jio Payment Solutions Limited and Jio Leasing Services Limited) with a carrying value of ₹415.89 crore, detailing management estimates, impairment testing, and audit procedures. The report covers the basis for opinion, other information, responsibilities of management and auditors, and other legal and regulatory requirements, including compliance with Sections 143(3), 197(16), and the Companies (Auditor's Report) Order, 2020. Annexure A addresses internal financial controls, and Annexure B details compliance with the Order. The financial statements themselves include the Balance Sheet, Statement of Profit and Loss, Statement of Changes in Equity, and Statement of Cash Flows, along with accompanying notes."
+        }
+      ]
+    },
+    {
+      "title": "Corporate Information and Basis of Preparation of Standalone Financial Statements",
+      "node_id": "0050",
+      "start_index": 87,
+      "end_index": 87,
+      "key_items": [
+        "A. Corporate information",
+        "B. Basis of preparation",
+        "B.1 Statement of compliance; B.2 Presentation of standalone financial statements; B.3 Basis of measurement; B.4 Use of estimates; B.5 Fair value measurement",
+        "B.1 Statement of compliance",
+        "B.2 Presentation of standalone financial statements",
+        "B.3 Basis of measurement",
+        "B.4 Use of estimates",
+        "B.5 Fair value measurement"
+      ],
+      "summary": "The page presents notes to Jio Financial Services Limited's standalone financial statements for the year ended 31st March 2025. Section A covers corporate information: incorporation history and name changes, NBFC registration and classification as NBFC-ML and CIC-NSI, registered office, and stock exchange listings. Section B covers the basis of preparation: B.1 statement of compliance with Ind AS, RBI directions, accrual and going concern basis, and Board approval; B.2 presentation format per Schedule III and reporting currency; B.3 historical cost measurement with exceptions; B.4 use of estimates and judgements; and B.5 fair value measurement, including the three-level fair value hierarchy and transfer recognition."
+    },
+    {
+      "title": "C. Summary of material accounting policies",
+      "node_id": "0051",
+      "start_index": 87,
+      "end_index": 89,
+      "key_items": [
+        "C.1 Revenue recognition",
+        "C.2 Financial instruments",
+        "Initial recognition and measurement",
+        "Subsequent measurement",
+        "p.88",
+        "Financial assets at FVTPL",
+        "Reclassification of financial assets",
+        "Derecognition of financial assets",
+        "Investment in subsidiaries, associates and joint ventures",
+        "Impairment of financial assets",
+        "l General approach",
+        "b. Financial liabilities; c. Compound financial instruments",
+        "b. Financial liabilities",
+        "c. Compound financial instruments",
+        "d. Offsetting of financial instruments"
+      ],
+      "summary": "This text outlines the material accounting policies of Jio Financial Services Limited. It covers revenue recognition for interest, dividends, and other operations; financial instruments, including classification, measurement, impairment, and derecognition of financial assets and liabilities; cash and cash equivalents; trade receivables; tax expenses (current and deferred); property, plant and equipment; leases; other intangible assets; provisions and contingent liabilities/assets; finance costs; impairment of non-financial assets; employee benefits (short-term, long-term, post-employment, and compensated absences); earnings per share; foreign currency transactions; operating segments; and contract liabilities."
+    },
+    {
+      "title": "D. Critical accounting judgements and key sources of estimations uncertainty",
+      "node_id": "0052",
+      "start_index": 89,
+      "end_index": 90,
+      "key_items": [
+        "D.1 Provisions and contingent liabilities",
+        "D.2 Impairment of financial assets; D.3 Fair value measurement; D.4 Defined benefit plans (gratuity benefits)",
+        "D.2 Impairment of financial assets",
+        "D.3 Fair value measurement",
+        "D.4 Defined benefit plans (gratuity benefits)"
+      ],
+      "summary": "This note outlines critical accounting judgements and estimation uncertainties in preparing the Company's financial statements, noting that actual results may differ and estimates are reviewed on an ongoing basis with prospective revisions. It covers four areas: D.1 Provisions and contingent liabilities, requiring judgement in timing and quantification of provisions and contingencies, reviewed at each balance sheet date; D.2 Impairment of financial assets, involving judgement in estimating future cash flows, assessing significant increase in credit risk, and regularly reviewing models against actual loss experience; D.3 Fair value measurement, using valuation techniques like DCF for instruments not traded in active markets, with judgements on inputs such as liquidity risk, credit risk, and volatility; and D.4 Defined benefit plans (gratuity benefits), determined via actuarial valuations with assumptions on discount rate, inflation, salary increments, and mortality rates, highly sensitive to changes and reviewed at each reporting date."
+    },
+    {
+      "title": "E. Recent accounting pronouncements",
+      "node_id": "0053",
+      "start_index": 90,
+      "end_index": 106,
+      "summary": "Covers recent accounting pronouncements (Ind AS 117, Ind AS 116 amendments) with no significant impact, then extensive notes to standalone financial statements for FY 2024-25: cash, bank balances, loans, investments, other financial assets, tax assets, PP&E, intangibles, non-financial assets, payables, trade payables ageing with MSME disclosures, other financial liabilities, provisions, deferred tax, equity share capital, other equity, income and expense breakdowns, CSR, auditor fees, income tax, EPS, segment reporting, scheme of arrangement, contingent liabilities, financial instruments (carrying values, fair value hierarchy, valuation, risk management covering credit, market, interest rate, liquidity, operational), capital management, CIC compliance ratios, maturity analysis, employee benefits (defined contribution and defined benefit plans with reconciliations, assumptions, sensitivity, plan assets), related party disclosures (transactions, balances, material transactions), statutory information (benami property, borrowings, wilful default, struck-off companies, ROC charges, borrowed funds, undisclosed income, crypto, revaluation), events after reporting date (dividend), prior year regrouping, board approval date, and RBI disclosures for CIC-ND-SI including liquidity risk, funding concentration, asset-liability maturity, sectoral exposures, NPAs, and IRACP vs Ind AS 109 classification.",
+      "nodes": [
+        {
+          "title": "E. Recent accounting pronouncements (intro)",
+          "node_id": "0054",
+          "start_index": 90,
+          "end_index": 92,
+          "summary": "The text covers recent accounting pronouncements, noting MCA's notification of Ind AS 117 and amendments to Ind AS 116, with no significant impact. It then presents standalone financial statement notes: cash and cash equivalents, bank balances, loans (including impairment and borrower types), investments (detailed by category, subsidiary/joint venture holdings, and fair value hierarchy), other financial assets, current tax assets, property, plant and equipment (gross block, depreciation, net block), other intangible assets, other non-financial assets, and payables. Comparative figures for March 31, 2025 and 2024 are provided throughout."
+        },
+        {
+          "title": "Trade payables",
+          "node_id": "0055",
+          "start_index": 92,
+          "end_index": 93,
+          "summary": "The text presents notes to the standalone financial statements of Jio Financial Services Limited for FY 2024-25, covering trade payables and other financial liabilities. It includes a trade payables ageing schedule for March 31, 2025, and 2024, detailing outstanding dues to micro, small, and medium enterprises (MSME) and other creditors, with amounts unbilled and not due for payment. It also provides MSMED Act disclosures on principal and interest unpaid, interest paid, and accrued interest. Further, it details other financial liabilities (commission and employee-related payables) and provisions for employee benefits (gratuity, leave encashment, other service benefits) with reconciliations. Finally, it presents deferred tax assets and liabilities, including movements recognized in profit or loss and other comprehensive income, and notes on unused tax losses."
+        },
+        {
+          "title": "Total",
+          "node_id": "0056",
+          "start_index": 93,
+          "end_index": 97,
+          "key_items": [
+            "a) Reconciliation of Shares outstanding at the beginning and at the end of the year; b) Rights, Preferences and Restrictions attached to shares",
+            "a) Reconciliation of Shares outstanding at the beginning and at the end of the year",
+            "b) Rights, Preferences and Restrictions attached to shares",
+            "d) Details of shareholders holding more than 5% shares"
+          ],
+          "summary": "The text presents notes to standalone financial statements for the year ended 31st March 2025, covering trade payables ageing with MSME disclosures, other financial liabilities, provisions, deferred tax liabilities and assets with movements, other non-financial liabilities, equity share capital including reconciliation, rights, promoter holdings, and scheme-related cancellations, instruments entirely equity in nature, other equity reserves with nature and purpose, income and expense breakdowns (interest, dividend, fees, fair value gains, other income, finance costs, impairment, employee benefits, depreciation, other expenses), CSR and auditor fees disclosures, income tax reconciliation, earnings per share, segment reporting, details of the scheme of arrangement, contingent liabilities, and financial instruments including categories, fair value hierarchy, valuation methodology, and financial risk management covering credit, market, interest rate, liquidity, and operational risks."
+        },
+        {
+          "title": "Financial Instruments: Carrying Values, Fair Value Hierarchy, and Risk Management",
+          "node_id": "0057",
+          "start_index": 97,
+          "end_index": 97,
+          "key_items": [
+            "value; value; B) Fair Valuation Measurement hierarchy; Valuation Methodology; C) Financial Risk Management; (ii) Market risk; (iv) Liquidity risk",
+            "value",
+            "value",
+            "B) Fair Valuation Measurement hierarchy",
+            "Valuation Methodology",
+            "C) Financial Risk Management",
+            "(ii) Market risk",
+            "(iv) Liquidity risk",
+            "Risk Management Framework:",
+            "a) Cash & cash equivalents and other bank balances"
+          ],
+          "summary": "The page presents notes on financial instruments, including carrying values by category for 2025 and 2024, with no reclassifications. It details fair value measurement hierarchy (Levels 1-3) and valuation methodology for quoted investments. Financial risk management is covered through the risk management framework, outlining Board and committee responsibilities, and specific risks: credit risk (cash, investments, loans), market risk, interest rate risk (no floating rate exposure), and liquidity risk (sufficient liquid assets). It also lists risk types and notes short-duration instruments' fair values approximate carrying values."
+        },
+        {
+          "title": "Liquidity analysis for non-derivative financial liabilities",
+          "node_id": "0058",
+          "start_index": 97,
+          "end_index": 98,
+          "summary": "The text covers liquidity analysis of non-derivative financial liabilities with maturity tables for 2025 and 2024, operational risk management, capital management strategies, CIC compliance ratios, and maturity analysis of assets and liabilities. It also includes employee benefits disclosures under Ind AS 19, detailing defined contribution and defined benefit plans with reconciliations of obligations and plan assets."
+        },
+        {
+          "title": "Capital Management, CIC Ratios, Maturity Analysis and Employee Benefits",
+          "node_id": "0059",
+          "start_index": 98,
+          "end_index": 98,
+          "key_items": [
+            "Note",
+            "34 Maturity analysis of assets and liabilities",
+            "Financial Assets",
+            "Financial liabilities"
+          ],
+          "summary": "The page covers capital management objectives and strategies, including maintenance of adjusted net worth and risk-weighted assets below 30%. It presents Core Investment Company compliance ratios for March 31, 2025, and 2024, with notes on regulatory circulars and company registration. A maturity analysis of assets and liabilities, both financial and non-financial, shows amounts due within and after 12 months for both years. Finally, it discloses defined contribution plan expenses for provident fund, superannuation, and pension schemes for the years ended March 31, 2025, and 2024."
+        },
+        {
+          "title": "Defined benefit plans",
+          "node_id": "0060",
+          "start_index": 98,
+          "end_index": 99,
+          "summary": "This note on defined benefit plans explains that the present value obligation is determined using the projected unit credit method, with compensated absences recognized like gratuity. It presents tables summarizing net benefit expenses in the Statement of Profit and Loss and Balance Sheet, including reconciliation of opening and closing balances of the defined benefit obligation and fair value of plan assets. It covers amounts recognized in the Balance Sheet (funded and unfunded, showing a deficit), expenses recognized in profit and loss and OCI, actuarial assumptions (mortality table, expected return, discount rate, salary escalation, turnover), expected contributions for the next year, a maturity analysis of projected benefit payments, and the weighted average duration of the obligation (8 years)."
+        },
+        {
+          "title": "ix) Sensitivity analysis",
+          "node_id": "0061",
+          "start_index": 99,
+          "end_index": 99,
+          "summary": "The text presents a sensitivity analysis of actuarial assumptions (discount rate, salary increase, employee turnover) for the defined benefit obligation, showing the impact of ±0.5% changes as of March 31, 2025, and March 31, 2024. It also lists the category of investments in plan assets as of both dates, detailing asset types. Finally, it includes related party disclosures under Ind AS 24, listing subsidiaries, associates, joint ventures, key managerial personnel, companies under common control, and an enterprise influenced by key managerial personnel, along with their relationships."
+        },
+        {
+          "title": "As at 31 st March, 2025",
+          "node_id": "0062",
+          "start_index": 99,
+          "end_index": 100,
+          "summary": "The text presents notes to standalone financial statements for the year ended 31st March 2025, covering defined benefit plan disclosures: balance sheet recognition (funded/unfunded), expenses in P&L and OCI, actuarial assumptions (mortality, discount rate, salary escalation, turnover), expected contributions, maturity analysis of benefit payments, weighted average duration, sensitivity analysis for discount rate, salary increase, and turnover, and investment categories of plan assets. It also includes related party disclosures under Ind AS 24: list of related parties (subsidiaries, associates, joint ventures, key managerial personnel, companies under common control, others), transactions with related parties, balances outstanding, and material related party transactions."
+        },
+        {
+          "title": "Related Party Transactions and Balances in Standalone Financial Statements",
+          "node_id": "0063",
+          "start_index": 100,
+          "end_index": 100,
+          "key_items": [
+            "2 Purchase of/subscription to investments",
+            "3 Purchase of property, plant & equipment",
+            "7 Dividend income"
+          ],
+          "summary": "The page presents related party disclosures from the Standalone Financial Statements for the year ended 31st March, 2025. It includes a table of transactions with related parties across categories (joint ventures/associates, subsidiaries, key managerial personnel, companies under common control, and others), covering items such as loans, investments, property purchases, interest income, dividends, fees, and expenses, with current and previous year figures. It also provides balances as at 31st March, 2025 for investments, loans, and payables by related party category. Finally, it lists material related party transactions during the year, detailing specific counterparties and amounts for each transaction type."
+        },
+        {
+          "title": "9 Professional fees",
+          "node_id": "0064",
+          "start_index": 100,
+          "end_index": 101,
+          "summary": "The text presents notes to standalone financial statements for FY2024-25, covering related party disclosures: transaction types with joint ventures, subsidiaries, key managerial personnel, and common control entities; balances of investments, loans, and payables; and material related party transactions with specific entities. It also includes long-term contract status, other statutory information (benami property, borrowings security, wilful defaulter, struck-off companies, ROC charges, borrowed fund utilization, undisclosed income, crypto currency, revaluation), events after reporting date (proposed dividend), regrouping of previous year figures, board approval date, and RBI disclosure requirements for Core Investment Companies including liquidity risk metrics."
+        },
+        {
+          "title": "Standalone financial notes: related party transactions, statutory disclosures, and RBI liquidity risk",
+          "node_id": "0065",
+          "start_index": 101,
+          "end_index": 101,
+          "key_items": [
+            "11 CSR expenses",
+            "13 Payment to Key Managerial Personnel",
+            "37 Long-term contract",
+            "39 Events after reporting date",
+            "42 Disclosure required as per RBI Circulars/Guidelines"
+          ],
+          "summary": "The page presents notes to standalone financial statements: IT expenses and CSR expenses with related party relationships; miscellaneous expenses involving subsidiaries and common control companies; payments to key managerial personnel with current and prior year amounts; a note that related party transactions were in the ordinary course and at arm’s length; details of investments in Jio BlackRock entities; confirmation of no long-term contracts with material foreseeable losses; other statutory information covering Benami property, borrowings, wilful default, struck-off companies, ROC charges, utilization of borrowed funds, undisclosed income, crypto currency, and asset revaluation; events after the reporting date (recommended final dividend of ₹0.50 per equity share); regrouping of prior year figures; board approval date; and RBI-required disclosures following the Company’s classification as a CIC-ND-SI, including public liquidity risk disclosures showing nil funding concentration, top deposits, borrowings, and instrument/product concentration."
+        },
+        {
+          "title": "Financial year ended",
+          "node_id": "0066",
+          "start_index": 101,
+          "end_index": 104,
+          "key_items": [
+            "a) Secured"
+          ],
+          "summary": "These notes to the standalone financial statements for FY 2024-25 cover related party transactions including IT expenses with Accops Systems and Jio Platforms, CSR expenses with Reliance Foundation, miscellaneous expenses with subsidiaries and common control entities, and payments to key managerial personnel. It includes a statement that all related party transactions were in the ordinary course of business and at arm's length. Other statutory information discloses no benami property, no borrowings, no wilful defaulter status, no transactions with struck-off companies, no unregistered charges, no diversion of borrowed funds, no undisclosed income, no crypto currency dealings, and no revaluation of assets. It notes events after the reporting date including a recommended final dividend of ₹0.50 per equity share and board approval of financial statements on 17th April 2025. It also includes extensive disclosures required by RBI for a Non-Deposit taking Systemically Important Core Investment Company (CIC-ND-SI), covering liquidity risk management, funding concentration, stock ratios, institutional set-up, asset-liability maturity pattern, borrower and investor group-wise classifications, investments, provisions and contingencies, business ratios, concentration of NPAs, overseas assets, and exposure to real estate and capital market."
+        },
+        {
+          "title": "Category",
+          "node_id": "0067",
+          "start_index": 104,
+          "end_index": 104,
+          "summary": "The text presents a financial disclosure table as of March 31, 2025, and March 31, 2024, covering total exposure to the capital market and sectoral exposure in ₹ crore. It lists sectors: Agriculture and Allied activities, Industry, Services (including NBFCs, Leasing company, Others), Personal Loans, and Others. For each sector, it shows total exposure (on and off-balance sheet), gross NPAs, and percentage of gross NPAs to total exposure, with some figures provided (e.g., 1,500.00, 230.00, 92.00, 25.00). Footnotes clarify that exposure includes gross loans and that 'Others' includes loans to Jio Finance Platform and Services Limited. The text also mentions unhedged foreign currency exposure as a category."
+        },
+        {
+          "title": "Particulars",
+          "node_id": "0068",
+          "start_index": 104,
+          "end_index": 106,
+          "summary": "The text covers notes to the standalone financial statements of Jio Financial Services Limited for FY 2024-25, including: no unhedged foreign currency exposure (Nil for both years); no penalties by RBI or other regulators; related party disclosures with tables showing transactions and balances with subsidiaries, associates/joint ventures, key management personnel, relatives, and others for borrowings, deposits, advances, investments, asset purchases/sales, interest, professional fees, CSR, etc.; no transactions with relatives of KMP and directors; breach of covenant (NA); divergence in asset classification and provisioning (NA/NIL); and RBI IRACP vs Ind AS 109 asset classification and provisioning details for 2025 and 2024, showing performing assets, NPAs, and loss allowances. It also includes auditor signatures and board details."
+        }
+      ]
+    },
+    {
+      "title": "Independent Auditor’s Report",
+      "node_id": "0069",
+      "start_index": 107,
+      "end_index": 111,
+      "key_items": [
+        "Opinion; Key audit matter; Auditors’ response; Key audit matter",
+        "Opinion",
+        "Key audit matter",
+        "Auditors’ response",
+        "Key audit matter",
+        "Auditors’ response",
+        "p.109",
+        "Report on the Internal Financial Controls with reference to consolidated financial statements under Clause (i) of Sub-section 3 of Section 143 of the Companies Act, 2013 (the “Act”)",
+        "Management and Board of Directors’ Responsibilities for Internal Financial Controls",
+        "Auditor’s Responsibility",
+        "Meaning of Internal Financial Controls with reference to consolidated financial statements"
+      ],
+      "summary": "The text is the Independent Auditor’s Report for Jio Financial Services Limited’s consolidated financial statements for the year ended March 31, 2025. It includes the auditor’s opinion, basis for opinion, key audit matters (impairment of financial instruments and IT systems controls), other information, management and board responsibilities, auditor’s responsibilities, other matters (reliance on other auditors and unaudited financial information), and the report on other legal and regulatory requirements. It also covers internal financial controls with reference to consolidated financial statements (Annexure A), and presents the consolidated balance sheet and consolidated statement of profit and loss, along with notes and signatories."
+    },
+    {
+      "title": "Other Comprehensive Income and Equity Share Capital Changes",
+      "node_id": "0070",
+      "start_index": 112,
+      "end_index": 112,
+      "key_items": [
+        "Other Comprehensive Income (OCI)",
+        "A. (i) Equity Share Capital"
+      ],
+      "summary": "The page presents financial statement extracts for the year ended 31st March 2025, including Other Comprehensive Income (OCI) items that will not be reclassified to profit or loss, such as remeasurements of defined benefit plans, equity instruments through OCI, income tax relating to these items, and share of OCI in associates and joint ventures, with comparative figures for 2024. It shows total OCI, total comprehensive income, and earnings per equity share (basic and diluted). It also references material accounting policies and accompanying notes. Additionally, it includes the Consolidated Statement of Changes in Equity, detailing equity share capital and share capital pending allotment, with opening balances, changes during the year (allotment and cancellation of shares), and closing balances for 2025 and 2024. Signatures of auditors, CFO, company secretary, and board members are provided."
+    },
+    {
+      "title": "B. Instruments entirely Equity in nature",
+      "node_id": "0071",
+      "start_index": 112,
+      "end_index": 113,
+      "key_items": [
+        "C. Other Equity"
+      ],
+      "summary": "The text presents financial statement sections from Jio Financial Services Limited's FY2024-25 annual report. It details equity instruments, specifically cancellation of Non-Cumulative Compulsorily Convertible Preference Shares worth ₹0.31 crore held by Reliance Industries. It includes 'Other Equity' schedules for FY2025 and FY2024, showing movements in capital reserves, securities premium, retained earnings, and other comprehensive income components. It also provides the Consolidated Statement of Cash Flow for both years, covering operating, investing, and financing activities with opening/closing cash balances. Signatures from auditors and board members are included, along with references to material accounting policies and accompanying notes."
+    },
+    {
+      "title": "Consolidated Reserves and Surplus and Cash Flow Statement",
+      "node_id": "0072",
+      "start_index": 113,
+      "end_index": 113,
+      "key_items": [
+        "A Cash flow from Operating Activities",
+        "B Cash flow from Investing Activities"
+      ],
+      "summary": "The page presents the consolidated statement of reserves and surplus for the year ended 31st March, 2024, detailing balances at the beginning and end of the year, profit for the year, other comprehensive income, transfers, and other movements across various reserve categories. It also includes the consolidated statement of cash flows for the year ended 31st March, 2025, covering cash flows from operating activities (including adjustments, working capital changes, and income tax paid) and investing activities (including investments, property purchases, interest and dividend received). The page includes accompanying notes to the consolidated financial statements and signatures from auditors and board members."
+    },
+    {
+      "title": "C Cash flow from Financing Activities",
+      "node_id": "0073",
+      "start_index": 113,
+      "end_index": 114,
+      "summary": "The text presents the Statement of Cash Flows (indirect method per Ind AS 7) with financing activities details: proceeds from borrowings, repayments, finance costs paid, net cash from financing, net increase in cash, opening and closing cash balances for FY 2024-25 and FY 2023-24. It includes components of cash and cash equivalents (bank balances and deposits), changes in liabilities from financing activities (opening borrowings, cash flow, finance costs, closing borrowings), a note that taxes are operating activities, and a note that figures in brackets are outflows. It also lists material accounting policies, accompanying notes (1 to 47), auditor signatures (Lodha & Co LLP and Deloitte Haskins & Sells), CFO and Company Secretary details, and Board of Directors signatures with DINs, place and date."
+    },
+    {
+      "title": "A. Corporate information",
+      "node_id": "0074",
+      "start_index": 114,
+      "end_index": 114,
+      "summary": "The text provides corporate information about Jio Financial Services Limited, including its former name, CIN, NBFC status and registration, registered office address, and RBI classification as an NBFC-ML. It details the company's reclassification as a Non-Deposit Taking Systemically Important Core Investment Company (CIC-NO-SI) effective July 9, 2024, following RBI approval. It notes the listing of equity shares on BSE and NSE effective August 21, 2023. It describes the consolidated financial statements covering the Parent Company, subsidiaries, associates, and joint venture, and outlines the Group's business activities: investing and financing, insurance broking, payment bank, payment aggregator, and payment gateway services."
+    },
+    {
+      "title": "B. Basis of preparation",
+      "node_id": "0075",
+      "start_index": 114,
+      "end_index": 115,
+      "key_items": [
+        "B.1 Statement of compliance; B.2 Presentation of consolidated financial statements; B.3 Basis of measurement; B.4 Basis of consolidation",
+        "B.1 Statement of compliance",
+        "B.2 Presentation of consolidated financial statements",
+        "B.3 Basis of measurement",
+        "B.4 Basis of consolidation",
+        "B.5 Use of estimates",
+        "B.6 Fair value measurement"
+      ],
+      "summary": "The text covers the basis of preparation of consolidated financial statements, including compliance with Indian Accounting Standards, RBI directions, and the Companies Act; presentation format and currency; measurement basis using historical cost with fair value exceptions; consolidation principles under Ind AS 110 and 28, including line-by-line consolidation, equity method for associates, and elimination of intra-group transactions; use of estimates and judgments; fair value measurement hierarchy and disclosures; and a summary of material accounting policies covering business combinations (acquisition and pooling of interest methods) and revenue recognition (interest income using EIR, dividend income, revenue from contracts with customers, fees and commissions, and net gain on fair value changes). It also begins detailing financial instruments, including classification, initial recognition and measurement, subsequent measurement categories (amortised cost, FVOCI, FVTPL), and reclassification."
+    },
+    {
+      "title": "Accounting Policies: Fair Value, Business Combinations, Revenue, Financial Instruments",
+      "node_id": "0076",
+      "start_index": 115,
+      "end_index": 115,
+      "key_items": [
+        "C. Summary of material accounting policies",
+        "C.1 Business combination; C.2 Revenue recognition",
+        "C.1 Business combination",
+        "C.2 Revenue recognition",
+        "p.115",
+        "Interest income",
+        "Dividend income",
+        "Other revenue from operations",
+        "Fees, commission and other services",
+        "a. Financial assets",
+        "Classification",
+        "Initial recognition and measurement",
+        "Subsequent measurement",
+        "Financial assets at FVOCI",
+        "Financial assets at FVTPL",
+        "Net gain on fair value changes",
+        "C.3 Financial instruments"
+      ],
+      "summary": "Covers fair value measurement including hierarchy levels and transfers; business combinations under acquisition and pooling methods; revenue recognition for interest, dividends, other operations, fees, and fair value gains; and financial instruments covering classification, initial recognition, subsequent measurement at amortized cost, FVOCI, and FVTPL."
+    },
+    {
+      "title": "Reclassification of financial assets",
+      "node_id": "0077",
+      "start_index": 115,
+      "end_index": 116,
+      "summary": "The text covers accounting policies for financial instruments: reclassification of financial assets only upon business model change, applied prospectively per Ind AS 109; derecognition when contractual rights expire or risks/rewards transfer, with gains/losses recognized in profit or loss; write-offs and recovery procedures; impairment via Expected Credit Losses (ECL) using a three-stage model, general and simplified approaches, and ECL on FVOCI debt instruments; forward-looking macroeconomic information. It also covers financial liabilities: initial recognition at fair value, subsequent measurement at amortized cost, derecognition, compound financial instruments, and offsetting. Additionally, it addresses cash and cash equivalents, trade receivables, tax expenses (current and deferred tax), property, plant and equipment (recognition, depreciation, derecognition), and leases under Ind AS 116."
+    },
+    {
+      "title": "Financial Instruments Accounting Policies under Ind AS 109",
+      "node_id": "0078",
+      "start_index": 116,
+      "end_index": 116,
+      "key_items": [
+        "Derecognition of financial assets; Impairment of financial assets; General approach; Simplified approach; ECL on debt instruments measured at FVOCI; Derecognition; c. Compound financial instruments",
+        "Derecognition of financial assets",
+        "Impairment of financial assets",
+        "General approach",
+        "Simplified approach",
+        "ECL on debt instruments measured at FVOCI",
+        "Derecognition",
+        "c. Compound financial instruments",
+        "Forward-looking information",
+        "Initial recognition and measurement; Subsequent measurement",
+        "Initial recognition and measurement",
+        "Subsequent measurement"
+      ],
+      "summary": "The page details accounting policies for financial instruments under Ind AS 109. It covers derecognition of financial assets, including write-offs and recoveries, and impairment of financial assets using expected credit losses (ECL) with a three-stage model. It explains the general approach for ECL calculation using PD, LGD, and EAD, the simplified approach for trade receivables, and ECL on debt instruments measured at FVOCI. It addresses forward-looking information in ECL estimates. For financial liabilities, it covers classification, initial recognition and measurement, subsequent measurement at amortised cost, derecognition, and compound financial instruments."
+    },
+    {
+      "title": "d. Offsetting of financial instruments",
+      "node_id": "0079",
+      "start_index": 116,
+      "end_index": 117,
+      "summary": "The text covers accounting policies: offsetting financial instruments; cash and cash equivalents definition; trade receivables; tax expenses including current and deferred tax recognition, measurement, and offsetting; property, plant and equipment including cost, depreciation, derecognition, and review of useful lives; leases covering identification, lessee accounting (ROU asset and lease liability), lessor accounting (operating and finance leases), and short-term/low-value leases; other intangible assets including recognition, amortization, and derecognition; provisions and contingent liabilities/assets; finance costs; impairment of non-financial assets; employee benefits including short-term, long-term, post-employment (defined contribution and defined benefit plans), and leave encashment; and earnings per share (basic and diluted)."
+    },
+    {
+      "title": "Notes on Leases, Intangible Assets, Provisions, Finance Costs, Impairment and Employee Benefits",
+      "node_id": "0080",
+      "start_index": 117,
+      "end_index": 117,
+      "key_items": [
+        "As lessee; As lessor; Provisions:; a. Short-term employee benefits",
+        "As lessee",
+        "As lessor",
+        "Provisions:",
+        "a. Short-term employee benefits",
+        "Asset given on finance lease",
+        "C.9 Other intangible assets; C.10 Provisions and Contingent liabilities/assets",
+        "C.9 Other intangible assets",
+        "C.10 Provisions and Contingent liabilities/assets",
+        "Contingent liabilities/assets:",
+        "C.11 Finance costs; C.12 Impairment of non-financial assets; C.13 Employee benefits expense",
+        "C.11 Finance costs",
+        "C.12 Impairment of non-financial assets",
+        "C.13 Employee benefits expense"
+      ],
+      "summary": "The text outlines accounting policies: lease accounting as lessee and lessor, including ROU assets, lease liabilities, operating and finance leases, and asset given on finance lease; other intangible assets recognition, measurement, amortization, and derecognition; provisions and contingent liabilities/assets recognition and disclosure; finance costs recognition; impairment of non-financial assets including CGU assessment and reversal; and short-term employee benefits expense recognition."
+    },
+    {
+      "title": "b. Long-term employee benefits",
+      "node_id": "0081",
+      "start_index": 117,
+      "end_index": 118,
+      "key_items": [
+        "C.14 Earnings per share",
+        "C.15 Foreign currencies transactions and translation; C.16 Operating segments; C.17 Contract liabilities",
+        "C.15 Foreign currencies transactions and translation",
+        "C.16 Operating segments",
+        "C.17 Contract liabilities"
+      ],
+      "summary": "The text covers accounting policies for employee benefits, including long-term benefits accrued over service periods, defined contribution plans with fixed payments and no further obligation, defined benefit plans calculated annually using the projected unit credit method with remeasurements in other comprehensive income, and leave encashment determined actuarially and discounted. It also details earnings per share calculations for basic and diluted shares, foreign currency transaction and translation rules for monetary and non-monetary items, operating segment reporting aligned with internal reporting to the CODM, and contract liabilities recognized when consideration is received before goods or services are transferred."
+    },
+    {
+      "title": "D. Critical accounting judgements and key sources of estimations uncertainty",
+      "node_id": "0082",
+      "start_index": 118,
+      "end_index": 118,
+      "key_items": [
+        "D.1 Provisions and contingent liabilities; D.2 Impairment of financial assets; D.3 Fair value measurement; D.4 Defined benefit plans (gratuity benefits); D.5 Income Taxes",
+        "D.1 Provisions and contingent liabilities",
+        "D.2 Impairment of financial assets",
+        "D.3 Fair value measurement",
+        "D.4 Defined benefit plans (gratuity benefits)",
+        "D.5 Income Taxes"
+      ],
+      "summary": "This text discusses critical accounting judgements and estimation uncertainties, covering management's use of estimates and assumptions that affect reported amounts, with actual results potentially differing. It outlines five specific areas: D.1 Provisions and contingent liabilities, requiring judgement for recognition, quantification, and estimating resource flows; D.2 Impairment of financial assets, involving judgement in measuring impairment losses, estimating future cash flows, and assessing credit risk increases; D.3 Fair value measurement, using valuation techniques like DCF and judgement for unquoted financial instruments, including inputs like liquidity risk, credit risk, and volatility; D.4 Defined benefit plans (gratuity benefits), determined via actuarial valuations with assumptions on discount rate, inflation, salary increments, and mortality rates; and D.5 Income Taxes, regarding the availability of future tax profit against which tax losses carried forward can be used. All estimates are reviewed regularly."
+    },
+    {
+      "title": "E. Recent accounting pronouncements",
+      "node_id": "0083",
+      "start_index": 118,
+      "end_index": 119,
+      "summary": "The text covers recent accounting pronouncements from the MCA, including Ind AS 117 and amendments to Ind AS 116, effective April 1, 2024, with no impact on financial statements. It then presents notes to the consolidated financial statements: cash and cash equivalents, bank balances, and trade receivables. For trade receivables, it provides details on amounts, impairment loss allowance, and ageing schedules for 2025 and 2024, including undisputed and disputed receivables, with no amounts due from directors or related parties."
+    },
+    {
+      "title": "4 Loans",
+      "node_id": "0084",
+      "start_index": 119,
+      "end_index": 122,
+      "summary": "The section covers financial statement notes on loans, including gross and net amounts, impairment allowances, security details, loans to related parties, finance lease receivables, credit quality stages, and impairment charges. It also details investments: joint ventures (equity and preference shares in JPBL, RILIPL, and Jio BlackRock entities), associates (Reliance Services & Holdings, Petroleum Trust), and others by measurement category—at cost (settlors contribution), at fair value through OCI (equity shares, preferred shares, units), at fair value through profit or loss (equity shares, commercial paper, certificates of deposit, treasury bills, mutual funds), and at amortised cost (government securities, bonds, TREPs). Additionally, it covers other financial assets, current and deferred tax assets/liabilities, property, plant and equipment, capital work-in-progress, intangible assets, goodwill, other non-financial assets, and payables.",
+      "nodes": [
+        {
+          "title": "4 Loans (intro)",
+          "node_id": "0085",
+          "start_index": 119,
+          "end_index": 120,
+          "summary": "The text presents detailed financial statement notes on loans, including gross and net loan amounts at amortised cost, impairment loss allowances, and security details (secured vs. unsecured). It covers loans to promoters, directors, KMPs, and related parties, finance lease receivables with maturity analysis, and credit quality exposure by stage (1, 2, 3) with movements in impairment allowances. It also details impairment charges in profit and loss, investments accounted under the equity method, other investments by category (mutual funds, government securities, TREPs, etc.), and disclosures on investments in India and outside India, including a note on proposed acquisition of Jio Payments Bank shares."
+        },
+        {
+          "title": "A.1 Investment in Joint Ventures",
+          "node_id": "0086",
+          "start_index": 120,
+          "end_index": 120,
+          "summary": "The text presents a financial breakdown of investments in joint ventures, categorized into equity shares and preference shares, both unquoted and fully paid up. It lists investments in Jio Payments Bank Limited (JPBL), Reliance International Leasing IFSC Private Limited (RILIPL), Jio BlackRock Investment Advisers Private Limited (JBIAPL), Jio BlackRock Asset Management Private Limited (JBAMPL), and Jio BlackRock Trustee Private Limited (JBTPL). For each entity, it provides the number of shares, face value (₹10 each), investment amounts (in crores), and percentage holdings. Additionally, it includes a preference share investment in RILIPL. The data includes comparative figures for two periods, with some entities showing no holdings in one period."
+        },
+        {
+          "title": "A.2 Investment in Associates",
+          "node_id": "0087",
+          "start_index": 120,
+          "end_index": 121,
+          "summary": "The text presents notes to consolidated financial statements, detailing investments in associates (equity and preference shares of Reliance Services & Holdings Limited, and Petroleum Trust corpus), investments in others (settlors contribution, equity/preferred shares, units, and fair value/amortized cost investments), and category-wise investment breakdown. It also covers other financial assets (receivables, deposits, unbilled revenue), current tax assets, and deferred tax assets/liabilities with reconciliations of charges/credits recognized in profit or loss and other comprehensive income, including tax items under section 43B and fair value adjustments."
+        },
+        {
+          "title": "Notes on Investments in Others by Measurement Category",
+          "node_id": "0088",
+          "start_index": 121,
+          "end_index": 121,
+          "key_items": [
+            "B.1 Investments measured at cost",
+            "B.2 Investments measured at fair value through Other Comprehensive Income",
+            "B.3 Investments measured at fair value through profit or loss"
+          ],
+          "summary": "The page presents Note B, Investment in others, from the consolidated financial statements for the year ended 31st March 2025, with comparative figures as at 31st March 2024. It is divided into three sections: B.1 Investments measured at cost, covering Settlors Contribution in Trust with units and amounts; B.2 Investments measured at fair value through Other Comprehensive Income, covering quoted fully paid equity shares (Reliance Industries Limited), unquoted fully paid preferred shares (Krikey Inc. Series A and B), and quoted fully paid units (Digital Fibre Infrastructure Trust), with units and amounts; and B.3 Investments measured at fair value through profit or loss, covering quoted fully paid equity shares, commercial paper, certificate of deposit, treasury bills, and unquoted fully paid mutual funds, with units and amounts. Each section includes totals and an overall total for investments in others."
+        },
+        {
+          "title": "B.4 Investments measured at amortised cost",
+          "node_id": "0089",
+          "start_index": 121,
+          "end_index": 122,
+          "summary": "The text presents notes to the consolidated financial statements of Jio Financial Services Limited for FY 2024-25, covering investments measured at amortised cost (including government securities, bonds, and TREPs), with details on quoted/unquoted investments, market value, and category-wise investments (equity method, cost, amortised cost, FVOCI, FVTPL). It also includes other financial assets (receivables, security deposits, unbilled revenue), current tax assets, deferred tax assets and liabilities with related charge/credit and reversal details, property, plant and equipment with gross block, depreciation, and net block, capital work-in-progress with ageing schedules, intangible assets under development, goodwill, other intangible assets (software), other non-financial assets (balances with government authorities, prepaid expenses, advances), and payables (trade payables including micro and small enterprises)."
+        }
+      ]
+    },
+    {
+      "title": "Notes on Fixed Assets, Intangibles, Non-Financial Assets, and Payables",
+      "node_id": "0090",
+      "start_index": 122,
+      "end_index": 122,
+      "key_items": [
+        "9. E Other intangible assets",
+        "Software",
+        "10 Other non-financial assets; 11 Payables",
+        "10 Other non-financial assets",
+        "11 Payables"
+      ],
+      "summary": "The page presents notes to consolidated financial statements for the year ended March 31, 2025. It details property, plant and equipment with gross block, depreciation, and net block for 2025 and 2024, including equipment, office equipment, computers, furniture, and vehicles. Capital work-in-progress and intangible assets under development are shown with ageing schedules. Goodwill movement is provided. Other intangible assets (software) are detailed with gross block, amortisation, and net block for both years. Other non-financial assets include balances with government authorities, prepaid expenses, and other advances. Payables section begins but is incomplete."
+    },
+    {
+      "title": "Trade payables",
+      "node_id": "0091",
+      "start_index": 122,
+      "end_index": 123,
+      "summary": "The text presents consolidated financial statement notes for Jio Financial Services Limited for FY 2024-25, covering: trade payables split between MSME and other creditors for 2025 and 2024, with ageing schedules detailing amounts not due, unbilled, and overdue by time buckets, plus disputed dues; MSMED Act disclosures on principal and interest unpaid, paid, and accrued; debt securities comprising commercial paper at amortised cost with terms of repayment; borrowings other than debt securities, including secured term loans and working capital demand loans, with repayment terms by maturity and interest rates; and other financial liabilities including merchant payables, book overdraft, and other payables."
+    },
+    {
+      "title": "Notes: Trade Payables Ageing, MSME Disclosures, Debt Securities, Borrowings",
+      "node_id": "0092",
+      "start_index": 123,
+      "end_index": 123,
+      "key_items": [
+        "Particulars; 12 Debt securities",
+        "Particulars",
+        "12 Debt securities",
+        "13 Borrowings (other than debt securities)",
+        "13.1 Terms of repayment As at March 31, 2025"
+      ],
+      "summary": "The page presents consolidated financial statement notes as at March 31, 2025: trade payables ageing (MSME, others, disputed) for 2025 and 2024; MSME Act disclosures on unpaid principal, interest due, paid, accrued, and payable; debt securities (unsecured commercial paper at amortised cost) with amounts, tenures, interest rates, and bullet repayment; borrowings other than debt securities (secured term loans and working capital demand loans) with totals and India/outside India split; terms of repayment with instalment schedules by maturity buckets, interest rates, and accrued interest/EIR impact."
+    },
+    {
+      "title": "14 Other financial liabilities",
+      "node_id": "0093",
+      "start_index": 123,
+      "end_index": 124,
+      "summary": "The text presents notes to consolidated financial statements for Jio Financial Services Limited FY 2024-25. It details other financial liabilities (merchant payables, book overdraft, other payables including commission and employee liabilities), provisions (employee benefits like gratuity, leave encashment, other service benefits), and deferred tax liabilities (net) with components, movements, and reconciliations for 2024 and 2025. It also covers other non-financial liabilities (statutory dues, other payables) and equity share capital, including authorized, issued, subscribed and paid-up capital, reconciliation of shares outstanding, rights and preferences of shares, issuance history without cash consideration, and shareholders holding more than 5% shares."
+    },
+    {
+      "title": "Notes on Provisions, Deferred Tax, Liabilities, and Equity Share Capital",
+      "node_id": "0094",
+      "start_index": 124,
+      "end_index": 124,
+      "key_items": [
+        "16 Deferred tax liabilities (net)",
+        "Deferred tax liabilities (net)",
+        "17 Other non-financial liabilities",
+        "a) Reconciliation of shares outstanding at the beginning and at the end of the year",
+        "Equity shares",
+        "b) Rights, preferences and restrictions attached to shares"
+      ],
+      "summary": "The page presents notes to consolidated financial statements: Note 15 details provisions for employee benefits including gratuity, leave encashment, and other service benefits. Note 16 covers deferred tax liabilities (net) with reconciliations of deferred tax assets and liabilities, including fair value of financial assets and property, plant and equipment, and charges/credits recognized in profit or loss and other comprehensive income. Note 17 lists other non-financial liabilities such as statutory dues and other payables. Note 18 covers equity share capital, including authorized, issued, subscribed and paid-up capital, reconciliation of shares outstanding, rights, preferences and restrictions attached to shares, and details of shares issued at a premium without cash consideration."
+    },
+    {
+      "title": "d) Details of shareholders holding more than 5% shares",
+      "node_id": "0095",
+      "start_index": 124,
+      "end_index": 125,
+      "summary": "This text covers shareholder details, promoter shareholding, share cancellations, and equity reserves from Jio Financial Services' FY2024-25 consolidated financial statements. It lists shareholders holding over 5% (e.g., Srichakra Commercials LLP, Life Insurance Corporation of India) with share counts for March 31, 2024, and 2025. Promoter shareholding details for Mukesh D. Ambani and Reliance Industries Limited are provided, including changes and the cessation of Reliance Industries as a promoter. It notes the cancellation of 1,42,565 equity shares and details instruments entirely equity in nature (preference shares). Other equity components are broken down (capital redemption reserve, statutory reserve fund, capital reserve, securities premium, general reserve, retained earnings, remeasurement of defined benefit liability, and other comprehensive income reserves) with opening balances, movements, and closing balances for both years, along with the nature and purpose of each reserve."
+    },
+    {
+      "title": "Notes on Equity Instruments, Other Equity Reserves and Their Nature",
+      "node_id": "0096",
+      "start_index": 125,
+      "end_index": 125,
+      "key_items": [
+        "19. A Instruments entirely equity in nature",
+        "19. B Other Equity",
+        "Nature and purpose of reserves",
+        "Capital redemption reserve",
+        "Securities premium",
+        "Capital reserve",
+        "Statutory reserve fund",
+        "General reserve",
+        "Retained earnings",
+        "Remeasurement of the defined benefit liability"
+      ],
+      "summary": "The page presents notes to consolidated financial statements, including promoter shareholding details, cancellation of equity shares, and instruments entirely equity in nature (non-cumulative compulsorily convertible preference shares). It details Other Equity components: capital redemption reserve, statutory reserve fund, capital reserve, securities premium, general reserve, retained earnings, remeasurement of defined benefit liability, equity investments through OCI reserve, and share of OCI in associates and joint ventures, with opening balances, movements, and closing balances for FY2025 and FY2024. It also explains the nature and purpose of each reserve, covering CRR, securities premium, capital reserve, statutory reserve fund, general reserve, retained earnings, remeasurement, and other comprehensive income categories."
+    },
+    {
+      "title": "Other comprehensive Income",
+      "node_id": "0097",
+      "start_index": 125,
+      "end_index": 127,
+      "key_items": [
+        "Particulars"
+      ],
+      "summary": "The text presents notes to the consolidated financial statements for the year ended 31st March 2025, covering promoter shareholding details and changes, cancellation of equity shares, instruments entirely equity in nature (compulsorily convertible preference shares), and various reserves under other equity including capital redemption reserve, statutory reserve fund, capital reserve, securities premium, general reserve, retained earnings, remeasurement of defined benefit liability, and other comprehensive income reserves. It also details income sources (interest, dividend, fees, net gain on fair value changes, other income), expenses (finance costs, impairment, employee benefits, depreciation, other expenses including CSR and auditor payments), tax expenses, earnings per share, segment reporting, a scheme of arrangement involving demerger from Reliance Industries Limited and subsequent share cancellations, and contingent liabilities and commitments."
+    },
+    {
+      "title": "Auditor Payments, Tax Expenses, EPS, Segment Reporting, Scheme of Arrangement, Contingent Liabilities",
+      "node_id": "0098",
+      "start_index": 127,
+      "end_index": 127,
+      "key_items": [
+        "a) Income Tax recognised in Statement of Profit and Loss",
+        "Particulars",
+        "Tax Effect of:; Numerator; Denominator; 34 Contingent liabilities and commitments",
+        "Tax Effect of:",
+        "Numerator",
+        "Denominator",
+        "34 Contingent liabilities and commitments"
+      ],
+      "summary": "The page covers: Auditor payments (audit fees, certifications, reimbursements) for FY25 and FY24; Tax expenses including current and deferred tax, reconciliation of income tax expense to accounting profit, and effective tax rate; Earnings per share (basic and diluted) with numerator, denominator, and face value; Segment reporting noting no reportable segments due to quantitative thresholds and single geographical segment; Details of the Scheme of Arrangement demerging RIL's financial services business, share allotment, cancellation of shares, and capital reduction; Contingent liabilities (income tax, GST, claims) and commitments (partially disbursed loans, contracts) with notes on management's position."
+    },
+    {
+      "title": "As at 31 st March, 2025 As at 31 st March, 2024",
+      "node_id": "0099",
+      "start_index": 127,
+      "end_index": 128,
+      "key_items": [
+        "value; value",
+        "value",
+        "value"
+      ],
+      "summary": "These notes to the consolidated financial statements for FY2025 cover auditor payments, tax expenses with reconciliation and effective tax rate, and earnings per share (basic and diluted). Segment reporting notes no reportable segments due to quantitative thresholds and no geographical segments. A scheme of arrangement with Reliance Industries is detailed, including share allotment and cancellation, reducing share capital. Contingent liabilities and commitments are listed. Financial instruments are disclosed by category, fair value hierarchy (Levels 1-3), Level 3 movement, and financial risk management framework covering credit risk, impairment assessment under Ind AS 109, and ECL methodology including PD, LGD, and EAD."
+    },
+    {
+      "title": "Financial Instruments: Carrying Values, Fair Value Hierarchy, Risk Management and Impairment",
+      "node_id": "0100",
+      "start_index": 128,
+      "end_index": 128,
+      "key_items": [
+        "Valuation Methodology; Risk management framework:; Classification of financial assets under various stages; Impairment assessment",
+        "Valuation Methodology",
+        "Risk management framework:",
+        "Classification of financial assets under various stages",
+        "Impairment assessment",
+        "(i) Credit risk",
+        "a) Cash & Cash equivalents and other bank balances"
+      ],
+      "summary": "The page presents notes on financial instruments, including carrying values by category (FVTPL, FVOCI, amortised cost, associates/joint ventures) for 2025 and 2024, and fair value hierarchy levels (1, 2, 3) with valuation methodology. It outlines the risk management framework, detailing Board and committee responsibilities, and lists risk types: credit, market, interest rate, liquidity, and operational. Credit risk is elaborated for cash and bank balances, investments, and loans/receivables. It also covers classification of financial assets into Stages 1, 2, and 3, and impairment assessment using the Expected Credit Loss approach with PD, LGD, EAD, and forward-looking adjustments."
+    },
+    {
+      "title": "Inputs, assumptions and estimation techniques used for estimating ECL",
+      "node_id": "0101",
+      "start_index": 128,
+      "end_index": 129,
+      "summary": "The text details inputs, assumptions, and estimation techniques for Expected Credit Loss (ECL), including significant increase in credit risk, probability of default, loss given default, exposure at default, forward-looking information, and default definition. It also covers concentration of credit risk with tables of gross carrying amount and ECL by stage. Additionally, it discusses market risk, interest rate risk, liquidity risk with maturity analysis, operational risk, capital management, and maturity analysis for assets and liabilities, providing comparative figures for 2025 and 2024."
+    },
+    {
+      "title": "Credit Risk, Liquidity, Market Risk, Operational Risk and Capital Management",
+      "node_id": "0102",
+      "start_index": 129,
+      "end_index": 129,
+      "key_items": [
+        "Concentration of credit risk",
+        "Liquidity analysis for non-derivative financial liabilities",
+        "Total",
+        "(v) Operational risk",
+        "36 Capital management"
+      ],
+      "summary": "The page covers credit risk assessment, including ECL methodology, definition of default, concentration of credit risk with exposure and ECL tables. It then addresses market risk, interest rate risk, and liquidity risk, including a liquidity analysis for non-derivative financial liabilities. Operational risk management is described, followed by capital management strategies. The page includes tabular data on gross carrying amounts and ECL by stage, and contractual maturity analysis of financial liabilities."
+    },
+    {
+      "title": "37 Maturity analysis for assets and liabilities",
+      "node_id": "0103",
+      "start_index": 129,
+      "end_index": 130,
+      "summary": "The text presents a maturity analysis of assets and liabilities as of March 31, 2025, and March 31, 2024, categorizing them into recoverable or settleable within 12 months and after 12 months. It details financial assets (cash, bank balances, trade receivables, loans, investments, other financial assets) and non-financial assets (current tax assets, deferred tax assets, property, plant and equipment, capital work-in-progress, intangible assets, goodwill, other intangible assets, other non-financial assets). Similarly, it lists financial liabilities (trade payables, debt securities, borrowings, other financial liabilities) and non-financial liabilities (deferred tax liabilities, provisions, other non-financial liabilities), with totals for each category. Additionally, it includes disclosures for employee benefits under Ind AS 19, specifically contributions to provident, superannuation, and pension funds for both years."
+    },
+    {
+      "title": "Defined benefit plan",
+      "node_id": "0104",
+      "start_index": 130,
+      "end_index": 131,
+      "summary": "The text details the defined benefit plan accounting, including the projected unit credit method for present value obligation and recognition of compensated absences. It presents tables reconciling opening and closing balances of defined benefit obligation and fair value of plan assets for gratuity (funded and unfunded) for years ended March 31, 2025 and 2024. It shows amounts recognized in the balance sheet, expenses in profit and loss and other comprehensive income, actuarial assumptions (mortality table, discount rate, salary escalation, turnover), expected contributions for next year, and maturity analysis of projected benefit payments for future years."
+    },
+    {
+      "title": "Sensitivity analysis",
+      "node_id": "0105",
+      "start_index": 131,
+      "end_index": 133,
+      "summary": "The text covers sensitivity analysis of actuarial assumptions (discount rate, salary increase, employee turnover) for defined benefit obligations for 2024-25 and 2023-24, including the projected unit credit method. It also lists categories of investments in plan assets as of March 31, 2025 and 2024. Additionally, it provides related party disclosures under Ind AS 24, including a list of related parties (companies under common control, joint ventures, associates, key managerial personnel), transactions with them (e.g., investments, revenue, expenses, dividends), and balances as of March 31, 2025, with detailed amounts in crore."
+    },
+    {
+      "title": "Related Party Transactions: Loans and Material Transactions Disclosures",
+      "node_id": "0106",
+      "start_index": 133,
+      "end_index": 133,
+      "key_items": [
+        "2 Sale/redemption of investments",
+        "4 Revenue from Operations",
+        "7 Distribution of shares (received)",
+        "9 Professional fees",
+        "11 Payment processing charges",
+        "12 Selling and distribution expenses",
+        "13 CSR expenses paid",
+        "14 General expenses"
+      ],
+      "summary": "The page presents notes to consolidated financial statements for FY2025, detailing loans to companies under common control (Reliance Retail, NowFloats, Reliance Corporate IT Park, Reliance Industries) and material related party transactions with joint ventures, associates, and other related entities. It lists transactions by category: purchase/subscription and sale/redemption of investments; purchase of property, plant, equipment, and intangibles; revenue from operations; dividend received; rent, taxes, and energy costs; distribution of shares received; employee benefits; professional fees; information and technology fees; payment processing charges; selling and distribution expenses; CSR expenses; and general expenses, with corresponding amounts for 2024-25 and 2023-24."
+    },
+    {
+      "title": "Consolidated Financial Statement Notes: Related Party Payments, Subsidiaries, Associates, and Additional Information",
+      "node_id": "0107",
+      "start_index": 134,
+      "end_index": 134,
+      "key_items": [
+        "Sr. No.",
+        "15 Payment to Key Managerial Personnel",
+        "Parent"
+      ],
+      "summary": "The page presents notes to consolidated financial statements for the year ended 31st March 2025. It includes: Note 15 on payment to key managerial personnel for Reliance Retail Limited, Reverie Language Technologies Limited, and Jio Things Limited, detailing relationships, remuneration for 2024-25 and 2023-24, with a note on ordinary course and arm's length transactions. Investment details in Jio BlackRock entities are provided. Note 40 lists subsidiaries consolidated under Ind AS 110 with ownership percentages for 2025 and 2024. Note 41 lists associates and joint ventures under equity method with ownership percentages. Note 42 provides additional information required by Schedule III, including parent's share in net assets, profit or loss, and other comprehensive income."
+    },
+    {
+      "title": "Indian Subsidiaries",
+      "node_id": "0108",
+      "start_index": 134,
+      "end_index": 135,
+      "summary": "The text presents financial data for Indian subsidiaries, associates, and joint ventures of Jio Financial Services Limited for FY 2024-25. It includes a table listing subsidiaries with percentage holdings, financial figures (assets, liabilities, income, profit, etc.), and acquisition dates. It also covers notes on long-term contracts (none with material losses), proposed dividends, and other statutory information: no benami property proceedings, outstanding borrowings of ₹3,970 crore, no wilful defaulter status, no transactions with struck-off companies, no fund diversion for ultimate beneficiaries, no unrecorded income, no crypto currency trading, and no revaluation of assets. It mentions a recommended final dividend of ₹0.50 per share and board approval on April 17, 2025. Additionally, it includes details on associates and joint ventures with investment values and shareholding percentages, and notes on reporting periods and subsidiary operations."
+    },
+    {
+      "title": "Notes to Consolidated Financial Statements: Long Term Contracts and Other Statutory Information",
+      "node_id": "0109",
+      "start_index": 135,
+      "end_index": 135,
+      "key_items": [
+        "Long Term Contracts",
+        "Other statutory information"
+      ],
+      "summary": "The page covers notes to the consolidated financial statements for the year ended 31st March 2025. It includes a section on Long Term Contracts, stating that the Group had no long term contracts, including derivative contracts, with material foreseeable losses requiring provision. The Other Statutory Information section details: no benami property proceedings; outstanding borrowings of ₹3,970.00 crore secured against current assets (₹Nil at March 31, 2024); not declared a wilful defaulter; no transactions with companies struck off under Section 248; no advances, investments, or loans to intermediaries for ultimate beneficiaries, and no funds received with such understanding; no unrecorded transactions surrendered as income; no trading or investment in crypto or virtual currency; and no revaluation of property, plant and equipment or intangible assets. Additionally, it includes a statement containing salient features of financial statements of subsidiaries/associates/joint ventures as per the Companies Act, 2013, with line items such as holdings, share percentage, dividends, comprehensive income, total income, profit/loss before and after taxation, provision for taxation, investments, and liabilities."
+    },
+    {
+      "title": "Events after reporting date",
+      "node_id": "0110",
+      "start_index": 135,
+      "end_index": 136,
+      "summary": "The text covers post-reporting date events, including a recommended final dividend of ₹0.50 per equity share for FY 2024-25 subject to AGM approval, and approval of financial statements by the Board on April 17, 2025. It notes regrouping/reclassification of previous year figures. It includes Annexure A, Part A: Subsidiaries, listing six subsidiaries with details such as ownership percentage, reserves, assets, liabilities, investments, turnover, profit, net worth, and acquisition dates. Part B: Associates and Joint Ventures, listing seven entities with shareholding, investment amounts, net worth, profit/loss, and consolidation notes. It also includes notes on subsidiaries yet to commence operations, no subsidiaries bought/sold during the year, and changes in holding percentage for Jio Payments Bank Limited."
+    },
+    {
+      "title": "Annexure B",
+      "node_id": "0111",
+      "start_index": 136,
+      "end_index": 137,
+      "summary": "Annexure B presents summarized financial statements (Balance Sheet and Profit and Loss) for associates and joint ventures as of March 31, 2025 and 2024, detailing assets, liabilities, net assets, and group share percentages across entities like RSHL, RILIPL, JPBL, and others. It includes revenue, other income, expenses, profit/loss, comprehensive income, dividends, contingent liabilities, and commitments. Notes explain trust shareholding and group share references. The document ends with signatures from auditors and board members, dated April 17, 2025."
+    },
+    {
+      "title": "Jio Financial Services Limited",
+      "node_id": "0112",
+      "start_index": 138,
+      "end_index": 139,
+      "summary": "This letter from Jio Financial Services Limited to shareholders announces the Second Annual General Meeting (Post Listing) scheduled for August 28, 2025, via video conferencing. It provides the company's registered office address, contact details, and corporate identity number. It informs shareholders that the Notice of AGM and Annual Report for FY 2024-25 are available on the company's website with provided links. It requests shareholders to register their email addresses with their Depository Participant or KFin Technologies Limited, the Registrar and Transfer Agent, and provides KFin's contact information for queries. The letter is signed by Mohana V, Group Company Secretary and Compliance Officer."
+    }
+  ]
+}

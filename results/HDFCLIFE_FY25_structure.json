@@ -1,0 +1,158 @@
+{
+  "doc_name": "HDFCLIFE_FY25.pdf",
+  "doc_id": "pi-843011d57c364f41a1d59b1035d19b74",
+  "usage": {
+    "prompt_tokens": 30646,
+    "completion_tokens": 2450,
+    "total_tokens": 33096,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    }
+  },
+  "structure": [
+    {
+      "title": "Preface",
+      "node_id": "0000",
+      "start_index": 1,
+      "end_index": 2,
+      "summary": "The text is a formal letter from HDFC Life Insurance Company Limited to the National Stock Exchange and BSE, dated June 23, 2025, submitting the Business Responsibility and Sustainability Report (BRSR) along with a Reasonable Assurance Report for FY 2024-25, as required by SEBI regulations. It also provides the website link for the report. The letter includes details of the sender and enclosures, followed by the BRSR's general disclosures: corporate identity number, name, year of incorporation (2000), registered and corporate addresses, email, telephone, website, reporting financial year (2024-25), stock exchanges where listed, paid-up capital (₹2152.99 Cr), contact person for queries, reporting boundary (standalone), assurance provider (G.M. Kapadia and Co.), and type of assurance (Reasonable Assurance for BRSR Core indicators)."
+    },
+    {
+      "title": "16. Details of business activities (accounting for 90% of the turnover):",
+      "node_id": "0001",
+      "start_index": 2,
+      "end_index": 2,
+      "summary": "16. Details of business activities (accounting for 90% of the turnover):\nS. No. Description of Main Activity 1 Financial and Insurance Services\nDescription of Business Activity HDFC Life offers a comprehensive suite of life insurance solutions designed to address diverse financial needs across different life stages. These include products for protection, savings, investment, pension, annuity, and health. Through these offerings, the Company helps customers manage key risks such as mortality, morbidity, longevity, and interest rate fluctuations, thereby supporting long-term financial security and well-being.\n% of Turnover of the entity\n100\nIntegrated Annual Report 2024-25263"
+    },
+    {
+      "title": "17. Products/Services sold by the entity (accounting for 90% of the entity’s Turnover):",
+      "node_id": "0002",
+      "start_index": 3,
+      "end_index": 37,
+      "summary": "This section details the products/services sold by the entity, accounting for 90% of turnover, focusing on Life Insurance (NIC Code 65110) contributing 100% of turnover. It covers the number of locations (652 offices nationally, including one international office in Dubai, as of March 31, 2025) and markets served across 28 states and all union territories in India plus one international country. It also describes types of customers (individuals and institutions), employee demographics, turnover rates, holding/subsidiary companies, CSR details, grievance redressal, and material responsible business conduct issues. Management and process disclosures under NGBRC principles include policy coverage, commitments, ESG performance, director's statement, and oversight authority. The 'Looking Ahead' section integrates ESG into core strategy with board-level oversight, covers NGRBC review frequency, independent policy assessment, principle-wise policy mapping, cybersecurity and regulatory compliance, and introduces Principle 1 performance disclosure. The BRSR details governance, employee well-being, human rights, environment, stakeholder engagement, and consumer responsibility, including board training, anti-corruption policies, IRDAI penalties, health and safety metrics, human rights grievance mechanisms, POSH complaints, energy, water, waste, GHG emissions, reduction projects, stakeholder consultation, CSR initiatives, consumer complaint handling, cyber security, and data privacy, noting a data breach with 0% personally identifiable information and no material financial impact, with essential and leadership indicators under nine principles with reasonable assurance.",
+      "nodes": [
+        {
+          "title": "a. Number of locations",
+          "node_id": "0003",
+          "start_index": 3,
+          "end_index": 3,
+          "summary": "The Business Responsibility and Sustainability Report excerpt covers three main points: (1) Products/Services sold, listing Life Insurance (NIC Code 65110) as contributing 100% of total turnover. (2) Operations locations, detailing 652 total offices (all national, with no plants and no international plants; one international office in Dubai), noting these are active branches as of March 31, 2025. (3) Markets served, specifying operations across 28 states and all union territories in India plus 1 international country, and stating that export contribution is not applicable due to the nature of the insurance business."
+        },
+        {
+          "title": "c. A brief on types of customers",
+          "node_id": "0004",
+          "start_index": 3,
+          "end_index": 8,
+          "summary": "The text covers HDFC Life's customer segments (individuals and institutions) and their insurance needs, employee demographics including differently abled and women representation, turnover rates, holding/subsidiary companies, CSR details, grievance redressal data, and material responsible business conduct issues. It also outlines management and process disclosures under NGBRC principles, including policy coverage, commitments, ESG performance, director's statement, and highest authority for business responsibility oversight."
+        },
+        {
+          "title": "Looking Ahead",
+          "node_id": "0005",
+          "start_index": 8,
+          "end_index": 37,
+          "summary": "The \"Looking Ahead\" section integrates ESG into core strategy for risk management and sustainable returns, with board-level oversight via Risk Management, ESG Management, and ESG Governance Committees. It covers NGRBC review frequency, independent policy assessment, uncovered principles, and principle-wise policy mapping, plus cybersecurity and regulatory compliance notes. It introduces Principle 1 performance disclosure on training and awareness programs. The BRSR for HDFC Life details governance, employee well-being, human rights, environment, stakeholder engagement, and consumer responsibility, including board training, anti-corruption policies, IRDAI penalties, employee health and safety metrics, human rights grievance mechanisms, POSH complaints, energy, water, waste, GHG emissions, reduction projects, stakeholder consultation, CSR initiatives, consumer complaint handling, cyber security, and data privacy. It notes a data breach with 0% involving personally identifiable information, no material financial impact, and includes essential and leadership indicators under nine principles with reasonable assurance by G.M. Kapadia & Co.",
+          "nodes": [
+            {
+              "title": "Looking Ahead (intro)",
+              "node_id": "0006",
+              "start_index": 8,
+              "end_index": 11,
+              "summary": "This text covers ESG integration into core strategy for risk management and sustainable returns, stakeholder gratitude, and executive signature. It details board-level oversight of ESG risks through the Risk Management Committee, ESG Management Committee, and ESG Governance Committee. It includes disclosures on NGRBC review frequency, independent policy assessment, and reasons for uncovered principles. A principle-wise policy mapping is provided, along with notes on cybersecurity frameworks and regulatory compliance. Finally, it introduces Principle 1 performance disclosure on training and awareness programs, including segment, topics, and coverage percentages."
+            },
+            {
+              "title": "impact",
+              "node_id": "0007",
+              "start_index": 11,
+              "end_index": 37,
+              "summary": "This Business Responsibility and Sustainability Report (BRSR) for HDFC Life covers governance, employee well-being, human rights, environment, stakeholder engagement, and consumer responsibility. It details board training and anti-corruption policies; penalties for IRDAI violations; employee health, safety, and training metrics; human rights grievance mechanisms and POSH complaints; energy, water, and waste management data; GHG emissions and reduction projects; stakeholder consultation processes; CSR initiatives; and consumer complaint handling, cyber security, and data privacy policies, including one data breach. The report includes both essential and leadership indicators under nine principles, with reasonable assurance by G.M. Kapadia & Co. for key metrics."
+            },
+            {
+              "title": "b. Percentage of data breaches involving personally identifiable information of customers - 0",
+              "node_id": "0008",
+              "start_index": 37,
+              "end_index": 37,
+              "summary": "b. Percentage of data breaches involving personally identifiable information of customers - 0\nc. Impact, if any, of the data breaches - As per the incident response plan, the Company has completed technical assessments, have identified root cause and applied corrective and preventive action to ensure closure. There is no material financial impact noted."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "LEADERSHIP INDICATORS",
+      "node_id": "0009",
+      "start_index": 37,
+      "end_index": 42,
+      "summary": "The section covers HDFC Life's leadership indicators, including information access via corporate webpage and digital/social media, consumer education on safe product usage through various documents and fraud awareness mailers, risk communication via a Business Continuity Planning framework with ISO 22301 alignment, no additional product information beyond legal mandates, and customer satisfaction surveys (Voice of Customer) achieving 88.3% CSAT in FY 2024-25. It also includes an independent assurance report addressed to the Board, detailing identified sustainability information (energy, water, GHG footprint, waste, employee wellbeing, gender diversity, inclusive development, customer/supplier fairness, and business openness) with BRSR cross-references, criteria based on SEBI regulations, management responsibilities, inherent limitations, practitioner independence and quality control, practitioner's responsibility under SSAE 3000, exclusions, opinion, use restriction, and signatures.",
+      "nodes": [
+        {
+          "title": "LEADERSHIP INDICATORS (intro)",
+          "node_id": "0010",
+          "start_index": 37,
+          "end_index": 39,
+          "summary": "The text outlines leadership indicators for HDFC Life, covering: (1) information access via corporate webpage and digital/social media platforms; (2) consumer education on safe product usage through prospectus, policy documents, pre-conversion verification, key feature documents, mailers on fraud awareness, and disclaimers in advertisements; (3) risk communication via a Business Continuity Planning framework with impact analyses, biannual testing, hybrid work systems, and ISO 22301 alignment; (4) no additional product information beyond legal mandates; and (5) customer satisfaction surveys via the Voice of Customer study, including SMS-based online feedback with CSAT and NPS questions, achieving an 88.3% CSAT score in FY 2024-25."
+        },
+        {
+          "title": "TO, The Board of Directors, HDFC Life Insurance Company Limited, Lower Parel, Mumbai – 400011",
+          "node_id": "0011",
+          "start_index": 39,
+          "end_index": 39,
+          "summary": "TO, The Board of Directors, HDFC Life Insurance Company Limited, Lower Parel, Mumbai – 400011\nWe have been engaged to perform a reasonable assurance engagement, for HDFC Life Insurance Company Limited (‘the Company’) vide our engagement letter dated June 3, 2024 in respect of providing an independent assurance on the agreed Sustainability Information listed below (the “Identified Sustainability Information”) in accordance with the Criteria stated below. This identified Sustainability Information is as included in the Business Responsibility and Sustainability Report (BRSR) of the Company for the year ended March 31, 2025."
+        },
+        {
+          "title": "Identified Sustainability Information",
+          "node_id": "0012",
+          "start_index": 39,
+          "end_index": 40,
+          "summary": "The text presents Identified Sustainability Information for the financial year ended March 31, 2025, with cross-references to BRSR attributes. It covers energy footprint, water footprint, GHG footprint, waste management (circularity), employee wellbeing and safety, gender diversity, inclusive development, fairness with customers and suppliers, and business openness. Specific parameters include energy and water consumption, waste generation and disposal, employee wellbeing spending, injury rates, female wage percentage, POSH complaints, MSME sourcing, job creation in smaller towns, accounts payable days, data breaches, and related party transactions. It also includes the assurance scope, criteria based on SEBI regulations and BRSR framework, and management's responsibility for preparing the information."
+        },
+        {
+          "title": "BRSR Sustainability Reporting Criteria and Management Responsibilities",
+          "node_id": "0013",
+          "start_index": 40,
+          "end_index": 40,
+          "key_items": [
+            "Criteria",
+            "Management’s Responsibility"
+          ],
+          "summary": "The page presents a BRSR cross-reference table mapping attributes to principles, covering gender diversity, inclusive development, customer and supplier fairness, and business openness, with metrics on female wages, POSH complaints, MSME sourcing, job creation, payables, data breaches, and related-party transactions. It states assurance is limited to FY ending March 31, 2025. Criteria are defined by SEBI LODR Regulations, the BRSR Core Reporting Standard, Industry Standards Forum guidance, National Guidelines for Responsible Business Conduct, and specified SEBI circulars. Management’s Responsibility covers selecting suitable criteria, identifying key aspects, stakeholder engagement, content preparation and presentation per the Criteria, and designing, implementing, and maintaining internal controls to ensure the BRSR and Identified Sustainability Information are free from material misstatement, whether due to fraud or error. The page is from the Integrated Annual Report 2024-25."
+        },
+        {
+          "title": "Inherent Limitations and Practitioner Independence in Sustainability Assurance",
+          "node_id": "0014",
+          "start_index": 41,
+          "end_index": 41,
+          "key_items": [
+            "Inherent limitations",
+            "Practitioner’s Independence and Quality Control"
+          ],
+          "summary": "The page addresses inherent limitations in sustainability reporting, including management judgment in criteria selection, estimation techniques, and assumptions; lack of universally accepted measurement frameworks causing inconsistent approaches and reduced comparability; inherent limitations like data availability, evolving methodologies, and estimation uncertainties; risks from third-party systems, extrapolation, approximation, and documentation inconsistency; and the unavoidable risk of undetected material misstatements due to fraud, error, or misrepresentation. It also covers practitioner independence and quality control, confirming compliance with ICAI Code of Ethics, required competencies and experience, and application of SQC 1 with a comprehensive quality control system including documented policies and procedures for ethical requirements, professional standards, and legal and regulatory compliance."
+        },
+        {
+          "title": "Practitioner’s Responsibility",
+          "node_id": "0015",
+          "start_index": 41,
+          "end_index": 42,
+          "summary": "The text outlines the practitioner's responsibility in a sustainability assurance engagement for HDFC Life Insurance Company Limited. It details the reasonable assurance opinion on Identified Sustainability Information, conducted per SSAE 3000, including risk assessment and evidence gathering. Specific procedures include understanding disclosures, criteria, management inquiries, document review, sampling, and data verification. Exclusions list operations outside scope, other BRSR data, out-of-period information, forward-looking statements, other framework mappings, internal controls, and IT system calculations. It provides an opinion that the information is prepared in accordance with criteria, restricts use to the Board, and includes the auditor's signature and date."
+        },
+        {
+          "title": "Independent Assurance Report: Exclusions, Opinion, Use Restriction, and Signatures",
+          "node_id": "0016",
+          "start_index": 42,
+          "end_index": 42,
+          "key_items": [
+            "Exclusions:",
+            "Opinion",
+            "Restriction on use",
+            "For G. M. Kapadia & Co.",
+            "Atul Shah"
+          ],
+          "summary": "The page presents an independent assurance report, detailing audit procedures such as sampling, data review, and verification against BRSR criteria. It lists exclusions from assurance scope, including non-identified operations, data outside the reporting period, and future statements. The opinion affirms that identified sustainability information for the year ended March 31, 2025, is materially correct. A restriction on use limits the report to HDFC Life Insurance Company and the Board, with no liability to third parties. The report concludes with the signature of Atul Shah, Partner at G. M. Kapadia & Co., Chartered Accountants, including place, date, membership number, and UDIN."
+        }
+      ]
+    }
+  ]
+}

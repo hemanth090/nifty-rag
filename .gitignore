@@ -13,8 +13,6 @@ venv/
 
 # Local data and generated artifacts
 .pageindex/
-results/
-data/pdfs/
 .index.lock
 logs/
 *.log

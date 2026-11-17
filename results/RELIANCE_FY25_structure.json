@@ -1,0 +1,1032 @@
+{
+  "doc_name": "RELIANCE_FY25.pdf",
+  "doc_id": "pi-36e21c0d62744f84a12bf9ef759514b1",
+  "usage": {
+    "prompt_tokens": 333555,
+    "completion_tokens": 15724,
+    "total_tokens": 349279,
+    "prompt_tokens_details": {
+      "cached_tokens": 33152,
+      "cache_write_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    }
+  },
+  "structure": [
+    {
+      "title": "Preface",
+      "node_id": "0000",
+      "start_index": 1,
+      "end_index": 2,
+      "summary": "Reliance Industries Limited notifies BSE and NSE about sending the notice of its 48th Annual General Meeting (Post-IPO) and Integrated Annual Report for FY 2024-25 via electronic mode to members and debenture holders. It provides website links for the notice and annual report, and mentions a separate letter with web-link for members without registered email, per SEBI Regulation 36(1)(b). The letter includes company contact details, a copy list to various exchanges and depositories, and is signed by the Company Secretary."
+    },
+    {
+      "title": "CIN: L17110MH1973PLC019786",
+      "node_id": "0001",
+      "start_index": 3,
+      "end_index": 4,
+      "key_items": [
+        "NOTICE",
+        "NOTICE; ORDINARY BUSINESS",
+        "NOTICE",
+        "ORDINARY BUSINESS",
+        "SPECIAL BUSINESS",
+        "RESOLVED FURTHER THAT; RESOLVED FURTHER THAT",
+        "RESOLVED FURTHER THAT",
+        "RESOLVED FURTHER THAT"
+      ],
+      "summary": "This notice announces Reliance Industries Limited's 48th Annual General Meeting (Post-IPO) to be held on August 29, 2025, via video conferencing. The ordinary business includes adopting the audited financial statements (standalone and consolidated) for FY2024-25, declaring a dividend of ₹5.50 per equity share, and appointing Shri Nikhil R. Meswani and Ms. Isha M. Ambani as directors retiring by rotation. Special business covers ratifying Cost Auditors' remuneration for FY2025-26, appointing Dr. K. R. Chandratre as Secretarial Auditor for five years, and approving material related party transactions of the company and its subsidiaries. The notice includes company contact details and is signed by the Company Secretary."
+    },
+    {
+      "title": "AGM Notice Notes: VC/OAVM Meeting, Director Reappointments, Electronic Report Dispatch",
+      "node_id": "0002",
+      "start_index": 5,
+      "end_index": 5,
+      "key_items": [
+        "Notes:",
+        "Despatch of Annual Report through Electronic Mode:"
+      ],
+      "summary": "The page outlines AGM notes: MCA Circulars permit VC/OAVM meetings with deemed venue at registered office; Section 102 statement and additional information annexed; no proxy/attendance slip or route map due to virtual format; directors Nikhil Meswani and Isha Ambani retire by rotation with re-appointment resolutions and related interest disclosures; director details in Annexure. It also covers electronic dispatch of the Annual Report per MCA Circulars and Listing Regulations, including web-link letters for unregistered emails, availability on company/exchange/registrar websites, and instructions for members to register/update email addresses for demat and physical holdings."
+    },
+    {
+      "title": "AGM VC/OAVM Joining and E-Voting Procedures",
+      "node_id": "0003",
+      "start_index": 6,
+      "end_index": 6,
+      "key_items": [
+        "Procedure for joining the AGM through VC / OAVM:",
+        "Members are requested to follow the procedure given below:; Enter the login credentials (i.e., User ID and password provided in the accompanying communication) and click on “Login”.",
+        "Members are requested to follow the procedure given below:",
+        "Enter the login credentials (i.e., User ID and password provided in the accompanying communication) and click on “Login”.",
+        "Procedure for ‘remote e-voting’ and e-voting at the AGM (‘Insta Poll’):"
+      ],
+      "summary": "The text outlines procedures for members to join the AGM via VC/OAVM, including login steps (using JioEvents link and credentials), password retrieval, speaker registration (Aug 8-16, 2025) with selection criteria, chat box for queries, first-come-first-served attendance, and requirements for institutional/corporate members to submit authorization documents. It notes that facility opens 30 minutes early, provides KFinTech contact details for assistance, clarifies joint holder voting (higher in order), states VC/OAVM attendees count for quorum, encourages institutional investors to attend, and introduces the procedure for remote e-voting and Insta Poll."
+    },
+    {
+      "title": "13. A. E-VOTING FACILITY:",
+      "node_id": "0004",
+      "start_index": 6,
+      "end_index": 7,
+      "key_items": [
+        "B. INFORMATION AND INSTRUCTIONS RELATING TO E-VOTING:",
+        "C. REMOTE E-VOTING:",
+        "INFORMATION AND INSTRUCTIONS FOR REMOTE E-VOTING BY INDIVIDUAL MEMBERS HOLDING SHARES OF THE COMPANY IN DEMAT MODE"
+      ],
+      "summary": "The text outlines e-voting facilities for a company's AGM, including remote e-voting and Insta Poll at the meeting, with KFinTech as the agency. It specifies the voting period (August 24-28, 2025), cut-off date (August 22, 2025), and appointment of scrutinizers. Instructions cover voting rights, single mode voting, and procedures for individual demat members via NSDL and CDSL, including login steps. It also addresses restrictions on changing votes and eligibility based on the cut-off date, and provides detailed login procedures for demat members."
+    },
+    {
+      "title": "PROCEDURE TO LOGIN THROUGH WEBSITES OF DEPOSITORIES",
+      "node_id": "0005",
+      "start_index": 8,
+      "end_index": 15,
+      "summary": "The section provides comprehensive e-voting login procedures for Reliance Industries Limited shareholders through NSDL and CDSL, including registration for unregistered users, direct access via depository websites, and demat account logins, all redirecting to KFinTech for voting. It covers password recovery options, helpdesk contacts, and detailed instructions for members receiving e-voting emails, including login, password change, and profile updates. Emphasis is placed on password confidentiality. Voting instructions cover selecting event numbers, entering share quantities, casting votes, and institutional submission requirements. Additional topics include Insta Poll voting, result declaration, document inspection procedures, IEPF compliance, dividend payment details, TDS rules for resident and non-resident members, and SEBI-mandated dematerialization and personal detail update procedures.",
+      "nodes": [
+        {
+          "title": "E-Voting Login Procedures for NSDL and CDSL",
+          "node_id": "0006",
+          "start_index": 8,
+          "end_index": 8,
+          "key_items": [
+            "Users may directly access the e-Voting module of CDSL as per the following procedure:",
+            "Procedure to login through their demat accounts / Website of Depository Participant"
+          ],
+          "summary": "The document outlines procedures for shareholders to access e-Voting for Reliance Industries Limited through NSDL and CDSL. It covers registration for IDeAS e-Services (NSDL) and Easi/Easiest (CDSL) for unregistered users, direct access to e-Voting modules via NSDL and CDSL websites with login steps, and access through demat accounts or Depository Participant websites. Each method redirects users to the KFinTech e-Voting page for casting votes without further authentication."
+        },
+        {
+          "title": "Members who are unable to retrieve User ID / Password are advised to use “Forgot User ID” / “Forgot Password” options available on the websites of Depositories / Depository Participants.",
+          "node_id": "0007",
+          "start_index": 8,
+          "end_index": 9,
+          "summary": "The text provides guidance for members unable to retrieve their User ID or Password, advising them to use \"Forgot User ID\" or \"Forgot Password\" options on Depositories or Depository Participants' websites. It lists contact details for technical issues on NSDL and CDSL websites, including NSDL helpdesk email and phone, and CDSL helpdesk email and phone. It also references a document section titled \"Information and Instructions for Remote E-Voting\" for certain member categories, with sub-items (a) through (g)."
+        },
+        {
+          "title": "In case a member receives an e-mail from the Company / KFinTech [for members whose e-mail address is registered with the Company / Depository Participant(s)]:",
+          "node_id": "0008",
+          "start_index": 9,
+          "end_index": 9,
+          "summary": "The text provides instructions for members receiving an e-voting email from the Company or KFinTech. It details launching the browser and visiting https://evoting.kfintech.com, logging in with credentials where the User ID is the E-Voting Event Number plus Folio No. or DP ID Client ID, and using an existing password if registered. It offers assistance via the website or toll-free number 1800 309 4001 on working days from 9:00 a.m. to 6:00 p.m. IST. After login, users must change their password on first login, meeting complexity requirements (minimum 8 characters with uppercase, lowercase, numeric, and special character), and update contact details like mobile number and email. Users can also set a secret question and answer for password recovery."
+        },
+        {
+          "title": "It is strongly recommended that you do not share your password with any other person and that you take utmost care to keep your password confidential.",
+          "node_id": "0009",
+          "start_index": 9,
+          "end_index": 10,
+          "summary": "The text covers e-voting instructions for Reliance Industries Limited, emphasizing password confidentiality and re-login with new credentials. It details selecting the E-Voting Event Number, entering share numbers for FOR/AGAINST/ABSTAIN, and separate voting for multiple folios. It explains vote submission, confirmation, and finality. Institutional members must submit board resolutions and authorizations to the Scrutiniser. It provides steps for unregistered email holders to generate login credentials, including physical and demat modes, and methods to retrieve forgotten credentials via SMS, online, phone, or email. It also covers Insta Poll voting, contact details for assistance, e-voting result declaration, inspection of documents, and notes on resolutions deemed passed."
+        },
+        {
+          "title": "E-Voting, Insta Poll Instructions, and Contact Details",
+          "node_id": "0010",
+          "start_index": 10,
+          "end_index": 10,
+          "key_items": [
+            "(viii) INFORMATION AND INSTRUCTIONS FOR INSTA POLL: Facility to vote through Insta Poll will be made available on the Meeting page (after you log into the Meeting)",
+            "Members are requested to note the following contact details for addressing e-voting related grievances:",
+            "Subject to receipt of requisite number of votes, the Resolutions proposed in this Notice shall be deemed to have been passed on the date of the Meeting, i.e., Friday, August 29, 2025."
+          ],
+          "summary": "The page provides detailed instructions for e-voting, including how to cast votes via Insta Poll during the meeting, updating mobile and email in user profiles, and retrieving forgotten user IDs and passwords via SMS, online, phone, or email. It lists contact details for e-voting grievances and assistance from KFinTech, including a toll-free number and email. It explains that the Scrutiniser will consolidate votes from Insta Poll and remote e-voting, with results announced by September 1, 2025, and placed on company and KFinTech websites, communicated to stock exchanges, and displayed at the registered office. Resolutions are deemed passed on the meeting date, August 29, 2025, subject to requisite votes."
+        },
+        {
+          "title": "Procedure for Inspection of Documents:",
+          "node_id": "0011",
+          "start_index": 10,
+          "end_index": 11,
+          "summary": "This text outlines procedures for document inspection for an AGM. It states that the Register of Directors and Key Managerial Personnel, and Register of Contracts or Arrangements, plus a Secretarial Auditor certificate regarding the Reliance Industries Limited Employees' Stock Option Scheme 2017, are available electronically for member inspection during the AGM. All documents cited in the Notice are available electronically without fee from the Notice circulation date to the AGM date; members requesting inspection can email rilagm@ril.com with folio or DP ID/Client ID. Additionally, members seeking information on accounts or AGM matters must email the company by August 22, 2025, and the company will respond appropriately."
+        },
+        {
+          "title": "IEPF Related Information:",
+          "node_id": "0012",
+          "start_index": 11,
+          "end_index": 11,
+          "summary": "The text details IEPF compliance: the Company transferred unpaid/unclaimed dividends up to FY 2016-17 to the IEPF, with details on the IEPF Authority and Company websites. Unpaid/unclaimed dividends as of March 31, 2025, are on the Company website. It notes that during FY 2024-25, shares with dividends unpaid/unclaimed for seven consecutive years were transferred to the IEPF Authority as of September 25, 2024, with details on both websites. Members can claim back shares and dividends from the IEPF Authority, and procedures are provided via the Shareholders' Referencer, IEPF website, or KFinTech. A table lists declaration dates and last claim dates before IEPF transfer for FY 2018-19 to 2023-24, and it mentions the FY 2017-18 last claim date was August 4, 2025, with transfer in process."
+        },
+        {
+          "title": "Dividend Related Information",
+          "node_id": "0013",
+          "start_index": 11,
+          "end_index": 12,
+          "key_items": [
+            "Tax Deductible at Source (TDS) / Withholding tax"
+          ],
+          "summary": "The text outlines dividend payment details: dividends approved at the AGM will be paid within a week to members on the Register of Members as of the Record Date (August 14, 2025), including dematerialized shares via NSDL/CDSL beneficial owners. Members must update bank details with Depository Participants for electronic payment. For physical shares, SEBI mandates electronic payment only after furnishing PAN, contact details, bank account, and specimen signature to the Company/KFinTech, with reference to SEBI FAQs. Tax Deductible at Source (TDS)/withholding tax will be applied at prescribed rates based on residential status and submitted documents; members must update their residential status by the Record Date to ensure correct tax rates."
+        },
+        {
+          "title": "A. Resident members:",
+          "node_id": "0014",
+          "start_index": 12,
+          "end_index": 13,
+          "key_items": [
+            "A.1 Tax Deductible at Source for Resident members"
+          ],
+          "summary": "The text outlines tax deduction at source (TDS) rules for resident members' dividends, covering: A.1 with rates and documents for valid PAN (10%), invalid/missing PAN or Aadhaar linkage (20%), lower/nil tax deduction certificates under Section 197, and Rule 37BA benefits; deadlines of August 14, 2025 for PAN updates and certificate submission; and A.2 listing documents for nil TDS, including Forms 15G/15H, exemptions under Sections 194 and 196, Category I/II AIFs, recognized provident/superannuation/gratuity funds, National Pension Scheme, and other exemptions with valid documentary evidence."
+        },
+        {
+          "title": "B. Non-Resident members:",
+          "node_id": "0015",
+          "start_index": 13,
+          "end_index": 14,
+          "summary": "This text details withholding tax rules for non-resident members receiving dividends. It lists rates and required documents for FIIs/FPIs (20% or treaty rate), Indian branches of foreign banks (NIL with declaration, else 35%), lower/NIL tax certificate holders, exempt entities, and Rule 37BA beneficial owners. Members must submit documents by August 14, 2025, to avail beneficial rates. It also covers TDS certificate issuance, online document upload, NSDL facility for institutional members, verification conditions, refund option for higher deduction, TDS exemption for resident individuals up to ₹10,000, PAN update requirements, indemnity for inaccurate declarations, and a disclaimer to consult tax advisors."
+        },
+        {
+          "title": "Other Information",
+          "node_id": "0016",
+          "start_index": 14,
+          "end_index": 15,
+          "summary": "The text outlines SEBI-mandated dematerialization for securities transfer, advises members to verify holdings periodically, and details procedures for updating personal details (address, email, mobile, PAN, nomination, bank) for demat shares via Depository Participants/NSDL and for physical shares via KFinTech forms (ISR-1, ISR-2, SH-13, SH-14, ISR-3). It instructs NRIs to report residential status changes, notes Listing Regulations requiring demat for transfer/transmission/transposition, and SEBI circular mandating demat issuance for service requests (duplicate certificates, unclaimed suspense claims, renewal/exchange, endorsement, sub-division, consolidation, transmission, transposition) via Form ISR-4. It provides links to forms, shareholders’ referencer, and a feedback form, and directs submissions to KFinTech."
+        }
+      ]
+    },
+    {
+      "title": "STATEMENT PURSUANT TO SECTION 102(1) OF THE COMPANIES ACT, 2013 AND ADDITIONAL INFORMATION AS REQUIRED UNDER THE SECURITIES AND EXCHANGE BOARD OF INDIA (LISTING OBLIGATIONS AND DISCLOSURE REQUIREMENTS) REGULATIONS, 2015 AND CIRCULARS ISSUED THEREUNDER",
+      "node_id": "0017",
+      "start_index": 16,
+      "end_index": 17,
+      "key_items": [
+        "Item No. 5",
+        "Item No. 6",
+        "Item Nos. 7 and 8"
+      ],
+      "summary": "The notice covers three agenda items: Item 5 seeks member ratification of the remuneration of Cost Auditors for FY 2025-26, as approved by the Board and Audit Committee, with details of ten auditors and fees. Item 6 proposes appointment of Dr. K. R. Chandratre as Secretarial Auditor for a five-year term, outlining his qualifications, experience, and proposed remuneration. Items 7 and 8 seek approval for related party transactions exceeding specified thresholds, describing the company's business, governance process for such transactions, Audit Committee oversight, and the materiality thresholds under SEBI regulations. All items require Ordinary Resolutions, with no director interest."
+    },
+    {
+      "title": "A1. Transactions between the Company and Reliance Consumer Products Limited",
+      "node_id": "0018",
+      "start_index": 18,
+      "end_index": 20,
+      "key_items": [
+        "B1. Transactions between Reliance Consumer Products Limited and Metro Cash and Carry India Limited"
+      ],
+      "summary": "The notice details two related party transaction (RPT) proposals. Section A1 covers transactions between Reliance Industries Limited (RIL) and Reliance Consumer Products Limited (RCPL), a step-down subsidiary, including RIL's sale of petrochemical products to RCPL, purchase of FMCG goods from RCPL, and investments/loans/guarantees to RCPL. It specifies relationships, transaction types, tenures (FY2025-26 to FY2029-30 for goods, FY2025-26 to FY2026-27 for investments), estimated values (up to ₹6,000 crore for sales, ₹600 crore for purchases, ₹10,000 crore for investments), percentage of RIL's and RCPL's turnover, loan terms, justification, and director interest. Section B1 covers transactions between RCPL and Metro Cash and Carry India Limited (METRO India), fellow step-down subsidiaries, involving RCPL's procurement of goods from METRO India and METRO India's marketing support services. It provides relationship details, transaction types, tenures (FY2025-26 to FY2029-30), estimated values (up to ₹1,000 crore for goods, ₹100 crore for services), turnover percentages, justification, prior member approval, and director interest. The notice seeks member approval for both sets of transactions and allied matters."
+    },
+    {
+      "title": "B2. Transactions between Jio Platforms Limited and JioStar India Private Limited",
+      "node_id": "0019",
+      "start_index": 21,
+      "end_index": 22,
+      "summary": "This related party transaction statement details proposed transactions between Jio Platforms Limited (JPL) and JioStar India Private Limited, both fellow subsidiaries of Reliance Industries Limited. It covers the parties' relationship and shareholding, related directors/KMP, and four transaction types: Managed IT services (cost-plus), CDN services (market rates), customer acquisition and advertising (market rates), and content provision for bundled offerings (market rates). It specifies estimated values for FY2025-26 and up to FY2029-30, their percentage of the Company's consolidated turnover and each subsidiary's turnover, confirms no loans or valuation reports, justifies each transaction's benefits, and notes director interest and deemed concern."
+    },
+    {
+      "title": "B3. Transactions between JioStar India Private Limited and GTPL Hathway Limited",
+      "node_id": "0020",
+      "start_index": 23,
+      "end_index": 25,
+      "key_items": [
+        "B4. Transactions between Reliance Jio Infocomm Limited and Reliance Jio Infocomm UK Limited"
+      ],
+      "summary": "The text details two related party transaction (RPT) proposals from Reliance Industries Limited's notice: B3 covers transactions between JioStar India Private Limited and GTPL Hathway Limited, including relationship details, transaction types (channel distribution and placement services), estimated values (₹1,450 crore for FY2025-26 and up to ₹2,900 crore for subsequent years for GTPL's subscription payments; ₹1,050 crore for FY2025-26 and up to ₹2,100 crore for JioStar's payments to GTPL), turnover percentages, justification, and director interests. B4 covers transactions between Reliance Jio Infocomm Limited and Reliance Jio Infocomm UK Limited, including relationship, services (IP transit, ILD voice, business support), pricing terms, estimated values (₹1,270 crore for FY2025-26 and up to ₹3,100 crore for subsequent years for RJIUK's services; ₹1,700 crore for FY2025-26 and up to ₹4,000 crore for RJIL's services), turnover percentages, justification, and director interests. Both sections include approval requests for five financial years (FY2025-26 to FY2029-30), relevant regulatory compliance, and voting instructions."
+    },
+    {
+      "title": "Annexure to the Notice dated August 6, 2025",
+      "node_id": "0021",
+      "start_index": 26,
+      "end_index": 29,
+      "summary": "This notice annexure details two directors retiring by rotation: Nikhil R. Meswani and Isha M. Ambani. For each, it provides age, qualifications, experience, terms of re-appointment, remuneration (last drawn and proposed), date of first appointment, shareholding, relationships with other directors/KMP, board meeting attendance, other directorships, committee memberships, and recent resignations. It includes their resumes, shareholding details, and family relationships. The document also contains RIL's contact information, a company overview, and AGM participation details."
+    },
+    {
+      "title": "Pursue your goals even in the face of difficulties, and convert adversities into opportunities. Shri. Dhirubhai H. Ambani",
+      "node_id": "0022",
+      "start_index": 29,
+      "end_index": 29,
+      "summary": "This text includes an inspirational quote from Dhirubhai Ambani and highlights key achievements: being the first Indian company to cross consolidated total equity of over ₹10,00,000 crore, exports of ₹2,83,719 crore, CSR contribution of ₹2,156 crore, and 4,03,303 people. It notes rankings: #88 Fortune Global 500, #49 Forbes Global 2000, and among TIME100 most influential companies 2024, and champions Make in India. A forward-looking statement disclaimer is provided. The table of contents covers corporate overview, management discussion and analysis (financial performance, business segments: retail, digital services, media and entertainment, oil to chemicals, oil and gas, risk and governance, awards), integrated approach to ESG (governance, net carbon zero, climate disclosures, natural, human, manufactured, intellectual, social and relationship capital, independent assurance), reporting suite 2024-25, a quote from Mukesh Ambani, governance (corporate governance report, board’s report), financial statements (standalone, consolidated), and links to CSR and BRSR reports."
+    },
+    {
+      "title": "RELIANCE AT A GLANCE",
+      "node_id": "0023",
+      "start_index": 30,
+      "end_index": 31,
+      "key_items": [
+        "CHAIRMAN AND MANAGING DIRECTOR’S STATEMENT"
+      ],
+      "summary": "The text provides an overview of Reliance Industries, highlighting its multiple growth engines: Retail (revenue up 7.9%, EBITDA up 8.6%), Digital Services (revenue up 15.9%, EBITDA up 14.7%), Media & Entertainment (revenue up 74.3%, EBITDA up 139.6%), Oil to Chemicals (revenue up 11.0%, EBITDA up 11.9%), and Oil and Gas (revenue up 3.2%, EBITDA up 4.9%), with figures for FY2025 and key offerings. It also covers stakeholder value creation, including total value added, contributions to national exchequer, reinvestment, debt providers, employee benefits, equity capital, and society, with FY2025 and FY2024 comparisons. Finally, it lists sustainable growth enablers such as technology and consumer-centric platforms, project management, access to capital, and diversification."
+    },
+    {
+      "title": "What is Good for India is Good for Reliance",
+      "node_id": "0024",
+      "start_index": 31,
+      "end_index": 33,
+      "key_items": [
+        "Shri. Mukesh D. Ambani",
+        "Financial Performance and Review",
+        "Movement in Key Financial Ratios; Liquidity Management; Credit Rating; Way Forward",
+        "Movement in Key Financial Ratios",
+        "Liquidity Management",
+        "Credit Rating",
+        "Way Forward"
+      ],
+      "summary": "The text is Reliance Industries' Integrated Annual Report 2024-25, featuring Chairman Mukesh Ambani's letter to shareholders. It covers Reliance's evolution into a national institution, its adaptation to digital disruption, and its alignment with India's growth. It highlights FY25 financial performance with revenue, EBITDA, and net profit figures, and details segment performance across Retail, Digital Services, Media, O2C, Oil & Gas, and New Energy. The report outlines four new growth engines, emphasizes values, people, and vision, and includes 10-year financial highlights, management discussion and analysis of the operating environment, performance overview, net debt, capex, standalone results, key financial ratios, liquidity, fund raising, credit ratings, and a business overview of Retail."
+    },
+    {
+      "title": "Retail",
+      "node_id": "0025",
+      "start_index": 33,
+      "end_index": 34,
+      "key_items": [
+        "THREATS"
+      ],
+      "summary": "The text covers RIL's financial performance and review, including key ratio movements (net capital turnover improvement, operating margin and return on net worth declines), liquidity and capital resources, macroeconomic conditions in India, fund raising through multi-currency offshore and green ECA facilities, liquidity management, credit ratings, and future outlook. It then provides a business overview of Reliance Retail, detailing its strategic objective, industry overview, financial performance (revenue, EBITDA, store count), strategic progress across segments (consumer electronics, fashion and lifestyle, grocery, consumer brands, JioMart and Milkbasket, connectivity), SCOT analysis, and outlook."
+    },
+    {
+      "title": "Digital Services",
+      "node_id": "0026",
+      "start_index": 35,
+      "end_index": 37,
+      "key_items": [
+        "Industry Overview; Business Performance",
+        "Industry Overview",
+        "Business Performance",
+        "FINANCIAL PERFORMANCE",
+        "STRENGTHS; CHALLENGES; OPPORTUNITIES; THREATS",
+        "STRENGTHS",
+        "CHALLENGES",
+        "OPPORTUNITIES",
+        "THREATS",
+        "Media and Entertainment",
+        "Industry Overview",
+        "FINANCIAL PERFORMANCE",
+        "SCOT Analysis",
+        "STRENGTHS; CHALLENGES; OPPORTUNITIES; THREATS",
+        "STRENGTHS",
+        "CHALLENGES",
+        "OPPORTUNITIES",
+        "THREATS",
+        "Outlook"
+      ],
+      "summary": "This text covers the Digital Services and Media & Entertainment segments of Reliance Industries. For Digital Services, it outlines Jio's business overview, strategic objective, industry trends (broadband, 5G, AI), regulatory developments (spectrum auction, data protection, TRAI guidelines), financial performance, leadership in technology transitions, market position in mobility and fixed broadband, ecosystem approach, SCOT analysis, AI initiatives (JioBrain), and outlook. For Media & Entertainment, it details the creation of JioStar, strategic objective, industry growth drivers (digital, connected TVs, sports), TV entertainment performance, financials, digital success (JioHotstar), news business, SCOT analysis, and outlook."
+    },
+    {
+      "title": "India’s Undisputed Content Powerhouse",
+      "node_id": "0027",
+      "start_index": 38,
+      "end_index": 38,
+      "key_items": [
+        "Oil to Chemicals",
+        "Industry Overview"
+      ],
+      "summary": "The text covers two business overviews. Jio Studios' FY 2024-25 performance highlights over 40 films/web originals, dominance in Hindi box office with three top-five hits contributing 40%+ of India NBOC surpassing ₹1,000 crores, notable films like \"Stree 2\" (highest-grossing Hindi film), platform-agnostic storytelling across Netflix, Amazon Prime, ZEE5, etc., with record viewership for \"Laapataa Ladies\" and \"Mrs.\", soundtrack success, 65+ awards including 15 IIFA wins, international festival recognition, Oscar selection for \"Laapataa Ladies,\" IMDb popularity, new moving logo, regional expansion in Marathi cinema, and upcoming projects. The Oil to Chemicals (O2C) business overview covers its portfolio (transportation fuels, polymers & elastomers, intermediates, polyesters), integrated assets and logistics, strategic objective to meet India's energy/materials demand with circular economy and Net Carbon Zero by 2035, key metrics (80.5 MMT throughput, 71.2 MMT production for sale, 29,985 people), and industry overview detailing FY 2024-25 transportation fuel demand/supply challenges, oil demand/supply figures, Brent price, refinery throughput, gasoline/diesel/jet fuel demand trends, key factors for 2025, Indian petroleum product demand at 239 MMTPA, and EV/CNG vehicle parc growth."
+    },
+    {
+      "title": "OIL TO CHEMICALS",
+      "node_id": "0028",
+      "start_index": 39,
+      "end_index": 39,
+      "key_items": [
+        "Business Performance",
+        "FINANCIAL PERFORMANCE",
+        "STRENGTHS; CHALLENGES",
+        "STRENGTHS",
+        "CHALLENGES",
+        "PRODUCTION MEANT FOR SALE",
+        "OPPORTUNITIES; THREATS",
+        "OPPORTUNITIES",
+        "THREATS"
+      ],
+      "summary": "This management discussion covers O2C business performance across oil-to-chemicals, including polymers, elastomers, intermediates, polyesters, and transportation fuels. It details global and domestic demand trends, capacity additions, margin movements, and feedstock price changes for ethylene, polymers, elastomers, intermediates, and polyesters. The transportation fuel section discusses production increases, declining cracks, and Jio-bp's network expansion and sales growth. Financial performance shows revenue growth of 11.0% to ₹6,26,921 crore and EBITDA decline of 11.9% to ₹54,988 crore. A SCOT analysis outlines strengths, challenges, opportunities, and threats. Production meant for sale data by product is provided, along with an outlook on oil demand, refining margins, and downstream chemical demand growth in India."
+    },
+    {
+      "title": "Oil and Gas",
+      "node_id": "0029",
+      "start_index": 40,
+      "end_index": 41,
+      "key_items": [
+        "Industry Overview",
+        "Business Performance",
+        "STRENGTHS; CHALLENGES; OPPORTUNITIES; THREATS",
+        "STRENGTHS",
+        "CHALLENGES",
+        "OPPORTUNITIES",
+        "THREATS",
+        "OIL AND GAS",
+        "Powering a Net Carbon Zero Future; Strategic Objective: From Ambition to Execution; Business Updates",
+        "Powering a Net Carbon Zero Future",
+        "Strategic Objective: From Ambition to Execution",
+        "Business Updates",
+        "Risk and Governance",
+        "Risks and Response Strategic and Commercial Risks"
+      ],
+      "summary": "This Management Discussion and Analysis covers the Oil and Gas business overview and Reliance's clean energy initiatives. For Oil and Gas, it details E&P industry performance including KG Basin and CBM production, strategic objectives, financials, portfolio, exploration strategy, SCOT analysis, legal issues, and outlook. It highlights production figures, revenue and EBITDA growth, and key focus areas like clean energy, brownfields, and digital technologies. The clean energy section outlines strategic objectives, global and Indian energy trends, business updates on the Dhirubhai Ambani Green Energy Giga Complex (solar, battery, electrolyser), and Bio Energy (CBG plants). Finally, it covers Risk and Governance, including the Enterprise Risk Management framework, governance structure, and specific risks such as climate change and commodity prices, along with responses."
+    },
+    {
+      "title": "RISK AND GOVERNANCE",
+      "node_id": "0030",
+      "start_index": 42,
+      "end_index": 42,
+      "key_items": [
+        "Safety and Operational Risks; Compliance and Control Risks; Financial Risks; Insurance – Risk Mitigation",
+        "Safety and Operational Risks",
+        "Compliance and Control Risks",
+        "Financial Risks",
+        "Insurance – Risk Mitigation"
+      ],
+      "summary": "This Management Discussion and Analysis section covers Risk and Governance, detailing risk responses across multiple areas. It addresses supply disruption mitigation through diversified suppliers and operational stability. Customer experience and retention risks are managed via technology and omnichannel solutions. Oversight over investee companies and alliances focuses on compliance and strategic coherence. Talent scaling is supported through development programs. Data privacy and cybersecurity risks are mitigated with privacy-by-design and Zero Trust frameworks. Health, safety, and environmental risks are managed through digitalization and a zero-incident culture. Physical security and natural calamity risks involve audits and predictive analytics. Regulatory compliance uses a digitally integrated framework. Financial risks include treasury risks (foreign exchange, liquidity, interest rate, credit) with hedging and refinancing strategies, plus insurance as a risk mitigation tool."
+    },
+    {
+      "title": "Major Awards and Recognitions",
+      "node_id": "0031",
+      "start_index": 43,
+      "end_index": 43,
+      "summary": "This text from the Management Discussion and Analysis section lists major awards and recognitions received by Reliance Industries and its subsidiaries. It covers leadership and innovation accolades, including rankings, brand value, workplace certifications, and innovation awards. It details recognitions in Retail, Consumer Electronics, Digital (Jio, Jio-bp, Jio Platforms), Fashion and Lifestyle, Grocery, and Media & Entertainment (Jio Hotstar, Jio Studios). It also includes awards for Reliance Foundation, HSE and Sustainability, and various manufacturing divisions. The awards span multiple categories such as business excellence, branding, technology, safety, sustainability, and employee choice."
+    },
+    {
+      "title": "Integrated Approach to Sustainable Growth",
+      "node_id": "0032",
+      "start_index": 44,
+      "end_index": 50,
+      "summary": "The section outlines Reliance's integrated approach to sustainable growth, covering ESG governance with board oversight and material topics, a Net Carbon Zero by 2035 strategy including renewable energy and giga factories, natural capital management (emissions, biodiversity, waste, water), human capital (talent, health, safety, diversity, human rights, ethics), manufactured capital (deep-tech, asset management), intellectual capital (innovation, data privacy), social and relationship capital (community, customer satisfaction, supply chain), and assurance.",
+      "nodes": [
+        {
+          "title": "Integrated Approach to ESG Governance",
+          "node_id": "0033",
+          "start_index": 44,
+          "end_index": 45,
+          "summary": "The text outlines Reliance's integrated approach to sustainable growth, guided by the belief that what is good for India is good for Reliance, driven by technology and innovation. It details the Integrated Report 2024-25 using the six capitals of the International Integrated Reporting Framework, adhering to standards like GRI, IIRC, GHG Protocol, IPCC AR5, and UN SDGs, covering ESG disclosures for O2C, Digital Services, and Retail. It describes ESG governance, including a 14-member Board, Board Committees (ESG, Audit, CSR, Stakeholders Relationship, Risk Management), and the sustainability governance structure with the ESG Committee comprising two executive directors and one independent director. It covers policies and Code of Conduct, anti-competitive behavior, stakeholder engagement, materiality approach (including double materiality), and lists 25 material topics spanning climate change, environmental impacts, energy efficiency, water management, raw material security, biodiversity, innovation, circular economy, supply chain, disaster preparedness, health and safety, diversity, customer satisfaction, data privacy, asset management, talent management, community development, labour management, human rights, business ethics, regulatory compliance, grievance redressal, risk management, economic performance, and code of conduct."
+        },
+        {
+          "title": "Making Significant Strides towards a Net Carbon Zero Future",
+          "node_id": "0034",
+          "start_index": 45,
+          "end_index": 46,
+          "summary": "Reliance's strategy for achieving Net Carbon Zero by 2035 includes building 100 GW of renewable energy by 2030 and developing giga factories for an integrated renewable ecosystem. It covers the Net Carbon Zero strategy (backward integration, robust business model, scale), deep tech/R&D investments, and the Dhirubhai Ambani Green Energy Giga Complex in Jamnagar with solar and battery giga-factories, electrolyser plans, and land in Kutch and Kandla. It details FY 2024-25 energy savings and renewable consumption, 2025 milestones (10 GW solar PV, 30 GWh battery), 2030 and 2035 targets, and clean energy transition initiatives including e-mobility and CO2 conversion. Climate-related disclosures are addressed through TCFD-aligned governance, risk management, strategy (including just transition), and metrics/targets."
+        },
+        {
+          "title": "Natural Capital",
+          "node_id": "0035",
+          "start_index": 46,
+          "end_index": 47,
+          "summary": "Reliance's natural capital management covers governance via Board oversight and HSE/OMS policies with independent S&OR reviews; environmental impact management including air emissions (TPM, SOx, NOx, VOC) monitored by CEMS; climate change actions toward Net Carbon Zero by 2035, renewable energy, CBG expansion, and GHG emissions data for O2C/E&P and Jio; energy efficiency initiatives and renewable energy use; ecosystem and biodiversity efforts with greenbelts, saplings, and Vantara; waste management and circular economy including recycling and ISCC Plus certification; and water and effluent management with withdrawal, discharge, and recycling data."
+        },
+        {
+          "title": "Human Capital",
+          "node_id": "0036",
+          "start_index": 47,
+          "end_index": 48,
+          "summary": "This document covers Reliance's human capital management for FY2024-25, aligned with BRSR principles and UN SDGs. It details the management approach rooted in the 10 Tenets of Institutional Leadership, emphasizing empathy, inclusivity, and human rights. Key areas include talent attraction and retention, highlighting over 1.9 lakh new hires and a total workforce exceeding 4 lakh, with recognition as a top employer. Health, safety, and well-being are addressed through HSE systems, the CASHE program, and significant investments. Diversity and inclusion efforts are outlined via the DE&I Charter, 5E framework, and various programs, with metrics on women in leadership. Talent management covers training and development initiatives, including CAP, FLYER, and digital learning. Labour management and human rights compliance are discussed, noting collective bargaining and human rights training. The text also covers business ethics, integrity, transparency, and the grievance redressal mechanism, including the Vigil Mechanism and Whistleblower Policy."
+        },
+        {
+          "title": "Manufactured Capital",
+          "node_id": "0037",
+          "start_index": 48,
+          "end_index": 50,
+          "summary": "The text covers Reliance Industries' BRSR 2024-25 report sections on Manufactured Capital (deep-tech integration, business performance, raw material security, asset management), Intellectual Capital (innovation, IP portfolio, R&D focus areas, data privacy and cybersecurity), Social and Relationship Capital (community development, customer satisfaction, sustainable supply chain), Outlook, and an Independent Practitioner's Assurance Report with detailed assurance scope, responsibilities, procedures, and opinions on sustainability information."
+        }
+      ]
+    },
+    {
+      "title": "APPENDIX I ",
+      "node_id": "0038",
+      "start_index": 51,
+      "end_index": 51,
+      "summary": "This appendix lists identified sustainability information subject to reasonable assurance, referencing GRI Standards disclosures. It covers energy consumption (total, renewable, non-renewable) and reduction; water withdrawal by source, discharge by destination, consumption and recycling; direct (Scope 1) and indirect (Scope 2) GHG emissions; air emissions (NOx, SOx, TPM, VOCs); waste diverted and directed to disposal; flared and vented hydrocarbons; and work-related injuries (LTIFR, hours worked). Boundaries include Oil to Chemicals (O2C) Entities, Reliance Jio Infocomm Limited (RJIL), Reliance Retail Limited (RRL), and Reliance Projects & Property Management Services Limited (RPPMSL)."
+    },
+    {
+      "title": "APPENDIX II ",
+      "node_id": "0039",
+      "start_index": 51,
+      "end_index": 55,
+      "key_items": [
+        "Corporate Governance Report",
+        "Statement on Company’s Philosophy on Code of Governance",
+        "Corporate Governance Structure, Policies and Practices",
+        "Board of Directors",
+        "Brief Profile of Directors",
+        "Board Independence; Meeting of Independent Directors",
+        "Board Independence",
+        "Meeting of Independent Directors"
+      ],
+      "summary": "This appendix covers sustainability information subject to limited assurance, including GRI disclosures on markets served, governance structure, ethics mechanisms, and material topics for Oil to Chemicals entities and specified subsidiaries. It also includes the Corporate Governance Report, detailing the company's governance philosophy, policies, code of conduct, vigil mechanism, anti-bribery policy, and governance practices. It outlines the board's skills and competencies, provides brief profiles of directors including their shareholding, directorships, committee positions, and areas of expertise, and covers board independence and meetings of independent directors."
+    },
+    {
+      "title": "Board Meetings and Attendance",
+      "node_id": "0040",
+      "start_index": 55,
+      "end_index": 60,
+      "summary": "This section covers Board meetings and attendance for FY 2024-25, including six meetings, director attendance, familiarization programs, compensation, insurance, performance evaluation, and seven board committees with composition, terms, meetings, and attendance. It also includes investor grievance statistics, compliance officer details, succession planning, senior management, and subsidiary monitoring. Additionally, it details general body meetings, AGMs, postal ballots, communication methods, shareholder information such as AGM details, dividends, listings, credit ratings, share transfer, shareholding, GDRs, risk management, plant locations, IEPF transfers, related party transactions, SEBI penalties, sexual harassment disclosures, and compliance certifications, along with a certificate of non-disqualification of directors.",
+      "nodes": [
+        {
+          "title": "Board Committees",
+          "node_id": "0041",
+          "start_index": 55,
+          "end_index": 57,
+          "key_items": [
+            "Composition; Brief Terms of Reference",
+            "Composition",
+            "Brief Terms of Reference",
+            "Meeting and Attendance",
+            "p.56",
+            "Composition",
+            "Brief Terms of Reference",
+            "Meeting and Attendance",
+            "Composition",
+            "Brief Terms of Reference",
+            "Meeting and Attendance",
+            "Composition",
+            "Terms of Reference",
+            "Meeting Details",
+            "Composition",
+            "Brief Terms of Reference",
+            "Meeting Details",
+            "Composition",
+            "Terms of Reference",
+            "Composition",
+            "Terms of Reference",
+            "Meeting Details",
+            "Succession Planning",
+            "Senior Management; Framework for Monitoring Subsidiary Companies",
+            "Senior Management",
+            "Framework for Monitoring Subsidiary Companies"
+          ],
+          "summary": "The text details Board meetings and attendance for FY 2024-25, including six Board meetings and director attendance, with one director attending only two. It covers familiarization programs, board compensation including remuneration of executive and non-executive directors, and directors and officers insurance. It outlines performance evaluation criteria and lists seven board committees: Audit, Human Resources, Nomination and Remuneration, Stakeholders’ Relationship, Corporate Social Responsibility and Governance, Risk Management, Environmental Social and Governance, and Finance. For each committee, it provides composition, terms of reference, meeting details, and attendance. It also includes investor grievance redressal statistics, compliance officer details, succession planning, senior management particulars, and a framework for monitoring subsidiary companies with details of material subsidiaries."
+        },
+        {
+          "title": "General Body Meetings",
+          "node_id": "0042",
+          "start_index": 57,
+          "end_index": 58,
+          "key_items": [
+            "Annual General Meetings",
+            "Resolution(s) passed through Postal Ballot",
+            "Procedure adopted for Postal Ballot",
+            "Means of Communication"
+          ],
+          "summary": "The text covers corporate governance disclosures: Board review and compliance for subsidiaries, including material subsidiaries and their secretarial audit reports; the Company's Material Subsidiaries Policy with website link; details of Annual General Meetings held during the preceding three years, including dates, times, deemed venues, and special resolutions passed; postal ballot resolutions during FY 2024-25 with dates, approval dates, and voting results; the procedure adopted for postal ballot, including the scrutinizer; proposed resolutions for appointing/re-appointing Whole-time Directors through postal ballot; means of communication such as quarterly results, news releases, presentations, website, Chairman's Communiqué, investor letters/emails/SMS, chatbot, SCORES, Online Dispute Resolution, and shareholders' feedback survey."
+        },
+        {
+          "title": "General Shareholder Information",
+          "node_id": "0043",
+          "start_index": 58,
+          "end_index": 60,
+          "key_items": [
+            "Annual General Meeting; Dividend Payment Date; Financial Year; Financial Calendar",
+            "Annual General Meeting",
+            "Dividend Payment Date",
+            "Financial Year",
+            "Financial Calendar",
+            "Listing on Stock Exchanges",
+            "p.58",
+            "Payment of Listing Fees",
+            "Fees Paid to the Statutory Auditors",
+            "Credit Rating",
+            "Share Transfer System",
+            "Distribution of shareholding as on March 31, 2025",
+            "Build-up of Equity Share Capital, category-wise shareholding, Dematerialisation of Shares and Liquidity",
+            "RIL GDR Programme",
+            "Risk Management Policy with respect to Commodities including through Hedging",
+            "• Commodities Exposure; • Hedging Policy; Plant Locations in India",
+            "• Commodities Exposure",
+            "• Hedging Policy",
+            "Plant Locations in India",
+            "Address for Correspondence",
+            "Debenture Trustee; KFin Technologies Limited; Equity Shares in the Unclaimed Suspense Account",
+            "Debenture Trustee",
+            "KFin Technologies Limited",
+            "Equity Shares in the Unclaimed Suspense Account",
+            "Other Disclosures",
+            "Agreements relating to the Company; Adoption of Mandatory and Discretionary Requirements; Audit Qualification; Reporting of Internal Auditor; Certificate on Compliance with Code of Conduct",
+            "Agreements relating to the Company",
+            "Adoption of Mandatory and Discretionary Requirements",
+            "Audit Qualification",
+            "Reporting of Internal Auditor",
+            "Certificate on Compliance with Code of Conduct"
+          ],
+          "summary": "This corporate governance report covers AGM details (date, mode, venue), dividend payment timeline, financial year and calendar, stock exchange listings (BSE, NSE, Luxembourg, Singapore, India INX) for equity, GDRs, debentures, bonds, and commercial papers, listing fees, statutory auditor fees (₹96.33 crore), credit ratings, share transfer system (demat only), shareholding distribution as of March 31, 2025, equity capital build-up, dematerialization and liquidity data, outstanding GDRs (1.99% of capital) and absence of warrants/convertible bonds, GDR program details, commodity and forex risk management and hedging exposures, plant locations, correspondence addresses, IEPF transfers (₹31.08 crore and 13,20,488 shares) and claim deadlines, unclaimed suspense account shares, no unclaimed debenture amounts, related party transactions, SEBI penalties and ongoing appeals, sexual harassment disclosures, no loans to director-interested firms, no restrictive agreements, compliance with mandatory and discretionary listing requirements, and CEO/CFO certification of code of conduct compliance."
+        },
+        {
+          "title": "CERTIFICATE OF NON-DISQUALIFICATION OF DIRECTORS",
+          "node_id": "0044",
+          "start_index": 60,
+          "end_index": 60,
+          "summary": "This certificate, issued by Dr. K. R. Chandratre, confirms that none of the 14 listed directors of Reliance Industries Limited were debarred or disqualified by SEBI, the Ministry of Corporate Affairs, or any other statutory authority for the financial year ended March 31, 2025. It includes the company's CIN, registered office, and the legal basis under SEBI Regulations. The certificate lists each director's name, DIN, and date of appointment, and clarifies the management's responsibility for director eligibility and the auditor's limited opinion. It also provides the auditor's credentials, date, place, UDIN, and peer review certificate number, and notes it is part of the Integrated Annual Report 2024-25."
+        }
+      ]
+    },
+    {
+      "title": "CEO / CFO CERTIFICATE",
+      "node_id": "0045",
+      "start_index": 61,
+      "end_index": 65,
+      "summary": "This section contains a CEO/CFO certificate under SEBI Regulation 17(8) for Reliance Industries Limited, affirming financial statements' accuracy, internal controls, and no fraud. It also includes Secretarial Audit Reports for Jio Platforms Limited, Reliance Jio Infocomm Limited, Reliance Retail Ventures Limited, and Reliance Retail Limited for FY 2024-25, covering compliance with the Companies Act, Depositories Act, FEMA, SEBI regulations, and other applicable laws. The reports note board composition, meeting procedures, unanimous decisions, and compliance systems, and list specific transactions such as external commercial borrowings, commercial papers, and debenture issuances. An annexure clarifies management and auditor responsibilities, disclaims assurance on financial records and future viability, and includes signatories and auditor details.",
+      "nodes": [
+        {
+          "title": "SECRETARIAL AUDIT REPORT",
+          "node_id": "0046",
+          "start_index": 61,
+          "end_index": 62,
+          "summary": "The text includes a CEO/CFO certificate under SEBI Regulation 17(8) for Reliance Industries Limited, affirming financial statements' accuracy, internal controls, and no fraud. It also contains a Secretarial Audit Report for Jio Platforms Limited for FY 2024-25, covering compliance with the Companies Act, Depositories Act, FEMA, and SEBI regulations, noting applicable and non-applicable laws. The report confirms board composition, meeting procedures, and compliance systems, and includes an annexure clarifying management responsibilities and audit scope. Signatories are Srikanth Venkatachari, Mukesh D. Ambani, and auditor Kalidas Ramaswami."
+        },
+        {
+          "title": "FORM NO. MR-3 SECRETARIAL AUDIT REPORT",
+          "node_id": "0047",
+          "start_index": 62,
+          "end_index": 63,
+          "summary": "This Secretarial Audit Report for Reliance Jio Infocomm Limited for FY 2024-25, conducted by BNP & Associates, covers compliance with the Companies Act 2013, SEBI regulations, Depositories Act, FEMA, and telecom laws. It notes the Board's proper composition, meeting procedures, and unanimous decisions. The report lists specific events: outstanding External Commercial Borrowings, Commercial Papers worth Rs. 8050 crores, and cancellation of NCDs leading to SEBI LODR discontinuation. It also includes an annexure clarifying management's responsibility for secretarial records and the auditor's limited scope."
+        },
+        {
+          "title": "SECRETARIAL AUDIT REPORT",
+          "node_id": "0048",
+          "start_index": 63,
+          "end_index": 64,
+          "summary": "This Secretarial Audit Report for Reliance Retail Ventures Limited for FY 2024-25, conducted by S.N. Ananthasubramanian & Co., covers compliance with the Companies Act 2013, Depositories Act, FEMA (with exceptions), and SEBI regulations (not applicable due to unlisted securities, except for commercial paper listing). It examines books, records, and board processes, confirming compliance with SS-1 and SS-2, proper board composition including a woman director, adequate meeting notices, unanimous decisions, and adequate compliance systems. It includes an annexure letter detailing management and auditor responsibilities, and disclaims assurance on future viability, financial records, and management efficacy."
+        },
+        {
+          "title": "SECRETARIAL AUDIT REPORT",
+          "node_id": "0049",
+          "start_index": 64,
+          "end_index": 65,
+          "summary": "Secretarial Audit Report for Reliance Retail Limited for FY ended March 31, 2025, under Section 204(1) of the Companies Act, 2013. It outlines management's and auditor's responsibilities, basis for opinion, and opinion that the company complied with applicable statutory provisions. It lists laws examined, including the Companies Act, Depositories Act, FEMA, and specific laws like Food Safety and Standards Act. It notes SEBI regulations not applicable. It covers compliance with Secretarial Standards, board composition and meeting procedures, and an extraordinary general meeting held at shorter notice. It reports unanimous board decisions, adequate compliance systems, and details transactions: issuance of zero coupon debentures and investments under Sections 179 and 186. The report is signed by Shashikala Rao & Co."
+        },
+        {
+          "title": "ANNEXURE TO THE SECRETARIAL AUDIT REPORT",
+          "node_id": "0050",
+          "start_index": 65,
+          "end_index": 65,
+          "summary": "Annexure to the Secretarial Audit Report addressed to the Members of Reliance Retail Limited, stating that the report should be read with this letter. It clarifies that the auditor did not verify financial records, books of account, financial statements, or disclosures; management representations were obtained where required regarding compliance with laws and occurrence of events; and the report is not an assurance of future viability or management efficiency. It includes the auditor's signature block for Shashikala Rao & Co., Company Secretaries, with ICSI Unique Code, PR number, proprietor details, FCS, CP No., UDIN, place, date, and page reference in the Integrated Annual Report 2024-25."
+        }
+      ]
+    },
+    {
+      "title": "Independent Auditor’s Report on compliance with the conditions of Corporate Governance as per provisions of Chapter IV of Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015",
+      "node_id": "0051",
+      "start_index": 66,
+      "end_index": 66,
+      "key_items": [
+        "Managements’ Responsibility; Auditor’s Responsibility; Opinion; Restriction on Use",
+        "Managements’ Responsibility",
+        "Auditor’s Responsibility",
+        "Opinion",
+        "Restriction on Use"
+      ],
+      "summary": "This independent auditor's report certifies Reliance Industries Limited's compliance with Corporate Governance conditions under SEBI (LODR) Regulations, 2015 for the year ended March 31, 2025. Issued by Deloitte Haskins & Sells LLP and Chaturvedi & Shah LLP, it covers regulations 17 to 27, clauses (b) to (i) of regulation 46(2), and paras C and D of Schedule V. The report outlines management's responsibility for compliance and auditors' limited responsibility to examine procedures, not financial statements. It details examination scope, procedures, and standards followed, including ICAI guidance and quality control. The auditors certify compliance based on records, explanations, and representations, noting the certificate is not an assurance of future viability or management effectiveness. It includes a restriction on use, addressed solely to members for Listing Regulations compliance."
+    },
+    {
+      "title": "Board’s Report",
+      "node_id": "0052",
+      "start_index": 67,
+      "end_index": 70,
+      "summary": "The Board's Report covers the Company's 48th Annual Report and audited financial statements for FY2025, including standalone and consolidated financial results, dividend recommendation, material changes, and business performance across Retail, Digital Services, Media & Entertainment, and Oil to Chemicals. It details segment performance for Oil to Chemicals (revenue growth, EBITDA decline) and Oil & Gas (record revenue and EBITDA). The report includes credit ratings, subsidiary/JV/associate changes, secretarial standards, Directors' Responsibility Statement, corporate governance, BRSR, related party transactions, CSR initiatives (₹1,309 crore spent, 86 million lives touched), and risk management framework. It covers internal financial controls, director appointments and evaluations, ESOP scheme, auditors, board meetings, committee compositions, vigil mechanism and whistle-blower policy, POSH compliance, loans/investments/guarantees, energy conservation, technology absorption, annual return, employee disclosures, and general confirmations. Annexure I lists changes in subsidiaries, joint ventures, and associates.",
+      "nodes": [
+        {
+          "title": "Board's Report: Financial Results and Business Performance FY2025",
+          "node_id": "0053",
+          "start_index": 67,
+          "end_index": 67,
+          "key_items": [
+            "Financial Results",
+            "Results of operations and the state of the Company’s affairs",
+            "Business operations/ performance of the Company and its major subsidiaries",
+            "Retail",
+            "Digital Services",
+            "Media and Entertainment"
+          ],
+          "summary": "The Board's Report presents the Company's 48th Annual Report and audited financial statements for FY2025. It covers standalone and consolidated financial results, including profit before tax, tax, profit after tax, and appropriations. It discusses results of operations, state of affairs, and key financial highlights like sales, EBITDA, cash profit, and net profit. The report details dividend recommendation, material changes, and events such as forfeiture of partly paid shares, bonus issue, increase in authorized share capital, and the Reliance-Disney strategic alliance. It includes Management Discussion and Analysis, and summarizes business operations and performance of major subsidiaries: Retail (revenue, EBITDA growth, partnerships), Digital Services (revenue, EBITDA, 5G subscribers, JioAirFiber), and Media and Entertainment (JioStar creation, viewership, JioHotstar subscribers, news restructuring, movie successes)."
+        },
+        {
+          "title": "Oil to Chemicals",
+          "node_id": "0054",
+          "start_index": 67,
+          "end_index": 68,
+          "summary": "This text covers the Oil to Chemicals segment's FY25 revenue growth of 11% to ₹6,26,921 crore due to higher volumes and domestic placement, while EBITDA fell 11.9% to ₹54,988 crore amid weak fuel and chemical margins, partially offset by feedstock sourcing and ethane cracking, with higher retail fuel placement via Jio-bp. The Oil & Gas segment achieved record revenue (₹25,211 crore, up 3.2%) and EBITDA (₹21,188 crore, up 4.9%) from KG-D6 and CBM fields, including additional well plans and MLW campaigns contributing 30% of India's production. It also details credit ratings, consolidated financial statements, subsidiary/JV/associate changes, material subsidiaries, secretarial standards, Directors' Responsibility Statement, corporate governance, BRSR, related party transactions, CSR initiatives (₹1,309 crore spent, 86 million lives touched), and risk management framework."
+        },
+        {
+          "title": "Board's Report: Oil & Gas, CSR, Risk and Governance Disclosures",
+          "node_id": "0055",
+          "start_index": 68,
+          "end_index": 68,
+          "key_items": [
+            "Oil & Gas",
+            "Credit Rating",
+            "Secretarial Standards",
+            "Contracts or arrangements with related parties",
+            "Corporate Social Responsibility (CSR)",
+            "Risk Management"
+          ],
+          "summary": "This Board's Report page covers the Oil & Gas segment's record revenue and EBITDA, KG-D6 and CBM field production details, and development plans, noting fields contribute 30% of India's production. Credit ratings are referenced to the MD&A. Consolidated financial statements, subsidiary/JV/associate changes, and material subsidiaries are disclosed. The Company followed Secretarial Standards SS-1 and SS-2, and the Directors' Responsibility Statement affirms compliance with accounting standards, going concern, internal controls, and legal systems. Corporate Governance and BRSR reports are incorporated by reference. Related party transactions were ordinary, arm's length, and material ones per policy; no materially significant conflicts exist. CSR initiatives under Reliance Foundation touched 86 million lives across 91,500+ villages, aligned with national priorities, won awards, and spent ₹1,309 crore (2.49% of average net profits). Risk Management covers a Group Risk Management Framework and Risk Management Committee oversight of strategic, commercial, cybersecurity, safety, operational, compliance, control, and financial risks."
+        },
+        {
+          "title": "Board’s Report: Internal Controls, Directors, Auditors, and Committee Disclosures",
+          "node_id": "0056",
+          "start_index": 69,
+          "end_index": 69,
+          "key_items": [
+            "Internal Financial Controls",
+            "Directors and Key Managerial Personnel",
+            "Performance Evaluation",
+            "Employees’ Stock Option Scheme",
+            "Auditors and Auditors’ Report",
+            "Secretarial Auditor",
+            "Disclosures"
+          ],
+          "summary": "The page covers internal financial controls with three lines of defence; director appointments, retirements, and re-appointments including independent directors and key managerial personnel; performance evaluation of the board and committees; the Employees’ Stock Option Scheme 2017; auditors including statutory, cost, and secretarial auditors and their reports; and disclosures on board meetings and the composition of various committees such as Audit, HRNR, CSR&G, ESG, Stakeholders’ Relationship, and Risk Management."
+        },
+        {
+          "title": "Vigil Mechanism and Whistle-blower Policy",
+          "node_id": "0057",
+          "start_index": 69,
+          "end_index": 70,
+          "summary": "The text covers the Company's Vigil Mechanism and Whistle-blower Policy, including the Ethics & Compliance Task Force (ECTF) and reporting procedures for Protected Disclosures. It details the Prevention of Sexual Harassment policy and Internal Committees. Disclosures on loans, investments, guarantees, and securities are referenced. Energy conservation, technology absorption, and foreign exchange details are in Annexure V. The Annual Return and particulars of employees are addressed. The Board reports no disclosures for various matters like deposits, sweat equity, fraud, etc. Acknowledgements follow. Annexure I lists companies that became or ceased to be subsidiaries, joint ventures, or associates during FY 2024-25, with notes on specific changes."
+        },
+        {
+          "title": "Board's Report: Key Disclosures and Compliance Summary",
+          "node_id": "0058",
+          "start_index": 70,
+          "end_index": 70,
+          "key_items": [
+            "Prevention of sexual harassment at workplace",
+            "Particulars of loans, investments, guarantees and securities",
+            "Annual Return",
+            "Particulars of employees and related disclosures",
+            "General",
+            "Acknowledgement"
+          ],
+          "summary": "The text covers whistle-blower policy and ECTF oversight, POSH Act compliance, details of loans/investments/guarantees/securities, energy conservation and technology absorption, annual return availability, employee remuneration disclosures, general confirmations of no reportable transactions (deposits, equity shares, material orders, fraud, etc.), and an acknowledgement of stakeholder support."
+        }
+      ]
+    },
+    {
+      "title": "Annexure I",
+      "node_id": "0059",
+      "start_index": 70,
+      "end_index": 74,
+      "key_items": [
+        "Annexure II",
+        "b. Nature of contracts/arrangements/transactions; c. Duration of the contracts/arrangements/transactions",
+        "b. Nature of contracts/arrangements/transactions",
+        "c. Duration of the contracts/arrangements/transactions",
+        "f. Amount paid as advances, if any: Nil"
+      ],
+      "summary": "Annexure I lists companies becoming or ceasing to be subsidiaries, joint ventures, or associates in FY 2024-25, with 28 new subsidiaries and 11 ceased. Annexure II covers related party transactions, noting arm's length crude/product supply agreements with Reliance International Limited. Annexure III details CSR activities: policy, committee composition, 2% profit obligation (₹1,048 crore), actual spend (₹1,309 crore), and excess set-off. It also summarizes ten impact assessment studies on WomenConnect Challenge, women's economic empowerment, rural toll-free helpline, improved farming practices, livelihood advisories, early childhood education, CSR interventions in Jhajjar and Gadimoga, Reliance Foundation School evaluation, and community development grants."
+    },
+    {
+      "title": "Annexure IV",
+      "node_id": "0060",
+      "start_index": 75,
+      "end_index": 75,
+      "summary": "This Secretarial Audit Report for Reliance Industries Limited for FY 2024-25, addressed to members, details the auditor's examination of compliance with the Companies Act 2013, SEBI regulations, SCRA, Depositories Act, FEMA, and specific laws like the Petroleum Act, Oilfields Act, Mines Act, and PNGRB Act. It confirms compliance with secretarial standards and listing agreements. The report affirms proper board composition, meeting procedures, and unanimous decisions. It notes corporate actions: cancellation of forfeited shares, 1:1 bonus issue, authorized share capital increase and MoA alteration, and redemption/part redemption of non-convertible debentures. The auditor concludes the company has adequate compliance systems."
+    },
+    {
+      "title": "Secretarial Audit Annexure and Energy Conservation Report",
+      "node_id": "0061",
+      "start_index": 76,
+      "end_index": 76,
+      "key_items": [
+        "Annexure to the Secretarial Audit Report",
+        "A) Conservation of energy",
+        "Major energy conservation schemes implemented in FY 2024-25 are given below:; Petrochemical Complexes:",
+        "Major energy conservation schemes implemented in FY 2024-25 are given below:",
+        "Petrochemical Complexes:"
+      ],
+      "summary": "The page contains a Secretarial Audit Report annexure letter from Dr. K. R. Chandratre outlining the auditor's responsibilities, scope, and limitations regarding secretarial records, management representations, and compliance verification. It also includes Annexure V on energy conservation, detailing energy management strategy, five guiding tenets, major energy conservation schemes implemented in FY 2024-25 at Jamnagar Refinery and Petrochemical Complexes, steps to utilize alternate energy sources including biomass co-firing and green power import, and capital investments on energy conservation equipment with savings data."
+    },
+    {
+      "title": "B) Technology absorption",
+      "node_id": "0062",
+      "start_index": 76,
+      "end_index": 77,
+      "key_items": [
+        "(i) Major efforts made towards technology absorption",
+        "p.77",
+        "(ii) Information regarding imported technology (imported during last three financial years)",
+        "(iii) The benefits derived from R&D and technology absorption, adoption and innovation:",
+        "(iv) Expenditure incurred on Research and Development:"
+      ],
+      "summary": "The text covers technology absorption at Reliance, detailing R&D focus areas: new products, processes, catalysts, capital project support, reliability improvements, and net carbon solutions. It lists major technology absorption efforts in Oil to Chemicals (e.g., biomass gasification, plastic pyrolysis, catalyst development), advanced materials (PVC nanocomposites, carbon fiber precursor), and biofuels/biochemicals (algae biorefinery, spider silk protein, PHA bioplastics). It includes a table of imported technology (PMD Metaxylene Process Technology from UOP, FY 2024-25, absorbed), benefits from R&D (innovation, efficiency, cost reduction, market share, customer satisfaction, adaptability, competitiveness), and R&D expenditure categories (capital and revenue)."
+    },
+    {
+      "title": "C) Foreign exchange earnings and Outgo",
+      "node_id": "0063",
+      "start_index": 77,
+      "end_index": 80,
+      "key_items": [
+        "Opinion"
+      ],
+      "summary": "The text covers foreign exchange earnings and outgo for Reliance Industries Limited, with earnings of ₹2,652 crore actual inflows, savings of ₹1,533 crore, sub-total ₹4,185 crore, and outgo of ₹272,650 crore actual outflows, plus deemed exports of US$21.9 billion and sub-total ₹460,394 crore. It includes the independent auditor's report on standalone financial statements for the year ended March 31, 2025, with an unmodified opinion, key audit matters on litigation (oil and gas, RPL shares), fair valuation of investments, and IT systems and controls, along with auditor's responses. It also covers management and board responsibilities, auditor's responsibilities, other legal and regulatory reporting, and Annexure A on internal financial controls."
+    },
+    {
+      "title": "“Annexure A”",
+      "node_id": "0064",
+      "start_index": 81,
+      "end_index": 84,
+      "key_items": [
+        "Opinion"
+      ],
+      "summary": "The text comprises auditor's reports and standalone financial statements of Reliance Industries Limited for FY 2024-25. Annexure A covers the auditor's opinion on internal financial controls, deeming them adequate and effective. Annexure B details auditor observations on property, plant and equipment, inventories, loans and guarantees, statutory dues, compliance with various laws, internal audit, and CSR spending, with no fraud or cash losses reported. It also includes clarifications on non-applicability of certain clauses. The balance sheet as at March 31, 2025, compares assets (non-current and current) and liabilities (equity, non-current, current) with the previous year, and lists notes, accounting policies, and board and auditor signatures."
+    },
+    {
+      "title": "Statement of Profit and Loss",
+      "node_id": "0065",
+      "start_index": 85,
+      "end_index": 85,
+      "summary": "The text presents the standalone financial statements' Statement of Profit and Loss for the year ended 31st March 2025, comparing figures for 2024-25 and 2023-24 in crore. It details income from sales and services, GST recovered, revenue from operations, other income, and total income. Expenses include cost of materials, purchases, inventory changes, excise duty, employee benefits, finance costs, depreciation, and other expenses, leading to profit before tax. Tax expenses (current and deferred), profit for the year, other comprehensive income (with tax effects), total comprehensive income, and earnings per share (basic and diluted) are shown. The document includes material accounting policies, auditor signatures from Deloitte Haskins & Sells LLP and Chaturvedi & Shah LLP, CFO and company secretary certifications, and board signatures including the Chairman and Managing Director, Executive Directors, and Non-Executive Directors. It references notes 1 to 43 and indicates the report is part of Reliance Industries Limited's Integrated Annual Report 2024-25."
+    },
+    {
+      "title": "Statement of Changes in Equity",
+      "node_id": "0066",
+      "start_index": 86,
+      "end_index": 86,
+      "summary": "The text presents the Standalone Financial Statements' Statement of Changes in Equity for the year ended 31st March 2025, in crore. It details changes in Equity Share Capital and Other Equity, including reserves and surplus, for 2023-24 and 2024-25. It shows opening and closing balances, changes during the year, and transfers between reserves, with notes referenced. It includes auditors' report signatures and board members' names and DINs."
+    },
+    {
+      "title": "Statement of Cash Flows",
+      "node_id": "0067",
+      "start_index": 87,
+      "end_index": 124,
+      "summary": "The section presents Reliance Industries Limited's standalone statement of cash flows for the year ended March 31, 2025, with comparative 2024 figures, detailing operating, investing, and financing cash flows, reconciliations, and auditor/board certifications. It covers corporate information, material accounting policies (including basis of preparation, PP&E, leases, intangibles, inventories, provisions, taxes, revenue, financial instruments, and oil and gas accounting), critical accounting judgements and estimation uncertainties, and extensive notes on various financial statement items. Additionally, it includes the independent auditor's report with an unmodified opinion, key audit matters, and regulatory compliance statements.",
+      "nodes": [
+        {
+          "title": "Statement of Cash Flows (intro)",
+          "node_id": "0068",
+          "start_index": 87,
+          "end_index": 88,
+          "summary": "The text presents the standalone statement of cash flows for the year ended March 31, 2025, showing cash flows from operating, investing, and financing activities with comparative figures for 2024. It includes details of net profit adjustments, working capital changes, taxes paid, capital expenditures, investments, borrowings, dividends, and interest. It also provides a reconciliation of liabilities arising from financing activities, including foreign exchange movements. The statement concludes with auditors' signatures, board members' names, and company secretary certification, along with notes reference."
+        },
+        {
+          "title": "A. Corporate Information",
+          "node_id": "0069",
+          "start_index": 88,
+          "end_index": 88,
+          "summary": "A. Corporate Information\nReliance Industries Limited (“the Company”) is a listed entity incorporated in India. The registered office of the Company is located at 3rd Floor, Maker Chambers IV, 222, Nariman Point, Mumbai - 400 021, India.\nThe Company is engaged in activities spanning across hydrocarbon exploration and production, Oil to Chemicals, Retail and Digital Services."
+        },
+        {
+          "title": "B. Material Accounting Policies:",
+          "node_id": "0070",
+          "start_index": 88,
+          "end_index": 89,
+          "key_items": [
+            "B.1 Basis of Preparation and Presentation",
+            "B.2 Summary of Material Accounting Policies",
+            "(a) Current and Non-Current Classification; (b) Property, Plant and Equipment; (c) Leases; Intangible Assets; Provisions",
+            "(a) Current and Non-Current Classification",
+            "(b) Property, Plant and Equipment",
+            "(c) Leases",
+            "Intangible Assets",
+            "Provisions",
+            "Provision for Decommissioning Liability",
+            "Contingent Liabilities",
+            "Current Tax and Deferred Tax",
+            "Share Based Payments; Revenue Recognition",
+            "Share Based Payments",
+            "Revenue Recognition",
+            "i. Financial Assets",
+            "Derivative Financial Instruments and Hedge Accounting",
+            "A. Cash Flow Hedge",
+            "B. Fair Value Hedge",
+            "(m) Accounting for Oil and Gas Activity"
+          ],
+          "summary": "This text outlines the material accounting policies of Reliance Industries Limited. It covers the basis of preparation (historical cost except certain fair value items, Ind AS compliance, Indian Rupee presentation, indirect cash flow method) and classification of assets/liabilities as current/non-current. It details policies for property, plant and equipment (cost model, depreciation methods, useful lives), leases (right-of-use assets and liabilities), intangible assets (amortization/depletion), inventories (lower of cost or NRV, weighted average), provisions (including decommissioning), contingent liabilities, current and deferred tax, share-based payments, foreign currency translation, revenue recognition (including provisional pricing and rebates), financial instruments (financial assets, liabilities, derivatives, hedge accounting, offsetting), and oil and gas accounting (joint operations, exploration/evaluation costs, reserves estimation)."
+        },
+        {
+          "title": "C. Critical Accounting Judgements and Key Sources of Estimation Uncertainty",
+          "node_id": "0071",
+          "start_index": 90,
+          "end_index": 120,
+          "summary": "The section addresses critical accounting judgements and estimation uncertainties, including oil and gas reserves, PP&E, intangibles, provisions, impairments, and fair value measurement. It provides detailed notes on PP&E, intangibles, capital work-in-progress, investments, loans, inventories, receivables, cash, taxation, and share capital. It also covers ESOS-2017, equity share rights, rights issue, bonus issue, other equity, borrowings, financial liabilities, provisions, deferred tax, revenue, other income, inventory changes, employee benefits, share-based payments, finance costs, other expenses, EPS, related party disclosures, oil and gas joint arrangements, contingent liabilities, capital management, financial instruments, Section 186 loans/guarantees, ratio analysis, statutory information, and subsequent events.",
+          "nodes": [
+            {
+              "title": "C. Critical Accounting Judgements and Key Sources of Estimation Uncertainty (intro)",
+              "node_id": "0072",
+              "start_index": 90,
+              "end_index": 98,
+              "summary": "This section covers critical accounting judgements and estimation uncertainties, including oil and gas reserve estimation, property plant and equipment and intangible assets, provisions, impairment of financial and non-financial assets, and fair value measurement. It also provides detailed notes on property, plant and equipment, intangible assets, capital work-in-progress, and intangible assets under development; non-current investments; non-current loans to related parties; investments in subsidiaries and other non-current assets; inventories; current investments and trade receivables; cash and cash equivalents; other financial assets, taxation, and other current assets; and share capital, including reserves and shareholding details.",
+              "nodes": [
+                {
+                  "title": "Critical Accounting Judgements and Estimation Uncertainties",
+                  "node_id": "0073",
+                  "start_index": 90,
+                  "end_index": 90,
+                  "key_items": [
+                    "(A) Estimation of Oil and Gas Reserves",
+                    "(B) Property Plant and Equipment/ Intangible Assets",
+                    "(C) Provisions",
+                    "(D) Impairment of Financial and Non-Financial Assets",
+                    "(E) Fair Value Measurement"
+                  ],
+                  "summary": "The page covers critical accounting judgements and key estimation uncertainties in the standalone financial statements. It includes: (A) Estimation of Oil and Gas Reserves, discussing judgements in reserve estimation, factors affecting estimates, use in depletion charges and recoverability assessments, and reference to Note 33.2; (B) Property Plant and Equipment/Intangible Assets, covering cost estimation, depreciation/amortisation over useful lives and residual values, and annual review; (C) Provisions, addressing timing and quantification of liabilities including litigations and regular review; (D) Impairment of Financial and Non-Financial Assets, including assumptions for financial asset impairment and assessment of non-financial asset recoverable amount; and (E) Fair Value Measurement, referencing Note 36 for financial instruments."
+                },
+                {
+                  "title": "1. Property, Plant & Equipment, Intangible Assets, Capital Work-in-Progress and Intangible Assets Under Development.",
+                  "node_id": "0074",
+                  "start_index": 90,
+                  "end_index": 91,
+                  "summary": "The text provides a detailed note on Property, Plant & Equipment, Intangible Assets, Capital Work-in-Progress (CWIP), and Intangible Assets Under Development (IAUD), including gross block, additions, deductions, depreciation, and net block. It covers owned assets (land, buildings, plant & machinery, etc.) and right-of-use assets, along with intangible assets (technical knowhow, software, etc.). It includes sub-notes on right-of-use land, building shares, CWIP/IAUD composition, exchange differences, assets pledged as security, title deeds not in the company's name, and ageing schedules for CWIP and IAUD. Depreciation expense includes capitalised depreciation, and figures are in crore."
+                },
+                {
+                  "title": "2. Investments-Non-Current",
+                  "node_id": "0075",
+                  "start_index": 91,
+                  "end_index": 94,
+                  "summary": "The text presents Note 2 on non-current investments from Reliance Industries Limited's standalone financial statements for the year ended March 31, 2025, with comparative figures for March 31, 2024. It categorizes investments measured at amortised cost, cost, fair value through other comprehensive income (FVTOCI), and fair value through profit or loss (FVTPL). Detailed line items list preference shares, debentures, equity shares, government securities, and other investments in joint ventures, associates, subsidiaries, and other companies, showing quantities, amounts, and percentage holdings. It includes units and amounts in rupees and crores, aggregate quoted and unquoted investment values, a category-wise summary table (Note 2.1), and a reference to Notes 38 and 39 of the Consolidated Financial Statements for a list of subsidiaries, joint ventures, and associates."
+                },
+                {
+                  "title": "3. Loans – Non-Current",
+                  "node_id": "0076",
+                  "start_index": 94,
+                  "end_index": 95,
+                  "summary": "This note details non-current unsecured loans to related parties, with totals of ₹4,941 crore and ₹10,051 crore for 2024 and 2025, including a breakdown of loans given to subsidiaries (like Reliance 4IR Realty Development Limited and Reliance Corporate IT Park Limited) and current loans (to Reliance Sibur Elastomers Private Limited). It also lists investments made by Reliance 4IR Realty Development Limited, Reliance Corporate IT Park Limited, and Reliance Strategic Business Ventures Limited in their subsidiaries through equity and preference shares. Additionally, it covers other financial assets (deposits with related parties), other non-current assets (capital advances and others), advance income tax, and inventories (raw materials, work-in-progress, finished goods, stock-in-trade, and stores and spares) with corresponding figures for both years."
+                },
+                {
+                  "title": "Investments in Subsidiaries and Other Non-Current Assets",
+                  "node_id": "0077",
+                  "start_index": 95,
+                  "end_index": 95,
+                  "key_items": [
+                    "4. Other Financials Assets – Non-Current",
+                    "5. Other Non-Current Assets"
+                  ],
+                  "summary": "The page presents details of investments by Reliance Industries Limited in subsidiaries and associates, including equity and preference shares of various companies, and investments by Reliance Corporate IT Park Limited and Reliance Strategic Business Ventures Limited in their subsidiaries. It also includes Note 4 on Other Financial Assets – Non-Current, covering deposits with related parties, receivables, and others with fair valuation of interest-free deposits. Note 5 on Other Non-Current Assets lists capital advances, others (including gas pool account deposits and financial assets at amortised cost), and advance income tax net of provision with opening balance, current tax charge, tax paid, and closing balance. Comparative figures as at 31st March 2025 and 2024 are provided."
+                },
+                {
+                  "title": "6. Inventories",
+                  "node_id": "0078",
+                  "start_index": 95,
+                  "end_index": 96,
+                  "summary": "The text presents notes to standalone financial statements for the year ended March 31, 2025, covering inventories (raw materials, work-in-progress, finished goods, stock-in-trade, stores and spares), current investments (measured at amortised cost, FVTOCI, and FVTPL, including government securities, debentures, mutual funds, treasury bills, certificates of deposit, and commercial papers, with collateral details), trade receivables (unsecured and considered good, with ageing analysis for undisputed receivables), and cash and cash equivalents (cash on hand and bank balances, including unclaimed dividend and fixed deposits, with collateral security details). Comparative figures for March 31, 2024, are provided throughout."
+                },
+                {
+                  "title": "Standalone Financial Statement Notes: Current Investments and Trade Receivables",
+                  "node_id": "0079",
+                  "start_index": 96,
+                  "end_index": 96,
+                  "key_items": [
+                    "7. Investment – Current",
+                    "8. Trade Receivables"
+                  ],
+                  "summary": "The page presents notes 7 and 8 to the standalone financial statements for the year ended 31st March 2025, with comparative figures for 31st March 2024. Note 7 covers current investments, detailing investments measured at amortised cost (collateral borrowing and lending obligation), at fair value through other comprehensive income (government securities, debentures/bonds, mutual funds), and at fair value through profit or loss (government securities, debentures/bonds, treasury bills, mutual funds, certificates of deposit, commercial papers), including totals, aggregate quoted and unquoted amounts, market value of quoted investments, collateral security disclosures, and a category-wise summary. Note 8 covers trade receivables, showing total unsecured considered good receivables and an ageing analysis by due date, credit risk, and disputed status."
+                },
+                {
+                  "title": "9. Cash and Cash Equivalents",
+                  "node_id": "0080",
+                  "start_index": 96,
+                  "end_index": 97,
+                  "summary": "The text covers notes to Reliance Industries' standalone financial statements for the year ended March 31, 2025. It includes: Note 9 on cash and cash equivalents, detailing components, maturity analysis, and bank balances with unclaimed dividend and fixed deposits; Note 10 on other financial assets including deposits with related parties and receivables; Note 11 on taxation, presenting tax expenses, reconciliation with accounting profit, and effective tax rate; Note 12 on other current assets; and Note 13 on share capital, covering authorized, issued, and subscribed capital, bonus shares, forfeiture, shareholders holding over 5%, and promoter shareholding."
+                },
+                {
+                  "title": "Standalone Financial Statement Notes: Other Financial Assets, Taxation, Other Current Assets",
+                  "node_id": "0081",
+                  "start_index": 97,
+                  "end_index": 97,
+                  "key_items": [
+                    "10. Other Financial Assets – Current",
+                    "11. Taxation",
+                    "12. Other Current Assets"
+                  ],
+                  "summary": "The page presents three notes to the standalone financial statements for the year ended 31st March 2025. Note 10 covers Other Financial Assets – Current, detailing deposits with related parties, other deposits, receivables from related parties, and others, including fair valuation of derivatives. Note 11 addresses Taxation, showing tax expenses recognized in profit and loss (current, deferred, total), a reconciliation of tax expense to accounting profit (profit before tax, applicable tax rate, computed tax expense, tax effects of disallowed expenses, additional allowances/deductions, current tax provision, deferred tax components related to property, plant and equipment, intangible assets, change in tax rate, financial assets and other items, deferred tax provision, total tax expense, and effective tax rate). Note 12 lists Other Current Assets (unsecured and considered good), comprising balances with customs, central excise, GST and state authorities, and others including prepaid expenses and claims receivable."
+                },
+                {
+                  "title": "13. Share Capital",
+                  "node_id": "0082",
+                  "start_index": 97,
+                  "end_index": 98,
+                  "summary": "The text covers Note 13 on Share Capital, detailing authorized share capital (equity and preference shares) and issued/subscribed/paid-up equity capital for FY25 and FY24, including calls unpaid and bonus share allotment. It lists shareholders holding over 5% shares and promoter shareholding for Mukesh D Ambani. A reconciliation of outstanding shares shows movements from employee stock options, forfeiture, and bonus shares. It also includes reserves data: share-based payments and special economic zone reinvestment reserve, with comparative figures in crore."
+                }
+              ]
+            },
+            {
+              "title": "13.5 Pursuant to ‘Reliance Industries Limited Employees’ Stock Option Scheme 2017’ (ESOS-2017), options granted and remaining to be vested as at the end of the year is 66,088.",
+              "node_id": "0083",
+              "start_index": 98,
+              "end_index": 120,
+              "key_items": [
+                "H. R. Meswani DIN: 00001623"
+              ],
+              "summary": "The text covers notes to Reliance Industries Limited's standalone financial statements for FY2024-25, including: ESOS-2017 options outstanding (66,088); equity share rights and preferences; details of the rights issue (42,26,26,894 shares, calls, forfeitures); bonus issue of 676,61,86,449 shares (1:1) and increase in paid-up capital; other equity movements (capital reserve, securities premium, debenture redemption reserve, OCI reserves); borrowings (secured/unsecured NCDs, bonds, term loans) with maturity profiles and interest rates; other financial liabilities and provisions; deferred tax; revenue disaggregation; other income; changes in inventories; employee benefits expense and defined benefit plan disclosures; share-based payments (ESOS-2017 movement, fair value assumptions); finance costs; other expenses including CSR; earnings per share (basic/diluted, adjusted for bonus); related party disclosures (list of subsidiaries, transactions, balances); oil and gas joint arrangements and reserves; contingent liabilities and commitments (claims, guarantees, tax demands, SEBI matter); capital management (net gearing); financial instruments (fair value hierarchy, risk management, hedge accounting); segment information reference; loans/guarantees under Section 186; ratio analysis; other statutory information; events after reporting period (dividend recommendation); and approval of financial statements."
+            }
+          ]
+        },
+        {
+          "title": "Opinion",
+          "node_id": "0084",
+          "start_index": 120,
+          "end_index": 124,
+          "summary": "This independent auditor's report on Reliance Industries Limited's consolidated financial statements for the year ended 31st March 2025 presents an unmodified opinion, confirming compliance with Ind AS and a true and fair view. It outlines the basis for opinion, auditor responsibilities, and management/board responsibilities. Five key audit matters are detailed: litigation matters (oil and gas disputes, RPL share trading), fair valuation of investments in Jio Digital Fibre, revenue recognition at RJIL and RRVL, IT systems and controls over financial reporting, and the business combination involving Star India. Other matters cover reliance on other auditors and unaudited financial information. The report also includes regulatory compliance statements under the Companies Act, 2013, covering internal financial controls, director qualifications, dividend compliance, and audit trail requirements, along with Annexure A on internal financial controls."
+        }
+      ]
+    },
+    {
+      "title": "“Annexure A”",
+      "node_id": "0085",
+      "start_index": 125,
+      "end_index": 125,
+      "key_items": [
+        "Opinion"
+      ],
+      "summary": "The text covers auditor's reports on Reliance Industries Limited's consolidated financial statements. It details inherent limitations of internal financial controls, including collusion or management override risks, and notes future projections may become inadequate. The opinion affirms that the Parent, subsidiaries, associates, and joint ventures incorporated in India have adequate and effectively operating internal financial controls as of March 31, 2025, based on ICAI guidance. Other Matters note the report relies on auditors' reports for 94 subsidiaries, 39 associates, and 20 joint ventures. Annexure B states no CARO qualifications or adverse remarks for audited companies. Signatures from Deloitte Haskins & Sells LLP and Chaturvedi & Shah LLP are included."
+    },
+    {
+      "title": "Consolidated Balance Sheet",
+      "node_id": "0086",
+      "start_index": 126,
+      "end_index": 126,
+      "summary": "The text presents the Consolidated Balance Sheet of Reliance Industries Limited as at 31st March 2025, with comparative figures for 31st March 2024. It details non-current assets including property, plant and equipment, spectrum, other intangible assets, goodwill, capital work-in-progress, financial assets, and deferred tax assets. Current assets such as inventories, investments, trade receivables, cash, loans, and other financial assets are also listed. The equity and liabilities section covers equity share capital, other equity, non-controlling interest, non-current liabilities (borrowings, lease liabilities, provisions, deferred tax liabilities), and current liabilities (borrowings, trade payables, provisions). The text includes auditor signatures, board member names and DINs, and reference to material accounting policies and notes. It is part of the Integrated Annual Report 2024-25."
+    },
+    {
+      "title": "Consolidated Statement of Profit and Loss",
+      "node_id": "0087",
+      "start_index": 127,
+      "end_index": 127,
+      "summary": "The text presents the consolidated statement of profit and loss for Reliance Industries Limited for the year ended March 31, 2025, with comparative figures for 2023-24. It details income from sales and services, GST recovered, revenue from operations, other income, and total income. Expenses include cost of materials, purchases, inventory changes, excise duty, employee benefits, finance costs, depreciation, and other expenses, leading to profit before tax and profit after tax. It also covers other comprehensive income, total comprehensive income, profit attributable to owners and non-controlling interest, and earnings per share (basic and diluted). The document includes signatures of auditors, CFO, company secretary, and board members, along with notes and accounting policies."
+    },
+    {
+      "title": "Consolidated Statement of Changes in Equity",
+      "node_id": "0088",
+      "start_index": 128,
+      "end_index": 128,
+      "summary": "The text presents the Consolidated Statement of Changes in Equity for the year ended 31st March 2025, covering both Equity Share Capital and Other Equity. It details balances as of 1st April 2023, changes during 2023-24 and 2024-25, and balances as of 31st March 2024 and 2025. For Other Equity, it breaks down reserves and surplus (e.g., Capital Reserve, Debenture Redemption Reserve, Retained Earnings), other comprehensive income items, and total equity. It includes notes on rights issue, employee stock options, bonus shares, and dividends. The statement concludes with signatures of auditors, CFO, Company Secretary, and board members."
+    },
+    {
+      "title": "Consolidated Statement of Cash Flows",
+      "node_id": "0089",
+      "start_index": 129,
+      "end_index": 132,
+      "key_items": [
+        "A. Corporate Information",
+        "B. Material Accounting Policies",
+        "B.1 Basis of Preparation and Presentation; B.2 Principles of Consolidation",
+        "B.1 Basis of Preparation and Presentation",
+        "B.2 Principles of Consolidation",
+        "B.3 Summary of Material Accounting Policies",
+        "Current and Non-Current Classification; Property, Plant and Equipment; (d) Leases",
+        "Current and Non-Current Classification",
+        "Property, Plant and Equipment",
+        "(d) Leases",
+        "(e) Intangible Assets",
+        "Provisions; i. Financial Assets",
+        "Provisions",
+        "i. Financial Assets",
+        "Provision for Decommissioning Liability",
+        "Contingent Liabilities; Current Tax and Deferred Tax; Share Based Payments; Revenue Recognition; (m) Financial Instruments",
+        "Contingent Liabilities",
+        "Current Tax and Deferred Tax",
+        "Share Based Payments",
+        "Revenue Recognition",
+        "(m) Financial Instruments",
+        "Derivative Financial Instruments and Hedge Accounting",
+        "A. Cash Flow Hedge",
+        "B. Fair Value Hedge"
+      ],
+      "summary": "The text presents Reliance Industries Limited's consolidated financial statements for the year ended March 31, 2025. It includes the consolidated statement of cash flows, detailing operating, investing, and financing activities, along with a reconciliation of liabilities from financing activities. It also covers corporate information, material accounting policies (basis of preparation, principles of consolidation, and policies on property, plant and equipment, leases, intangible assets, inventories, provisions, taxes, share-based payments, foreign currencies, revenue recognition, and financial instruments), and notes on financial instruments including hedge accounting."
+    },
+    {
+      "title": "C. CRITICAL ACCOUNTING JUDGEMENTS AND KEY SOURCES OF ESTIMATION UNCERTAINTY",
+      "node_id": "0090",
+      "start_index": 132,
+      "end_index": 171,
+      "key_items": [
+        "Offsetting; (B) PROPERTY, PLANT AND EQUIPMENT / OTHER INTANGIBLE ASSETS; (C) PROVISIONS; (E) IMPAIRMENT OF FINANCIAL AND NON-FINANCIAL ASSETS",
+        "Offsetting",
+        "(B) PROPERTY, PLANT AND EQUIPMENT / OTHER INTANGIBLE ASSETS",
+        "(C) PROVISIONS",
+        "(E) IMPAIRMENT OF FINANCIAL AND NON-FINANCIAL ASSETS",
+        "(A) ESTIMATION OF OIL AND GAS RESERVES",
+        "Accounting for Oil and Gas Activity",
+        "(G) LEASES",
+        "H. R. Meswani DIN: 00001623"
+      ],
+      "summary": "This text covers critical accounting judgements and key estimation uncertainties, including derivative hedging, offsetting of financial assets/liabilities, estimation of oil and gas reserves, property/plant/equipment and intangible assets, provisions, impairment of goodwill and intangible assets, impairment of financial/non-financial assets, fair value measurement, and leases. It also includes detailed notes on property, plant and equipment, investments, loans, other financial assets, deferred tax, inventories, trade receivables, cash, taxation, share capital, other equity, borrowings, deferred payment liabilities, provisions, revenue, other income, expenses, employee benefits, share-based payments, related party disclosures, segment information, contingent liabilities, capital management, financial instruments, hedge accounting, and subsidiary/associate/joint venture details."
+    },
+    {
+      "title": "Notes",
+      "node_id": "0091",
+      "start_index": 172,
+      "end_index": 174,
+      "summary": "The text lists Reliance Industries Limited's corporate governance details: board of directors (including chairman, non-executive, and executive directors), CFO, company secretary, auditors, registered office, various committees with members and chairs, bankers, and registrar. It also includes a shareholder letter announcing the 48th AGM on August 29, 2025, via video conferencing, providing links to the Integrated Annual Report and AGM Notice, and requesting shareholders to register email addresses with their depository or KFin Technologies, with contact details for queries."
+    }
+  ]
+}
